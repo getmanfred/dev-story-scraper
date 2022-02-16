@@ -1,9 +1,17 @@
-describe('The Dev Story scraper', () => {
-  it('should parse a basic profile', () => {
-    expect(1).toBe(1);
+import {DevStoryDownloader} from '../devStoryDownloader';
+import {DevStoryScraper} from '../devStoryScraper';
+
+describe('A Dev Story scraper', () => {
+  const downloader = new DevStoryDownloader();
+  const scraper = new DevStoryScraper(downloader);
+
+  it('should parse a simple dev story', async () => {
+    const result = await scraper.parse('ydarias');
+    expect(result).toMatchSnapshot();
   });
 
-  it('should fail', () => {
-    expect(2).toBe(1);
+  it('should parse a complex dev story', async () => {
+    const result = await scraper.parse('joeydevilla');
+    expect(result).toMatchSnapshot();
   });
 });
