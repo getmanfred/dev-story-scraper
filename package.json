@@ -4,17 +4,28 @@
   "license": "ISC",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier 'src/**/*.{ts,js,json}' --write"
   },
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "27.0.2",
     "eslint": "7.12.0",
     "eslint-config-google": "0.14.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^7.0.4",
     "jest": "^27.2.5",
+    "lint-staged": "^12.3.4",
     "prettier": "^2.5.1",
     "ts-jest": "^27.0.3",
     "typescript": "^4.5.5"
+  },
+  "lint-staged": {
+    "**/*.{js,ts}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }
