@@ -6,6 +6,7 @@ export type ProfileData = {
   description: string;
   location: string;
   image: string;
+  links: string[];
   likedTechnologies?: string[];
   dislikedTechnologies?: string[];
   positions?: Position[];

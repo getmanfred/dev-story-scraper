@@ -20,6 +20,12 @@ export class DevStoryScraper {
     const description = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
     const location = stripString($('div.d-flex.ai-center').text());
     const image = $('div#form-section-PersonalInfo img')[0]?.attribs?.src || '';
+    const links = $('div#form-section-PersonalInfo a.d-flex')
+      .map((i, e) => {
+        return $(e)[0]?.attribs?.href;
+      })
+      .filter((i, e) => e !== '')
+      .get();
 
     const likedTechnologies = $('div[class="user-technologies"] .timeline-item-tags .post-tag')
       .not('.disliked-tag')
@@ -50,6 +56,7 @@ export class DevStoryScraper {
       description,
       location,
       image,
+      links,
       likedTechnologies,
       dislikedTechnologies,
       positions,

@@ -541,6 +541,11 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
     "python",
     "swift",
   ],
+  "links": Array [
+    "http://globalnerdy.com/",
+    "https://twitter.com/AccordionGuy",
+    "https://github.com/AccordionGuy",
+  ],
   "location": "Tampa, Florida",
   "name": "Joey deVilla",
   "positions": Array [
@@ -789,6 +794,10 @@ Object {
     "scala",
     "angularjs",
     "mongodb",
+  ],
+  "links": Array [
+    "https://twitter.com/ydarias",
+    "https://github.com/ydarias",
   ],
   "location": "Madrid, Spain",
   "name": "Yeray Darias",
