@@ -5,6 +5,7 @@ import {ProfileData} from './models/profileData';
 import {PositionParser} from './parsers/positionParser';
 import {ArtifactParser} from './parsers/artifactParser';
 import {Markdown} from './utils/markdown';
+import {stripString} from './utils/utils';
 
 export class DevStoryScraper {
   constructor(private readonly downloader: DevStoryDownloader) {}
@@ -18,6 +19,8 @@ export class DevStoryScraper {
     const name = $('div[class="name"] h4').text();
 
     const description = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
+
+    const location = stripString($('div.d-flex.ai-center').text());
 
     const likedTechnologies = $('div[class="user-technologies"] .timeline-item-tags .post-tag')
       .not('.disliked-tag')
@@ -46,6 +49,7 @@ export class DevStoryScraper {
     return {
       name,
       description,
+      location,
       likedTechnologies,
       dislikedTechnologies,
       positions,
