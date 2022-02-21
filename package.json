@@ -4,6 +4,7 @@
   "license": "ISC",
   "version": "1.0.0",
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "lint": "eslint src/**/*.ts",
     "format": "prettier 'src/**/*.{ts,js,json}' --write"
