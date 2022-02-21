@@ -20,6 +20,8 @@ export class DevStoryScraper {
     const description = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
     const location = stripString($('div.d-flex.ai-center').text());
     const image = $('div#form-section-PersonalInfo img')[0]?.attribs?.src || '';
+    const tools = stripString($('div.tools').text());
+
     const links = $('div#form-section-PersonalInfo a.d-flex')
       .map((i, e) => {
         return $(e)[0]?.attribs?.href;
@@ -57,6 +59,7 @@ export class DevStoryScraper {
       location,
       image,
       links,
+      tools,
       likedTechnologies,
       dislikedTechnologies,
       positions,
