@@ -4,6 +4,7 @@ import {DevStoryDownloader} from './devStoryDownloader';
 import {ProfileData} from './models/profileData';
 import {PositionParser} from './parsers/positionParser';
 import {ArtifactParser} from './parsers/artifactParser';
+import {Markdown} from './utils/markdown';
 
 export class DevStoryScraper {
   constructor(private readonly downloader: DevStoryDownloader) {}
@@ -15,6 +16,8 @@ export class DevStoryScraper {
     const $ = cheerio.load(profileAsHTML);
 
     const name = $('div[class="name"] h4').text();
+
+    const description = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
 
     const likedTechnologies = $('div[class="user-technologies"] .timeline-item-tags .post-tag')
       .not('.disliked-tag')
@@ -42,6 +45,7 @@ export class DevStoryScraper {
 
     return {
       name,
+      description,
       likedTechnologies,
       dislikedTechnologies,
       positions,

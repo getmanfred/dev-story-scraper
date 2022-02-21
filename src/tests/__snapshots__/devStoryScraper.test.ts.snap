@@ -523,6 +523,11 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
       "type": "Blogs or videos",
     },
   ],
+  "description": "*   Seasoned developer currently working on iOS, Android, and Raspberry Pi applications. Currently programming in these languages: C#, Dart, JavaScript, Kotlin, Python, and Swift. Co-author of _iOS Apprentice, 8th Edition_ and author/presenter of the _Beginning ARKit_ video tutorial series.
+*   Mobile technology consultant with experience helping enterprises manage their communications technologies, particularly data networking and mobile devices.
+*   Trusted technical evangelist with a strong track record of community building.
+*   Dynamic speaker and presenter, comfortable in front of an audience, a camera, or a microphone.
+*   Rock accordion/keyboard player with stage, studio, and live television experience.",
   "dislikedTechnologies": Array [],
   "likedTechnologies": Array [
     "android",
@@ -770,6 +775,7 @@ Object {
       "type": "Blogs or videos",
     },
   ],
+  "description": "Software developer focused in backend.",
   "dislikedTechnologies": Array [
     "php",
   ],
