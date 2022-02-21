@@ -17,10 +17,9 @@ export class DevStoryScraper {
     const $ = cheerio.load(profileAsHTML);
 
     const name = $('div[class="name"] h4').text();
-
     const description = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
-
     const location = stripString($('div.d-flex.ai-center').text());
+    const image = $('div#form-section-PersonalInfo img')[0]?.attribs?.src || '';
 
     const likedTechnologies = $('div[class="user-technologies"] .timeline-item-tags .post-tag')
       .not('.disliked-tag')
@@ -50,6 +49,7 @@ export class DevStoryScraper {
       name,
       description,
       location,
+      image,
       likedTechnologies,
       dislikedTechnologies,
       positions,
