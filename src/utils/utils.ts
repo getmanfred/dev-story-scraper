@@ -1,4 +1,4 @@
-const stripString = (input = ''): string => {
+export const stripString = (input = ''): string => {
   return (
     input
       // .replace(/[\r\n]+/g, '')
@@ -6,5 +6,3 @@ const stripString = (input = ''): string => {
       .trim()
   );
 };
-
-export {stripString};

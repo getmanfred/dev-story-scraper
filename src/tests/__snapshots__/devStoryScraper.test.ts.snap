@@ -28,8 +28,7 @@ Object {
       "type": "Certification",
     },
     Object {
-      "description": "<p>This app —&nbsp;developed and deployed to the App Store on a Saturday afternoon —&nbsp;shows the scheduled events for the <a href=\\"https://synapsefl.com/summit/\\" rel=\\"nofollow noreferrer\\">Synapse Summit</a> 2020 conference, which took place in Tampa on Feb. 11 - 12, 2020. It’s a lot easier to check the schedule on your watch than it is to pull out your phone!</p>
-",
+      "description": "This app — developed and deployed to the App Store on a Saturday afternoon — shows the scheduled events for the [Synapse Summit](https://synapsefl.com/summit/) 2020 conference, which took place in Tampa on Feb. 11 - 12, 2020. It’s a lot easier to check the schedule on your watch than it is to pull out your phone!",
       "link": "https://apps.apple.com/us/app/big-event-2020/id1498328530",
       "tags": Array [
         "watchos",
@@ -41,8 +40,7 @@ Object {
       "type": "Feature or Apps",
     },
     Object {
-      "description": "<p>In this interview with the podcast <em><a href=\\"https://6figuredev.com/\\" rel=\\"nofollow noreferrer\\">The 6 Figure Developer</a>,</em> I talk about working on <em>iOS Apprentice, 8th Edition,</em> iOS development in general, mobile technology in general, and my philosophy for choosing technologies to work on: “Always bet on the tech that’s being dismissed as a toy.”</p>
-",
+      "description": "In this interview with the podcast _[The 6 Figure Developer](https://6figuredev.com/),_ I talk about working on _iOS Apprentice, 8th Edition,_ iOS development in general, mobile technology in general, and my philosophy for choosing technologies to work on: “Always bet on the tech that’s being dismissed as a toy.”",
       "link": "https://6figuredev.com/podcast/episode-123-ios-apprentice-accordions-with-joey-devilla/",
       "tags": Array [
         "ios",
@@ -54,8 +52,7 @@ Object {
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>The first Android version of the Lilypad app with my contributions (a lot of bug fixes and performance improvements) was released after my first month on the job. I was one of two programmers working on the mobile app, and most of my responsibilities were with the Android version.</p>
-",
+      "description": "The first Android version of the Lilypad app with my contributions (a lot of bug fixes and performance improvements) was released after my first month on the job. I was one of two programmers working on the mobile app, and most of my responsibilities were with the Android version.",
       "link": "https://play.google.com/store/apps/details?id=com.lilypadsolutions.lilypadappV2&hl=en_US",
       "tags": Array [
         "javascript",
@@ -66,8 +63,7 @@ Object {
       "type": "Feature or Apps",
     },
     Object {
-      "description": "<p>Co-author of “iOS Apprentice, 8th edition,” RayWenderlich.com’s “flagship” book. Completely revised two major sections of the book to cover developing apps using the SwiftUI framework. Rewrote two of the four apps presented in the book to reflect the new material.</p>
-",
+      "description": "Co-author of “iOS Apprentice, 8th edition,” RayWenderlich.com’s “flagship” book. Completely revised two major sections of the book to cover developing apps using the SwiftUI framework. Rewrote two of the four apps presented in the book to reflect the new material.",
       "link": "https://store.raywenderlich.com/products/ios-apprentice",
       "tags": Array [
         "ios",
@@ -79,8 +75,7 @@ Object {
       "type": "Feature or Apps",
     },
     Object {
-      "description": "<p>Paul Baranowski and I appear at the start of Chapter 9, which covers the <em>Peekabooty</em> application.</p>
-",
+      "description": "Paul Baranowski and I appear at the start of Chapter 9, which covers the _Peekabooty_ application.",
       "link": "https://www.google.com/books/edition/Cult_of_the_Dead_Cow/055xDwAAQBAJ?hl=en&gbpv=1&dq=peekabooty+joey+devilla&pg=PT127&printsec=frontcover",
       "tags": Array [],
       "time": "Jun 2019",
@@ -88,8 +83,7 @@ Object {
       "type": "Acheivement",
     },
     Object {
-      "description": "<p>This is a full hour-long interview on the <em>Thunder Nerds</em> podcast where I talk about a recent presentation on Jupyter Notebooks, plus how I got started in programming, and what brought me to the Tampa Bay area.</p>
-",
+      "description": "This is a full hour-long interview on the _Thunder Nerds_ podcast where I talk about a recent presentation on Jupyter Notebooks, plus how I got started in programming, and what brought me to the Tampa Bay area.",
       "link": "https://www.youtube.com/watch?v=kVDP_-jmFtM",
       "tags": Array [
         "python",
@@ -101,8 +95,7 @@ Object {
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>This interview was conducted at DevFest Florida 2019, a Google technologies-focused conference at Disney World. I talk about my presentation on using Jupyter Notebooks to make dynamic documents that combine both text and Python programs to create a whole new kind of document.</p>
-",
+      "description": "This interview was conducted at DevFest Florida 2019, a Google technologies-focused conference at Disney World. I talk about my presentation on using Jupyter Notebooks to make dynamic documents that combine both text and Python programs to create a whole new kind of document.",
       "link": "https://www.youtube.com/watch?v=It00Uy8VNGM",
       "tags": Array [
         "python",
@@ -114,8 +107,7 @@ Object {
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>Technical editor of “ARKit by Tutorials,” a book covering augmented reality app development for iOS devices.</p>
-",
+      "description": "Technical editor of “ARKit by Tutorials,” a book covering augmented reality app development for iOS devices.",
       "link": "https://store.raywenderlich.com/products/arkit-by-tutorials",
       "tags": Array [
         "ios",
@@ -127,8 +119,7 @@ Object {
       "type": "Feature or Apps",
     },
     Object {
-      "description": "<p>This is the second of TWO presentations I gave at the RWDevCon 2018 conference on developing augmented reality apps with ARKit. I walk the audience through the development of 4 AR apps.</p>
-",
+      "description": "This is the second of TWO presentations I gave at the RWDevCon 2018 conference on developing augmented reality apps with ARKit. I walk the audience through the development of 4 AR apps.",
       "link": "https://www.youtube.com/watch?v=_sjyaDhKk2Q",
       "tags": Array [
         "ios",
@@ -141,8 +132,7 @@ Object {
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>This is one of TWO presentations I gave at the RWDevCon 2018 conference on ARKit. This 2-hour session is the shorter presentation, where I teach ARKit by walking through the development of 2 apps: a Bob Ross-inspired “3D painter” app in the spirit of Google’s <a href=\\"https://www.tiltbrush.com/\\" rel=\\"nofollow noreferrer\\">Tilt Brush</a> and a scaled-down version of the <em>IKEA Place</em> app.</p>
-",
+      "description": "This is one of TWO presentations I gave at the RWDevCon 2018 conference on ARKit. This 2-hour session is the shorter presentation, where I teach ARKit by walking through the development of 2 apps: a Bob Ross-inspired “3D painter” app in the spirit of Google’s [Tilt Brush](https://www.tiltbrush.com/) and a scaled-down version of the _IKEA Place_ app.",
       "link": "https://www.youtube.com/watch?v=0bea2V8Jrw4",
       "tags": Array [
         "ios",
@@ -155,8 +145,7 @@ Object {
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>This interview was conducted at DevFest Florida 2017, a Google technologies-focused conference at Disney World. I talk about my presentation on native Android development for web developers, working at an office after years of remote work, and mobile technologies.</p>
-",
+      "description": "This interview was conducted at DevFest Florida 2017, a Google technologies-focused conference at Disney World. I talk about my presentation on native Android development for web developers, working at an office after years of remote work, and mobile technologies.",
       "link": "https://www.youtube.com/watch?v=AlG3fEHlF3E",
       "tags": Array [
         "android",
@@ -168,22 +157,21 @@ Object {
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>We were ninety minutes into a one-hour job interview when the CTO said “We like your <em>breadth</em> of experience. Now we’d like to test your <em>depth</em>. If we gave you a quick programming assignment, which would you prefer — writing an iOS app, or an Android app? You should go with the one you’re stronger in.”</p>
+      "description": "We were ninety minutes into a one-hour job interview when the CTO said “We like your _breadth_ of experience. Now we’d like to test your _depth_. If we gave you a quick programming assignment, which would you prefer — writing an iOS app, or an Android app? You should go with the one you’re stronger in.”
 
-<p>I’m a much stronger iOS programmer than an Android one. The smart move would’ve been to answer “iOS,” and be done with it.</p>
+I’m a much stronger iOS programmer than an Android one. The smart move would’ve been to answer “iOS,” and be done with it.
 
-<p>Instead, I replied “Yes, but you want a guy who can lead a team of both iOS and Android developers. You really should give me both.”</p>
+Instead, I replied “Yes, but you want a guy who can lead a team of both iOS and Android developers. You really should give me both.”
 
-<p>The CTO raised an eyebrow, gave me a look, made a note on his pad, and said “Hmmm...I think I will.”</p>
+The CTO raised an eyebrow, gave me a look, made a note on his pad, and said “Hmmm...I think I will.”
 
-<p>This is either a “total baller move” (to borrow a turn of phrase the kids are using these day), or the end of that job prospect. But for the job that they’re trying to fill, taking on that challenge was the right thing to do.</p>
+This is either a “total baller move” (to borrow a turn of phrase the kids are using these day), or the end of that job prospect. But for the job that they’re trying to fill, taking on that challenge was the right thing to do.
 
-<p>It had been a couple of years since I’d touched C or Objective-C, but after bumping my head once or twice against C-isms (“Oh yeah, pointers”), I got into a groove and a few days later, I had an app that I could show them.</p>
+It had been a couple of years since I’d touched C or Objective-C, but after bumping my head once or twice against C-isms (“Oh yeah, pointers”), I got into a groove and a few days later, I had an app that I could show them.
 
-<p>I sent them my project files for the iOS app, along with this “highlight reel” of the app in action, which I made using Camtasia Studio. “Tell me what you think while I work on the Android version.”</p>
+I sent them my project files for the iOS app, along with this “highlight reel” of the app in action, which I made using Camtasia Studio. “Tell me what you think while I work on the Android version.”
 
-<p>And that’s the last I heard from them. Follow-up emails were met with silence. After the 6th email (“If you have any questions or comments about the app, please feel free to contact me”), it became apparent that this was a dead end, and it wouldn’t be worth my while to continue working on the Android version. Perhaps I’ll work on it as a way to sharpen my Kotlin skills.</p>
-",
+And that’s the last I heard from them. Follow-up emails were met with silence. After the 6th email (“If you have any questions or comments about the app, please feel free to contact me”), it became apparent that this was a dead end, and it wouldn’t be worth my while to continue working on the Android version. Perhaps I’ll work on it as a way to sharpen my Kotlin skills.",
       "link": "https://www.youtube.com/watch?v=6tHGYhKCx7o",
       "tags": Array [
         "ios",
@@ -195,12 +183,11 @@ Object {
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>The first of three “Makers Hustle Harder” hackathons run by GM in 2017 was held at Tampa Hackerspace. It was an opportunity for Tampa Bay techies to try their programming chops on GM’s Next Generation Infotainment (NGI) in-car console system.</p>
+      "description": "The first of three “Makers Hustle Harder” hackathons run by GM in 2017 was held at Tampa Hackerspace. It was an opportunity for Tampa Bay techies to try their programming chops on GM’s Next Generation Infotainment (NGI) in-car console system.
 
-<p>In about an hour, I came up with, coded, and tested an app called “Fitness Fire Drill”, which acts as a referee for <a href=\\"https://en.wikipedia.org/wiki/Chinese_fire_drill\\" rel=\\"nofollow noreferrer\\">the classic “fire drill” game you play with friends in a car</a>.</p>
+In about an hour, I came up with, coded, and tested an app called “Fitness Fire Drill”, which acts as a referee for [the classic “fire drill” game you play with friends in a car](https://en.wikipedia.org/wiki/Chinese_fire_drill).
 
-<p>The judges liked the app so much that they invented the “Judges’ Fetish” category simply for the purpose of awarding it a prize.</p>
-",
+The judges liked the app so much that they invented the “Judges’ Fetish” category simply for the purpose of awarding it a prize.",
       "link": "http://www.globalnerdy.com/2017/03/06/my-day-at-gms-makers-hustle-harder-hackathon-in-tampa/",
       "tags": Array [
         "javascript",
@@ -213,10 +200,9 @@ Object {
       "type": "Accomplishment",
     },
     Object {
-      "description": "<p>I <em>always</em> bring my accordion when I’m out for a beer,  including when I’m out for a beer at Tampa’s Bay Area Renaissance Festival. While watching the Jackdaws, their guitarist Whiplash saw my accordion and invited me to join them onstage to perform “Three Gypsies” (a.k.a. “The Wraggle-Taggle Gypsies-Oh!”).</p>
+      "description": "I _always_ bring my accordion when I’m out for a beer, including when I’m out for a beer at Tampa’s Bay Area Renaissance Festival. While watching the Jackdaws, their guitarist Whiplash saw my accordion and invited me to join them onstage to perform “Three Gypsies” (a.k.a. “The Wraggle-Taggle Gypsies-Oh!”).
 
-<p>I’ve included this video to show that yes, I can win over a crowd, which is actually a useful skill in the tech world.</p>
-",
+I’ve included this video to show that yes, I can win over a crowd, which is actually a useful skill in the tech world.",
       "link": "https://www.youtube.com/watch?v=z27MXXfY2KE",
       "tags": Array [
         "accordion",
@@ -226,11 +212,9 @@ Object {
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>John Biggs invited me to chat on his \\"Technotopia\\" podcast, where we talked about my new job at SMARTRAC, RFID and the internet of things, nostalgia, pop culture, and how they intersect with technology, and optimism about the
-future.</p>
+      "description": "John Biggs invited me to chat on his \\"Technotopia\\" podcast, where we talked about my new job at SMARTRAC, RFID and the internet of things, nostalgia, pop culture, and how they intersect with technology, and optimism about the future.
 
-<p>Here’s how he introduced me: Joey DeVilla is my blogging hero. He's run his blog for most of two decades and he's worked at Microsoft, Shopify, and Tucows. Most recently he's taken on the..</p>
-",
+Here’s how he introduced me: Joey DeVilla is my blogging hero. He's run his blog for most of two decades and he's worked at Microsoft, Shopify, and Tucows. Most recently he's taken on the..",
       "link": "https://techcrunch.com/2016/10/30/accordion-guy-joey-devilla-talks-the-future-of-culture-and-iot/",
       "tags": Array [],
       "time": "Oct 2016",
@@ -238,8 +222,7 @@ future.</p>
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p><em>Aspirations Winery’s Wine Crush</em> is a free iOS app written to promote a friend’s winery and wine shop in Clearwater, Florida. It’s a wine-themed game in the style of Candy Crush, and a promotional tool that other wineries won't have. It's available for free on the App Store. Unlike other free games, there aren't any \\"poison pills\\" to extract money from players — this game's just about simple, unadulterated fun.</p>
-",
+      "description": "_Aspirations Winery’s Wine Crush_ is a free iOS app written to promote a friend’s winery and wine shop in Clearwater, Florida. It’s a wine-themed game in the style of Candy Crush, and a promotional tool that other wineries won't have. It's available for free on the App Store. Unlike other free games, there aren't any \\"poison pills\\" to extract money from players — this game's just about simple, unadulterated fun.",
       "link": "https://itunes.apple.com/us/app/aspirations-winerys-wine-crush/id1131103492?mt=8",
       "tags": Array [
         "swift3",
@@ -251,8 +234,7 @@ future.</p>
       "type": "Feature or Apps",
     },
     Object {
-      "description": "<p>This video gives you a taste of the app I created for a friend’s winery, best described as “Like that Candy game, but with <em>wine!</em>”</p>
-",
+      "description": "This video gives you a taste of the app I created for a friend’s winery, best described as “Like that Candy game, but with _wine!_”",
       "link": "https://www.youtube.com/watch?v=6GUPWih1NYs",
       "tags": Array [],
       "time": "Jul 2016",
@@ -260,8 +242,7 @@ future.</p>
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>This one's a work in progress -- a little \\"Frogger\\"/\\"Crossy Road\\"-type game for iOS that I'm hoping to put in the App Store later this year. There's still lots to polish, but the basic game mechanics are in place.</p>
-",
+      "description": "This one's a work in progress -- a little \\"Frogger\\"/\\"Crossy Road\\"-type game for iOS that I'm hoping to put in the App Store later this year. There's still lots to polish, but the basic game mechanics are in place.",
       "link": "https://www.youtube.com/watch?v=W3Cd1shIu7I",
       "tags": Array [
         "swift",
@@ -273,10 +254,9 @@ future.</p>
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>This 5-minute, 33-second video introduces IBM’s NICO service to the viewer. It explains how your network infrastructure could be costing your organization significantly more than it should, and how NICO can drive down your infrastructure and service costs, identify and fix system issues in your telecom system, and give you the tools and best practices to make the most of your network.</p>
+      "description": "This 5-minute, 33-second video introduces IBM’s NICO service to the viewer. It explains how your network infrastructure could be costing your organization significantly more than it should, and how NICO can drive down your infrastructure and service costs, identify and fix system issues in your telecom system, and give you the tools and best practices to make the most of your network.
 
-<p>I was the “army of one” behind this video, which I produced when I was the Technology Evangelist at GSG, who are an IBM partner, and provide the software platform and assessment services that go into NICO. I wrote the script, did the narration, gathered or created its images, and produced it — all in the span of a couple of weeks.</p>
-",
+I was the “army of one” behind this video, which I produced when I was the Technology Evangelist at GSG, who are an IBM partner, and provide the software platform and assessment services that go into NICO. I wrote the script, did the narration, gathered or created its images, and produced it — all in the span of a couple of weeks.",
       "link": "https://www.youtube.com/watch?v=dX9_msIbOqM",
       "tags": Array [],
       "time": "Nov 2015",
@@ -284,10 +264,9 @@ future.</p>
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>This 13-minute, 12-second video is taken from the “Dark Mobile” webinar that I led for a division of Honeywell formerly known as Enterprise Mobile. “Dark Mobile” is a term that I coined the term during my time at GSG, and it refers to those parts of an enterprise’s mobile telecom environment that goes unobserved, unmanaged, and unknown.</p>
+      "description": "This 13-minute, 12-second video is taken from the “Dark Mobile” webinar that I led for a division of Honeywell formerly known as Enterprise Mobile. “Dark Mobile” is a term that I coined the term during my time at GSG, and it refers to those parts of an enterprise’s mobile telecom environment that goes unobserved, unmanaged, and unknown.
 
-<p>In addition to coming up with the topic and title for the webinar, I wrote the script, hosted the webinar, and produced the video based on the recording and Honeywell’s slides.</p>
-",
+In addition to coming up with the topic and title for the webinar, I wrote the script, hosted the webinar, and produced the video based on the recording and Honeywell’s slides.",
       "link": "https://www.youtube.com/watch?v=kB3ixebexnc",
       "tags": Array [],
       "time": "Sep 2015",
@@ -295,10 +274,9 @@ future.</p>
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>I gave this presentation -- the second-last of the evening -- at Ignite Tampa Bay 2015, which took place in Tampa's Cuban Club on Thursday, August 27, 2015. In it, I sang the praises of \\"Florida Man\\" and \\"Florida Woman\\", those staples of slow news days and internet memes, and showed how they're this state's most valuable resource, complete with Florida Man logic and a closing accordion number. </p>
+      "description": "I gave this presentation -- the second-last of the evening -- at Ignite Tampa Bay 2015, which took place in Tampa's Cuban Club on Thursday, August 27, 2015. In it, I sang the praises of \\"Florida Man\\" and \\"Florida Woman\\", those staples of slow news days and internet memes, and showed how they're this state's most valuable resource, complete with Florida Man logic and a closing accordion number.
 
-<p>This was a presentation given in the \\"Ignite\\" format. It's 5 minutes long, with 20 slides, each slide advancing automatically every 15 seconds. The format has been described as \\"the presentation equivalent of a haiku or sonnet.\\" They're more challenging than your typical presentation, and require more rehearsal -- and they're also more thrilling to give!</p>
-",
+This was a presentation given in the \\"Ignite\\" format. It's 5 minutes long, with 20 slides, each slide advancing automatically every 15 seconds. The format has been described as \\"the presentation equivalent of a haiku or sonnet.\\" They're more challenging than your typical presentation, and require more rehearsal -- and they're also more thrilling to give!",
       "link": "https://www.youtube.com/watch?v=bk_B9U0jaqI",
       "tags": Array [],
       "time": "Aug 2015",
@@ -306,11 +284,9 @@ future.</p>
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p><em>Canadian Business</em> magazine has a regular “How-To” section that features advice from a expert, and in the July 2015 issue, <em>I</em> was the expert!</p>
+      "description": "_Canadian Business_ magazine has a regular “How-To” section that features advice from a expert, and in the July 2015 issue, _I_ was the expert!
 
-<p>Here’s how they introduced me:
-Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep your tech people from phoning it in. A little acknowledgement really helps.</p>
-",
+Here’s how they introduced me: Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep your tech people from phoning it in. A little acknowledgement really helps.",
       "link": "http://www.canadianbusiness.com/innovation/how-to/2015-manage-it-better/",
       "tags": Array [],
       "time": "Jul 2015",
@@ -318,10 +294,9 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>\\"Mobility 101\\" is a series of videos that I put together for <a href=\\"http://gsgtelco.com\\" rel=\\"nofollow noreferrer\\">GSG</a> to help the company's partners and their customers understand various aspects of mobile devices, services, applications, and management.</p>
+      "description": "\\"Mobility 101\\" is a series of videos that I put together for [GSG](http://gsgtelco.com) to help the company's partners and their customers understand various aspects of mobile devices, services, applications, and management.
 
-<p>This was my second video for GSG. This one introduces TEM — telecom expense management — in an entertaining way. As with most of these videos, I’m the “army of one” behind it.</p>
-",
+This was my second video for GSG. This one introduces TEM — telecom expense management — in an entertaining way. As with most of these videos, I’m the “army of one” behind it.",
       "link": "https://www.youtube.com/watch?v=Q8gTDF6JP4Q",
       "tags": Array [],
       "time": "Aug 2014",
@@ -329,10 +304,9 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>\\"Mobility 101\\" is a series of videos that I put together for <a href=\\"http://gsgtelco.com\\" rel=\\"nofollow noreferrer\\">GSG</a> to help the company's partners and their customers understand various aspects of mobile devices, services, applications, and management.</p>
+      "description": "\\"Mobility 101\\" is a series of videos that I put together for [GSG](http://gsgtelco.com) to help the company's partners and their customers understand various aspects of mobile devices, services, applications, and management.
 
-<p>This 8-minute, 19-second video was my first video for GSG. This one explains what MMS is — it’s short for managed mobility services or mobility managed services, depending on whom you ask. As with most of these videos, I’m the “army of one” behind it.</p>
-",
+This 8-minute, 19-second video was my first video for GSG. This one explains what MMS is — it’s short for managed mobility services or mobility managed services, depending on whom you ask. As with most of these videos, I’m the “army of one” behind it.",
       "link": "https://www.youtube.com/watch?v=u3wwapEsRIo",
       "tags": Array [],
       "time": "May 2014",
@@ -340,10 +314,9 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>During the 20102 holiday season, I took a day off from my CTO duties at Comprehensive Technology Solutions/Top Right Corner to participate in the Ford C-MAX Holiday Challenge, where we tried to get maximum efficiency out of Ford's new hybrid vehicles and go toy shopping for charity.</p>
+      "description": "During the 20102 holiday season, I took a day off from my CTO duties at Comprehensive Technology Solutions/Top Right Corner to participate in the Ford C-MAX Holiday Challenge, where we tried to get maximum efficiency out of Ford's new hybrid vehicles and go toy shopping for charity.
 
-<p>(“Top Right Corner” was a name we were considering to replace “Comprehensive Technology Solutions”, but we never went through with the change.)</p>
-",
+(“Top Right Corner” was a name we were considering to replace “Comprehensive Technology Solutions”, but we never went through with the change.)",
       "link": "https://www.youtube.com/watch?v=D8eCS6YJc34",
       "tags": Array [],
       "time": "Dec 2012",
@@ -351,8 +324,7 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>A roundup of the first four projects to be funded by the million-dollar Shopify Fund. Written, directed, shot and narrated by Yours Truly.</p>
-",
+      "description": "A roundup of the first four projects to be funded by the million-dollar Shopify Fund. Written, directed, shot and narrated by Yours Truly.",
       "link": "https://www.youtube.com/watch?v=4lNx-7ICxVI",
       "tags": Array [],
       "time": "Jan 2012",
@@ -360,8 +332,7 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>Here’s a 4-minute, 10-second video that I made during my time as a Developer Evangelist at Shopify. This one was aimed at developers, letting them know about the Shopify Fund, a $1 million fund to incentivize developers to build apps for the Shopify ecommerce platform. As with the other videos in this post, this was pretty much me, a microphone, and a laptop with Camtasia Studio and Audacity.</p>
-",
+      "description": "Here’s a 4-minute, 10-second video that I made during my time as a Developer Evangelist at Shopify. This one was aimed at developers, letting them know about the Shopify Fund, a $1 million fund to incentivize developers to build apps for the Shopify ecommerce platform. As with the other videos in this post, this was pretty much me, a microphone, and a laptop with Camtasia Studio and Audacity.",
       "link": "https://www.youtube.com/watch?v=Ux8nGYm95ak",
       "tags": Array [],
       "time": "Jan 2012",
@@ -369,8 +340,7 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>This video by New Relic features some of the software world’s brightest lights: Matz, Guido, Linus, DHH, Bill Joy,James Gosling, Sir Tim, Marc, Woz, Rasmus, The Gu, Sergey, Dries and finally Zuck. But guess whose picture they close with at the 1:04 mark!</p>
-",
+      "description": "This video by New Relic features some of the software world’s brightest lights: Matz, Guido, Linus, DHH, Bill Joy,James Gosling, Sir Tim, Marc, Woz, Rasmus, The Gu, Sergey, Dries and finally Zuck. But guess whose picture they close with at the 1:04 mark!",
       "link": "https://www.youtube.com/watch?v=52yjrhykCks",
       "tags": Array [],
       "time": "Dec 2011",
@@ -378,10 +348,9 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>In October 2010, Toronto’s <a href=\\"http://androidto.com/\\" rel=\\"nofollow noreferrer\\">AndroidTO</a> conference needed a couple of big sponsors to help ensure that they could hold their day-long, hundreds-of-attendees event without losing money. I’d heard that Google wasn’t going to sponsor them, and asked: <em>_Why doesn’t Microsoft sponsor them instead?_</em></p>
+      "description": "In October 2010, Toronto’s [AndroidTO](http://androidto.com/) conference needed a couple of big sponsors to help ensure that they could hold their day-long, hundreds-of-attendees event without losing money. I’d heard that Google wasn’t going to sponsor them, and asked: _\\\\_Why doesn’t Microsoft sponsor them instead?\\\\__
 
-<p>I used the event as an opportunity to showcase Windows as a great development platform for Android, by demoing an HP touchscreen computer set up as an Android development station running Eclipse (which at the time was the preferred Android IDE) and also showing the Windows Phone development environment, which looked a lot less confusing and more aesthetically pleasing than Eclipse (although that’s easy), and showing the C# language (similar to Java, so it seems familiar) and Windows Phone in the process.</p>
-",
+I used the event as an opportunity to showcase Windows as a great development platform for Android, by demoing an HP touchscreen computer set up as an Android development station running Eclipse (which at the time was the preferred Android IDE) and also showing the Windows Phone development environment, which looked a lot less confusing and more aesthetically pleasing than Eclipse (although that’s easy), and showing the C# language (similar to Java, so it seems familiar) and Windows Phone in the process.",
       "link": "https://www.youtube.com/watch?v=84EnkkN9wgo",
       "tags": Array [
         "c#",
@@ -396,18 +365,15 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>This video shows the highlights from Microsoft’s Windows Phone 7 Showcase, held one evening in Toronto in September 2010. We put the spotlight on Windows Phone apps created by a number of Toronto-area developers including:</p>
+      "description": "This video shows the highlights from Microsoft’s Windows Phone 7 Showcase, held one evening in Toronto in September 2010. We put the spotlight on Windows Phone apps created by a number of Toronto-area developers including:
 
-<ul>
-<li>Mark Arteaga of Redbit Develeopment</li>
-<li>Barranger Ridler of 4MK Mobile</li>
-<li>Alexey Adamsky and Alex Yakobovich of Ryerson University's Digital Media Zone</li>
-<li>Shawn Konopinsky of Nascent Digital</li>
-<li>Mike Kasprzak of Sykhronics</li>
-</ul>
+*   Mark Arteaga of Redbit Develeopment
+*   Barranger Ridler of 4MK Mobile
+*   Alexey Adamsky and Alex Yakobovich of Ryerson University's Digital Media Zone
+*   Shawn Konopinsky of Nascent Digital
+*   Mike Kasprzak of Sykhronics
 
-<p>I hosted and helped organize this event.</p>
-",
+I hosted and helped organize this event.",
       "link": "https://www.youtube.com/watch?v=dC9BDyggLmM",
       "tags": Array [],
       "time": "Sep 2010",
@@ -415,10 +381,9 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>When I was a Developer Evangelist at Microsoft, a fellow Microsoftie had a problem: he was buried in work and needed a video comparing HTML with rich internet applications (RIAs) such as Adobe Flash or Microsoft Silverlight. “Can you make one…by tomorrow evening?” he asked. “That’s when I have to show it to this group in Montreal.”</p>
+      "description": "When I was a Developer Evangelist at Microsoft, a fellow Microsoftie had a problem: he was buried in work and needed a video comparing HTML with rich internet applications (RIAs) such as Adobe Flash or Microsoft Silverlight. “Can you make one…by tomorrow evening?” he asked. “That’s when I have to show it to this group in Montreal.”
 
-<p>I got to work, and the result is this 5-minute, 46-second piece that summarizes the web world in the summer of 2010. I wrote, designed, narrated, and as the credits say, hastily produced this video, and my coworker was able to present it the following evening.</p>
-",
+I got to work, and the result is this 5-minute, 46-second piece that summarizes the web world in the summer of 2010. I wrote, designed, narrated, and as the credits say, hastily produced this video, and my coworker was able to present it the following evening.",
       "link": "https://www.youtube.com/watch?v=sQ-vlJv2dWE",
       "tags": Array [],
       "time": "Aug 2010",
@@ -426,10 +391,9 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>Developer Jr. was an all-too-short-lived video series for children ages 7 through 12 that aimed to teach them programming and other creative things they can do with computers and technology. It starred me playing myself, and \\"Junior\\", an impish puppet played by Brian Hogg. It was sponsored by Microsoft Canada and produced by Butterscotch.com in early 2010.</p>
+      "description": "Developer Jr. was an all-too-short-lived video series for children ages 7 through 12 that aimed to teach them programming and other creative things they can do with computers and technology. It starred me playing myself, and \\"Junior\\", an impish puppet played by Brian Hogg. It was sponsored by Microsoft Canada and produced by Butterscotch.com in early 2010.
 
-<p>In this episode, Junior and I make a simple movie using Windows Movie Maker.</p>
-",
+In this episode, Junior and I make a simple movie using Windows Movie Maker.",
       "link": "https://www.youtube.com/watch?v=OU0hUzhhEzA",
       "tags": Array [
         "windows",
@@ -439,10 +403,9 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>Developer Jr. was an all-too-short-lived video series for children ages 7 through 12 that aimed to teach them programming and other creative things they can do with computers and technology. It starred me playing myself, and \\"Junior\\", an impish puppet played by Brian Hogg. It was sponsored by Microsoft Canada and produced by Butterscotch.com in early 2010.</p>
+      "description": "Developer Jr. was an all-too-short-lived video series for children ages 7 through 12 that aimed to teach them programming and other creative things they can do with computers and technology. It starred me playing myself, and \\"Junior\\", an impish puppet played by Brian Hogg. It was sponsored by Microsoft Canada and produced by Butterscotch.com in early 2010.
 
-<p>In this episode, Junior and I explore basic videogame programming using a Microsoft Labs tool called Kodu.</p>
-",
+In this episode, Junior and I explore basic videogame programming using a Microsoft Labs tool called Kodu.",
       "link": "https://www.youtube.com/watch?v=VdPg8VZF76E",
       "tags": Array [
         "kodu",
@@ -453,8 +416,7 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>Here’s Butterscotch.com’s Matt Harris interviewing me about “Developer Jr.”, my technology show for kids starring Yours Truly and a puppet, Junior.</p>
-",
+      "description": "Here’s Butterscotch.com’s Matt Harris interviewing me about “Developer Jr.”, my technology show for kids starring Yours Truly and a puppet, Junior.",
       "link": "https://www.youtube.com/watch?v=z5tmAH5kIQA",
       "tags": Array [],
       "time": "Mar 2010",
@@ -462,12 +424,11 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.</p>
+      "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
 
-<p>This Byte Club episode covered DemoCamp Toronto, a monthly show-and-tell gathering where Toronto techies could demo their projects in front of an audience of their peers. I was one of the people who co-hosted these gatherings.</p>
+This Byte Club episode covered DemoCamp Toronto, a monthly show-and-tell gathering where Toronto techies could demo their projects in front of an audience of their peers. I was one of the people who co-hosted these gatherings.
 
-<p>You had a time limit to present, and no slides were allowed at DemoCamp — you could only show your project in action!</p>
-",
+You had a time limit to present, and no slides were allowed at DemoCamp — you could only show your project in action!",
       "link": "https://www.youtube.com/watch?v=UpVqyef7o-0",
       "tags": Array [],
       "time": "Oct 2008",
@@ -491,10 +452,9 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Top post",
     },
     Object {
-      "description": "<p>Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.</p>
+      "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
 
-<p>This was the first Byte Club episode, which covered b5media and featured interviews with the people who ran it, including Yours Truly.</p>
-",
+This was the first Byte Club episode, which covered b5media and featured interviews with the people who ran it, including Yours Truly.",
       "link": "https://www.youtube.com/watch?v=DnxT5YvLYZk",
       "tags": Array [
         "wordpress",
@@ -504,10 +464,9 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.</p>
+      "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
 
-<p>This Byte Club episode featured the RubyFringe conference, a very offbeat conference that featured some of the bright lights of the Ruby community, including Obie Fernandez, Zed Shaw, Dan Grigsby, Hampton Catlin, Pete Forde, and Yours Truly!</p>
-",
+This Byte Club episode featured the RubyFringe conference, a very offbeat conference that featured some of the bright lights of the Ruby community, including Obie Fernandez, Zed Shaw, Dan Grigsby, Hampton Catlin, Pete Forde, and Yours Truly!",
       "link": "https://www.youtube.com/watch?v=A8MIp58qeDs",
       "tags": Array [
         "ruby",
@@ -519,8 +478,7 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>Upon seeing my accordion, RailsConf 2007 organizer Chad Fowler invited me to come up with a number that we could both perform at the keynote — me on accordion, him on ukulele. Here’s the result: a parody of Radiohead’s “Creep”, re-done as a tribute to Rails creator David Heinemeier Hansson and the “Depot” Rails tutorial.</p>
-",
+      "description": "Upon seeing my accordion, RailsConf 2007 organizer Chad Fowler invited me to come up with a number that we could both perform at the keynote — me on accordion, him on ukulele. Here’s the result: a parody of Radiohead’s “Creep”, re-done as a tribute to Rails creator David Heinemeier Hansson and the “Depot” Rails tutorial.",
       "link": "https://www.youtube.com/watch?v=eSqCog2WxdU",
       "tags": Array [
         "ruby",
@@ -532,8 +490,7 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>Paul Baranowski and I appear for a number of pages starting at page 102 in a section that covers the <em>Peekabooty</em> application.</p>
-",
+      "description": "Paul Baranowski and I appear for a number of pages starting at page 102 in a section that covers the _Peekabooty_ application.",
       "link": "https://www.google.com/books/edition/Hacktivism_and_Cyberwars/hew6jmcZvD4C?hl=en&gbpv=1&dq=peekabooty+joey+devilla&pg=PA102&printsec=frontcover",
       "tags": Array [],
       "time": "Jul 2004",
@@ -541,16 +498,11 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Acheivement",
     },
     Object {
-      "description": "<p>Peekabooty was an anti-censorship tool announced by the hacker and do-it-yourself media organization <a href=\\"http://cultdeadcow.com/\\" rel=\\"nofollow noreferrer\\">Cult of the Dead Cow</a> at the <a href=\\"https://www.defcon.org/\\" rel=\\"nofollow noreferrer\\">DefCon</a> conference in the summer of 2001. It was a peer-to-peer encrypted proxy system that circumvented internet censorship systems such as “The Great Firewall of China”, and has since been supplanted by VPN and similar anti-censorship technologies.</p>
+      "description": "Peekabooty was an anti-censorship tool announced by the hacker and do-it-yourself media organization [Cult of the Dead Cow](http://cultdeadcow.com/) at the [DefCon](https://www.defcon.org/) conference in the summer of 2001. It was a peer-to-peer encrypted proxy system that circumvented internet censorship systems such as “The Great Firewall of China”, and has since been supplanted by VPN and similar anti-censorship technologies.
 
-<p>Even though it was announced, the project wasn’t actually implemented until Paul Baranowski and I worked on it starting December 2001, and presented it at the CodeCon conference in February 2002. Paul was the back-end developer, building the underlying networking software, while I was the front-end developer, and built and designed the user interface, which included the cute bear icons that the screen used to show other users on the network.</p>
+Even though it was announced, the project wasn’t actually implemented until Paul Baranowski and I worked on it starting December 2001, and presented it at the CodeCon conference in February 2002. Paul was the back-end developer, building the underlying networking software, while I was the front-end developer, and built and designed the user interface, which included the cute bear icons that the screen used to show other users on the network.
 
-<p>Peekabooty got a considerable amount of press at the time. Here’s a short list of articles:
-- <em>The Register:</em> <a href=\\"http://www.theregister.co.uk/2002/02/18/censorbuster_peeka_booty_goes_public/\\" rel=\\"nofollow noreferrer\\">Censor-buster Peek-A-Booty goes public</a>
-- <em>Neowin:</em> <a href=\\"https://www.neowin.net/news/peek-a-booty-raises-a-few-eyebrows-at-codecon\\" rel=\\"nofollow noreferrer\\">Peek-A-Booty raises a few eyebrows at CodeCon</a>
-- From the book <em><a href=\\"https://www.amazon.com/Hacktivism-Cyberwars-Rebels-Tim-Jordan/dp/0415260043/ref=sr_1_1\\" rel=\\"nofollow noreferrer\\">Hacktivism and Cyberwars: Rebels with a Cause?:</a></em> I am briefly mentioned on page 102 for my involvement with Peekabooty.
-- <em>Spiegel Online:</em> <a href=\\"http://www.spiegel.de/netzwelt/tech/im-zeichen-des-teddies-vorhang-auf-fuer-peek-a-booty-a-183280.html\\" rel=\\"nofollow noreferrer\\">Vorhang auf für Peek a Booty:</a> Peekabooty, as covered by the online version of the German news magazine <em>Der Spiegel</em>.</p>
-",
+Peekabooty got a considerable amount of press at the time. Here’s a short list of articles: - _The Register:_ [Censor-buster Peek-A-Booty goes public](http://www.theregister.co.uk/2002/02/18/censorbuster_peeka_booty_goes_public/) - _Neowin:_ [Peek-A-Booty raises a few eyebrows at CodeCon](https://www.neowin.net/news/peek-a-booty-raises-a-few-eyebrows-at-codecon) - From the book _[Hacktivism and Cyberwars: Rebels with a Cause?:](https://www.amazon.com/Hacktivism-Cyberwars-Rebels-Tim-Jordan/dp/0415260043/ref=sr_1_1)_ I am briefly mentioned on page 102 for my involvement with Peekabooty. - _Spiegel Online:_ [Vorhang auf für Peek a Booty:](http://www.spiegel.de/netzwelt/tech/im-zeichen-des-teddies-vorhang-auf-fuer-peek-a-booty-a-183280.html) Peekabooty, as covered by the online version of the German news magazine _Der Spiegel_.",
       "link": "http://www.theregister.co.uk/2002/02/18/censorbuster_peeka_booty_goes_public/",
       "tags": Array [
         "c++",
@@ -561,8 +513,7 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "type": "Feature or Apps",
     },
     Object {
-      "description": "<p>This is an unpublished story that <a href=\\"https://en.wikipedia.org/wiki/Cory_Doctorow\\" rel=\\"nofollow noreferrer\\">Cory Doctorow</a> wrote for <em>Wired</em> about Mackerel Interactive Multimedia, a Toronto-based scrappy upstart multimedia company during the era of the CD-ROM. I’m featured prominently in it.</p>
-",
+      "description": "This is an unpublished story that [Cory Doctorow](https://en.wikipedia.org/wiki/Cory_Doctorow) wrote for _Wired_ about Mackerel Interactive Multimedia, a Toronto-based scrappy upstart multimedia company during the era of the CD-ROM. I’m featured prominently in it.",
       "link": "https://craphound.com/nonfic/mackerel.html",
       "tags": Array [
         "macromedia",
@@ -587,22 +538,16 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
   "name": "Joey deVilla",
   "positions": Array [
     Object {
-      "description": "<p>Creator, editor and presenter of articles, books, and videos at <strong><a href=\\"https://www.raywenderlich.com/\\" rel=\\"nofollow noreferrer\\">RayWenderlich.com</a>,</strong> the premier tutorial site for mobile developers.</p>
+      "description": "Creator, editor and presenter of articles, books, and videos at **[RayWenderlich.com](https://www.raywenderlich.com/),** the premier tutorial site for mobile developers.
 
-<ul>
-<li>Co-author of <strong><em><a href=\\"https://store.raywenderlich.com/products/ios-apprentice/\\" rel=\\"nofollow noreferrer\\">iOS Apprentice, 8th edition</a></em></strong>, RayWenderlich.com’s “flagship” book. Completely revised two major sections of the book to cover developing apps using the SwiftUI framework. Rewrote two of the four apps presented in the book to reflect the new material. Co-wrote both the 2019 and 2020 editions.</li>
-<li>Author and presenter of <strong><em><a href=\\"https://www.raywenderlich.com/737368-beginning-arkit/\\" rel=\\"nofollow noreferrer\\">Beginning ARKit</a></em></strong>, a video course covering augmented reality app development for iOS devices. Designed and developed 4 original apps for this course.</li>
-<li>Technical editor of <strong><em><a href=\\"https://store.raywenderlich.com/products/arkit-by-tutorials/\\" rel=\\"nofollow noreferrer\\">ARKit by Tutorials</a></em></strong>, a book covering augmented reality app development for iOS devices.</li>
-<li>Presenter: The only speaker at the RWDevCon 2018 conference to do 2 presentations: <strong><a href=\\"https://www.raywenderlich.com/5156-rwdevcon-2018-vault/lessons/13\\" rel=\\"nofollow noreferrer\\">a two-hour introductory presentation on ARKit</a>,</strong> and an in-depth four-hour workshop on the same topic. Became the highest-rated speaker at the conference, based on their attendee survey.</li>
-<li>Android article author:
-
-<ul>
-<li><strong><em><a href=\\"https://www.raywenderlich.com/523-augmented-reality-in-android-with-google-s-face-api\\" rel=\\"nofollow noreferrer\\">Augmented Reality in Android with Google’s Face API</a></em></strong></li>
-<li><strong><em><a href=\\"https://www.raywenderlich.com/3871338-what-s-new-in-kotlin-1-3\\" rel=\\"nofollow noreferrer\\">What’s New in Kotlin 1.3</a></em></strong></li>
-<li><strong><em><a href=\\"https://www.raywenderlich.com/6649-kotlin-cheat-sheet-and-quick-reference\\" rel=\\"nofollow noreferrer\\">Kotlin Cheat Sheet and Quick Reference</a></em></strong></li>
-</ul></li>
-</ul>
-",
+*   Co-author of **_[iOS Apprentice, 8th edition](https://store.raywenderlich.com/products/ios-apprentice/)_**, RayWenderlich.com’s “flagship” book. Completely revised two major sections of the book to cover developing apps using the SwiftUI framework. Rewrote two of the four apps presented in the book to reflect the new material. Co-wrote both the 2019 and 2020 editions.
+*   Author and presenter of **_[Beginning ARKit](https://www.raywenderlich.com/737368-beginning-arkit/)_**, a video course covering augmented reality app development for iOS devices. Designed and developed 4 original apps for this course.
+*   Technical editor of **_[ARKit by Tutorials](https://store.raywenderlich.com/products/arkit-by-tutorials/)_**, a book covering augmented reality app development for iOS devices.
+*   Presenter: The only speaker at the RWDevCon 2018 conference to do 2 presentations: **[a two-hour introductory presentation on ARKit](https://www.raywenderlich.com/5156-rwdevcon-2018-vault/lessons/13),** and an in-depth four-hour workshop on the same topic. Became the highest-rated speaker at the conference, based on their attendee survey.
+*   Android article author:
+    *   **_[Augmented Reality in Android with Google’s Face API](https://www.raywenderlich.com/523-augmented-reality-in-android-with-google-s-face-api)_**
+    *   **_[What’s New in Kotlin 1.3](https://www.raywenderlich.com/3871338-what-s-new-in-kotlin-1-3)_**
+    *   **_[Kotlin Cheat Sheet and Quick Reference](https://www.raywenderlich.com/6649-kotlin-cheat-sheet-and-quick-reference)_**",
       "tags": Array [
         "ios",
         "swift",
@@ -616,8 +561,7 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "title": "Author / Technical Editor / Presenter at Razeware",
     },
     Object {
-      "description": "<p>Tampa iOS Meetup is a regular gathering for iOS developers in the Tampa Bay area to discuss and present iOS development techniques. I have also led iOS development tutorials at the Iron Yard (a software development “boot camp”-style school in St. Petersburg) and the Tampa BarCamp “unconference”.</p>
-",
+      "description": "Tampa iOS Meetup is a regular gathering for iOS developers in the Tampa Bay area to discuss and present iOS development techniques. I have also led iOS development tutorials at the Iron Yard (a software development “boot camp”-style school in St. Petersburg) and the Tampa BarCamp “unconference”.",
       "tags": Array [
         "objective-c",
         "swift",
@@ -627,13 +571,9 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "title": "Organizer / Presenter at Tampa iOS Meetup",
     },
     Object {
-      "description": "<p>In my spare time, to keep my hand in “the programming game”, I take on mobile app development side projects for people with interesting app ideas. My primary development platform is iOS, although I can also develop Android apps, as well as cross-platform apps using Xamarin. Recent projects include:</p>
+      "description": "In my spare time, to keep my hand in “the programming game”, I take on mobile app development side projects for people with interesting app ideas. My primary development platform is iOS, although I can also develop Android apps, as well as cross-platform apps using Xamarin. Recent projects include:
 
-<ul>
-<li><a href=\\"https://itunes.apple.com/us/app/aspirations-winerys-wine-crush/id1131103492?mt=8\\" rel=\\"nofollow noreferrer\\">Aspirations Winery’s Wine Crush</a>: A free iOS app written to promote a friend’s winery and wine shop in Clearwater, Florida. It’s a wine-themed game in the style of Candy Crush, and a promotional tool that other wineries won't have. It's available for free on the App Store. Unlike other free games, there aren't any \\"poison pills\\" to extract money from players — this game's just about simple, unadulterated fun.
-•   Mind Quieting, an audio player that guides the user through mind quieting exercises developed by Dr. Alan Banack, a Toronto-based psychotherapist, and based on techniques developed over years of working with patients to help counter stress.</li>
-</ul>
-",
+*   [Aspirations Winery’s Wine Crush](https://itunes.apple.com/us/app/aspirations-winerys-wine-crush/id1131103492?mt=8): A free iOS app written to promote a friend’s winery and wine shop in Clearwater, Florida. It’s a wine-themed game in the style of Candy Crush, and a promotional tool that other wineries won't have. It's available for free on the App Store. Unlike other free games, there aren't any \\"poison pills\\" to extract money from players — this game's just about simple, unadulterated fun. • Mind Quieting, an audio player that guides the user through mind quieting exercises developed by Dr. Alan Banack, a Toronto-based psychotherapist, and based on techniques developed over years of working with patients to help counter stress.",
       "tags": Array [
         "swift",
         "objective-c",
@@ -646,8 +586,7 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "title": "Mobile Development Army of One at Joey deVilla Mobile Development",
     },
     Object {
-      "description": "<p>Global Nerdy is my technology and software development blog, to which I have been posting articles and tutorials since 2006. Since its inception, it has received nearly 8.7 million pageviews.</p>
-",
+      "description": "Global Nerdy is my technology and software development blog, to which I have been posting articles and tutorials since 2006. Since its inception, it has received nearly 8.7 million pageviews.",
       "tags": Array [
         "vb.net",
         "c#",
@@ -662,16 +601,13 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "title": "Editor at Global Nerdy",
     },
     Object {
-      "description": "<p>Cross-platform mobile developer for <strong><a href=\\"https://www.lilypad.co/\\" rel=\\"nofollow noreferrer\\">Lilypad</a></strong>, a sales tool and CRM app for the beverage alcohol industry.</p>
+      "description": "Cross-platform mobile developer for **[Lilypad](https://www.lilypad.co/)**, a sales tool and CRM app for the beverage alcohol industry.
 
-<ul>
-<li>Owned and delivered a major upgrade to the <a href=\\"https://play.google.com/store/apps/details?id=com.lilypadsolutions.lilypadappV2&amp;hl=en_US\\" rel=\\"nofollow noreferrer\\">Android version of Lilypad</a>, bringing it to feature parity with the iOS version. I was also working on improving the performance of the Android version so that it would be on par with the <a href=\\"https://apps.apple.com/us/app/lilypad-sales/id921371352\\" rel=\\"nofollow noreferrer\\">iOS version</a>. Cleaned up the Android user interface and started making performance improvements that made some features 60% faster.</li>
-<li>Fixed bugs, upgraded existing capabilities, and added new features to the app. Built apps for both iOS and Android in JavaScript using <a href=\\"https://www.appcelerator.com/\\" rel=\\"nofollow noreferrer\\">Axway’s</a> <a href=\\"https://www.appcelerator.com/Titanium/\\" rel=\\"nofollow noreferrer\\">Titanium</a> SDK (formerly known as Appcelerator Titanium).</li>
-<li>Took charge of internal developer documentation. While Lilypad’s back end and web application were written by senior developers, the mobile app’s 360,000+ lines of source code were largely written by junior developers and interns. With managerial approval, devoted 20% of development time to writing much-needed internal documentation of the mobile app, refactoring the code, and upgrading it to a more current version of JavaScript.</li>
-<li>Established coding standards for the mobile app. The mobile code was developed by a series of junior developers, each coding in their own style. Defined a standard to be used for mobile development and have applied it to the codebase during development.</li>
-<li>Built a new mobile process and team: Key participant in weekly mobile development strategy meetings with the CTO to improve the mobile app development process. Interviewed developers for the mobile team.</li>
-</ul>
-",
+*   Owned and delivered a major upgrade to the [Android version of Lilypad](https://play.google.com/store/apps/details?id=com.lilypadsolutions.lilypadappV2&hl=en_US), bringing it to feature parity with the iOS version. I was also working on improving the performance of the Android version so that it would be on par with the [iOS version](https://apps.apple.com/us/app/lilypad-sales/id921371352). Cleaned up the Android user interface and started making performance improvements that made some features 60% faster.
+*   Fixed bugs, upgraded existing capabilities, and added new features to the app. Built apps for both iOS and Android in JavaScript using [Axway’s](https://www.appcelerator.com/) [Titanium](https://www.appcelerator.com/Titanium/) SDK (formerly known as Appcelerator Titanium).
+*   Took charge of internal developer documentation. While Lilypad’s back end and web application were written by senior developers, the mobile app’s 360,000+ lines of source code were largely written by junior developers and interns. With managerial approval, devoted 20% of development time to writing much-needed internal documentation of the mobile app, refactoring the code, and upgrading it to a more current version of JavaScript.
+*   Established coding standards for the mobile app. The mobile code was developed by a series of junior developers, each coding in their own style. Defined a standard to be used for mobile development and have applied it to the codebase during development.
+*   Built a new mobile process and team: Key participant in weekly mobile development strategy meetings with the CTO to improve the mobile app development process. Interviewed developers for the mobile team.",
       "tags": Array [
         "android",
         "appcelerator",
@@ -683,44 +619,36 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "title": "Mobile developer at Lilypad Solutions",
     },
     Object {
-      "description": "<p>Provided technical, strategic, and customer management leadership to Sourcetoad as the company was entering a phase in which it takes on larger clients, more complex projects, and new markets.</p>
+      "description": "Provided technical, strategic, and customer management leadership to Sourcetoad as the company was entering a phase in which it takes on larger clients, more complex projects, and new markets.
 
-<p>Gathered requirements, wrote specifications, and product managed a number of applications, including:</p>
+Gathered requirements, wrote specifications, and product managed a number of applications, including:
 
-<ul>
-<li>Note-taking web application for pharmacists conducting reconciling patient’s medications in online interviews.</li>
-<li>Mobile app where customers submit photos of prescriptions and participating pharmacies respond with offers and prices for the submitted prescriptions.</li>
-<li>Investor-facing “Crunchbase for pharma” web application that tracks companies, conferences, executives, and researchers in the pharmacology and healthcare industries and the relations among them using a unique graph navigation system.</li>
-<li>iPad-based self-serve kiosk for shipping via FedEx, UPS, or USPS.</li>
-<li>Mobile app that allows general contractors to rate their customers on their interactions and payments.</li>
-<li>Mobile app for the construction industry that tracks tickets for the delivery and removal of construction material from sites.</li>
-</ul>
+*   Note-taking web application for pharmacists conducting reconciling patient’s medications in online interviews.
+*   Mobile app where customers submit photos of prescriptions and participating pharmacies respond with offers and prices for the submitted prescriptions.
+*   Investor-facing “Crunchbase for pharma” web application that tracks companies, conferences, executives, and researchers in the pharmacology and healthcare industries and the relations among them using a unique graph navigation system.
+*   iPad-based self-serve kiosk for shipping via FedEx, UPS, or USPS.
+*   Mobile app that allows general contractors to rate their customers on their interactions and payments.
+*   Mobile app for the construction industry that tracks tickets for the delivery and removal of construction material from sites.
 
-<p>Sales, marketing, and community relations:</p>
+Sales, marketing, and community relations:
 
-<ul>
-<li>Actively participated in sales meetings, showcasing its application development capabilities and strengths to prospective clients. This led to a number of contract signings, including those for the projects list above.</li>
-<li>Delivered several technical talks as an official Sourcetoad representative, including talks on data science, machine learning, and alternative programming platforms.</li>
-<li>Represented Sourcetoad at various events they sponsored, including <a href=\\"https://barcamptampabay.org/\\" rel=\\"nofollow noreferrer\\">BarCamp Tampa Bay</a>, <a href=\\"https://www.sourcetoad.com/cruise/hack-hospitality-cruise-challenge-winners/\\" rel=\\"nofollow noreferrer\\">Tampa Hospitality Hackathon</a>, and <a href=\\"https://www.youtube.com/watch?v=epfM9isTmK8\\" rel=\\"nofollow noreferrer\\">DevFest Florida</a>.</li>
-<li><a href=\\"https://www.youtube.com/watch?v=zuKPwOjHNsY\\" rel=\\"nofollow noreferrer\\">Narrated the video</a> for Sourcetoad’s flagship software product, Cruise Director.</li>
-<li>Grew the company’s Twitter profile tenfold, and wrote several articles for the company blog.</li>
-<li>Helped develop the company’s guidelines for interacting with clients.</li>
-</ul>
-",
+*   Actively participated in sales meetings, showcasing its application development capabilities and strengths to prospective clients. This led to a number of contract signings, including those for the projects list above.
+*   Delivered several technical talks as an official Sourcetoad representative, including talks on data science, machine learning, and alternative programming platforms.
+*   Represented Sourcetoad at various events they sponsored, including [BarCamp Tampa Bay](https://barcamptampabay.org/), [Tampa Hospitality Hackathon](https://www.sourcetoad.com/cruise/hack-hospitality-cruise-challenge-winners/), and [DevFest Florida](https://www.youtube.com/watch?v=epfM9isTmK8).
+*   [Narrated the video](https://www.youtube.com/watch?v=zuKPwOjHNsY) for Sourcetoad’s flagship software product, Cruise Director.
+*   Grew the company’s Twitter profile tenfold, and wrote several articles for the company blog.
+*   Helped develop the company’s guidelines for interacting with clients.",
       "tags": Array [],
       "time": "Jul 2017 → Jun 2019 (2 years)",
       "title": "Lead Product Manager at Sourcetoad, LLC",
     },
     Object {
-      "description": "<p>Technical marketer and developer evangelist for the company during their pivot from RFID tag/inlay manufacturer to provider of an integrated RFID/cloud software solution to seamlessly connect real-world objects to their digital representations.</p>
+      "description": "Technical marketer and developer evangelist for the company during their pivot from RFID tag/inlay manufacturer to provider of an integrated RFID/cloud software solution to seamlessly connect real-world objects to their digital representations.
 
-<ul>
-<li>Product owner: Gathered requirements, and then specified the functionality and workflows for a hardware/software system for embedding RFID tags in luxury goods for tracking them through the manufacturing process and the sales cycle, and as an anti-counterfeiting measure.</li>
-<li>Led documentation effort and and wrote code examples for Smart Cosmos Objects, Smarttrac’s platform for connecting real-world objects with RFID tags to their cloud-based data representations.</li>
-<li>Promoted Smartrac to various technical and non-technical audiences, specifically business and technical decision-makers at prospective partners and clients in the medical, supply chain management, and retail industries. Provided technical information to developers at partner organizations (including Catalyst, Blue Bite, and Temera) who build solutions that integrate with the Smart Cosmos platform.</li>
-<li>Presented the Lifecycles solution at the Smartrac booth at “Retail’s Big Show 2017”, the National Retail Federation’s flagship conference in New York City. Brought a major prospective customer ($100M revenue in 2016) to Smartrac for an initial meeting.</li>
-</ul>
-",
+*   Product owner: Gathered requirements, and then specified the functionality and workflows for a hardware/software system for embedding RFID tags in luxury goods for tracking them through the manufacturing process and the sales cycle, and as an anti-counterfeiting measure.
+*   Led documentation effort and and wrote code examples for Smart Cosmos Objects, Smarttrac’s platform for connecting real-world objects with RFID tags to their cloud-based data representations.
+*   Promoted Smartrac to various technical and non-technical audiences, specifically business and technical decision-makers at prospective partners and clients in the medical, supply chain management, and retail industries. Provided technical information to developers at partner organizations (including Catalyst, Blue Bite, and Temera) who build solutions that integrate with the Smart Cosmos platform.
+*   Presented the Lifecycles solution at the Smartrac booth at “Retail’s Big Show 2017”, the National Retail Federation’s flagship conference in New York City. Brought a major prospective customer ($100M revenue in 2016) to Smartrac for an initial meeting.",
       "tags": Array [
         "java",
         "php",
@@ -732,14 +660,11 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "title": "Technology Evangelist at Smartrac",
     },
     Object {
-      "description": "<p>Oversaw and overhauled GSG’s marketing efforts, creating all the messaging and sales materials for the enterprise communications services specialist.</p>
+      "description": "Oversaw and overhauled GSG’s marketing efforts, creating all the messaging and sales materials for the enterprise communications services specialist.
 
-<ul>
-<li>Communications and technical specialist on IBM’s Network Infrastructure Cost Optimization team. Designed/managed development of the application for performing quick evaluations of client network infrastructure. Wrote, produced, and narrated the official NICO promotional video, and created all NICO promotional material.</li>
-<li>Created sales and marketing materials for GSG and its channel partners: presentations, case studies, white papers, sell sheets, videos, and even mobile applications. Created documentation and training material for GSG’s SaaS applications, such as written documentation, demo scripts, and training videos. Wrote and hosted joint presentations and webinars with channel partners, including Honeywell and Pomeroy.</li>
-<li>Grew GSG’s online presence 10x. Managed their web site redesign, maintained the site’s content, regularly posted articles on the blog, created promotional and informational videos, and expanded the company’s following on LinkedIn (300 to 1,500) and Twitter (100 to 1,100).</li>
-</ul>
-",
+*   Communications and technical specialist on IBM’s Network Infrastructure Cost Optimization team. Designed/managed development of the application for performing quick evaluations of client network infrastructure. Wrote, produced, and narrated the official NICO promotional video, and created all NICO promotional material.
+*   Created sales and marketing materials for GSG and its channel partners: presentations, case studies, white papers, sell sheets, videos, and even mobile applications. Created documentation and training material for GSG’s SaaS applications, such as written documentation, demo scripts, and training videos. Wrote and hosted joint presentations and webinars with channel partners, including Honeywell and Pomeroy.
+*   Grew GSG’s online presence 10x. Managed their web site redesign, maintained the site’s content, regularly posted articles on the blog, created promotional and informational videos, and expanded the company’s following on LinkedIn (300 to 1,500) and Twitter (100 to 1,100).",
       "tags": Array [
         "telecom",
         "php",
@@ -749,15 +674,12 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "title": "Platform Evangelist / Partner Technical Analyst at GSG",
     },
     Object {
-      "description": "<p>Managed a consultancy that became the de facto managed mobility services department of <a href=\\"https://www.rogers.com/\\" rel=\\"nofollow noreferrer\\">Rogers Communications</a> (the Canadian equivalent of Time-Warner), filling the roles of chief technologist and marketing department.</p>
+      "description": "Managed a consultancy that became the de facto managed mobility services department of [Rogers Communications](https://www.rogers.com/) (the Canadian equivalent of Time-Warner), filling the roles of chief technologist and marketing department.
 
-<ul>
-<li>Designed and developed turnkey solutions for Rogers, including “BYOD in a Box” and “CL in a Box”, applications for small- and medium-sized businesses to manage their BYOD (“Bring Your Own Device”) and CL (corporate-liable) mobile devices. These applications combined mobile device management, telecom expense management, device inventory, and help desk applications.</li>
-<li>Performed Rogers’ first mobile needs assessments, including one for an energy company in Canada’s far north, which involved on-site visits to their head office in Calgary and their drill site in northern Alberta, interviewing two dozen stakeholder groups in the organization, convening with their IT department, and producing a full report complete with recommendations for increased productivity and cost savings.</li>
-<li>Implemented processes for clients with 1,000+ employees move from corporate-liable mobile devices to individual-liable ones.</li>
-<li>Created Rogers-branded customer-facing documents, including a white paper listing tips for businesses who want to implement a BYOD program, a guide to help enterprises create mobile device policies, and “sell sheets” for various Rogers services.</li>
-</ul>
-",
+*   Designed and developed turnkey solutions for Rogers, including “BYOD in a Box” and “CL in a Box”, applications for small- and medium-sized businesses to manage their BYOD (“Bring Your Own Device”) and CL (corporate-liable) mobile devices. These applications combined mobile device management, telecom expense management, device inventory, and help desk applications.
+*   Performed Rogers’ first mobile needs assessments, including one for an energy company in Canada’s far north, which involved on-site visits to their head office in Calgary and their drill site in northern Alberta, interviewing two dozen stakeholder groups in the organization, convening with their IT department, and producing a full report complete with recommendations for increased productivity and cost savings.
+*   Implemented processes for clients with 1,000+ employees move from corporate-liable mobile devices to individual-liable ones.
+*   Created Rogers-branded customer-facing documents, including a white paper listing tips for businesses who want to implement a BYOD program, a guide to help enterprises create mobile device policies, and “sell sheets” for various Rogers services.",
       "tags": Array [
         "mobile",
         "telecommunication",
@@ -766,15 +688,12 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "title": "Chief Technical Officer at Comprehensive Technology Solutions",
     },
     Object {
-      "description": "<p>Raised the company’s profile during a critical growth phase, promoted it to three major audiences: merchants who were considering using Shopify to host their ecommerce sites, developers who were considering development of apps for Shopify stores and designers who were considering developing store themes.</p>
+      "description": "Raised the company’s profile during a critical growth phase, promoted it to three major audiences: merchants who were considering using Shopify to host their ecommerce sites, developers who were considering development of apps for Shopify stores and designers who were considering developing store themes.
 
-<ul>
-<li>Managed the company’s first major developer outreach initiative, a $1 million fund used to encourage developers to build apps of the Shopify platform.</li>
-<li>Wrote the documentation and sample code for Shopify’s developer API, as well as documentation for store theme designers. Edited and wrote technical articles Shopify’s technology blog, whose primary audience was developers and designers.</li>
-<li>Represented Shopify at a number of conferences, including the <a href=\\"https://www.prweb.com/releases/2011/5/prweb8382118.htm\\" rel=\\"nofollow noreferrer\\">2011 BarCamp Tour</a>, a multi-city tour of nine BarCamp “unconferences” across the United States. </li>
-<li>Wrote Shopify’s tweets and doubled the company’s Twitter followers.</li>
-</ul>
-",
+*   Managed the company’s first major developer outreach initiative, a $1 million fund used to encourage developers to build apps of the Shopify platform.
+*   Wrote the documentation and sample code for Shopify’s developer API, as well as documentation for store theme designers. Edited and wrote technical articles Shopify’s technology blog, whose primary audience was developers and designers.
+*   Represented Shopify at a number of conferences, including the [2011 BarCamp Tour](https://www.prweb.com/releases/2011/5/prweb8382118.htm), a multi-city tour of nine BarCamp “unconferences” across the United States.
+*   Wrote Shopify’s tweets and doubled the company’s Twitter followers.",
       "tags": Array [
         "ruby",
         "ruby-on-rails",
@@ -783,17 +702,14 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "title": "Platform Evangelist at Shopify",
     },
     Object {
-      "description": "<p>Specialized in promoting Microsoft to “unfriendly” technical audiences — namely mobile, web, and open source developers, with whom the company had weak or non-existent relationships. “Won over” developers and technology influencers who originally had strong negative opinions of Microsoft and increased its influence in one of the world’s fastest-growing tech hubs.</p>
+      "description": "Specialized in promoting Microsoft to “unfriendly” technical audiences — namely mobile, web, and open source developers, with whom the company had weak or non-existent relationships. “Won over” developers and technology influencers who originally had strong negative opinions of Microsoft and increased its influence in one of the world’s fastest-growing tech hubs.
 
-<ul>
-<li>Windows Phone 7 Champion: Led the “breadth program” for Windows Phone 7 in the months leading up to the release of the new phone operating system. Brought early-access development tools, devices, documentation, and training to developers, coordinated the development of early apps by Canadian developers to pre-seed the Windows Phone app store, and organized Windows Phone developer events.</li>
-<li>Editor, MSDN Flash: Edited and wrote the lead articles for the Canadian edition of MSDN Flash, Microsoft's developer newsletter emailed every two weeks to 50,000 subscribers.</li>
-<li>Microsoft Canada’s most prolific blogger: Wrote almost 750 articles for Microsoft’s blog, Canadian Developer Connection.</li>
-<li>Co-organized TechDays, a conference series taking place in 8 cities across Canada. Organized a conference session in 2008, led one of the developer tracks in 2009, and managed all the developer tracks in 2010.</li>
-<li>Touring presenter: Traveled across Canada, giving presentations and tutorials to developer, technologist, and student audiences on developing applications using Visual Studio, C# and Visual Basic, Windows 7, ASP.NET MVC, Windows Mobile, Windows Phone, and Xbox 360.</li>
-<li>Developed example code and demonstrations in C# and Visual Basic for a number of Microsoft platforms, especially Windows 7, ASP.NET MVC, Windows Mobile/Phone, and Xbox 360.</li>
-</ul>
-",
+*   Windows Phone 7 Champion: Led the “breadth program” for Windows Phone 7 in the months leading up to the release of the new phone operating system. Brought early-access development tools, devices, documentation, and training to developers, coordinated the development of early apps by Canadian developers to pre-seed the Windows Phone app store, and organized Windows Phone developer events.
+*   Editor, MSDN Flash: Edited and wrote the lead articles for the Canadian edition of MSDN Flash, Microsoft's developer newsletter emailed every two weeks to 50,000 subscribers.
+*   Microsoft Canada’s most prolific blogger: Wrote almost 750 articles for Microsoft’s blog, Canadian Developer Connection.
+*   Co-organized TechDays, a conference series taking place in 8 cities across Canada. Organized a conference session in 2008, led one of the developer tracks in 2009, and managed all the developer tracks in 2010.
+*   Touring presenter: Traveled across Canada, giving presentations and tutorials to developer, technologist, and student audiences on developing applications using Visual Studio, C# and Visual Basic, Windows 7, ASP.NET MVC, Windows Mobile, Windows Phone, and Xbox 360.
+*   Developed example code and demonstrations in C# and Visual Basic for a number of Microsoft platforms, especially Windows 7, ASP.NET MVC, Windows Mobile/Phone, and Xbox 360.",
       "tags": Array [
         "c#",
         "asp.net-mvc",
@@ -810,13 +726,10 @@ Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep
       "title": "Developer Evangelist at Microsoft",
     },
     Object {
-      "description": "<ul>
-<li>Coordinated the activities of the b5 development team in building and maintaining its blog network, a Wordpress-based custom blogging system supporting over 300 blogs.</li>
-<li>Developed the specification for Textpods, a self-serve system that allows small-budget advertisers to purchase text-link advertising on b5’s blogs.</li>
-<li>Reviewed, triaged and prioritized of all outstanding projects.</li>
-<li>Developed utilities in Ruby to automate the process of checking the entire set of b5’s blogs for the presence of important components such as advertising, web statistics codes and blogrolls.</li>
-</ul>
-",
+      "description": "*   Coordinated the activities of the b5 development team in building and maintaining its blog network, a Wordpress-based custom blogging system supporting over 300 blogs.
+*   Developed the specification for Textpods, a self-serve system that allows small-budget advertisers to purchase text-link advertising on b5’s blogs.
+*   Reviewed, triaged and prioritized of all outstanding projects.
+*   Developed utilities in Ruby to automate the process of checking the entire set of b5’s blogs for the presence of important components such as advertising, web statistics codes and blogrolls.",
       "tags": Array [
         "php",
         "wordpress",
@@ -833,8 +746,7 @@ exports[`A Dev Story scraper should parse a simple dev story 1`] = `
 Object {
   "artifacts": Array [
     Object {
-      "description": "<p>These are the slides of my talk about my experience (a kind of postmortem) in Runnics given at BetaBeers Salamanca.</p>
-",
+      "description": "These are the slides of my talk about my experience (a kind of postmortem) in Runnics given at BetaBeers Salamanca.",
       "link": "https://speakerdeck.com/ydarias/betabeers-salamanca",
       "tags": Array [],
       "time": "Jan 2018",
@@ -842,8 +754,7 @@ Object {
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>Talk given at Codemotion 2016 in Madrid about how to measure (Java) code speed and health with JMX.</p>
-",
+      "description": "Talk given at Codemotion 2016 in Madrid about how to measure (Java) code speed and health with JMX.",
       "link": "https://speakerdeck.com/ydarias/the-java-and-the-furious-jmx",
       "tags": Array [],
       "time": "Nov 2016",
@@ -851,8 +762,7 @@ Object {
       "type": "Blogs or videos",
     },
     Object {
-      "description": "<p>El viernes pasado me invitaron a dar una charla sobre Runnics  en el Betabeers  de Madrid, y al parecer gustó bastante, razón por la cual ...</p>
-",
+      "description": "El viernes pasado me invitaron a dar una charla sobre Runnics en el Betabeers de Madrid, y al parecer gustó bastante, razón por la cual ...",
       "link": "http://developerscookbook.blogspot.com.es/2014/09/runnics-en-betabeers-madrid.html",
       "tags": Array [],
       "time": "Sep 2014",
@@ -874,8 +784,7 @@ Object {
   "name": "Yeray Darias",
   "positions": Array [
     Object {
-      "description": "<p>Software developer focused in backend.</p>
-",
+      "description": "Software developer focused in backend.",
       "tags": Array [
         "typescript",
         "visual-studio-code",
@@ -885,8 +794,7 @@ Object {
       "title": "Backend specialist at IBM Research",
     },
     Object {
-      "description": "<p>Lead developer for backend infrastructure.</p>
-",
+      "description": "Lead developer for backend infrastructure.",
       "tags": Array [
         "java",
         "spring",
