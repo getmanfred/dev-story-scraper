@@ -14,4 +14,8 @@ describe('A Dev Story scraper', () => {
     const result = await scraper.parse('joeydevilla');
     expect(result).toMatchSnapshot();
   });
+
+  it('foo', () => {
+    expect(2).toBe(1);
+  });
 });
