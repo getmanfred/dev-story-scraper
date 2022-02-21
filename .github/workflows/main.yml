@@ -1,0 +1,35 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy_lambda:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          # Created the Secrets Under the Repo only with These Variables
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+      - name: install
+        run: |
+          yarn install
+      - name: build
+        run: |
+          yarn build
+      - name: bundle
+        working-directory: ./dist
+        run: |
+          zip -r ../bundle.zip ./*
+      - name: deploy
+        run: |
+          aws lambda update-function-code --function-name=sofred-reader --zip-file=fileb://bundle.zip
