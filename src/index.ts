@@ -1,9 +1,9 @@
 import {APIGatewayProxyEvent, Handler} from 'aws-lambda';
-import {pino} from 'pino';
 
 import {DevStoryDownloader} from './devStoryDownloader';
 import {DevStoryScraper} from './devStoryScraper';
 import {ProfileData} from './models/profileData';
+import {Logger} from './utils/logger';
 
 const successResponse = (profile: ProfileData) => ({
   statusCode: 200,
@@ -18,10 +18,7 @@ const noUsernameResponse = () => ({
 });
 
 export const handler: Handler = async (event: APIGatewayProxyEvent) => {
-  const log = pino({
-    name: 'dev-story-scraper',
-    level: 'debug',
-  });
+  const log = Logger.getInstance();
 
   if (event.queryStringParameters && event.queryStringParameters['username']) {
     const username: string = event.queryStringParameters['username'];
