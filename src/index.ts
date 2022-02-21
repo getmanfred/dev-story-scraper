@@ -17,8 +17,8 @@ const noUsernameResponse = () => ({
 });
 
 export const handler: Handler = async (event: APIGatewayProxyEvent) => {
-  if (event.queryStringParameters) {
-    const username: string = event.queryStringParameters['username'] || '';
+  if (event.queryStringParameters && event.queryStringParameters['username']) {
+    const username: string = event.queryStringParameters['username'];
     const downloader = new DevStoryDownloader();
     const scraper = new DevStoryScraper(downloader);
     const profile = await scraper.parse(username);
