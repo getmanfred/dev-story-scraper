@@ -4,7 +4,6 @@ import {DevStoryDownloader} from './devStoryDownloader';
 import {MAC} from './models/mac';
 import {PositionParser} from './parsers/positionParser';
 import {ArtifactParser} from './parsers/artifactParser';
-import {Markdown} from './utils/markdown';
 import {stripString} from './utils/utils';
 import {Logger} from './utils/logger';
 import {Settings} from './models/settings';
@@ -30,8 +29,6 @@ export class DevStoryScraper {
 
     const settings = this.defaultEnglishSettings();
     const aboutMe = await this.aboutMeParser.parse($);
-    const headline = stripString($('#form-section-PersonalInfo div.job').text() || '');
-    const description = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
     const tools = stripString($('div.tools').text());
 
     const links = $('div#form-section-PersonalInfo a.d-flex')
@@ -71,8 +68,6 @@ export class DevStoryScraper {
     return {
       settings,
       aboutMe,
-      headline,
-      description,
       links,
       tools,
       likedTechnologies,

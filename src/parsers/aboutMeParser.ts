@@ -7,15 +7,20 @@ import {Avatar} from '../models/avatar';
 import {Location} from '../models/location';
 import {stripString} from '../utils/utils';
 import {Geocoder} from '../utils/geocoder';
+import {Markdown} from '../utils/markdown';
 
 export class AboutMeParser {
   constructor(private readonly geocoder: Geocoder) {}
 
   async parse($: CheerioAPI): Promise<AboutMe> {
     const profile = await this.parseProfile($);
+    const headline = stripString($('#form-section-PersonalInfo div.job').text() || '');
+    const introduction = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
 
     return {
       profile,
+      headline,
+      introduction,
     };
   }
 

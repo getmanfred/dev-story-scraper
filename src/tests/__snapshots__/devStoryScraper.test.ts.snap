@@ -3,6 +3,12 @@
 exports[`A Dev Story scraper should parse a complex dev story 1`] = `
 Object {
   "aboutMe": Object {
+    "headline": "Mobile/data/AR developer, tech evangelist/trainer/author, Tampa Bay’s #1 tech blogger and rock and roll accordionist.",
+    "introduction": "*   Seasoned developer currently working on iOS, Android, and Raspberry Pi applications. Currently programming in these languages: C#, Dart, JavaScript, Kotlin, Python, and Swift. Co-author of _iOS Apprentice, 8th Edition_ and author/presenter of the _Beginning ARKit_ video tutorial series.
+*   Mobile technology consultant with experience helping enterprises manage their communications technologies, particularly data networking and mobile devices.
+*   Trusted technical evangelist with a strong track record of community building.
+*   Dynamic speaker and presenter, comfortable in front of an audience, a camera, or a microphone.
+*   Rock accordion/keyboard player with stage, studio, and live television experience.",
     "profile": Object {
       "avatar": Object {
         "link": "https://i.stack.imgur.com/Xos3Z.jpg",
@@ -537,13 +543,7 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
       "type": "Blogs or videos",
     },
   ],
-  "description": "*   Seasoned developer currently working on iOS, Android, and Raspberry Pi applications. Currently programming in these languages: C#, Dart, JavaScript, Kotlin, Python, and Swift. Co-author of _iOS Apprentice, 8th Edition_ and author/presenter of the _Beginning ARKit_ video tutorial series.
-*   Mobile technology consultant with experience helping enterprises manage their communications technologies, particularly data networking and mobile devices.
-*   Trusted technical evangelist with a strong track record of community building.
-*   Dynamic speaker and presenter, comfortable in front of an audience, a camera, or a microphone.
-*   Rock accordion/keyboard player with stage, studio, and live television experience.",
   "dislikedTechnologies": Array [],
-  "headline": "Mobile/data/AR developer, tech evangelist/trainer/author, Tampa Bay’s #1 tech blogger and rock and roll accordionist.",
   "likedTechnologies": Array [
     "android",
     "c#",
@@ -773,6 +773,8 @@ Sales, marketing, and community relations:
 exports[`A Dev Story scraper should parse a simple dev story 1`] = `
 Object {
   "aboutMe": Object {
+    "headline": "Developer at otogami.com",
+    "introduction": "Software developer focused in backend.",
     "profile": Object {
       "avatar": Object {
         "link": "https://www.gravatar.com/avatar/bc91c9d44654771f5e9de85fa1eadb47?s=136&r=PG&d=https://i.stack.imgur.com/T119o.png",
@@ -812,11 +814,9 @@ Object {
       "type": "Blogs or videos",
     },
   ],
-  "description": "Software developer focused in backend.",
   "dislikedTechnologies": Array [
     "php",
   ],
-  "headline": "Developer at otogami.com",
   "likedTechnologies": Array [
     "java",
     "javascript",
