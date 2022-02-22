@@ -22,6 +22,7 @@ export class DevStoryScraper {
     const $ = cheerio.load(profileAsHTML);
 
     const name = $('div[class="name"] h4').text();
+    const headline = stripString($('#form-section-PersonalInfo div.job').text() || '');
     const description = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
     const location = stripString($('div.d-flex.ai-center').text());
     const image = $('div#form-section-PersonalInfo img')[0]?.attribs?.src || '';
@@ -63,6 +64,7 @@ export class DevStoryScraper {
 
     return {
       name,
+      headline,
       description,
       location,
       image,
