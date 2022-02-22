@@ -1,14 +1,16 @@
 import {Position} from './position';
 import {Artifact} from './artifact';
 import {Settings} from './settings';
+import {AboutMe} from './aboutMe';
 
-export type ProfileData = {
+export type MAC = {
   settings: Settings;
-  name: string;
+  aboutMe: AboutMe;
+  //name: string;
   headline?: string;
   description?: string;
-  location?: string;
-  image?: string;
+  //location?: string;
+  //image?: string;
   links?: string[];
   tools?: string;
   likedTechnologies?: string[];

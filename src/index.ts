@@ -2,12 +2,13 @@ import {APIGatewayProxyEvent, Handler} from 'aws-lambda';
 
 import {DevStoryDownloader} from './devStoryDownloader';
 import {DevStoryScraper} from './devStoryScraper';
-import {ProfileData} from './models/profileData';
+import {MAC} from './models/mac';
 import {Logger} from './utils/logger';
+import {Geocoder} from './utils/geocoder';
 
-const successResponse = (profile: ProfileData) => ({
+const successResponse = (mac: MAC) => ({
   statusCode: 200,
-  body: JSON.stringify(profile),
+  body: JSON.stringify(mac),
 });
 
 const noUsernameResponse = () => ({
@@ -26,7 +27,8 @@ export const handler: Handler = async (event: APIGatewayProxyEvent) => {
     log.info(`scraping information from ${username}`);
 
     const downloader = new DevStoryDownloader();
-    const scraper = new DevStoryScraper(downloader);
+    const geocoder = new Geocoder();
+    const scraper = new DevStoryScraper(downloader, geocoder);
     const profile = await scraper.parse(username);
 
     return successResponse(profile);

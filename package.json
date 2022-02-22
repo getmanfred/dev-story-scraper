@@ -10,8 +10,10 @@
     "format": "prettier 'src/**/*.{ts,js,json}' --write"
   },
   "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.3.10",
     "axios": "^0.26.0",
     "cheerio": "^1.0.0-rc.10",
+    "lodash": "^4.17.21",
     "pino": "^7.8.0",
     "turndown": "^7.1.1"
   },
@@ -20,6 +22,7 @@
     "@commitlint/config-conventional": "^16.2.1",
     "@types/aws-lambda": "^8.10.92",
     "@types/jest": "27.0.2",
+    "@types/lodash": "^4.14.178",
     "@types/turndown": "^5.0.1",
     "@typescript-eslint/eslint-plugin": "^5.12.0",
     "@typescript-eslint/parser": "^5.12.0",

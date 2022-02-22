@@ -1,18 +1,20 @@
 import cheerio from 'cheerio';
 
 import {DevStoryDownloader} from './devStoryDownloader';
-import {ProfileData} from './models/profileData';
+import {MAC} from './models/mac';
 import {PositionParser} from './parsers/positionParser';
 import {ArtifactParser} from './parsers/artifactParser';
 import {Markdown} from './utils/markdown';
 import {stripString} from './utils/utils';
 import {Logger} from './utils/logger';
 import {Settings} from './models/settings';
+import {AboutMeParser} from './parsers/aboutMeParser';
+import {Geocoder} from './utils/geocoder';
 
 export class DevStoryScraper {
-  constructor(private readonly downloader: DevStoryDownloader) {}
+  constructor(private readonly downloader: DevStoryDownloader, private readonly geocoder: Geocoder) {}
 
-  async parse(username: string): Promise<ProfileData> {
+  async parse(username: string): Promise<MAC> {
     const log = Logger.getInstance();
 
     const url = `https://stackoverflow.com/story/${username}`;
@@ -21,14 +23,12 @@ export class DevStoryScraper {
     const startTime = new Date().getTime();
 
     const $ = cheerio.load(profileAsHTML);
+    const aboutMeParser = new AboutMeParser(this.geocoder);
 
     const settings = this.defaultEnglishSettings();
-
-    const name = $('div[class="name"] h4').text();
+    const aboutMe = await aboutMeParser.parse($);
     const headline = stripString($('#form-section-PersonalInfo div.job').text() || '');
     const description = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
-    const location = stripString($('div.d-flex.ai-center').text());
-    const image = $('div#form-section-PersonalInfo img')[0]?.attribs?.src || '';
     const tools = stripString($('div.tools').text());
 
     const links = $('div#form-section-PersonalInfo a.d-flex')
@@ -67,11 +67,12 @@ export class DevStoryScraper {
 
     return {
       settings,
-      name,
+      aboutMe,
+      // name,
       headline,
       description,
-      location,
-      image,
+      // location,
+      // image,
       links,
       tools,
       likedTechnologies,
