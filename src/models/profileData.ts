@@ -1,7 +1,9 @@
 import {Position} from './position';
 import {Artifact} from './artifact';
+import {Settings} from './settings';
 
 export type ProfileData = {
+  settings: Settings;
   name: string;
   headline?: string;
   description?: string;

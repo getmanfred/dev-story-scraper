@@ -7,6 +7,7 @@ import {ArtifactParser} from './parsers/artifactParser';
 import {Markdown} from './utils/markdown';
 import {stripString} from './utils/utils';
 import {Logger} from './utils/logger';
+import {Settings} from './models/settings';
 
 export class DevStoryScraper {
   constructor(private readonly downloader: DevStoryDownloader) {}
@@ -20,6 +21,8 @@ export class DevStoryScraper {
     const startTime = new Date().getTime();
 
     const $ = cheerio.load(profileAsHTML);
+
+    const settings = this.defaultEnglishSettings();
 
     const name = $('div[class="name"] h4').text();
     const headline = stripString($('#form-section-PersonalInfo div.job').text() || '');
@@ -63,6 +66,7 @@ export class DevStoryScraper {
     log.debug(`${username} profile parsed in ${elapsed}ms`);
 
     return {
+      settings,
       name,
       headline,
       description,
@@ -74,6 +78,12 @@ export class DevStoryScraper {
       dislikedTechnologies,
       positions,
       artifacts,
+    };
+  }
+
+  private defaultEnglishSettings(): Settings {
+    return {
+      language: 'EN',
     };
   }
 }

@@ -752,6 +752,9 @@ Sales, marketing, and community relations:
       "title": "Nerd Wrangler / Technical Project Manager at b5media",
     },
   ],
+  "settings": Object {
+    "language": "EN",
+  },
   "tools": "Favorite editor: Visual Studio Code • First computer: Macintosh Quadra 660AV",
 }
 `;
@@ -856,6 +859,9 @@ Object {
       "title": "Software Developer at Avantic Estudio de Ingenieros",
     },
   ],
+  "settings": Object {
+    "language": "EN",
+  },
   "tools": "",
 }
 `;

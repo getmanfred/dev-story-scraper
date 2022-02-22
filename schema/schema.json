@@ -1,0 +1,178 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://github.com/manfred/mac/schema.json",
+    "type": "object",
+    "title": "Manfred Awesomic CV",
+    "description": "An open CV format",
+    "properties": {
+        "settings": {
+            "type": "object",
+            "description": "CV Settings",
+            "properties": {
+                "language": {
+                    "type": "string",
+                    "description": "The language of the CV expressed as a [ISO 639-1 code](https://en.wikipedia.org/wiki/ISO_639-1)",
+                    "examples": [
+                        "EN",
+                        "EN-US"
+                    ],
+                    "$comment": "TDB: link to a enum of ISO-639 codes in a external definition file"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "language"
+            ]
+        },
+        "aboutme": {
+            "type": "object",
+            "description": "Main data of the CV author",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "name of the CV author",
+                    "examples": [
+                        "David"
+                    ]
+                },
+                "surnames": {
+                    "type": "string",
+                    "description": "surname (or surnames) of the CV author",
+                    "examples": [
+                        "Bonilla Fuertes"
+                    ]
+                },
+                "introduction": {
+                    "type": "string",
+                    "description": "A way to explain to your future company what kind of professional you are"
+                },
+                "birthday": {
+                    "type": "string",
+                    "description": "Your birth date in format yyyy-mm-dd",
+                    "format": "date",
+                    "examples": [
+                        "1977-07-26"
+                    ]
+                },
+                "softskills": {
+                    "type": "array",
+                    "description": "List of skills you will carry with you to your next job, whatever it is",
+                    "additionalItems": true,
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": {
+                        "type": "string",
+                        "examples": [
+                            "strategic vision",
+                            "TDD",
+                            "public speaking"
+                        ]
+                    }
+                },
+                "relevantlinks": {
+                    "type": "array",
+                    "additionalItems": true,
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "type": "string",
+                                "enum": [
+                                    "linkedIn",
+                                    "github",
+                                    "twitter",
+                                    "website",
+                                    "other"
+                                ]
+                            },
+                            "URL": {
+                                "type": "string",
+                                "format": "hostname"
+                            },
+                            "description": {
+                                "type": "string"
+                            }
+                        },
+                        "additionalProperties": false,
+                        "required": [
+                            "type",
+                            "URL"
+                        ]
+                    }
+                },
+                "avatar": {
+                    "type": "object",
+                    "description": "author's picture or avatar",
+                    "properties": {
+                        "alt": {
+                            "type": "string",
+                            "description": "Alternative description of the image"
+                        }
+                    },
+                    "additionalProperties": true,
+                    "oneOf": [
+                        {
+                            "type": "object",
+                            "description": "A link to author's avatar",
+                            "properties": {
+                                "link": {
+                                    "type": "string",
+                                    "format": "uri",
+                                    "examples": [
+                                        "https://pbs.twimg.com/profile_images/946845160004112384/ap8_xjIa_400x400.jpg"
+                                    ]
+                                }
+                            },
+                            "additionalProperties": true,
+                            "required": [
+                                "link"
+                            ]
+                        },
+                        {
+                            "type": "object",
+                            "description": "A picture in base64",
+                            "properties": {
+                                "data": {
+                                    "type": "string",
+                                    "examples": [
+                                        "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="
+                                    ]
+                                },
+                                "mediatype": {
+                                    "type": "string",
+                                    "enum": [
+                                        "image/png",
+                                        "image/jpeg"
+                                    ]
+                                },
+                                "encoding": {
+                                    "type": "string",
+                                    "const": "base64"
+                                }
+                            },
+                            "additionalProperties": true,
+                            "required": [
+                                "data",
+                                "mediatype",
+                                "encoding"
+                            ]
+                        }
+                    ],
+                    "$comment": "TDB: to be refactor to extract an image  \"object\" within a definitions section or schema"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "name",
+                "surnames"
+            ]
+        }
+    },
+    "additionalProperties": true,
+    "required": [
+        "settings",
+        "aboutme"
+    ]
+}
