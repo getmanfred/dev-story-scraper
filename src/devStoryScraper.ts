@@ -12,7 +12,11 @@ import {AboutMeParser} from './parsers/aboutMeParser';
 import {Geocoder} from './utils/geocoder';
 
 export class DevStoryScraper {
-  constructor(private readonly downloader: DevStoryDownloader, private readonly geocoder: Geocoder) {}
+  aboutMeParser: AboutMeParser;
+
+  constructor(private readonly downloader: DevStoryDownloader, geocoder: Geocoder) {
+    this.aboutMeParser = new AboutMeParser(geocoder);
+  }
 
   async parse(username: string): Promise<MAC> {
     const log = Logger.getInstance();
@@ -23,10 +27,9 @@ export class DevStoryScraper {
     const startTime = new Date().getTime();
 
     const $ = cheerio.load(profileAsHTML);
-    const aboutMeParser = new AboutMeParser(this.geocoder);
 
     const settings = this.defaultEnglishSettings();
-    const aboutMe = await aboutMeParser.parse($);
+    const aboutMe = await this.aboutMeParser.parse($);
     const headline = stripString($('#form-section-PersonalInfo div.job').text() || '');
     const description = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
     const tools = stripString($('div.tools').text());
@@ -68,11 +71,8 @@ export class DevStoryScraper {
     return {
       settings,
       aboutMe,
-      // name,
       headline,
       description,
-      // location,
-      // image,
       links,
       tools,
       likedTechnologies,
