@@ -567,7 +567,6 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
       "type": "Blogs or videos",
     },
   ],
-  "dislikedTechnologies": Array [],
   "likedTechnologies": Array [
     "android",
     "c#",
@@ -792,7 +791,6 @@ exports[`A Dev Story scraper should parse a simple dev story 1`] = `
 Object {
   "aboutMe": Object {
     "headline": "Developer at otogami.com",
-    "interestingFacts": Array [],
     "introduction": "Software developer focused in backend.",
     "profile": Object {
       "avatar": Object {
