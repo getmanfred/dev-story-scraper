@@ -31,7 +31,7 @@ export class AboutMeParser {
         relevantLinks,
         interestingFacts,
       },
-      _.isNil,
+      (e) => _.isNil(e) || e === [],
     ) as AboutMe;
   }
 

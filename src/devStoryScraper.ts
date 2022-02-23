@@ -66,7 +66,7 @@ export class DevStoryScraper {
         positions,
         artifacts,
       },
-      _.isNil,
+      (e) => _.isNil(e) || e === [],
     ) as MAC;
   }
 

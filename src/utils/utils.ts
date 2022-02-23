@@ -1,8 +1,3 @@
 export const stripString = (input = ''): string => {
-  return (
-    input
-      // .replace(/[\r\n]+/g, '')
-      .replace(/\s+/g, ' ')
-      .trim()
-  );
+  return input.replace(/\s+/g, ' ').trim();
 };
