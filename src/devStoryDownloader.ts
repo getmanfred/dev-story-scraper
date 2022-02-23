@@ -7,9 +7,7 @@ export class DevStoryDownloader {
     const log = Logger.getInstance();
     log.info(`loading ${url}`);
 
-    const response = await axios.get(url, {
-      timeout: 6000,
-    });
+    const response = await axios.get(url);
 
     log.debug(`${url} loaded`);
 

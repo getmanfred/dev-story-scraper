@@ -5,9 +5,10 @@ import {Profile} from '../models/profile';
 import {AboutMe} from '../models/aboutMe';
 import {Avatar} from '../models/avatar';
 import {Location} from '../models/location';
-import {stripString} from '../utils/utils';
+import {stringToInterestingFacts, stripString} from '../utils/utils';
 import {Geocoder} from '../utils/geocoder';
 import {Markdown} from '../utils/markdown';
+import {InterestingFact} from '../models/interestingFact';
 
 export class AboutMeParser {
   constructor(private readonly geocoder: Geocoder) {}
@@ -16,11 +17,13 @@ export class AboutMeParser {
     const profile = await this.parseProfile($);
     const headline = stripString($('#form-section-PersonalInfo div.job').text() || '');
     const introduction = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
+    const interestingFacts = this.parseInterestingFacts($);
 
     return {
       profile,
       headline,
       introduction,
+      interestingFacts,
     };
   }
 
@@ -51,5 +54,10 @@ export class AboutMeParser {
     const location = stripString($('div.d-flex.ai-center').text());
 
     return this.geocoder.geocode(location);
+  }
+
+  private parseInterestingFacts($: CheerioAPI): InterestingFact[] {
+    const toolsDefinition = stripString($('div.tools').text());
+    return stringToInterestingFacts(toolsDefinition);
   }
 }

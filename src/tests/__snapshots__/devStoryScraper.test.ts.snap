@@ -4,6 +4,16 @@ exports[`A Dev Story scraper should parse a complex dev story 1`] = `
 Object {
   "aboutMe": Object {
     "headline": "Mobile/data/AR developer, tech evangelist/trainer/author, Tampa Bay’s #1 tech blogger and rock and roll accordionist.",
+    "interestingFacts": Array [
+      Object {
+        "fact": "Visual Studio Code",
+        "topic": "Favorite editor",
+      },
+      Object {
+        "fact": "Macintosh Quadra 660AV",
+        "topic": "First computer",
+      },
+    ],
     "introduction": "*   Seasoned developer currently working on iOS, Android, and Raspberry Pi applications. Currently programming in these languages: C#, Dart, JavaScript, Kotlin, Python, and Swift. Co-author of _iOS Apprentice, 8th Edition_ and author/presenter of the _Beginning ARKit_ video tutorial series.
 *   Mobile technology consultant with experience helping enterprises manage their communications technologies, particularly data networking and mobile devices.
 *   Trusted technical evangelist with a strong track record of community building.
@@ -766,7 +776,6 @@ Sales, marketing, and community relations:
   "settings": Object {
     "language": "EN",
   },
-  "tools": "Favorite editor: Visual Studio Code • First computer: Macintosh Quadra 660AV",
 }
 `;
 
@@ -774,6 +783,7 @@ exports[`A Dev Story scraper should parse a simple dev story 1`] = `
 Object {
   "aboutMe": Object {
     "headline": "Developer at otogami.com",
+    "interestingFacts": Array [],
     "introduction": "Software developer focused in backend.",
     "profile": Object {
       "avatar": Object {
@@ -884,6 +894,5 @@ Object {
   "settings": Object {
     "language": "EN",
   },
-  "tools": "",
 }
 `;

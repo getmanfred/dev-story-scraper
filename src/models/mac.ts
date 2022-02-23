@@ -7,7 +7,7 @@ export type MAC = {
   settings: Settings;
   aboutMe: AboutMe;
   links?: string[];
-  tools?: string;
+  // tools?: string;
   likedTechnologies?: string[];
   dislikedTechnologies?: string[];
   positions?: Position[];

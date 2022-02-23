@@ -1,10 +1,11 @@
 import cheerio from 'cheerio';
+import * as _ from 'lodash';
 
 import {DevStoryDownloader} from './devStoryDownloader';
 import {MAC} from './models/mac';
 import {PositionParser} from './parsers/positionParser';
 import {ArtifactParser} from './parsers/artifactParser';
-import {stripString} from './utils/utils';
+// import {stripString} from './utils/utils';
 import {Logger} from './utils/logger';
 import {Settings} from './models/settings';
 import {AboutMeParser} from './parsers/aboutMeParser';
@@ -29,7 +30,6 @@ export class DevStoryScraper {
 
     const settings = this.defaultEnglishSettings();
     const aboutMe = await this.aboutMeParser.parse($);
-    const tools = stripString($('div.tools').text());
 
     const links = $('div#form-section-PersonalInfo a.d-flex')
       .map((i, e) => {
@@ -65,16 +65,18 @@ export class DevStoryScraper {
     const elapsed = new Date().getTime() - startTime;
     log.debug(`${username} profile parsed in ${elapsed}ms`);
 
-    return {
-      settings,
-      aboutMe,
-      links,
-      tools,
-      likedTechnologies,
-      dislikedTechnologies,
-      positions,
-      artifacts,
-    };
+    return _.omitBy(
+      {
+        settings,
+        aboutMe,
+        links,
+        likedTechnologies,
+        dislikedTechnologies,
+        positions,
+        artifacts,
+      },
+      _.isNil,
+    ) as MAC;
   }
 
   private defaultEnglishSettings(): Settings {
