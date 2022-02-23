@@ -1,14 +1,24 @@
 # Stack Overflow Dev Story scraper
 
-This project allows downloading a Stack Overflow's Dev Story from a given username and transforming the information into a JSON compliant with the MAC JSON Schema.
+> This tool downloads a Dev Story (from Stack Overflow) into a JSON compliant with Manfred's MAC JSON schema.
 
 ## General overview
 
+The project is pretty simple and it is prepared to be deployed as an AWS Lambda function.
+
 ![General overview diagram](doc/assets/general-overview.png)
+
+The only dependency is with Google Maps API, but if no API Key for Google is provided it just don't autocomplete the field `whereILive`.
 
 ## Code
 
 ![Code organization](doc/assets/code-organization.png)
+
+The scraping process is designed to follow the MAC JSON schema, so each main subdocument is a parser on its own.
+
+The `index.ts` file contains the handler that launches the Lambda function, and it is in charge of the bootstraping initializing the required depdencies.
+
+The `DevStoryDownloader` and `Geocoder` are created at the beginning so we can inject a mock for test purposes, avoiding overusing the Stack Overflow or Google's systems.
 
 ### Tasks
 
@@ -40,3 +50,5 @@ Location is a free field, so we are using Google Maps API to get more data. `whe
 Examples:
 * Tampa, Florida > Tampa, Florida, US
 * Madrid, Spain > Madrid, Community of Madrid, ES
+
+TBD - special cases and error handling
