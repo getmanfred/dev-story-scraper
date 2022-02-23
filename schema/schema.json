@@ -1,178 +1,1591 @@
 {
-    "$schema": "https://json-schema.org/draft/2019-09/schema",
-    "$id": "http://github.com/manfred/mac/schema.json",
-    "type": "object",
-    "title": "Manfred Awesomic CV",
-    "description": "An open CV format",
-    "properties": {
-        "settings": {
-            "type": "object",
-            "description": "CV Settings",
-            "properties": {
-                "language": {
-                    "type": "string",
-                    "description": "The language of the CV expressed as a [ISO 639-1 code](https://en.wikipedia.org/wiki/ISO_639-1)",
-                    "examples": [
-                        "EN",
-                        "EN-US"
-                    ],
-                    "$comment": "TDB: link to a enum of ISO-639 codes in a external definition file"
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://github.com/manfred/mac/schema.json",
+  "type": "object",
+  "title": "Manfred Awesomic CV",
+  "description": "An open CV format",
+  "properties": {
+    "settings": {
+      "type": "object",
+      "description": "CV Settings",
+      "properties": {
+        "language": {
+          "type": "string",
+          "description": "The language of the CV expressed as a [ISO 639-1 code](https://en.wikipedia.org/wiki/ISO_639-1)",
+          "examples": [
+            "EN",
+            "EN-US"
+          ],
+          "$comment": "TDB: link to a enum of ISO-639 codes in a external definition file"
+        },
+        "lastUpdate": {
+          "type": "string",
+          "description": "Last time the CV was updated",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "language"
+      ]
+    },
+    "aboutMe": {
+      "type": "object",
+      "description": "Main data of the CV author",
+      "properties": {
+        "profile": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "name of the CV author",
+              "examples": [
+                "David"
+              ]
+            },
+            "surnames": {
+              "type": "string",
+              "description": "surname (or surnames) of the CV author",
+              "examples": [
+                "Bonilla Fuertes"
+              ]
+            },
+            "avatar": {
+              "type": "object",
+              "description": "author's picture or avatar",
+              "properties": {
+                "alt": {
+                  "type": "string",
+                  "description": "Alternative description of the image"
                 }
+              },
+              "additionalProperties": true,
+              "oneOf": [
+                {
+                  "type": "object",
+                  "description": "A link to author's avatar",
+                  "properties": {
+                    "link": {
+                      "type": "string",
+                      "format": "uri",
+                      "examples": [
+                        "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+                      ]
+                    }
+                  },
+                  "additionalProperties": true,
+                  "required": [
+                    "link"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "description": "A picture in base64",
+                  "properties": {
+                    "data": {
+                      "type": "string",
+                      "examples": [
+                        "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="
+                      ]
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "enum": [
+                        "image/png",
+                        "image/jpeg"
+                      ]
+                    },
+                    "encoding": {
+                      "type": "string",
+                      "const": "base64"
+                    }
+                  },
+                  "additionalProperties": true,
+                  "required": [
+                    "data",
+                    "mediaType",
+                    "encoding"
+                  ]
+                }
+              ],
+              "$comment": "TDB: to be refactor to extract an image  \"object\" within a definitions section or schema"
+            },
+            "birthday": {
+              "type": "string",
+              "description": "Your birth date in format yyyy-mm-dd",
+              "format": "date",
+              "examples": [
+                "1977-07-26"
+              ]
+            },
+            "whereILive": {
+              "type": "object",
+              "properties": {
+                "country": {
+                  "type": "string",
+                  "description": "Country where you live",
+                  "examples": [
+                    "US"
+                  ],
+                  "$comment": "TDB: link to a enum of ISO-3166 codes in a external definition file"
+                },
+                "region": {
+                  "type": "string",
+                  "description": "Region (State, Länder, County, Community...) where you live.",
+                  "examples": [
+                    "California",
+                    "Galicia",
+                    "Bayern",
+                    "Hampshire"
+                  ],
+                  "$comment": "TBD It could be validated depending on the Country value."
+                },
+                "municipality": {
+                  "type": "string",
+                  "description": "City or town where you live.",
+                  "examples": [
+                    "San Francisco",
+                    "A Coruña",
+                    "Hamburg",
+                    "La Rochelle"
+                  ],
+                  "$comment": "TBD It could be validated depending on the Country/Region values."
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "surnames"
+          ]
+        },
+        "headline": {
+          "type": "string",
+          "description": "You in a sentence.",
+          "examples": [
+            "Full-stack Developer at Manfred. Slow Marathoner. Rock'n'roll Accordionist."
+          ]
+        },
+        "introduction": {
+          "type": "string",
+          "description": "A way to explain to your future company what kind of professional you are",
+          "examples": [
+            "I'm a developer interested on human-centric projects and videogames. I love my family. I hate broccoli."
+          ]
+        },
+        "relevantLinks": {
+          "type": "array",
+          "additionalItems": true,
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "linkedIn",
+                  "github",
+                  "twitter",
+                  "website",
+                  "other"
+                ]
+              },
+              "URL": {
+                "type": "string",
+                "format": "hostname"
+              },
+              "description": {
+                "type": "string"
+              }
             },
             "additionalProperties": false,
             "required": [
-                "language"
+              "type",
+              "URL"
             ]
+          }
         },
-        "aboutme": {
+        "interestingFacts": {
+          "type": "array",
+          "description": "Facts that define you: your IDE, your favorite books,  your football team...",
+          "additionalItems": true,
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
             "type": "object",
-            "description": "Main data of the CV author",
             "properties": {
-                "name": {
+              "topic": {
+                "type": "string",
+                "examples": [
+                  "First computer",
+                  "My football team"
+                ]
+              },
+              "fact": {
+                "type": "string",
+                "examples": [
+                  "Amstrad CPC 464",
+                  "Atlético de Madrid"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "topic",
+              "fact"
+            ]
+          }
+        },
+        "currentSalary": {
+          "type": "object",
+          "properties": {
+            "currency": {
+              "type": "string"
+            },
+            "amount": {
+              "type": "integer"
+            },
+            "relevantPerks": {
+              "type": "array",
+              "additionalItems": true,
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "currency",
+            "amount"
+          ]
+        },
+        "noticePeriod": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "profile"
+      ]
+    },
+    "experience": {
+      "type": "object",
+      "additionalProperties": true,
+      "allOf": [
+        {
+          "type": "object",
+          "properties": {
+            "jobs": {
+              "type": "array",
+              "additionalItems": false,
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "description": "Company, Public Institution, or NGO where you work or have worked for a salary.",
+                "properties": {
+                  "name": {
                     "type": "string",
-                    "description": "name of the CV author",
                     "examples": [
-                        "David"
+                      "Manfred"
                     ]
-                },
-                "surnames": {
+                  },
+                  "type": {
                     "type": "string",
-                    "description": "surname (or surnames) of the CV author",
+                    "enum": [
+                      "freelance",
+                      "publicAdministration",
+                      "NGO",
+                      "startup",
+                      "SME",
+                      "bigCorp"
+                    ],
+                    "$comment": "TBD Refactor to extract the enumeration \"OrganizationType\" (used in jobs/roles/organization or careerPreferences/preferredOrganizations) to a common definition file."
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "Description of what the organization does",
                     "examples": [
-                        "Bonilla Fuertes"
+                      "A place to manage your career online"
                     ]
-                },
-                "introduction": {
+                  },
+                  "URL": {
                     "type": "string",
-                    "description": "A way to explain to your future company what kind of professional you are"
-                },
-                "birthday": {
-                    "type": "string",
-                    "description": "Your birth date in format yyyy-mm-dd",
-                    "format": "date",
+                    "description": "URL of the organization's website",
                     "examples": [
-                        "1977-07-26"
+                      "https://getmanfred.com"
                     ]
-                },
-                "softskills": {
-                    "type": "array",
-                    "description": "List of skills you will carry with you to your next job, whatever it is",
-                    "additionalItems": true,
-                    "minItems": 1,
-                    "uniqueItems": true,
-                    "items": {
-                        "type": "string",
-                        "examples": [
-                            "strategic vision",
-                            "TDD",
-                            "public speaking"
-                        ]
-                    }
-                },
-                "relevantlinks": {
-                    "type": "array",
-                    "additionalItems": true,
-                    "minItems": 1,
-                    "uniqueItems": true,
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "type": {
-                                "type": "string",
-                                "enum": [
-                                    "linkedIn",
-                                    "github",
-                                    "twitter",
-                                    "website",
-                                    "other"
-                                ]
-                            },
-                            "URL": {
-                                "type": "string",
-                                "format": "hostname"
-                            },
-                            "description": {
-                                "type": "string"
-                            }
-                        },
-                        "additionalProperties": false,
-                        "required": [
-                            "type",
-                            "URL"
-                        ]
-                    }
-                },
-                "avatar": {
+                  },
+                  "logo": {
                     "type": "object",
-                    "description": "author's picture or avatar",
+                    "description": "Organization logo",
                     "properties": {
-                        "alt": {
-                            "type": "string",
-                            "description": "Alternative description of the image"
-                        }
+                      "alt": {
+                        "type": "string",
+                        "description": "Alternative description of the image",
+                        "examples": [
+                          "Manfred logo"
+                        ]
+                      }
                     },
                     "additionalProperties": true,
                     "oneOf": [
-                        {
-                            "type": "object",
-                            "description": "A link to author's avatar",
-                            "properties": {
-                                "link": {
-                                    "type": "string",
-                                    "format": "uri",
-                                    "examples": [
-                                        "https://pbs.twimg.com/profile_images/946845160004112384/ap8_xjIa_400x400.jpg"
-                                    ]
-                                }
-                            },
-                            "additionalProperties": true,
-                            "required": [
-                                "link"
+                      {
+                        "type": "object",
+                        "description": "A link to the image",
+                        "properties": {
+                          "link": {
+                            "type": "string",
+                            "format": "uri",
+                            "examples": [
+                              "https://pbs.twimg.com/profile_images/946845160004112384/ap8_xjIa_400x400.jpg"
                             ]
+                          }
                         },
-                        {
-                            "type": "object",
-                            "description": "A picture in base64",
-                            "properties": {
-                                "data": {
-                                    "type": "string",
-                                    "examples": [
-                                        "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="
-                                    ]
-                                },
-                                "mediatype": {
-                                    "type": "string",
-                                    "enum": [
-                                        "image/png",
-                                        "image/jpeg"
-                                    ]
-                                },
-                                "encoding": {
-                                    "type": "string",
-                                    "const": "base64"
-                                }
-                            },
-                            "additionalProperties": true,
-                            "required": [
-                                "data",
-                                "mediatype",
-                                "encoding"
+                        "additionalProperties": true,
+                        "required": [
+                          "link"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "description": "An image in base64",
+                        "properties": {
+                          "data": {
+                            "type": "string",
+                            "examples": [
+                              "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="
                             ]
-                        }
+                          },
+                          "mediatype": {
+                            "type": "string",
+                            "enum": [
+                              "image/png",
+                              "image/jpeg"
+                            ]
+                          },
+                          "encoding": {
+                            "type": "string",
+                            "const": "base64"
+                          }
+                        },
+                        "additionalProperties": true,
+                        "required": [
+                          "data",
+                          "mediatype",
+                          "encoding"
+                        ]
+                      }
                     ],
                     "$comment": "TDB: to be refactor to extract an image  \"object\" within a definitions section or schema"
-                }
+                  },
+                  "roles": {
+                    "type": "array",
+                    "additionalItems": true,
+                    "minItems": 1,
+                    "items": {
+                      "type": "object",
+                      "description": "roles developed within an organization",
+                      "properties": {
+                        "name": {
+                          "type": "string",
+                          "examples": [
+                            "Developer"
+                          ]
+                        },
+                        "startDate": {
+                          "type": "string",
+                          "format": "date",
+                          "examples": [
+                            "2019-06-20"
+                          ]
+                        },
+                        "finishDate": {
+                          "type": "string",
+                          "format": "date",
+                          "examples": [
+                            "2022-02-14"
+                          ]
+                        },
+                        "challenges": {
+                          "type": "array",
+                          "additionalItems": true,
+                          "minContains": 1,
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "description": {
+                                "type": "string"
+                              },
+                              "actions": {
+                                "type": "array",
+                                "additionalItems": true,
+                                "items": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "additionalProperties": false,
+                            "required": [
+                              "description"
+                            ]
+                          }
+                        },
+                        "means": {
+                          "type": "array",
+                          "additionalItems": true,
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "name": {
+                                "type": "string",
+                                "examples": [
+                                  "Excel",
+                                  "IntelliJ IDEA",
+                                  "GitHub"
+                                ]
+                              },
+                              "type": {
+                                "type": "string",
+                                "enum": [
+                                  "tool",
+                                  "technology",
+                                  "practice",
+                                  "hardware",
+                                  "domain"
+                                ]
+                              },
+                              "description": {
+                                "type": "string"
+                              }
+                            },
+                            "additionalProperties": false,
+                            "$comment": "TBD Refactor to extract the entity \"mean\" (used in jobs, sideProjects and publicArtifacts) to a common definition. It should be the sum of hardSkills and softSkills (defined on education)",
+                            "required": [
+                              "name",
+                              "type"
+                            ]
+                          }
+                        }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                        "name",
+                        "startDate"
+                      ]
+                    }
+                  }
+                },
+                "additionalProperties": false,
+                "$comment": "TBD Refactor to extract the entity \"organization\" to a common definitions file.",
+                "required": [
+                  "name",
+                  "type",
+                  "roles"
+                ]
+              }
+            }
+          },
+          "additionalProperties": true
+        },
+        {
+          "type": "object",
+          "properties": {
+            "projects": {
+              "type": "array",
+              "additionalItems": false,
+              "minContains": 1,
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "examples": [
+                      "Manfred Awesomic CV"
+                    ]
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "proBono",
+                      "openSource",
+                      "sideProject",
+                      "personalAchievement",
+                      "other"
+                    ],
+                    "$comment": "TBD Refactor to extract the enumeration \"project type\" to a common definition file."
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "URL": {
+                    "type": "string"
+                  },
+                  "logo": {
+                    "type": "object",
+                    "description": "Organization logo",
+                    "properties": {
+                      "alt": {
+                        "type": "string",
+                        "description": "Alternative description of the image",
+                        "examples": [
+                          "Manfred logo"
+                        ]
+                      }
+                    },
+                    "additionalProperties": true,
+                    "oneOf": [
+                      {
+                        "type": "object",
+                        "description": "A link to the image",
+                        "properties": {
+                          "link": {
+                            "type": "string",
+                            "format": "uri",
+                            "examples": [
+                              "https://pbs.twimg.com/profile_images/946845160004112384/ap8_xjIa_400x400.jpg"
+                            ]
+                          }
+                        },
+                        "additionalProperties": true,
+                        "required": [
+                          "link"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "description": "An image in base64",
+                        "properties": {
+                          "data": {
+                            "type": "string",
+                            "examples": [
+                              "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="
+                            ]
+                          },
+                          "mediatype": {
+                            "type": "string",
+                            "enum": [
+                              "image/png",
+                              "image/jpeg"
+                            ]
+                          },
+                          "encoding": {
+                            "type": "string",
+                            "const": "base64"
+                          }
+                        },
+                        "additionalProperties": true,
+                        "required": [
+                          "data",
+                          "mediatype",
+                          "encoding"
+                        ]
+                      }
+                    ],
+                    "$comment": "TDB: to be refactor to extract an image  \"object\" within a definitions section or schema"
+                  },
+                  "roles": {
+                    "type": "array",
+                    "additionalItems": true,
+                    "minItems": 1,
+                    "items": {
+                      "type": "object",
+                      "description": "roles developed within an organization",
+                      "properties": {
+                        "name": {
+                          "type": "string",
+                          "examples": [
+                            "Developer"
+                          ]
+                        },
+                        "startDate": {
+                          "type": "string",
+                          "format": "date",
+                          "examples": [
+                            "2019-06-20"
+                          ]
+                        },
+                        "finishDate": {
+                          "type": "string",
+                          "format": "date",
+                          "examples": [
+                            "2022-02-14"
+                          ]
+                        },
+                        "challenges": {
+                          "type": "array",
+                          "additionalItems": true,
+                          "minContains": 1,
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "description": {
+                                "type": "string"
+                              },
+                              "actions": {
+                                "type": "array",
+                                "additionalItems": true,
+                                "items": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "additionalProperties": false,
+                            "required": [
+                              "description"
+                            ]
+                          }
+                        },
+                        "means": {
+                          "type": "array",
+                          "additionalItems": true,
+                          "$comment": "TBD Refactor to extract the entity \"mean\" (used in jobs, sideProjects and publicArtifacts) to a common definition. It should be the sum of hardSkills and softSkills (defined on education)",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "name": {
+                                "type": "string",
+                                "examples": [
+                                  "Excel",
+                                  "IntelliJ IDEA",
+                                  "GitHub"
+                                ]
+                              },
+                              "type": {
+                                "type": "string",
+                                "enum": [
+                                  "tool",
+                                  "technology",
+                                  "practice",
+                                  "hardware",
+                                  "domain"
+                                ]
+                              },
+                              "description": {
+                                "type": "string"
+                              }
+                            },
+                            "additionalProperties": false,
+                            "required": [
+                              "name",
+                              "type"
+                            ]
+                          }
+                        }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                        "name",
+                        "startDate"
+                      ]
+                    }
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "name",
+                  "type",
+                  "roles"
+                ]
+              }
+            }
+          },
+          "additionalProperties": true
+        },
+        {
+          "type": "object",
+          "properties": {
+            "publicArtifacts": {
+              "type": "array",
+              "additionalItems": false,
+              "minContains": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "URL": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "post",
+                      "talk",
+                      "sideProject",
+                      "achievement",
+                      "launch",
+                      "video"
+                    ]
+                  },
+                  "publishingDate": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "thumbnail": {
+                    "type": "object",
+                    "description": "Organization logo",
+                    "properties": {
+                      "alt": {
+                        "type": "string",
+                        "description": "Alternative description of the image",
+                        "examples": [
+                          "Manfred logo"
+                        ]
+                      }
+                    },
+                    "additionalProperties": true,
+                    "oneOf": [
+                      {
+                        "type": "object",
+                        "description": "A link to the image",
+                        "properties": {
+                          "link": {
+                            "type": "string",
+                            "format": "uri",
+                            "examples": [
+                              "https://pbs.twimg.com/profile_images/946845160004112384/ap8_xjIa_400x400.jpg"
+                            ]
+                          }
+                        },
+                        "additionalProperties": true,
+                        "required": [
+                          "link"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "description": "An image in base64",
+                        "properties": {
+                          "data": {
+                            "type": "string",
+                            "examples": [
+                              "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="
+                            ]
+                          },
+                          "mediatype": {
+                            "type": "string",
+                            "enum": [
+                              "image/png",
+                              "image/jpeg"
+                            ]
+                          },
+                          "encoding": {
+                            "type": "string",
+                            "const": "base64"
+                          }
+                        },
+                        "additionalProperties": true,
+                        "required": [
+                          "data",
+                          "mediatype",
+                          "encoding"
+                        ]
+                      }
+                    ],
+                    "$comment": "TDB: to be refactor to extract an image  \"object\" within a definitions section or schema"
+                  },
+                  "means": {
+                    "type": "array",
+                    "additionalItems": true,
+                    "$comment": "TBD Refactor to extract the entity \"mean\" (used in jobs, sideProjects and publicArtifacts) to a common definition. It should be the sum of hardSkills and softSkills (defined on education)",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string",
+                          "examples": [
+                            "Excel",
+                            "IntelliJ IDEA",
+                            "GitHub"
+                          ]
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "tool",
+                            "technology",
+                            "practice",
+                            "hardware",
+                            "domain"
+                          ]
+                        },
+                        "description": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                        "name",
+                        "type"
+                      ]
+                    }
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "name",
+                  "type"
+                ]
+              }
+            }
+          },
+          "additionalProperties": true
+        }
+      ]
+    },
+    "education": {
+      "type": "object",
+      "properties": {
+        "languages": {
+          "type": "array",
+          "additionalItems": true,
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "A language expressed as a [ISO 639-1 code](https://en.wikipedia.org/wiki/ISO_639-1)",
+                "examples": [
+                  "EN"
+                ]
+              },
+              "level": {
+                "type": "string",
+                "enum": [
+                  "basic",
+                  "intermediate",
+                  "high",
+                  "native"
+                ]
+              }
             },
             "additionalProperties": false,
             "required": [
-                "name",
-                "surnames"
+              "name",
+              "level"
             ]
+          }
+        },
+        "hardSkills": {
+          "type": "array",
+          "additionalItems": true,
+          "$comment": "TBD hardSkill and softSkill should be a \"mean\" with a subset of \"type\" values.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "examples": [
+                  "Excel",
+                  "IntelliJ IDEA",
+                  "GitHub"
+                ]
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "tool",
+                  "technology",
+                  "hardware"
+                ]
+              },
+              "description": {
+                "type": "string"
+              },
+              "level": {
+                "type": "string",
+                "enum": [
+                  "basic",
+                  "intermediate",
+                  "high",
+                  "expert"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "type"
+            ]
+          }
+        },
+        "softSkills": {
+          "type": "array",
+          "additionalItems": true,
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "examples": [
+                  "Strategic Vision",
+                  "TDD",
+                  "eCommerce"
+                ]
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "practice",
+                  "domain"
+                ]
+              },
+              "description": {
+                "type": "string"
+              },
+              "level": {
+                "type": "string",
+                "enum": [
+                  "basic",
+                  "intermediate",
+                  "high",
+                  "expert"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "type"
+            ]
+          }
+        },
+        "studies": {
+          "type": "array",
+          "additionalItems": true,
+          "minContains": 1,
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "examples": [
+                  "Software Engineering",
+                  "Certified ScrumMaster"
+                ]
+              },
+              "description": {
+                "type": "string",
+                "examples": [
+                  "Computer Science Grade"
+                ]
+              },
+              "institution": {
+                "type": "object",
+                "description": "Institution of education or company which awards academic degrees or professional certifications.",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "examples": [
+                      "Stanford University",
+                      "IBM",
+                      "Project Management Institute"
+                    ]
+                  },
+                  "URL": {
+                    "type": "string",
+                    "format": "uri",
+                    "examples": [
+                      "https://www.stanford.edu/"
+                    ]
+                  },
+                  "logo": {
+                    "type": "object",
+                    "description": "Insititution logo",
+                    "properties": {
+                      "alt": {
+                        "type": "string",
+                        "description": "Alternative description of the image",
+                        "examples": [
+                          "Stanford logo"
+                        ]
+                      }
+                    },
+                    "additionalProperties": true,
+                    "oneOf": [
+                      {
+                        "type": "object",
+                        "description": "A link to the image",
+                        "properties": {
+                          "link": {
+                            "type": "string",
+                            "format": "uri",
+                            "examples": [
+                              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Stanford_Cardinal_logo.svg/503px-Stanford_Cardinal_logo.svg.png"
+                            ]
+                          }
+                        },
+                        "additionalProperties": true,
+                        "required": [
+                          "link"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "description": "An image in base64",
+                        "properties": {
+                          "data": {
+                            "type": "string",
+                            "examples": [
+                              "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="
+                            ]
+                          },
+                          "mediatype": {
+                            "type": "string",
+                            "enum": [
+                              "image/png",
+                              "image/jpeg"
+                            ]
+                          },
+                          "encoding": {
+                            "type": "string",
+                            "const": "base64"
+                          }
+                        },
+                        "additionalProperties": true,
+                        "required": [
+                          "data",
+                          "mediatype",
+                          "encoding"
+                        ]
+                      }
+                    ],
+                    "$comment": "TDB: to be refactor to extract an image  \"object\" within a definitions section or schema"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "name"
+                ]
+              },
+              "studyType": {
+                "type": "string",
+                "enum": [
+                  "officialDegree",
+                  "certification",
+                  "unregulated",
+                  "selfTraining"
+                ]
+              },
+              "degreeAchieved": {
+                "type": "boolean",
+                "description": "If studies finished achieving the linked degree"
+              },
+              "startDate": {
+                "type": "string",
+                "description": "date when studies started in format yyyy-mm-dd",
+                "format": "date"
+              },
+              "finishDate": {
+                "type": "string",
+                "description": "date when studies finished (if finished), with or without obtaining a degree, in format yyyy-mm-dd",
+                "format": "date"
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "studyType",
+              "degreeAchieved",
+              "startDate"
+            ]
+          }
         }
+      },
+      "additionalProperties": false
     },
-    "additionalProperties": true,
-    "required": [
-        "settings",
-        "aboutme"
-    ]
+    "careerPreferences": {
+      "type": "object",
+      "properties": {
+        "contact": {
+          "type": "object",
+          "additionalProperties": true,
+          "allOf": [
+            {
+              "type": "object",
+              "properties": {
+                "publicProfiles": {
+                  "type": "array",
+                  "description": "Online services that provide a way to contact me without exposing my mail or phone number.",
+                  "additionalItems": false,
+                  "minContains": 1,
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "manfred",
+                          "linkedIn",
+                          "stackOverflow",
+                          "xing",
+                          "other"
+                        ],
+                        "$comment": "TBD Refactor to extract the enumeration \"public link type\" to a common definition file, to be completed with more external services."
+                      },
+                      "URL": {
+                        "type": "string",
+                        "format": "uri",
+                        "examples": [
+                          "https://www.getmanfred.com/mac/david",
+                          "https://www.linkedin.com/in/satyanadella/"
+                        ]
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "type",
+                      "URL"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": true
+            },
+            {
+              "type": "object",
+              "properties": {
+                "phoneNumbers": {
+                  "type": "array",
+                  "additionalItems": false,
+                  "minContains": 1,
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "countryCode": {
+                        "type": "number",
+                        "description": "Country calling code as defined in International Telecommunication Union (ITU) standards E.123 and E.164.",
+                        "examples": [
+                          34,
+                          1
+                        ]
+                      },
+                      "number": {
+                        "type": "string",
+                        "examples": [
+                          "616100584",
+                          "(555) 555-1234"
+                        ],
+                        "$comment": "TBD refactor to validate the phone number depending on the Country Code"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "countryCode",
+                      "number"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": true
+            },
+            {
+              "type": "object",
+              "properties": {
+                "contactMails": {
+                  "type": "array",
+                  "additionalItems": false,
+                  "minContains": 1,
+                  "items": {
+                    "type": "string",
+                    "format": "email",
+                    "examples": [
+                      "your.name@mail.com"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": true
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "openToOffers",
+            "searchingActively",
+            "notAvailable"
+          ]
+        },
+        "requirements": {
+          "type": "object",
+          "properties": {
+            "compensation": {
+              "type": "object",
+              "properties": {
+                "salary": {
+                  "type": "object",
+                  "properties": {
+                    "currency": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 3,
+                      "examples": [
+                        "USD",
+                        "EUR",
+                        "CNY"
+                      ],
+                      "$comment": "TBD refactor to validate against an enum based on ISO 4217 currency codes."
+                    },
+                    "from": {
+                      "type": "integer",
+                      "examples": [
+                        50000
+                      ]
+                    },
+                    "upto": {
+                      "type": "integer",
+                      "examples": [
+                        100000
+                      ]
+                    },
+                    "comments": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "currency",
+                    "from"
+                  ]
+                },
+                "equity": {
+                  "type": "object",
+                  "properties": {
+                    "mustHave": {
+                      "type": "boolean"
+                    },
+                    "from": {
+                      "type": "number",
+                      "examples": [
+                        1.5
+                      ]
+                    },
+                    "upto": {
+                      "type": "number",
+                      "examples": [
+                        10
+                      ]
+                    },
+                    "comments": {
+                      "type": "string",
+                      "examples": [
+                        ""
+                      ]
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "mustHave",
+                    "from"
+                  ]
+                },
+                "perks": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "allOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "mustHave": {
+                          "type": "array",
+                          "additionalItems": false,
+                          "minItems": 1,
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "additionalProperties": true
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "niceToHave": {
+                          "type": "array",
+                          "additionalItems": false,
+                          "minItems": 1,
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "salary"
+              ]
+            },
+            "contractTypes": {
+              "type": "array",
+              "additionalItems": true,
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "enum": [
+                  "permanent",
+                  "temporary",
+                  "freelance",
+                  "internship"
+                ]
+              }
+            },
+            "location": {
+              "type": "object",
+              "properties": {
+                "remoteOnly": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "openToRelocate": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "openToRemote": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "workingAreas": {
+                  "type": "array",
+                  "additionalItems": true,
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "country": {
+                        "type": "string",
+                        "description": "Country where you live",
+                        "examples": [
+                          "US"
+                        ],
+                        "$comment": "TDB: link to a enum of ISO-3166 codes in a external definition file"
+                      },
+                      "region": {
+                        "type": "string",
+                        "description": "Region (State, Länder, County, Community...) where you live.",
+                        "examples": [
+                          "California",
+                          "Galicia",
+                          "Bayern",
+                          "Hampshire"
+                        ],
+                        "$comment": "TBD It could be validated depending on the Country value."
+                      },
+                      "municipality": {
+                        "type": "string",
+                        "description": "City or town where you live.",
+                        "examples": [
+                          "San Francisco",
+                          "A Coruña",
+                          "Hamburg",
+                          "La Rochelle"
+                        ],
+                        "$comment": "TBD It could be validated depending on the Country/Region values."
+                      },
+                      "distanceFromMunicipality": {
+                        "type": "object",
+                        "properties": {
+                          "unit": {
+                            "type": "string"
+                          },
+                          "amount": {
+                            "type": "integer"
+                          }
+                        },
+                        "additionalProperties": false,
+                        "required": [
+                          "unit",
+                          "amount"
+                        ]
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "preferences": {
+          "type": "object",
+          "properties": {
+            "preferredMeans": {
+              "type": "array",
+              "description": "Skills, tools, domains or methodologies I like to work with",
+              "additionalItems": false,
+              "minItems": 1,
+              "minContains": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "examples": [
+                      "JAVA",
+                      "agile",
+                      "marketplaces"
+                    ]
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "tool",
+                      "technology",
+                      "practice",
+                      "hardware",
+                      "domain"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "examples": [
+                      "Develop web applications with JAVA"
+                    ]
+                  }
+                },
+                "additionalProperties": false,
+                "$comment": "TBD Refactor to extract the entity \"mean\" (used in jobs, sideProjects and publicArtifacts) to a common definition. It should be the sum of hardSkills and softSkills (defined on education)",
+                "required": [
+                  "name",
+                  "type"
+                ]
+              }
+            },
+            "discardedMeans": {
+              "type": "array",
+              "description": "Skills, tools, domains or methodologies I don't like to work with",
+              "additionalItems": true,
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "examples": [
+                      "COBOL",
+                      "waterfall",
+                      "gambling"
+                    ]
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "tool",
+                      "technology",
+                      "practice",
+                      "hardware",
+                      "domain"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "examples": [
+                      "Develop legacy apps with punched cards"
+                    ]
+                  }
+                },
+                "additionalProperties": false,
+                "$comment": "TBD Refactor to extract the entity \"mean\" (used in jobs, sideProjects and publicArtifacts) to a common definition. It should be the sum of hardSkills and softSkills (defined on education)",
+                "required": [
+                  "name",
+                  "type"
+                ]
+              }
+            },
+            "preferredOrganizations": {
+              "type": "array",
+              "additionalItems": false,
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "enum": [
+                  "freelance",
+                  "publicAdministration",
+                  "NGO",
+                  "startup",
+                  "SME",
+                  "bigCorp"
+                ],
+                "$comment": "TBD Refactor to extract the enumeration \"OrganizationType\" (used in jobs/roles/organization or careerPreferences/preferredOrganizations) to a common definition file."
+              }
+            },
+            "discardedOrganizations": {
+              "type": "array",
+              "additionalItems": false,
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "enum": [
+                  "freelance",
+                  "publicAdministration",
+                  "NGO",
+                  "startup",
+                  "SME",
+                  "bigCorp"
+                ],
+                "$comment": "TBD Refactor to extract the enumeration \"OrganizationType\" (used in jobs/roles/organization or careerPreferences/preferredOrganizations) to a common definition file."
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "goals": {
+          "type": "array",
+          "description": "Personal and Professional goals to match with company needs and requirements.",
+          "additionalItems": false,
+          "maxContains": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "examples": [
+                  "Learn German",
+                  "Become Team Leader",
+                  "Work in a Silicon Valley Company"
+                ]
+              },
+              "description": {
+                "type": "string",
+                "examples": [
+                  "Write and speak German fluently",
+                  "Manage people, resources and goals",
+                  "Work in a startup "
+                ]
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "contact",
+        "status"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "settings",
+    "aboutMe",
+    "careerPreferences"
+  ]
 }
