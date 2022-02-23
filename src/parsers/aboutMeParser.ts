@@ -5,10 +5,13 @@ import {Profile} from '../models/profile';
 import {AboutMe} from '../models/aboutMe';
 import {Avatar} from '../models/avatar';
 import {Location} from '../models/location';
-import {stringToInterestingFacts, stripString} from '../utils/utils';
+import {stripString} from '../utils/utils';
 import {Geocoder} from '../utils/geocoder';
 import {Markdown} from '../utils/markdown';
 import {InterestingFact} from '../models/interestingFact';
+import {RelevantLink} from '../models/relevantLink';
+import {InterestingFactsParser} from './interestingFactsParser';
+import {RelevantLinksParser} from './relevantLinksParser';
 
 export class AboutMeParser {
   constructor(private readonly geocoder: Geocoder) {}
@@ -17,14 +20,19 @@ export class AboutMeParser {
     const profile = await this.parseProfile($);
     const headline = stripString($('#form-section-PersonalInfo div.job').text() || '');
     const introduction = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
+    const relevantLinks = this.parseRelevantLinks($);
     const interestingFacts = this.parseInterestingFacts($);
 
-    return {
-      profile,
-      headline,
-      introduction,
-      interestingFacts,
-    };
+    return _.omitBy(
+      {
+        profile,
+        headline,
+        introduction,
+        relevantLinks,
+        interestingFacts,
+      },
+      _.isNil,
+    ) as AboutMe;
   }
 
   private async parseProfile($: CheerioAPI): Promise<Profile> {
@@ -58,6 +66,18 @@ export class AboutMeParser {
 
   private parseInterestingFacts($: CheerioAPI): InterestingFact[] {
     const toolsDefinition = stripString($('div.tools').text());
-    return stringToInterestingFacts(toolsDefinition);
+
+    return InterestingFactsParser.parse(toolsDefinition);
+  }
+
+  private parseRelevantLinks($: CheerioAPI): RelevantLink[] {
+    const links = $('div#form-section-PersonalInfo a.d-flex')
+      .map((i, e) => {
+        return $(e)[0]?.attribs?.href;
+      })
+      .filter((i, e) => e !== '')
+      .get();
+
+    return RelevantLinksParser.parse(links);
   }
 }

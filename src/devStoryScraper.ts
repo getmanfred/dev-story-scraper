@@ -5,7 +5,6 @@ import {DevStoryDownloader} from './devStoryDownloader';
 import {MAC} from './models/mac';
 import {PositionParser} from './parsers/positionParser';
 import {ArtifactParser} from './parsers/artifactParser';
-// import {stripString} from './utils/utils';
 import {Logger} from './utils/logger';
 import {Settings} from './models/settings';
 import {AboutMeParser} from './parsers/aboutMeParser';
@@ -30,13 +29,6 @@ export class DevStoryScraper {
 
     const settings = this.defaultEnglishSettings();
     const aboutMe = await this.aboutMeParser.parse($);
-
-    const links = $('div#form-section-PersonalInfo a.d-flex')
-      .map((i, e) => {
-        return $(e)[0]?.attribs?.href;
-      })
-      .filter((i, e) => e !== '')
-      .get();
 
     const likedTechnologies = $('div[class="user-technologies"] .timeline-item-tags .post-tag')
       .not('.disliked-tag')
@@ -69,7 +61,6 @@ export class DevStoryScraper {
       {
         settings,
         aboutMe,
-        links,
         likedTechnologies,
         dislikedTechnologies,
         positions,

@@ -31,6 +31,20 @@ Object {
         "region": "Florida",
       },
     },
+    "relevantLinks": Array [
+      Object {
+        "URL": "http://globalnerdy.com/",
+        "type": "other",
+      },
+      Object {
+        "URL": "https://twitter.com/AccordionGuy",
+        "type": "twitter",
+      },
+      Object {
+        "URL": "https://github.com/AccordionGuy",
+        "type": "github",
+      },
+    ],
   },
   "artifacts": Array [
     Object {
@@ -565,11 +579,6 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
     "python",
     "swift",
   ],
-  "links": Array [
-    "http://globalnerdy.com/",
-    "https://twitter.com/AccordionGuy",
-    "https://github.com/AccordionGuy",
-  ],
   "positions": Array [
     Object {
       "description": "Creator, editor and presenter of articles, books, and videos at **[RayWenderlich.com](https://www.raywenderlich.com/),** the premier tutorial site for mobile developers.
@@ -797,6 +806,16 @@ Object {
         "region": "Community of Madrid",
       },
     },
+    "relevantLinks": Array [
+      Object {
+        "URL": "https://twitter.com/ydarias",
+        "type": "twitter",
+      },
+      Object {
+        "URL": "https://github.com/ydarias",
+        "type": "github",
+      },
+    ],
   },
   "artifacts": Array [
     Object {
@@ -834,10 +853,6 @@ Object {
     "scala",
     "angularjs",
     "mongodb",
-  ],
-  "links": Array [
-    "https://twitter.com/ydarias",
-    "https://github.com/ydarias",
   ],
   "positions": Array [
     Object {
