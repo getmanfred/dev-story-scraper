@@ -14,7 +14,7 @@ The only dependency is with Google Maps API, but if no API Key for Google is pro
 
 ![Code organization](doc/assets/code-organization.png)
 
-The scraping process is designed to follow the MAC JSON schema, so each main subdocument is a parser on its own.
+The scraping process is designed following the MAC JSON schema subdocuments. So each "large" subdocument at the JSON Schema will have its own parser class.
 
 The `index.ts` file contains the handler that launches the Lambda function, and it is in charge of the bootstraping initializing the required depdencies.
 
@@ -52,6 +52,10 @@ Examples:
 * Madrid, Spain > Madrid, Community of Madrid, ES
 
 TBD - special cases and error handling
+
+### Job parsing
+
+![job parsing details diagram](doc/assets/job-parsing.png)
 
 ## Developer notes
 
