@@ -22,6 +22,13 @@
           "type": "string",
           "description": "Last time the CV was updated",
           "format": "date"
+        },
+        "MACversion": {
+          "type": "string",
+          "description": "Schema version which validated the JSON",
+          "examples": [
+            "0.2"
+          ]
         }
       },
       "additionalProperties": false,
@@ -205,6 +212,215 @@
             "required": [
               "type",
               "URL"
+            ]
+          }
+        },
+        "significativeRelationships": {
+          "type": "array",
+          "additionalItems": false,
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "examples": [
+                  "Michael",
+                  "Maria",
+                  "Peter"
+                ]
+              },
+              "surnames": {
+                "type": "string",
+                "examples": [
+                  "Le Soir",
+                  "Gonzalez Miranda",
+                  "McDonell"
+                ]
+              },
+              "relationTitle": {
+                "type": "string",
+                "maxLength": 255,
+                "examples": [
+                  "My reference in Venture Capital"
+                ]
+              },
+              "relationDescription": {
+                "type": "string",
+                "examples": [
+                  "the person I always contact if I have any doubt about venture capital. My mentor for more than 12 years."
+                ]
+              },
+              "avatar": {
+                "type": "object",
+                "description": "author's picture or avatar",
+                "properties": {
+                  "alt": {
+                    "type": "string",
+                    "description": "Alternative description of the image"
+                  }
+                },
+                "additionalProperties": true,
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "description": "A link to author's avatar",
+                    "properties": {
+                      "link": {
+                        "type": "string",
+                        "format": "uri",
+                        "examples": [
+                          "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+                        ]
+                      }
+                    },
+                    "additionalProperties": true,
+                    "required": [
+                      "link"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "description": "A picture in base64",
+                    "properties": {
+                      "data": {
+                        "type": "string",
+                        "examples": [
+                          "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="
+                        ]
+                      },
+                      "mediaType": {
+                        "type": "string",
+                        "enum": [
+                          "image/png",
+                          "image/jpeg"
+                        ]
+                      },
+                      "encoding": {
+                        "type": "string",
+                        "const": "base64"
+                      }
+                    },
+                    "additionalProperties": true,
+                    "required": [
+                      "data",
+                      "mediaType",
+                      "encoding"
+                    ]
+                  }
+                ],
+                "$comment": "TDB: to be refactor to extract an image  \"object\" within a definitions section or schema"
+              },
+              "contact": {
+                "type": "object",
+                "additionalProperties": true,
+                "allOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "publicProfiles": {
+                        "type": "array",
+                        "description": "Online services that provide a way to contact me without exposing my mail or phone number.",
+                        "additionalItems": false,
+                        "minContains": 1,
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "type": {
+                              "type": "string",
+                              "enum": [
+                                "manfred",
+                                "linkedIn",
+                                "stackOverflow",
+                                "xing",
+                                "other"
+                              ],
+                              "$comment": "TBD Refactor to extract the enumeration \"public link type\" to a common definition file, to be completed with more external services."
+                            },
+                            "URL": {
+                              "type": "string",
+                              "format": "uri",
+                              "examples": [
+                                "https://www.getmanfred.com/mac/david",
+                                "https://www.linkedin.com/in/satyanadella/"
+                              ]
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "type",
+                            "URL"
+                          ]
+                        }
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "phoneNumbers": {
+                        "type": "array",
+                        "additionalItems": false,
+                        "minContains": 1,
+                        "minItems": 1,
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "countryCode": {
+                              "type": "number",
+                              "description": "Country calling code as defined in International Telecommunication Union (ITU) standards E.123 and E.164.",
+                              "examples": [
+                                34,
+                                1
+                              ]
+                            },
+                            "number": {
+                              "type": "string",
+                              "examples": [
+                                "616100584",
+                                "(555) 555-1234"
+                              ],
+                              "$comment": "TBD refactor to validate the phone number depending on the Country Code"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "countryCode",
+                            "number"
+                          ]
+                        }
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "contactMails": {
+                        "type": "array",
+                        "additionalItems": false,
+                        "minContains": 1,
+                        "items": {
+                          "type": "string",
+                          "format": "email",
+                          "examples": [
+                            "your.name@mail.com"
+                          ]
+                        }
+                      }
+                    },
+                    "additionalProperties": true
+                  }
+                ],
+                "$comment": "TBD Same component used in significativeRelationships and careerPreferences/contact (to be refactor to a common definition)"
+              }
+            },
+            "additionalProperties": false,
+            "$comment": "TBD Same component used in rol/referrals, #/experience/jobs/organization/projects/project/referrals and significativeRelationships, to be refactor to a common definition.",
+            "required": [
+              "name",
+              "surnames",
+              "relationTitle"
             ]
           }
         },
@@ -462,10 +678,225 @@
                               }
                             },
                             "additionalProperties": false,
-                            "$comment": "TBD Refactor to extract the entity \"mean\" (used in jobs, sideProjects and publicArtifacts) to a common definition. It should be the sum of hardSkills and softSkills (defined on education)",
+                            "$comment": "TBD Refactor to extract the entity \"mean\" (used in jobs, studies, sideProjects and publicArtifacts) to a common definition. It should be the sum of hardSkills and softSkills (defined on education)",
                             "required": [
                               "name",
                               "type"
+                            ]
+                          }
+                        },
+                        "referrals": {
+                          "type": "array",
+                          "additionalItems": false,
+                          "minItems": 1,
+                          "$comment": "Professional Referrals about my activity in one specific rol.",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "name": {
+                                "type": "string",
+                                "examples": [
+                                  "Sharon",
+                                  "Tatiana",
+                                  "Goran"
+                                ]
+                              },
+                              "surnames": {
+                                "type": "string",
+                                "examples": [
+                                  "Vlaovic-Sorensen",
+                                  "Varoufakis",
+                                  "Ahmed"
+                                ]
+                              },
+                              "relationTitle": {
+                                "type": "string",
+                                "maxLength": 255,
+                                "examples": [
+                                  "My supervisor",
+                                  "I work with her for 5 years"
+                                ]
+                              },
+                              "relationDescription": {
+                                "type": "string",
+                                "examples": [
+                                  "Daniel was the perfect leader and he achieved all the goals assigned to the Departement but the most important thing is he's also a great colleague."
+                                ]
+                              },
+                              "avatar": {
+                                "type": "object",
+                                "description": "author's picture or avatar",
+                                "properties": {
+                                  "alt": {
+                                    "type": "string",
+                                    "description": "Alternative description of the image",
+                                    "examples": [
+                                      "picture of Mike Gomez"
+                                    ]
+                                  }
+                                },
+                                "additionalProperties": true,
+                                "oneOf": [
+                                  {
+                                    "type": "object",
+                                    "description": "A link to author's avatar",
+                                    "properties": {
+                                      "link": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "examples": [
+                                          "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+                                        ]
+                                      }
+                                    },
+                                    "additionalProperties": true,
+                                    "required": [
+                                      "link"
+                                    ]
+                                  },
+                                  {
+                                    "type": "object",
+                                    "description": "A picture in base64",
+                                    "properties": {
+                                      "data": {
+                                        "type": "string",
+                                        "examples": [
+                                          "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="
+                                        ]
+                                      },
+                                      "mediaType": {
+                                        "type": "string",
+                                        "enum": [
+                                          "image/png",
+                                          "image/jpeg"
+                                        ]
+                                      },
+                                      "encoding": {
+                                        "type": "string",
+                                        "const": "base64"
+                                      }
+                                    },
+                                    "additionalProperties": true,
+                                    "required": [
+                                      "data",
+                                      "mediaType",
+                                      "encoding"
+                                    ]
+                                  }
+                                ],
+                                "$comment": "TDB: to be refactor to extract an image  \"object\" within a definitions section or schema"
+                              },
+                              "contact": {
+                                "type": "object",
+                                "additionalProperties": true,
+                                "allOf": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "publicProfiles": {
+                                        "type": "array",
+                                        "description": "Online services that provide a way to contact me without exposing my mail or phone number.",
+                                        "additionalItems": false,
+                                        "minContains": 1,
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "type": {
+                                              "type": "string",
+                                              "enum": [
+                                                "manfred",
+                                                "linkedIn",
+                                                "stackOverflow",
+                                                "xing",
+                                                "other"
+                                              ],
+                                              "$comment": "TBD Refactor to extract the enumeration \"public link type\" to a common definition file, to be completed with more external services."
+                                            },
+                                            "URL": {
+                                              "type": "string",
+                                              "format": "uri",
+                                              "examples": [
+                                                "https://www.getmanfred.com/mac/david",
+                                                "https://www.linkedin.com/in/satyanadella/"
+                                              ]
+                                            }
+                                          },
+                                          "additionalProperties": false,
+                                          "required": [
+                                            "type",
+                                            "URL"
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    "additionalProperties": true
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "phoneNumbers": {
+                                        "type": "array",
+                                        "additionalItems": false,
+                                        "minContains": 1,
+                                        "minItems": 1,
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "countryCode": {
+                                              "type": "number",
+                                              "description": "Country calling code as defined in International Telecommunication Union (ITU) standards E.123 and E.164.",
+                                              "examples": [
+                                                34,
+                                                1
+                                              ]
+                                            },
+                                            "number": {
+                                              "type": "string",
+                                              "examples": [
+                                                "616100584",
+                                                "(555) 555-1234"
+                                              ],
+                                              "$comment": "TBD refactor to validate the phone number depending on the Country Code"
+                                            }
+                                          },
+                                          "additionalProperties": false,
+                                          "required": [
+                                            "countryCode",
+                                            "number"
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    "additionalProperties": true
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "contactMails": {
+                                        "type": "array",
+                                        "additionalItems": false,
+                                        "minContains": 1,
+                                        "items": {
+                                          "type": "string",
+                                          "format": "email",
+                                          "examples": [
+                                            "your.name@mail.com"
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    "additionalProperties": true
+                                  }
+                                ],
+                                "$comment": "TBD Same component used in significativeRelationships and careerPreferences/contact (to be refactor to a common definition)"
+                              }
+                            },
+                            "additionalProperties": false,
+                            "$comment": "TBD Same component used in rol/referrals, #/experience/jobs/organization/projects/project/referrals and significativeRelationships, to be refactor to a common definition.",
+                            "required": [
+                              "name",
+                              "surnames",
+                              "relationTitle"
                             ]
                           }
                         }
@@ -598,8 +1029,9 @@
                         "name": {
                           "type": "string",
                           "examples": [
-                            "Developer"
-                          ]
+                            "Product Manager"
+                          ],
+                          "$comment": "TBD difficult to refact to validate against a rol enum because that should include every profession in the world."
                         },
                         "startDate": {
                           "type": "string",
@@ -672,6 +1104,221 @@
                             "required": [
                               "name",
                               "type"
+                            ]
+                          }
+                        },
+                        "referrals": {
+                          "type": "array",
+                          "additionalItems": false,
+                          "minItems": 1,
+                          "$comment": "Professional Referrals about my activity in one specific rol.",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "name": {
+                                "type": "string",
+                                "examples": [
+                                  "Sharon",
+                                  "Tatiana",
+                                  "Goran"
+                                ]
+                              },
+                              "surnames": {
+                                "type": "string",
+                                "examples": [
+                                  "Vlaovic-Sorensen",
+                                  "Varoufakis",
+                                  "Ahmed"
+                                ]
+                              },
+                              "relationTitle": {
+                                "type": "string",
+                                "maxLength": 255,
+                                "examples": [
+                                  "My supervisor",
+                                  "I work with her for 5 years"
+                                ]
+                              },
+                              "relationDescription": {
+                                "type": "string",
+                                "examples": [
+                                  "Daniel was the perfect leader and he achieved all the goals assigned to the Departement but the most important thing is he's also a great colleague."
+                                ]
+                              },
+                              "avatar": {
+                                "type": "object",
+                                "description": "author's picture or avatar",
+                                "properties": {
+                                  "alt": {
+                                    "type": "string",
+                                    "description": "Alternative description of the image",
+                                    "examples": [
+                                      "picture of Mike Gomez"
+                                    ]
+                                  }
+                                },
+                                "additionalProperties": true,
+                                "oneOf": [
+                                  {
+                                    "type": "object",
+                                    "description": "A link to author's avatar",
+                                    "properties": {
+                                      "link": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "examples": [
+                                          "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+                                        ]
+                                      }
+                                    },
+                                    "additionalProperties": true,
+                                    "required": [
+                                      "link"
+                                    ]
+                                  },
+                                  {
+                                    "type": "object",
+                                    "description": "A picture in base64",
+                                    "properties": {
+                                      "data": {
+                                        "type": "string",
+                                        "examples": [
+                                          "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="
+                                        ]
+                                      },
+                                      "mediaType": {
+                                        "type": "string",
+                                        "enum": [
+                                          "image/png",
+                                          "image/jpeg"
+                                        ]
+                                      },
+                                      "encoding": {
+                                        "type": "string",
+                                        "const": "base64"
+                                      }
+                                    },
+                                    "additionalProperties": true,
+                                    "required": [
+                                      "data",
+                                      "mediaType",
+                                      "encoding"
+                                    ]
+                                  }
+                                ],
+                                "$comment": "TDB: to be refactor to extract an image  \"object\" within a definitions section or schema"
+                              },
+                              "contact": {
+                                "type": "object",
+                                "additionalProperties": true,
+                                "allOf": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "publicProfiles": {
+                                        "type": "array",
+                                        "description": "Online services that provide a way to contact me without exposing my mail or phone number.",
+                                        "additionalItems": false,
+                                        "minContains": 1,
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "type": {
+                                              "type": "string",
+                                              "enum": [
+                                                "manfred",
+                                                "linkedIn",
+                                                "stackOverflow",
+                                                "xing",
+                                                "other"
+                                              ],
+                                              "$comment": "TBD Refactor to extract the enumeration \"public link type\" to a common definition file, to be completed with more external services."
+                                            },
+                                            "URL": {
+                                              "type": "string",
+                                              "format": "uri",
+                                              "examples": [
+                                                "https://www.getmanfred.com/mac/david",
+                                                "https://www.linkedin.com/in/satyanadella/"
+                                              ]
+                                            }
+                                          },
+                                          "additionalProperties": false,
+                                          "required": [
+                                            "type",
+                                            "URL"
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    "additionalProperties": true
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "phoneNumbers": {
+                                        "type": "array",
+                                        "additionalItems": false,
+                                        "minContains": 1,
+                                        "minItems": 1,
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "countryCode": {
+                                              "type": "number",
+                                              "description": "Country calling code as defined in International Telecommunication Union (ITU) standards E.123 and E.164.",
+                                              "examples": [
+                                                34,
+                                                1
+                                              ]
+                                            },
+                                            "number": {
+                                              "type": "string",
+                                              "examples": [
+                                                "616100584",
+                                                "(555) 555-1234"
+                                              ],
+                                              "$comment": "TBD refactor to validate the phone number depending on the Country Code"
+                                            }
+                                          },
+                                          "additionalProperties": false,
+                                          "required": [
+                                            "countryCode",
+                                            "number"
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    "additionalProperties": true
+                                  },
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "contactMails": {
+                                        "type": "array",
+                                        "additionalItems": false,
+                                        "minContains": 1,
+                                        "items": {
+                                          "type": "string",
+                                          "format": "email",
+                                          "examples": [
+                                            "your.name@mail.com"
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    "additionalProperties": true
+                                  }
+                                ],
+                                "$comment": "TBD Same component used in significativeRelationships and careerPreferences/contact (to be refactor to a common definition)"
+                              }
+                            },
+                            "additionalProperties": false,
+                            "$comment": "TBD Same component used in rol/referrals, #/experience/jobs/organization/projects/project/referrals and significativeRelationships, to be refactor to a common definition.",
+                            "required": [
+                              "name",
+                              "surnames",
+                              "relationTitle"
                             ]
                           }
                         }
@@ -878,7 +1525,7 @@
         "hardSkills": {
           "type": "array",
           "additionalItems": true,
-          "$comment": "TBD hardSkill and softSkill should be a \"mean\" with a subset of \"type\" values.",
+          "$comment": "TBD hardSkill and softSkill should be a \"mean\" with a subset of \"type\" values. In case of hardSkills (tool, technology or hardware).",
           "items": {
             "type": "object",
             "properties": {
@@ -922,6 +1569,7 @@
           "type": "array",
           "additionalItems": true,
           "minItems": 1,
+          "$comment": "TBD hardSkill and softSkill should be a \"mean\" with a subset of \"type\" values. In case of hardSkills (tool, practice or domain).",
           "items": {
             "type": "object",
             "properties": {
@@ -962,12 +1610,25 @@
         },
         "studies": {
           "type": "array",
-          "additionalItems": true,
+          "additionalItems": false,
           "minContains": 1,
           "minItems": 1,
           "items": {
             "type": "object",
             "properties": {
+              "studyType": {
+                "type": "string",
+                "enum": [
+                  "officialDegree",
+                  "certification",
+                  "unregulated",
+                  "selfTraining"
+                ]
+              },
+              "degreeAchieved": {
+                "type": "boolean",
+                "description": "If studies finished achieving the linked degree"
+              },
               "name": {
                 "type": "string",
                 "examples": [
@@ -980,6 +1641,16 @@
                 "examples": [
                   "Computer Science Grade"
                 ]
+              },
+              "startDate": {
+                "type": "string",
+                "description": "date when studies started in format yyyy-mm-dd",
+                "format": "date"
+              },
+              "finishDate": {
+                "type": "string",
+                "description": "date when studies finished (if finished), with or without obtaining a degree, in format yyyy-mm-dd",
+                "format": "date"
               },
               "institution": {
                 "type": "object",
@@ -1069,35 +1740,48 @@
                   "name"
                 ]
               },
-              "studyType": {
-                "type": "string",
-                "enum": [
-                  "officialDegree",
-                  "certification",
-                  "unregulated",
-                  "selfTraining"
-                ]
-              },
-              "degreeAchieved": {
-                "type": "boolean",
-                "description": "If studies finished achieving the linked degree"
-              },
-              "startDate": {
-                "type": "string",
-                "description": "date when studies started in format yyyy-mm-dd",
-                "format": "date"
-              },
-              "finishDate": {
-                "type": "string",
-                "description": "date when studies finished (if finished), with or without obtaining a degree, in format yyyy-mm-dd",
-                "format": "date"
+              "linkedMeans": {
+                "type": "array",
+                "additionalItems": true,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "examples": [
+                        "Excel",
+                        "IntelliJ IDEA",
+                        "GitHub"
+                      ]
+                    },
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "tool",
+                        "technology",
+                        "practice",
+                        "hardware",
+                        "domain"
+                      ]
+                    },
+                    "description": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "$comment": "TBD Refactor to extract the entity \"mean\" (used in jobs, studies, sideProjects and publicArtifacts) to a common definition. It should be the sum of hardSkills and softSkills (defined on education)",
+                  "required": [
+                    "name",
+                    "type"
+                  ]
+                }
               }
             },
             "additionalProperties": false,
             "required": [
-              "name",
               "studyType",
               "degreeAchieved",
+              "name",
               "startDate"
             ]
           }
@@ -1209,7 +1893,8 @@
               },
               "additionalProperties": true
             }
-          ]
+          ],
+          "$comment": "TBD Same component used in significativeRelationships and careerPreferences/contact (to be refactor to a common definition)"
         },
         "status": {
           "type": "string",
@@ -1265,12 +1950,15 @@
                   "type": "object",
                   "properties": {
                     "mustHave": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "If equity is a must have to accept a new position"
                     },
                     "from": {
                       "type": "number",
                       "examples": [
-                        1.5
+                        1.5,
+                        0.3,
+                        30
                       ]
                     },
                     "upto": {
@@ -1301,10 +1989,15 @@
                       "properties": {
                         "mustHave": {
                           "type": "array",
+                          "description": "Perks a new position must have to be considered",
                           "additionalItems": false,
                           "minItems": 1,
                           "items": {
-                            "type": "string"
+                            "type": "string",
+                            "examples": [
+                              "Health Insurance"
+                            ],
+                            "$comment": "TBD to be validated against an external enumeration of perks"
                           }
                         }
                       },
@@ -1315,10 +2008,15 @@
                       "properties": {
                         "niceToHave": {
                           "type": "array",
+                          "description": "Perks a new position should have to be considered",
                           "additionalItems": false,
                           "minItems": 1,
                           "items": {
-                            "type": "string"
+                            "type": "string",
+                            "examples": [
+                              "Free Meals"
+                            ],
+                            "$comment": "TBD to be validated against an external enumeration of perks"
                           }
                         }
                       },
@@ -1371,7 +2069,8 @@
                         "type": "string",
                         "description": "Country where you live",
                         "examples": [
-                          "US"
+                          "US",
+                          "ES"
                         ],
                         "$comment": "TDB: link to a enum of ISO-3166 codes in a external definition file"
                       },
@@ -1401,10 +2100,18 @@
                         "type": "object",
                         "properties": {
                           "unit": {
-                            "type": "string"
+                            "type": "string",
+                            "description": "Unit of measure, Kilometers or Miles",
+                            "enum": [
+                              "Km",
+                              "Mi"
+                            ]
                           },
                           "amount": {
-                            "type": "integer"
+                            "type": "integer",
+                            "examples": [
+                              20
+                            ]
                           }
                         },
                         "additionalProperties": false,
@@ -1416,6 +2123,12 @@
                     },
                     "additionalProperties": false
                   }
+                },
+                "comments": {
+                  "type": "string",
+                  "examples": [
+                    "I don't want to work in the Financial District. There are no decent donuts shops"
+                  ]
                 }
               },
               "additionalProperties": false
@@ -1511,6 +2224,7 @@
             },
             "preferredOrganizations": {
               "type": "array",
+              "description": "Type of organizations where I want to work",
               "additionalItems": false,
               "minItems": 1,
               "items": {
@@ -1528,6 +2242,7 @@
             },
             "discardedOrganizations": {
               "type": "array",
+              "description": "Type of organizations where I don't want to work",
               "additionalItems": false,
               "minItems": 1,
               "items": {
@@ -1541,6 +2256,32 @@
                   "bigCorp"
                 ],
                 "$comment": "TBD Refactor to extract the enumeration \"OrganizationType\" (used in jobs/roles/organization or careerPreferences/preferredOrganizations) to a common definition file."
+              }
+            },
+            "preferredRoles": {
+              "type": "array",
+              "additionalItems": false,
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "examples": [
+                  "Product Manager",
+                  "Chef",
+                  "Teacher"
+                ]
+              }
+            },
+            "discardedRoles": {
+              "type": "array",
+              "description": "Type of roles I don't like to adopt",
+              "additionalItems": false,
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "examples": [
+                  "Project Manager",
+                  "CIO"
+                ]
               }
             }
           },
