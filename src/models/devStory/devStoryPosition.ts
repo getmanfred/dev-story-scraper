@@ -3,4 +3,6 @@ export type DevStoryPosition = {
   title: string;
   description: string;
   tags: string[];
+  logo?: string;
+  logoAlt?: string;
 };

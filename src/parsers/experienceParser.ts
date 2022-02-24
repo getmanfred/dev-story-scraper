@@ -33,6 +33,10 @@ export class ExperienceParser {
     return {
       name,
       description: position.description,
+      logo: {
+        alt: position.logoAlt,
+        link: position.logo || '',
+      },
       roles: [
         {
           name: roleName,
