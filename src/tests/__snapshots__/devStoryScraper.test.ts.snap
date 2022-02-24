@@ -570,6 +570,7 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
   "experience": Object {
     "jobs": Array [
       Object {
+        "URL": "https://stackoverflow.com/users/story/lists/430718/razeware?storyType=1",
         "description": "Creator, editor and presenter of articles, books, and videos at **[RayWenderlich.com](https://www.raywenderlich.com/),** the premier tutorial site for mobile developers.
 
 *   Co-author of **_[iOS Apprentice, 8th edition](https://store.raywenderlich.com/products/ios-apprentice/)_**, RayWenderlich.com’s “flagship” book. Completely revised two major sections of the book to cover developing apps using the SwiftUI framework. Rewrote two of the four apps presented in the book to reflect the new material. Co-wrote both the 2019 and 2020 editions.
@@ -580,6 +581,10 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
     *   **_[Augmented Reality in Android with Google’s Face API](https://www.raywenderlich.com/523-augmented-reality-in-android-with-google-s-face-api)_**
     *   **_[What’s New in Kotlin 1.3](https://www.raywenderlich.com/3871338-what-s-new-in-kotlin-1-3)_**
     *   **_[Kotlin Cheat Sheet and Quick Reference](https://www.raywenderlich.com/6649-kotlin-cheat-sheet-and-quick-reference)_**",
+        "logo": Object {
+          "alt": "Razeware",
+          "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1418635276/vpijf6wnqeeywtcb8ezu.jpg",
+        },
         "name": "Razeware",
         "roles": Array [
           Object {
@@ -613,7 +618,12 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
         ],
       },
       Object {
+        "URL": "https://stackoverflow.com/users/story/lists/364168/tampa-ios-meetup?storyType=1",
         "description": "Tampa iOS Meetup is a regular gathering for iOS developers in the Tampa Bay area to discuss and present iOS development techniques. I have also led iOS development tutorials at the Iron Yard (a software development “boot camp”-style school in St. Petersburg) and the Tampa BarCamp “unconference”.",
+        "logo": Object {
+          "alt": "",
+          "link": "",
+        },
         "name": "Tampa iOS Meetup",
         "roles": Array [
           Object {
@@ -635,9 +645,14 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
         ],
       },
       Object {
+        "URL": "",
         "description": "In my spare time, to keep my hand in “the programming game”, I take on mobile app development side projects for people with interesting app ideas. My primary development platform is iOS, although I can also develop Android apps, as well as cross-platform apps using Xamarin. Recent projects include:
 
 *   [Aspirations Winery’s Wine Crush](https://itunes.apple.com/us/app/aspirations-winerys-wine-crush/id1131103492?mt=8): A free iOS app written to promote a friend’s winery and wine shop in Clearwater, Florida. It’s a wine-themed game in the style of Candy Crush, and a promotional tool that other wineries won't have. It's available for free on the App Store. Unlike other free games, there aren't any \\"poison pills\\" to extract money from players — this game's just about simple, unadulterated fun. • Mind Quieting, an audio player that guides the user through mind quieting exercises developed by Dr. Alan Banack, a Toronto-based psychotherapist, and based on techniques developed over years of working with patients to help counter stress.",
+        "logo": Object {
+          "alt": "",
+          "link": "",
+        },
         "name": "Joey deVilla Mobile Development",
         "roles": Array [
           Object {
@@ -668,7 +683,12 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
         ],
       },
       Object {
+        "URL": "https://stackoverflow.com/users/story/lists/364189/global-nerdy?storyType=1",
         "description": "Global Nerdy is my technology and software development blog, to which I have been posting articles and tutorials since 2006. Since its inception, it has received nearly 8.7 million pageviews.",
+        "logo": Object {
+          "alt": "",
+          "link": "",
+        },
         "name": "Global Nerdy",
         "roles": Array [
           Object {
@@ -705,6 +725,7 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
         ],
       },
       Object {
+        "URL": "https://stackoverflow.com/users/story/lists/422748/lilypad-solutions?storyType=1",
         "description": "Cross-platform mobile developer for **[Lilypad](https://www.lilypad.co/)**, a sales tool and CRM app for the beverage alcohol industry.
 
 *   Owned and delivered a major upgrade to the [Android version of Lilypad](https://play.google.com/store/apps/details?id=com.lilypadsolutions.lilypadappV2&hl=en_US), bringing it to feature parity with the iOS version. I was also working on improving the performance of the Android version so that it would be on par with the [iOS version](https://apps.apple.com/us/app/lilypad-sales/id921371352). Cleaned up the Android user interface and started making performance improvements that made some features 60% faster.
@@ -712,6 +733,10 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
 *   Took charge of internal developer documentation. While Lilypad’s back end and web application were written by senior developers, the mobile app’s 360,000+ lines of source code were largely written by junior developers and interns. With managerial approval, devoted 20% of development time to writing much-needed internal documentation of the mobile app, refactoring the code, and upgrading it to a more current version of JavaScript.
 *   Established coding standards for the mobile app. The mobile code was developed by a series of junior developers, each coding in their own style. Defined a standard to be used for mobile development and have applied it to the codebase during development.
 *   Built a new mobile process and team: Key participant in weekly mobile development strategy meetings with the CTO to improve the mobile app development process. Interviewed developers for the mobile team.",
+        "logo": Object {
+          "alt": "Lilypad Solutions",
+          "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1465218473/vcbtyiiiwgyikkhfzvoz.png",
+        },
         "name": "Lilypad Solutions",
         "roles": Array [
           Object {
@@ -739,6 +764,7 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
         ],
       },
       Object {
+        "URL": "https://stackoverflow.com/users/story/lists/254863/sourcetoad-llc?storyType=1",
         "description": "Provided technical, strategic, and customer management leadership to Sourcetoad as the company was entering a phase in which it takes on larger clients, more complex projects, and new markets.
 
 Gathered requirements, wrote specifications, and product managed a number of applications, including:
@@ -758,6 +784,10 @@ Sales, marketing, and community relations:
 *   [Narrated the video](https://www.youtube.com/watch?v=zuKPwOjHNsY) for Sourcetoad’s flagship software product, Cruise Director.
 *   Grew the company’s Twitter profile tenfold, and wrote several articles for the company blog.
 *   Helped develop the company’s guidelines for interacting with clients.",
+        "logo": Object {
+          "alt": "Sourcetoad, LLC",
+          "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/okpdcbzdradzp4npqdb5",
+        },
         "name": "Sourcetoad, LLC",
         "roles": Array [
           Object {
@@ -769,12 +799,17 @@ Sales, marketing, and community relations:
         ],
       },
       Object {
+        "URL": "",
         "description": "Technical marketer and developer evangelist for the company during their pivot from RFID tag/inlay manufacturer to provider of an integrated RFID/cloud software solution to seamlessly connect real-world objects to their digital representations.
 
 *   Product owner: Gathered requirements, and then specified the functionality and workflows for a hardware/software system for embedding RFID tags in luxury goods for tracking them through the manufacturing process and the sales cycle, and as an anti-counterfeiting measure.
 *   Led documentation effort and and wrote code examples for Smart Cosmos Objects, Smarttrac’s platform for connecting real-world objects with RFID tags to their cloud-based data representations.
 *   Promoted Smartrac to various technical and non-technical audiences, specifically business and technical decision-makers at prospective partners and clients in the medical, supply chain management, and retail industries. Provided technical information to developers at partner organizations (including Catalyst, Blue Bite, and Temera) who build solutions that integrate with the Smart Cosmos platform.
 *   Presented the Lifecycles solution at the Smartrac booth at “Retail’s Big Show 2017”, the National Retail Federation’s flagship conference in New York City. Brought a major prospective customer ($100M revenue in 2016) to Smartrac for an initial meeting.",
+        "logo": Object {
+          "alt": "Smartrac",
+          "link": "https://i.stack.imgur.com/eF4G0.png",
+        },
         "name": "Smartrac",
         "roles": Array [
           Object {
@@ -802,11 +837,16 @@ Sales, marketing, and community relations:
         ],
       },
       Object {
+        "URL": "https://stackoverflow.com/users/story/lists/151058/gsg?storyType=1",
         "description": "Oversaw and overhauled GSG’s marketing efforts, creating all the messaging and sales materials for the enterprise communications services specialist.
 
 *   Communications and technical specialist on IBM’s Network Infrastructure Cost Optimization team. Designed/managed development of the application for performing quick evaluations of client network infrastructure. Wrote, produced, and narrated the official NICO promotional video, and created all NICO promotional material.
 *   Created sales and marketing materials for GSG and its channel partners: presentations, case studies, white papers, sell sheets, videos, and even mobile applications. Created documentation and training material for GSG’s SaaS applications, such as written documentation, demo scripts, and training videos. Wrote and hosted joint presentations and webinars with channel partners, including Honeywell and Pomeroy.
 *   Grew GSG’s online presence 10x. Managed their web site redesign, maintained the site’s content, regularly posted articles on the blog, created promotional and informational videos, and expanded the company’s following on LinkedIn (300 to 1,500) and Twitter (100 to 1,100).",
+        "logo": Object {
+          "alt": "GSG",
+          "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1406667635/euskciydmqcenyzmh440.png",
+        },
         "name": "GSG",
         "roles": Array [
           Object {
@@ -828,12 +868,17 @@ Sales, marketing, and community relations:
         ],
       },
       Object {
+        "URL": "",
         "description": "Managed a consultancy that became the de facto managed mobility services department of [Rogers Communications](https://www.rogers.com/) (the Canadian equivalent of Time-Warner), filling the roles of chief technologist and marketing department.
 
 *   Designed and developed turnkey solutions for Rogers, including “BYOD in a Box” and “CL in a Box”, applications for small- and medium-sized businesses to manage their BYOD (“Bring Your Own Device”) and CL (corporate-liable) mobile devices. These applications combined mobile device management, telecom expense management, device inventory, and help desk applications.
 *   Performed Rogers’ first mobile needs assessments, including one for an energy company in Canada’s far north, which involved on-site visits to their head office in Calgary and their drill site in northern Alberta, interviewing two dozen stakeholder groups in the organization, convening with their IT department, and producing a full report complete with recommendations for increased productivity and cost savings.
 *   Implemented processes for clients with 1,000+ employees move from corporate-liable mobile devices to individual-liable ones.
 *   Created Rogers-branded customer-facing documents, including a white paper listing tips for businesses who want to implement a BYOD program, a guide to help enterprises create mobile device policies, and “sell sheets” for various Rogers services.",
+        "logo": Object {
+          "alt": "",
+          "link": "",
+        },
         "name": "Comprehensive Technology Solutions",
         "roles": Array [
           Object {
@@ -852,12 +897,17 @@ Sales, marketing, and community relations:
         ],
       },
       Object {
+        "URL": "https://stackoverflow.com/users/story/lists/337752/shopify?storyType=1",
         "description": "Raised the company’s profile during a critical growth phase, promoted it to three major audiences: merchants who were considering using Shopify to host their ecommerce sites, developers who were considering development of apps for Shopify stores and designers who were considering developing store themes.
 
 *   Managed the company’s first major developer outreach initiative, a $1 million fund used to encourage developers to build apps of the Shopify platform.
 *   Wrote the documentation and sample code for Shopify’s developer API, as well as documentation for store theme designers. Edited and wrote technical articles Shopify’s technology blog, whose primary audience was developers and designers.
 *   Represented Shopify at a number of conferences, including the [2011 BarCamp Tour](https://www.prweb.com/releases/2011/5/prweb8382118.htm), a multi-city tour of nine BarCamp “unconferences” across the United States.
 *   Wrote Shopify’s tweets and doubled the company’s Twitter followers.",
+        "logo": Object {
+          "alt": "Shopify",
+          "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/n3tgnmr1hqxolbrhrbty",
+        },
         "name": "Shopify",
         "roles": Array [
           Object {
@@ -876,6 +926,7 @@ Sales, marketing, and community relations:
         ],
       },
       Object {
+        "URL": "https://stackoverflow.com/users/story/lists/196331/microsoft?storyType=1",
         "description": "Specialized in promoting Microsoft to “unfriendly” technical audiences — namely mobile, web, and open source developers, with whom the company had weak or non-existent relationships. “Won over” developers and technology influencers who originally had strong negative opinions of Microsoft and increased its influence in one of the world’s fastest-growing tech hubs.
 
 *   Windows Phone 7 Champion: Led the “breadth program” for Windows Phone 7 in the months leading up to the release of the new phone operating system. Brought early-access development tools, devices, documentation, and training to developers, coordinated the development of early apps by Canadian developers to pre-seed the Windows Phone app store, and organized Windows Phone developer events.
@@ -884,6 +935,10 @@ Sales, marketing, and community relations:
 *   Co-organized TechDays, a conference series taking place in 8 cities across Canada. Organized a conference session in 2008, led one of the developer tracks in 2009, and managed all the developer tracks in 2010.
 *   Touring presenter: Traveled across Canada, giving presentations and tutorials to developer, technologist, and student audiences on developing applications using Visual Studio, C# and Visual Basic, Windows 7, ASP.NET MVC, Windows Mobile, Windows Phone, and Xbox 360.
 *   Developed example code and demonstrations in C# and Visual Basic for a number of Microsoft platforms, especially Windows 7, ASP.NET MVC, Windows Mobile/Phone, and Xbox 360.",
+        "logo": Object {
+          "alt": "Microsoft",
+          "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1501613147/ypg7mliwmzomf9fdrkvz.png",
+        },
         "name": "Microsoft",
         "roles": Array [
           Object {
@@ -926,10 +981,15 @@ Sales, marketing, and community relations:
         ],
       },
       Object {
+        "URL": "https://stackoverflow.com/users/story/lists/8166/b5media?storyType=1",
         "description": "*   Coordinated the activities of the b5 development team in building and maintaining its blog network, a Wordpress-based custom blogging system supporting over 300 blogs.
 *   Developed the specification for Textpods, a self-serve system that allows small-budget advertisers to purchase text-link advertising on b5’s blogs.
 *   Reviewed, triaged and prioritized of all outstanding projects.
 *   Developed utilities in Ruby to automate the process of checking the entire set of b5’s blogs for the presence of important components such as advertising, web statistics codes and blogrolls.",
+        "logo": Object {
+          "alt": "b5media",
+          "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1397183297/6db7e936f3a2d8631fed404ecfa30ce3.jpg",
+        },
         "name": "b5media",
         "roles": Array [
           Object {
@@ -1029,7 +1089,12 @@ Object {
   "experience": Object {
     "jobs": Array [
       Object {
+        "URL": "",
         "description": "Software developer focused in backend.",
+        "logo": Object {
+          "alt": "",
+          "link": "",
+        },
         "name": "IBM Research",
         "roles": Array [
           Object {
@@ -1051,7 +1116,12 @@ Object {
         ],
       },
       Object {
+        "URL": "https://stackoverflow.com/users/story/lists/348524/fon-technology?storyType=1",
         "description": "Lead developer for backend infrastructure.",
+        "logo": Object {
+          "alt": "Fon Technology",
+          "link": "https://i.stack.imgur.com/Au50p.jpg",
+        },
         "name": "Fon Technology",
         "roles": Array [
           Object {
@@ -1088,7 +1158,12 @@ Object {
         ],
       },
       Object {
+        "URL": "",
         "description": "",
+        "logo": Object {
+          "alt": "",
+          "link": "",
+        },
         "name": "Otogami",
         "roles": Array [
           Object {
@@ -1119,7 +1194,12 @@ Object {
         ],
       },
       Object {
+        "URL": "",
         "description": "",
+        "logo": Object {
+          "alt": "",
+          "link": "",
+        },
         "name": "Avantic Estudio de Ingenieros",
         "roles": Array [
           Object {

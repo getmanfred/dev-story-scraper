@@ -52,3 +52,7 @@ Examples:
 * Madrid, Spain > Madrid, Community of Madrid, ES
 
 TBD - special cases and error handling
+
+## Developer notes
+
+* WARN: The URL from a position is a reference to Stack Overflow and not the actual company.

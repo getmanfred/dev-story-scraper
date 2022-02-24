@@ -9,13 +9,23 @@ export class DevStoryPositionParser {
     const $ = cheerio.load(html);
     const time = stripString($('span[class="timeline-item-date"]').text());
     const title = stripString($('div[class="timeline-item-title"]').text());
+    const url = this.parseURL($);
     const description = this.parseDescription($);
     const [logo, logoAlt] = this.parseLogo($);
     const tags = $('.s-tag')
       .map((i, e) => stripString($(e).text()))
       .get();
 
-    return {time, title, description, tags, logo, logoAlt};
+    return {time, title, url, description, tags, logo, logoAlt};
+  }
+
+  private parseURL($: CheerioAPI): string {
+    const urlNode = $('.timeline-item-title a')[0];
+    if (!urlNode) {
+      return '';
+    }
+
+    return urlNode.attribs.href;
   }
 
   private parseLogo($: CheerioAPI): [string, string] {
