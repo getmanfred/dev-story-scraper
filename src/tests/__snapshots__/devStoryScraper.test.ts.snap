@@ -46,527 +46,6 @@ Object {
       },
     ],
   },
-  "artifacts": Array [
-    Object {
-      "description": "",
-      "link": "https://www.scrumalliance.org/community/profile/jdevilla2",
-      "tags": Array [],
-      "time": "Mar 2018 → Current (4 years)",
-      "title": "Certified Scrum Developer",
-      "type": "Certification",
-    },
-    Object {
-      "description": "",
-      "link": "https://www.scrumalliance.org/community/profile/jdevilla2",
-      "tags": Array [],
-      "time": "Feb 2018 → Current (4 years, 1 month)",
-      "title": "Certified Scrum Product Owner",
-      "type": "Certification",
-    },
-    Object {
-      "description": "",
-      "link": "https://www.scrumalliance.org/community/profile/jdevilla2",
-      "tags": Array [],
-      "time": "Feb 2018 → Current (4 years, 1 month)",
-      "title": "Certified ScrumMaster",
-      "type": "Certification",
-    },
-    Object {
-      "description": "This app — developed and deployed to the App Store on a Saturday afternoon — shows the scheduled events for the [Synapse Summit](https://synapsefl.com/summit/) 2020 conference, which took place in Tampa on Feb. 11 - 12, 2020. It’s a lot easier to check the schedule on your watch than it is to pull out your phone!",
-      "link": "https://apps.apple.com/us/app/big-event-2020/id1498328530",
-      "tags": Array [
-        "watchos",
-        "apple-watch",
-        "swiftui",
-      ],
-      "time": "Feb 2020",
-      "title": "“Big Event 2020” Apple Watch app",
-      "type": "Feature or Apps",
-    },
-    Object {
-      "description": "In this interview with the podcast _[The 6 Figure Developer](https://6figuredev.com/),_ I talk about working on _iOS Apprentice, 8th Edition,_ iOS development in general, mobile technology in general, and my philosophy for choosing technologies to work on: “Always bet on the tech that’s being dismissed as a toy.”",
-      "link": "https://6figuredev.com/podcast/episode-123-ios-apprentice-accordions-with-joey-devilla/",
-      "tags": Array [
-        "ios",
-        "swiftui",
-        "android",
-      ],
-      "time": "Dec 2019",
-      "title": "Interview on “The 6-Figure Developer” podcast",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "The first Android version of the Lilypad app with my contributions (a lot of bug fixes and performance improvements) was released after my first month on the job. I was one of two programmers working on the mobile app, and most of my responsibilities were with the Android version.",
-      "link": "https://play.google.com/store/apps/details?id=com.lilypadsolutions.lilypadappV2&hl=en_US",
-      "tags": Array [
-        "javascript",
-        "appcelerator-titanium",
-      ],
-      "time": "Nov 2019",
-      "title": "Lilypad (Android version)",
-      "type": "Feature or Apps",
-    },
-    Object {
-      "description": "Co-author of “iOS Apprentice, 8th edition,” RayWenderlich.com’s “flagship” book. Completely revised two major sections of the book to cover developing apps using the SwiftUI framework. Rewrote two of the four apps presented in the book to reflect the new material.",
-      "link": "https://store.raywenderlich.com/products/ios-apprentice",
-      "tags": Array [
-        "ios",
-        "swift",
-        "swiftui",
-      ],
-      "time": "Nov 2019",
-      "title": "iOS Apprentice, 8th Edition",
-      "type": "Feature or Apps",
-    },
-    Object {
-      "description": "Paul Baranowski and I appear at the start of Chapter 9, which covers the _Peekabooty_ application.",
-      "link": "https://www.google.com/books/edition/Cult_of_the_Dead_Cow/055xDwAAQBAJ?hl=en&gbpv=1&dq=peekabooty+joey+devilla&pg=PT127&printsec=frontcover",
-      "tags": Array [],
-      "time": "Jun 2019",
-      "title": "Cited in the book “Cult of the Dead Cow How the Original Hacking Supergroup Might Just Save the World” by Joseph Menn (2019)",
-      "type": "Acheivement",
-    },
-    Object {
-      "description": "This is a full hour-long interview on the _Thunder Nerds_ podcast where I talk about a recent presentation on Jupyter Notebooks, plus how I got started in programming, and what brought me to the Tampa Bay area.",
-      "link": "https://www.youtube.com/watch?v=kVDP_-jmFtM",
-      "tags": Array [
-        "python",
-        "jupyter-notebook",
-        "pandas",
-      ],
-      "time": "Jan 2019",
-      "title": "Full interview on “Thunder Nerds” on Jupyter Notebooks, accordions, and more",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "This interview was conducted at DevFest Florida 2019, a Google technologies-focused conference at Disney World. I talk about my presentation on using Jupyter Notebooks to make dynamic documents that combine both text and Python programs to create a whole new kind of document.",
-      "link": "https://www.youtube.com/watch?v=It00Uy8VNGM",
-      "tags": Array [
-        "python",
-        "jupyter-notebook",
-        "pandas",
-      ],
-      "time": "Jan 2019",
-      "title": "Interview on “Thunder Nerds”, DevFest Florida 2019",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "Technical editor of “ARKit by Tutorials,” a book covering augmented reality app development for iOS devices.",
-      "link": "https://store.raywenderlich.com/products/arkit-by-tutorials",
-      "tags": Array [
-        "ios",
-        "swift",
-        "arkit",
-      ],
-      "time": "May 2018",
-      "title": "ARKit by Tutorials",
-      "type": "Feature or Apps",
-    },
-    Object {
-      "description": "This is the second of TWO presentations I gave at the RWDevCon 2018 conference on developing augmented reality apps with ARKit. I walk the audience through the development of 4 AR apps.",
-      "link": "https://www.youtube.com/watch?v=_sjyaDhKk2Q",
-      "tags": Array [
-        "ios",
-        "arkit",
-        "scenekit",
-        "coreml",
-      ],
-      "time": "Apr 2018",
-      "title": "ARKit Workshop at RWDevCon 2018",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "This is one of TWO presentations I gave at the RWDevCon 2018 conference on ARKit. This 2-hour session is the shorter presentation, where I teach ARKit by walking through the development of 2 apps: a Bob Ross-inspired “3D painter” app in the spirit of Google’s [Tilt Brush](https://www.tiltbrush.com/) and a scaled-down version of the _IKEA Place_ app.",
-      "link": "https://www.youtube.com/watch?v=0bea2V8Jrw4",
-      "tags": Array [
-        "ios",
-        "arkit",
-        "augmented-reality",
-        "scenekit",
-      ],
-      "time": "Apr 2018",
-      "title": "Getting Started with ARKit with Joey Devilla - Live Tutorial Session - RWDevCon 2018",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "This interview was conducted at DevFest Florida 2017, a Google technologies-focused conference at Disney World. I talk about my presentation on native Android development for web developers, working at an office after years of remote work, and mobile technologies.",
-      "link": "https://www.youtube.com/watch?v=AlG3fEHlF3E",
-      "tags": Array [
-        "android",
-        "android-studio",
-        "kotlin",
-      ],
-      "time": "Nov 2017",
-      "title": "Interview on “Thunder Nerds”, DevFest Florida 2017",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "We were ninety minutes into a one-hour job interview when the CTO said “We like your _breadth_ of experience. Now we’d like to test your _depth_. If we gave you a quick programming assignment, which would you prefer — writing an iOS app, or an Android app? You should go with the one you’re stronger in.”
-
-I’m a much stronger iOS programmer than an Android one. The smart move would’ve been to answer “iOS,” and be done with it.
-
-Instead, I replied “Yes, but you want a guy who can lead a team of both iOS and Android developers. You really should give me both.”
-
-The CTO raised an eyebrow, gave me a look, made a note on his pad, and said “Hmmm...I think I will.”
-
-This is either a “total baller move” (to borrow a turn of phrase the kids are using these day), or the end of that job prospect. But for the job that they’re trying to fill, taking on that challenge was the right thing to do.
-
-It had been a couple of years since I’d touched C or Objective-C, but after bumping my head once or twice against C-isms (“Oh yeah, pointers”), I got into a groove and a few days later, I had an app that I could show them.
-
-I sent them my project files for the iOS app, along with this “highlight reel” of the app in action, which I made using Camtasia Studio. “Tell me what you think while I work on the Android version.”
-
-And that’s the last I heard from them. Follow-up emails were met with silence. After the 6th email (“If you have any questions or comments about the app, please feel free to contact me”), it became apparent that this was a dead end, and it wouldn’t be worth my while to continue working on the Android version. Perhaps I’ll work on it as a way to sharpen my Kotlin skills.",
-      "link": "https://www.youtube.com/watch?v=6tHGYhKCx7o",
-      "tags": Array [
-        "ios",
-        "objective-c",
-        "alamofire",
-      ],
-      "time": "Jun 2017",
-      "title": "My “Trucker App” job interview homework assignment",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "The first of three “Makers Hustle Harder” hackathons run by GM in 2017 was held at Tampa Hackerspace. It was an opportunity for Tampa Bay techies to try their programming chops on GM’s Next Generation Infotainment (NGI) in-car console system.
-
-In about an hour, I came up with, coded, and tested an app called “Fitness Fire Drill”, which acts as a referee for [the classic “fire drill” game you play with friends in a car](https://en.wikipedia.org/wiki/Chinese_fire_drill).
-
-The judges liked the app so much that they invented the “Judges’ Fetish” category simply for the purpose of awarding it a prize.",
-      "link": "http://www.globalnerdy.com/2017/03/06/my-day-at-gms-makers-hustle-harder-hackathon-in-tampa/",
-      "tags": Array [
-        "javascript",
-        "css",
-        "html5",
-        "node.js",
-      ],
-      "time": "Mar 2017",
-      "title": "Winning a prize at GM’s “Makers Hustle Harder” hackathon",
-      "type": "Accomplishment",
-    },
-    Object {
-      "description": "I _always_ bring my accordion when I’m out for a beer, including when I’m out for a beer at Tampa’s Bay Area Renaissance Festival. While watching the Jackdaws, their guitarist Whiplash saw my accordion and invited me to join them onstage to perform “Three Gypsies” (a.k.a. “The Wraggle-Taggle Gypsies-Oh!”).
-
-I’ve included this video to show that yes, I can win over a crowd, which is actually a useful skill in the tech world.",
-      "link": "https://www.youtube.com/watch?v=z27MXXfY2KE",
-      "tags": Array [
-        "accordion",
-      ],
-      "time": "Mar 2017",
-      "title": "Playing “Three Gypsies” with the Jackdaws at Tampa’s Bay Area Renaissance Festival",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "John Biggs invited me to chat on his \\"Technotopia\\" podcast, where we talked about my new job at SMARTRAC, RFID and the internet of things, nostalgia, pop culture, and how they intersect with technology, and optimism about the future.
-
-Here’s how he introduced me: Joey DeVilla is my blogging hero. He's run his blog for most of two decades and he's worked at Microsoft, Shopify, and Tucows. Most recently he's taken on the..",
-      "link": "https://techcrunch.com/2016/10/30/accordion-guy-joey-devilla-talks-the-future-of-culture-and-iot/",
-      "tags": Array [],
-      "time": "Oct 2016",
-      "title": "TechCrunch: Accordion Guy Joey DeVilla talks the future of culture and IoT",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "_Aspirations Winery’s Wine Crush_ is a free iOS app written to promote a friend’s winery and wine shop in Clearwater, Florida. It’s a wine-themed game in the style of Candy Crush, and a promotional tool that other wineries won't have. It's available for free on the App Store. Unlike other free games, there aren't any \\"poison pills\\" to extract money from players — this game's just about simple, unadulterated fun.",
-      "link": "https://itunes.apple.com/us/app/aspirations-winerys-wine-crush/id1131103492?mt=8",
-      "tags": Array [
-        "swift3",
-        "ios",
-        "sprite-kit",
-      ],
-      "time": "Jul 2016",
-      "title": "Aspiration Winery’s Wine Crush",
-      "type": "Feature or Apps",
-    },
-    Object {
-      "description": "This video gives you a taste of the app I created for a friend’s winery, best described as “Like that Candy game, but with _wine!_”",
-      "link": "https://www.youtube.com/watch?v=6GUPWih1NYs",
-      "tags": Array [],
-      "time": "Jul 2016",
-      "title": "Promo video for “Aspirations Winery’s Wine Crush”",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "This one's a work in progress -- a little \\"Frogger\\"/\\"Crossy Road\\"-type game for iOS that I'm hoping to put in the App Store later this year. There's still lots to polish, but the basic game mechanics are in place.",
-      "link": "https://www.youtube.com/watch?v=W3Cd1shIu7I",
-      "tags": Array [
-        "swift",
-        "ios",
-        "sprite-kit",
-      ],
-      "time": "Feb 2016",
-      "title": "Dale Mabry Highway prototype",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "This 5-minute, 33-second video introduces IBM’s NICO service to the viewer. It explains how your network infrastructure could be costing your organization significantly more than it should, and how NICO can drive down your infrastructure and service costs, identify and fix system issues in your telecom system, and give you the tools and best practices to make the most of your network.
-
-I was the “army of one” behind this video, which I produced when I was the Technology Evangelist at GSG, who are an IBM partner, and provide the software platform and assessment services that go into NICO. I wrote the script, did the narration, gathered or created its images, and produced it — all in the span of a couple of weeks.",
-      "link": "https://www.youtube.com/watch?v=dX9_msIbOqM",
-      "tags": Array [],
-      "time": "Nov 2015",
-      "title": "IBM NICO: Network Infrastructure Cost Optimization (IBM version)",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "This 13-minute, 12-second video is taken from the “Dark Mobile” webinar that I led for a division of Honeywell formerly known as Enterprise Mobile. “Dark Mobile” is a term that I coined the term during my time at GSG, and it refers to those parts of an enterprise’s mobile telecom environment that goes unobserved, unmanaged, and unknown.
-
-In addition to coming up with the topic and title for the webinar, I wrote the script, hosted the webinar, and produced the video based on the recording and Honeywell’s slides.",
-      "link": "https://www.youtube.com/watch?v=kB3ixebexnc",
-      "tags": Array [],
-      "time": "Sep 2015",
-      "title": "“Dark Mobile” webinar for Enterprise Mobile (Honeywell)",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "I gave this presentation -- the second-last of the evening -- at Ignite Tampa Bay 2015, which took place in Tampa's Cuban Club on Thursday, August 27, 2015. In it, I sang the praises of \\"Florida Man\\" and \\"Florida Woman\\", those staples of slow news days and internet memes, and showed how they're this state's most valuable resource, complete with Florida Man logic and a closing accordion number.
-
-This was a presentation given in the \\"Ignite\\" format. It's 5 minutes long, with 20 slides, each slide advancing automatically every 15 seconds. The format has been described as \\"the presentation equivalent of a haiku or sonnet.\\" They're more challenging than your typical presentation, and require more rehearsal -- and they're also more thrilling to give!",
-      "link": "https://www.youtube.com/watch?v=bk_B9U0jaqI",
-      "tags": Array [],
-      "time": "Aug 2015",
-      "title": "My Ignite Tampa Bay 2015 presentation: A stirring defense of Florida Man and Florida Woman!",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "_Canadian Business_ magazine has a regular “How-To” section that features advice from a expert, and in the July 2015 issue, _I_ was the expert!
-
-Here’s how they introduced me: Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep your tech people from phoning it in. A little acknowledgement really helps.",
-      "link": "http://www.canadianbusiness.com/innovation/how-to/2015-manage-it-better/",
-      "tags": Array [],
-      "time": "Jul 2015",
-      "title": "Canadian Business: How to have a great relationship with your IT department",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "\\"Mobility 101\\" is a series of videos that I put together for [GSG](http://gsgtelco.com) to help the company's partners and their customers understand various aspects of mobile devices, services, applications, and management.
-
-This was my second video for GSG. This one introduces TEM — telecom expense management — in an entertaining way. As with most of these videos, I’m the “army of one” behind it.",
-      "link": "https://www.youtube.com/watch?v=Q8gTDF6JP4Q",
-      "tags": Array [],
-      "time": "Aug 2014",
-      "title": "GSG's Mobility 101: Telecom Expense Management, or TEM",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "\\"Mobility 101\\" is a series of videos that I put together for [GSG](http://gsgtelco.com) to help the company's partners and their customers understand various aspects of mobile devices, services, applications, and management.
-
-This 8-minute, 19-second video was my first video for GSG. This one explains what MMS is — it’s short for managed mobility services or mobility managed services, depending on whom you ask. As with most of these videos, I’m the “army of one” behind it.",
-      "link": "https://www.youtube.com/watch?v=u3wwapEsRIo",
-      "tags": Array [],
-      "time": "May 2014",
-      "title": "GSG's Mobility 101: Intro to MMS",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "During the 20102 holiday season, I took a day off from my CTO duties at Comprehensive Technology Solutions/Top Right Corner to participate in the Ford C-MAX Holiday Challenge, where we tried to get maximum efficiency out of Ford's new hybrid vehicles and go toy shopping for charity.
-
-(“Top Right Corner” was a name we were considering to replace “Comprehensive Technology Solutions”, but we never went through with the change.)",
-      "link": "https://www.youtube.com/watch?v=D8eCS6YJc34",
-      "tags": Array [],
-      "time": "Dec 2012",
-      "title": "Taking Ford Canada’s C-MAX Holiday Challenge (2012)",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "A roundup of the first four projects to be funded by the million-dollar Shopify Fund. Written, directed, shot and narrated by Yours Truly.",
-      "link": "https://www.youtube.com/watch?v=4lNx-7ICxVI",
-      "tags": Array [],
-      "time": "Jan 2012",
-      "title": "Announcing the first four Shopify Fund projects (2012)",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "Here’s a 4-minute, 10-second video that I made during my time as a Developer Evangelist at Shopify. This one was aimed at developers, letting them know about the Shopify Fund, a $1 million fund to incentivize developers to build apps for the Shopify ecommerce platform. As with the other videos in this post, this was pretty much me, a microphone, and a laptop with Camtasia Studio and Audacity.",
-      "link": "https://www.youtube.com/watch?v=Ux8nGYm95ak",
-      "tags": Array [],
-      "time": "Jan 2012",
-      "title": "Introducing the Shopify Fund",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "This video by New Relic features some of the software world’s brightest lights: Matz, Guido, Linus, DHH, Bill Joy,James Gosling, Sir Tim, Marc, Woz, Rasmus, The Gu, Sergey, Dries and finally Zuck. But guess whose picture they close with at the 1:04 mark!",
-      "link": "https://www.youtube.com/watch?v=52yjrhykCks",
-      "tags": Array [],
-      "time": "Dec 2011",
-      "title": "New Relic's \\"We Love Developers\\" Video, featuring Joey deVilla (December 2011)",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "In October 2010, Toronto’s [AndroidTO](http://androidto.com/) conference needed a couple of big sponsors to help ensure that they could hold their day-long, hundreds-of-attendees event without losing money. I’d heard that Google wasn’t going to sponsor them, and asked: _\\\\_Why doesn’t Microsoft sponsor them instead?\\\\__
-
-I used the event as an opportunity to showcase Windows as a great development platform for Android, by demoing an HP touchscreen computer set up as an Android development station running Eclipse (which at the time was the preferred Android IDE) and also showing the Windows Phone development environment, which looked a lot less confusing and more aesthetically pleasing than Eclipse (although that’s easy), and showing the C# language (similar to Java, so it seems familiar) and Windows Phone in the process.",
-      "link": "https://www.youtube.com/watch?v=84EnkkN9wgo",
-      "tags": Array [
-        "c#",
-        "windows-phone-7",
-        "android",
-        "java",
-        "visual-studio",
-        "eclipse",
-      ],
-      "time": "Oct 2010",
-      "title": "The time I got Microsoft to sponsor an Android conference because Google wouldn’t",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "This video shows the highlights from Microsoft’s Windows Phone 7 Showcase, held one evening in Toronto in September 2010. We put the spotlight on Windows Phone apps created by a number of Toronto-area developers including:
-
-*   Mark Arteaga of Redbit Develeopment
-*   Barranger Ridler of 4MK Mobile
-*   Alexey Adamsky and Alex Yakobovich of Ryerson University's Digital Media Zone
-*   Shawn Konopinsky of Nascent Digital
-*   Mike Kasprzak of Sykhronics
-
-I hosted and helped organize this event.",
-      "link": "https://www.youtube.com/watch?v=dC9BDyggLmM",
-      "tags": Array [],
-      "time": "Sep 2010",
-      "title": "Windows Phone 7 Showcase in Toronto",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "When I was a Developer Evangelist at Microsoft, a fellow Microsoftie had a problem: he was buried in work and needed a video comparing HTML with rich internet applications (RIAs) such as Adobe Flash or Microsoft Silverlight. “Can you make one…by tomorrow evening?” he asked. “That’s when I have to show it to this group in Montreal.”
-
-I got to work, and the result is this 5-minute, 46-second piece that summarizes the web world in the summer of 2010. I wrote, designed, narrated, and as the credits say, hastily produced this video, and my coworker was able to present it the following evening.",
-      "link": "https://www.youtube.com/watch?v=sQ-vlJv2dWE",
-      "tags": Array [],
-      "time": "Aug 2010",
-      "title": "HTML5 and RIAs: Friends with Benefits",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "Developer Jr. was an all-too-short-lived video series for children ages 7 through 12 that aimed to teach them programming and other creative things they can do with computers and technology. It starred me playing myself, and \\"Junior\\", an impish puppet played by Brian Hogg. It was sponsored by Microsoft Canada and produced by Butterscotch.com in early 2010.
-
-In this episode, Junior and I make a simple movie using Windows Movie Maker.",
-      "link": "https://www.youtube.com/watch?v=OU0hUzhhEzA",
-      "tags": Array [
-        "windows",
-      ],
-      "time": "May 2010",
-      "title": "Developer Jr., episode 2: Making movies with Windows Movie Maker",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "Developer Jr. was an all-too-short-lived video series for children ages 7 through 12 that aimed to teach them programming and other creative things they can do with computers and technology. It starred me playing myself, and \\"Junior\\", an impish puppet played by Brian Hogg. It was sponsored by Microsoft Canada and produced by Butterscotch.com in early 2010.
-
-In this episode, Junior and I explore basic videogame programming using a Microsoft Labs tool called Kodu.",
-      "link": "https://www.youtube.com/watch?v=VdPg8VZF76E",
-      "tags": Array [
-        "kodu",
-        "xbox360",
-      ],
-      "time": "Apr 2010",
-      "title": "Developer Jr., episode 1: Making games with Kodu",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "Here’s Butterscotch.com’s Matt Harris interviewing me about “Developer Jr.”, my technology show for kids starring Yours Truly and a puppet, Junior.",
-      "link": "https://www.youtube.com/watch?v=z5tmAH5kIQA",
-      "tags": Array [],
-      "time": "Mar 2010",
-      "title": "On the “Developer Jr.” set with Joey deVilla and Junior",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
-
-This Byte Club episode covered DemoCamp Toronto, a monthly show-and-tell gathering where Toronto techies could demo their projects in front of an audience of their peers. I was one of the people who co-hosted these gatherings.
-
-You had a time limit to present, and no slides were allowed at DemoCamp — you could only show your project in action!",
-      "link": "https://www.youtube.com/watch?v=UpVqyef7o-0",
-      "tags": Array [],
-      "time": "Oct 2008",
-      "title": "“Byte Club” covers DemoCamp Toronto",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "",
-      "link": "https://stackoverflow.com/questions/1854/python-what-os-am-i-running-on/1871#1871",
-      "tags": Array [],
-      "time": "Aug 2008",
-      "title": "Python: What OS am I running on?",
-      "type": "Top post",
-    },
-    Object {
-      "description": "",
-      "link": "https://stackoverflow.com/questions/626/when-to-use-lambda-when-to-use-proc-new/723#723",
-      "tags": Array [],
-      "time": "Aug 2008",
-      "title": "When to use lambda, when to use Proc.new?",
-      "type": "Top post",
-    },
-    Object {
-      "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
-
-This was the first Byte Club episode, which covered b5media and featured interviews with the people who ran it, including Yours Truly.",
-      "link": "https://www.youtube.com/watch?v=DnxT5YvLYZk",
-      "tags": Array [
-        "wordpress",
-      ],
-      "time": "Aug 2008",
-      "title": "“Byte Club” covers b5media",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
-
-This Byte Club episode featured the RubyFringe conference, a very offbeat conference that featured some of the bright lights of the Ruby community, including Obie Fernandez, Zed Shaw, Dan Grigsby, Hampton Catlin, Pete Forde, and Yours Truly!",
-      "link": "https://www.youtube.com/watch?v=A8MIp58qeDs",
-      "tags": Array [
-        "ruby",
-        "ruby-on-rails",
-        "merb",
-      ],
-      "time": "Jul 2008",
-      "title": "“Byte Club” covers RubyFringe",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "Upon seeing my accordion, RailsConf 2007 organizer Chad Fowler invited me to come up with a number that we could both perform at the keynote — me on accordion, him on ukulele. Here’s the result: a parody of Radiohead’s “Creep”, re-done as a tribute to Rails creator David Heinemeier Hansson and the “Depot” Rails tutorial.",
-      "link": "https://www.youtube.com/watch?v=eSqCog2WxdU",
-      "tags": Array [
-        "ruby",
-        "ruby-on-rails",
-        "accordion",
-      ],
-      "time": "May 2007",
-      "title": "Performing at the RailsConf 2007 evening keynote",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "Paul Baranowski and I appear for a number of pages starting at page 102 in a section that covers the _Peekabooty_ application.",
-      "link": "https://www.google.com/books/edition/Hacktivism_and_Cyberwars/hew6jmcZvD4C?hl=en&gbpv=1&dq=peekabooty+joey+devilla&pg=PA102&printsec=frontcover",
-      "tags": Array [],
-      "time": "Jul 2004",
-      "title": "Cited in the book “Hacktivism and Cyberwars: Rebels with a Cause?” by Tim Jordan and Paul A. Taylor (2004)",
-      "type": "Acheivement",
-    },
-    Object {
-      "description": "Peekabooty was an anti-censorship tool announced by the hacker and do-it-yourself media organization [Cult of the Dead Cow](http://cultdeadcow.com/) at the [DefCon](https://www.defcon.org/) conference in the summer of 2001. It was a peer-to-peer encrypted proxy system that circumvented internet censorship systems such as “The Great Firewall of China”, and has since been supplanted by VPN and similar anti-censorship technologies.
-
-Even though it was announced, the project wasn’t actually implemented until Paul Baranowski and I worked on it starting December 2001, and presented it at the CodeCon conference in February 2002. Paul was the back-end developer, building the underlying networking software, while I was the front-end developer, and built and designed the user interface, which included the cute bear icons that the screen used to show other users on the network.
-
-Peekabooty got a considerable amount of press at the time. Here’s a short list of articles: - _The Register:_ [Censor-buster Peek-A-Booty goes public](http://www.theregister.co.uk/2002/02/18/censorbuster_peeka_booty_goes_public/) - _Neowin:_ [Peek-A-Booty raises a few eyebrows at CodeCon](https://www.neowin.net/news/peek-a-booty-raises-a-few-eyebrows-at-codecon) - From the book _[Hacktivism and Cyberwars: Rebels with a Cause?:](https://www.amazon.com/Hacktivism-Cyberwars-Rebels-Tim-Jordan/dp/0415260043/ref=sr_1_1)_ I am briefly mentioned on page 102 for my involvement with Peekabooty. - _Spiegel Online:_ [Vorhang auf für Peek a Booty:](http://www.spiegel.de/netzwelt/tech/im-zeichen-des-teddies-vorhang-auf-fuer-peek-a-booty-a-183280.html) Peekabooty, as covered by the online version of the German news magazine _Der Spiegel_.",
-      "link": "http://www.theregister.co.uk/2002/02/18/censorbuster_peeka_booty_goes_public/",
-      "tags": Array [
-        "c++",
-        "networking",
-      ],
-      "time": "Feb 2002",
-      "title": "Peekabooty",
-      "type": "Feature or Apps",
-    },
-    Object {
-      "description": "This is an unpublished story that [Cory Doctorow](https://en.wikipedia.org/wiki/Cory_Doctorow) wrote for _Wired_ about Mackerel Interactive Multimedia, a Toronto-based scrappy upstart multimedia company during the era of the CD-ROM. I’m featured prominently in it.",
-      "link": "https://craphound.com/nonfic/mackerel.html",
-      "tags": Array [
-        "macromedia",
-      ],
-      "time": "Jul 1998",
-      "title": "Mackerel: Burying the Fish",
-      "type": "Blogs or videos",
-    },
-  ],
   "experience": Object {
     "jobs": Array [
       Object {
@@ -1011,6 +490,174 @@ Sales, marketing, and community relations:
         ],
       },
     ],
+    "projects": Array [
+      Object {
+        "URL": "https://apps.apple.com/us/app/big-event-2020/id1498328530",
+        "description": "This app — developed and deployed to the App Store on a Saturday afternoon — shows the scheduled events for the [Synapse Summit](https://synapsefl.com/summit/) 2020 conference, which took place in Tampa on Feb. 11 - 12, 2020. It’s a lot easier to check the schedule on your watch than it is to pull out your phone!",
+        "logo": Object {
+          "alt": "“Big Event 2020” Apple Watch app",
+          "link": "https://i.stack.imgur.com/A2LJ4.jpg",
+        },
+        "name": "“Big Event 2020” Apple Watch app",
+        "roles": Array [
+          Object {
+            "finishDate": "2020-02-01",
+            "means": Array [
+              Object {
+                "name": "watchos",
+              },
+              Object {
+                "name": "apple-watch",
+              },
+              Object {
+                "name": "swiftui",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2020-02-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "URL": "https://play.google.com/store/apps/details?id=com.lilypadsolutions.lilypadappV2&hl=en_US",
+        "description": "The first Android version of the Lilypad app with my contributions (a lot of bug fixes and performance improvements) was released after my first month on the job. I was one of two programmers working on the mobile app, and most of my responsibilities were with the Android version.",
+        "logo": Object {
+          "alt": "Lilypad (Android version)",
+          "link": "https://i.stack.imgur.com/Sah8H.png",
+        },
+        "name": "Lilypad (Android version)",
+        "roles": Array [
+          Object {
+            "finishDate": "2019-11-01",
+            "means": Array [
+              Object {
+                "name": "javascript",
+              },
+              Object {
+                "name": "appcelerator-titanium",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2019-11-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "URL": "https://store.raywenderlich.com/products/ios-apprentice",
+        "description": "Co-author of “iOS Apprentice, 8th edition,” RayWenderlich.com’s “flagship” book. Completely revised two major sections of the book to cover developing apps using the SwiftUI framework. Rewrote two of the four apps presented in the book to reflect the new material.",
+        "logo": Object {
+          "alt": "iOS Apprentice, 8th Edition",
+          "link": "https://i.stack.imgur.com/3ItPz.png",
+        },
+        "name": "iOS Apprentice, 8th Edition",
+        "roles": Array [
+          Object {
+            "finishDate": "2019-11-01",
+            "means": Array [
+              Object {
+                "name": "ios",
+              },
+              Object {
+                "name": "swift",
+              },
+              Object {
+                "name": "swiftui",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2019-11-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "URL": "https://store.raywenderlich.com/products/arkit-by-tutorials",
+        "description": "Technical editor of “ARKit by Tutorials,” a book covering augmented reality app development for iOS devices.",
+        "logo": Object {
+          "alt": "ARKit by Tutorials",
+          "link": "https://i.stack.imgur.com/deMhP.png",
+        },
+        "name": "ARKit by Tutorials",
+        "roles": Array [
+          Object {
+            "finishDate": "2018-05-01",
+            "means": Array [
+              Object {
+                "name": "ios",
+              },
+              Object {
+                "name": "swift",
+              },
+              Object {
+                "name": "arkit",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2018-05-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "URL": "https://itunes.apple.com/us/app/aspirations-winerys-wine-crush/id1131103492?mt=8",
+        "description": "_Aspirations Winery’s Wine Crush_ is a free iOS app written to promote a friend’s winery and wine shop in Clearwater, Florida. It’s a wine-themed game in the style of Candy Crush, and a promotional tool that other wineries won't have. It's available for free on the App Store. Unlike other free games, there aren't any \\"poison pills\\" to extract money from players — this game's just about simple, unadulterated fun.",
+        "logo": Object {
+          "alt": "Aspiration Winery’s Wine Crush",
+          "link": "https://i.stack.imgur.com/MFeKE.png",
+        },
+        "name": "Aspiration Winery’s Wine Crush",
+        "roles": Array [
+          Object {
+            "finishDate": "2016-07-01",
+            "means": Array [
+              Object {
+                "name": "swift3",
+              },
+              Object {
+                "name": "ios",
+              },
+              Object {
+                "name": "sprite-kit",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2016-07-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "URL": "http://www.theregister.co.uk/2002/02/18/censorbuster_peeka_booty_goes_public/",
+        "description": "Peekabooty was an anti-censorship tool announced by the hacker and do-it-yourself media organization [Cult of the Dead Cow](http://cultdeadcow.com/) at the [DefCon](https://www.defcon.org/) conference in the summer of 2001. It was a peer-to-peer encrypted proxy system that circumvented internet censorship systems such as “The Great Firewall of China”, and has since been supplanted by VPN and similar anti-censorship technologies.
+
+Even though it was announced, the project wasn’t actually implemented until Paul Baranowski and I worked on it starting December 2001, and presented it at the CodeCon conference in February 2002. Paul was the back-end developer, building the underlying networking software, while I was the front-end developer, and built and designed the user interface, which included the cute bear icons that the screen used to show other users on the network.
+
+Peekabooty got a considerable amount of press at the time. Here’s a short list of articles: - _The Register:_ [Censor-buster Peek-A-Booty goes public](http://www.theregister.co.uk/2002/02/18/censorbuster_peeka_booty_goes_public/) - _Neowin:_ [Peek-A-Booty raises a few eyebrows at CodeCon](https://www.neowin.net/news/peek-a-booty-raises-a-few-eyebrows-at-codecon) - From the book _[Hacktivism and Cyberwars: Rebels with a Cause?:](https://www.amazon.com/Hacktivism-Cyberwars-Rebels-Tim-Jordan/dp/0415260043/ref=sr_1_1)_ I am briefly mentioned on page 102 for my involvement with Peekabooty. - _Spiegel Online:_ [Vorhang auf für Peek a Booty:](http://www.spiegel.de/netzwelt/tech/im-zeichen-des-teddies-vorhang-auf-fuer-peek-a-booty-a-183280.html) Peekabooty, as covered by the online version of the German news magazine _Der Spiegel_.",
+        "logo": Object {
+          "alt": "Peekabooty",
+          "link": "https://i.stack.imgur.com/C1b12.jpg",
+        },
+        "name": "Peekabooty",
+        "roles": Array [
+          Object {
+            "finishDate": "2002-02-01",
+            "means": Array [
+              Object {
+                "name": "c++",
+              },
+              Object {
+                "name": "networking",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2002-02-01",
+          },
+        ],
+        "type": "other",
+      },
+    ],
   },
   "likedTechnologies": Array [
     "android",
@@ -1057,32 +704,6 @@ Object {
       },
     ],
   },
-  "artifacts": Array [
-    Object {
-      "description": "These are the slides of my talk about my experience (a kind of postmortem) in Runnics given at BetaBeers Salamanca.",
-      "link": "https://speakerdeck.com/ydarias/betabeers-salamanca",
-      "tags": Array [],
-      "time": "Jan 2018",
-      "title": "BetaBeers Salamanca",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "Talk given at Codemotion 2016 in Madrid about how to measure (Java) code speed and health with JMX.",
-      "link": "https://speakerdeck.com/ydarias/the-java-and-the-furious-jmx",
-      "tags": Array [],
-      "time": "Nov 2016",
-      "title": "The Java and the Furious (JMX)",
-      "type": "Blogs or videos",
-    },
-    Object {
-      "description": "El viernes pasado me invitaron a dar una charla sobre Runnics en el Betabeers de Madrid, y al parecer gustó bastante, razón por la cual ...",
-      "link": "http://developerscookbook.blogspot.com.es/2014/09/runnics-en-betabeers-madrid.html",
-      "tags": Array [],
-      "time": "Sep 2014",
-      "title": "Runnics en Betabeers Madrid",
-      "type": "Blogs or videos",
-    },
-  ],
   "dislikedTechnologies": Array [
     "php",
   ],

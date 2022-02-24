@@ -3,7 +3,6 @@ import * as _ from 'lodash';
 
 import {DevStoryDownloader} from './devStoryDownloader';
 import {MAC} from './models/mac';
-import {ArtifactParser} from './parsers/artifactParser';
 import {Logger} from './utils/logger';
 import {Settings} from './models/settings';
 import {AboutMeParser} from './parsers/aboutMeParser';
@@ -43,14 +42,6 @@ export class DevStoryScraper {
       .map((i, e) => $(e).text())
       .get();
 
-    const artifacts = $('.timeline-item')
-      .not('.job')
-      .map((i, e) => {
-        const artifactParser = new ArtifactParser();
-        return artifactParser.parse($(e).html() || '');
-      })
-      .get();
-
     const elapsed = new Date().getTime() - startTime;
     log.debug(`${username} profile parsed in ${elapsed}ms`);
 
@@ -62,7 +53,6 @@ export class DevStoryScraper {
         //---
         likedTechnologies,
         dislikedTechnologies,
-        artifacts,
       },
       (e) => _.isNil(e) || _.isEmpty(e),
     ) as MAC;

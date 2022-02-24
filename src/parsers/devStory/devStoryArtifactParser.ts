@@ -1,36 +1,28 @@
 import cheerio, {CheerioAPI} from 'cheerio';
 
-import {DevStoryPosition} from '../../models/devStory/devStoryPosition';
+import {DevStoryArtifact} from '../../models/devStory/devStoryArtifact';
 import {stripString} from '../../utils/utils';
 import {Markdown} from '../../utils/markdown';
 
-export class DevStoryPositionParser {
-  static parse(html: string): DevStoryPosition {
+export class DevStoryArtifactParser {
+  static parse(html: string): DevStoryArtifact {
     const $ = cheerio.load(html);
-    const time = stripString($('span[class="timeline-item-date"]').text());
-    const title = stripString($('div[class="timeline-item-title"]').text());
-    const url = this.parseURL($);
+    const type = stripString($('.timeline-item-type').text());
+    const time = stripString($('.timeline-item-date').text());
+    const title = stripString($('.timeline-item-title').text());
+    const url = $('.timeline-item-title a').attr('href') || '';
     const description = this.parseDescription($);
     const [logo, logoAlt] = this.parseLogo($);
     const tags = $('.s-tag')
       .map((i, e) => stripString($(e).text()))
       .get();
 
-    return {time, title, url, description, tags, logo, logoAlt};
+    return {type, time, title, url: url, description, tags, logo, logoAlt};
   }
 
-  private static parseURL($: CheerioAPI): string {
-    const urlNode = $('.timeline-item-title a')[0];
-    if (!urlNode) {
-      return '';
-    }
-
-    return urlNode.attribs.href;
-  }
-
-  // This method seems duplicated but it could change separately from the Artifact logo parsing logic
+  // This method seems duplicated but it could change separately from the Position logo parsing logic
   private static parseLogo($: CheerioAPI): [string, string] {
-    const logoNode = $('.timeline-item-content img.js-list-img')[0];
+    const logoNode = $('.timeline-item-content img')[0];
     if (!logoNode) {
       return ['', ''];
     }

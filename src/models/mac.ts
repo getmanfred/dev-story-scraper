@@ -1,4 +1,4 @@
-import {Artifact} from './artifact';
+import {DevStoryArtifact} from './devStory/devStoryArtifact';
 import {Settings} from './settings';
 import {AboutMe} from './aboutMe';
 
@@ -7,5 +7,5 @@ export type MAC = {
   aboutMe: AboutMe;
   likedTechnologies?: string[];
   dislikedTechnologies?: string[];
-  artifacts?: Artifact[];
+  artifacts?: DevStoryArtifact[];
 };

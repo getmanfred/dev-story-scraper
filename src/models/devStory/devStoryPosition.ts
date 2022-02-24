@@ -4,6 +4,6 @@ export type DevStoryPosition = {
   url: string;
   description: string;
   tags: string[];
-  logo?: string;
-  logoAlt?: string;
+  logo: string;
+  logoAlt: string;
 };

@@ -15,6 +15,11 @@ export class DatesParser {
       const endDate = this.toDate(match[2]);
 
       return [startDate, endDate];
+    } else {
+      const startDate = this.toDate(input);
+      if (/\d{4}-\d{2}-\d{2}/.exec(startDate)) {
+        return [startDate, ''];
+      }
     }
 
     return ['', ''];

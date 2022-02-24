@@ -1,4 +1,4 @@
-import {JobRole} from './jobRole';
+import {Role} from './role';
 import {Image} from './image';
 
 export type Job = {
@@ -6,5 +6,5 @@ export type Job = {
   description?: string;
   URL?: string;
   logo?: Image;
-  roles?: JobRole[];
+  roles?: Role[];
 };
