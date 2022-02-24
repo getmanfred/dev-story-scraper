@@ -3,7 +3,6 @@ import * as _ from 'lodash';
 
 import {DevStoryDownloader} from './devStoryDownloader';
 import {MAC} from './models/mac';
-import {DevStoryPositionParser} from './parsers/devStory/devStoryPositionParser';
 import {ArtifactParser} from './parsers/artifactParser';
 import {Logger} from './utils/logger';
 import {Settings} from './models/settings';
@@ -44,13 +43,6 @@ export class DevStoryScraper {
       .map((i, e) => $(e).text())
       .get();
 
-    const positions = $('div[class="timeline-item job"]')
-      .map((i, e) => {
-        const positionParser = new DevStoryPositionParser();
-        return positionParser.parse($(e).html() || '');
-      })
-      .get();
-
     const artifacts = $('.timeline-item')
       .not('.job')
       .map((i, e) => {
@@ -70,7 +62,6 @@ export class DevStoryScraper {
         //---
         likedTechnologies,
         dislikedTechnologies,
-        positions,
         artifacts,
       },
       (e) => _.isNil(e) || _.isEmpty(e),
