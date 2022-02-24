@@ -1,11 +1,11 @@
 import cheerio, {CheerioAPI} from 'cheerio';
 
-import {Position} from '../models/position';
-import {stripString} from '../utils/utils';
-import {Markdown} from '../utils/markdown';
+import {DevStoryPosition} from '../../models/devStory/devStoryPosition';
+import {stripString} from '../../utils/utils';
+import {Markdown} from '../../utils/markdown';
 
-export class PositionParser {
-  parse(html: string): Position {
+export class DevStoryPositionParser {
+  parse(html: string): DevStoryPosition {
     const $ = cheerio.load(html);
     const time = stripString($('span[class="timeline-item-date"]').text());
     const title = stripString($('div[class="timeline-item-title"]').text());

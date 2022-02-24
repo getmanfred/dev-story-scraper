@@ -1,4 +1,4 @@
-export type Position = {
+export type DevStoryPosition = {
   time: string;
   title: string;
   description: string;

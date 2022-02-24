@@ -3,18 +3,22 @@ import * as _ from 'lodash';
 
 import {DevStoryDownloader} from './devStoryDownloader';
 import {MAC} from './models/mac';
-import {PositionParser} from './parsers/positionParser';
+import {DevStoryPositionParser} from './parsers/devStory/devStoryPositionParser';
 import {ArtifactParser} from './parsers/artifactParser';
 import {Logger} from './utils/logger';
 import {Settings} from './models/settings';
 import {AboutMeParser} from './parsers/aboutMeParser';
 import {Geocoder} from './utils/geocoder';
+import {ExperienceParser} from './parsers/experienceParser';
 
 export class DevStoryScraper {
   aboutMeParser: AboutMeParser;
+  experienceParser: ExperienceParser;
 
   constructor(private readonly downloader: DevStoryDownloader, geocoder: Geocoder) {
     this.aboutMeParser = new AboutMeParser(geocoder);
+    // These parsers could be static, but declared here to keep code coherence
+    this.experienceParser = new ExperienceParser();
   }
 
   async parse(username: string): Promise<MAC> {
@@ -29,6 +33,7 @@ export class DevStoryScraper {
 
     const settings = this.defaultEnglishSettings();
     const aboutMe = await this.aboutMeParser.parse($);
+    const experience = this.experienceParser.parse($);
 
     const likedTechnologies = $('div[class="user-technologies"] .timeline-item-tags .post-tag')
       .not('.disliked-tag')
@@ -41,7 +46,7 @@ export class DevStoryScraper {
 
     const positions = $('div[class="timeline-item job"]')
       .map((i, e) => {
-        const positionParser = new PositionParser();
+        const positionParser = new DevStoryPositionParser();
         return positionParser.parse($(e).html() || '');
       })
       .get();
@@ -61,6 +66,8 @@ export class DevStoryScraper {
       {
         settings,
         aboutMe,
+        experience,
+        //---
         likedTechnologies,
         dislikedTechnologies,
         positions,

@@ -3,7 +3,7 @@ import * as _ from 'lodash';
 
 import {Profile} from '../models/profile';
 import {AboutMe} from '../models/aboutMe';
-import {Avatar} from '../models/avatar';
+import {Image} from '../models/image';
 import {Location} from '../models/location';
 import {stripString} from '../utils/utils';
 import {Geocoder} from '../utils/geocoder';
@@ -50,7 +50,7 @@ export class AboutMeParser {
     };
   }
 
-  private parseAvatar($: CheerioAPI): Avatar {
+  private parseAvatar($: CheerioAPI): Image {
     const link = $('div#form-section-PersonalInfo img')[0]?.attribs?.src || '';
 
     return {

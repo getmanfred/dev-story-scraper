@@ -1,4 +1,4 @@
-export type Avatar = {
+export type Image = {
   alt?: string;
   link: string;
 };
