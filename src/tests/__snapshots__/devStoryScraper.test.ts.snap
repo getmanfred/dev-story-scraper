@@ -67,7 +67,6 @@ Object {
         "name": "Razeware",
         "roles": Array [
           Object {
-            "finishDate": "",
             "means": Array [
               Object {
                 "name": "ios",
@@ -99,14 +98,9 @@ Object {
       Object {
         "URL": "https://stackoverflow.com/users/story/lists/364168/tampa-ios-meetup?storyType=1",
         "description": "Tampa iOS Meetup is a regular gathering for iOS developers in the Tampa Bay area to discuss and present iOS development techniques. I have also led iOS development tutorials at the Iron Yard (a software development “boot camp”-style school in St. Petersburg) and the Tampa BarCamp “unconference”.",
-        "logo": Object {
-          "alt": "",
-          "link": "",
-        },
         "name": "Tampa iOS Meetup",
         "roles": Array [
           Object {
-            "finishDate": "",
             "means": Array [
               Object {
                 "name": "objective-c",
@@ -124,18 +118,12 @@ Object {
         ],
       },
       Object {
-        "URL": "",
         "description": "In my spare time, to keep my hand in “the programming game”, I take on mobile app development side projects for people with interesting app ideas. My primary development platform is iOS, although I can also develop Android apps, as well as cross-platform apps using Xamarin. Recent projects include:
 
 *   [Aspirations Winery’s Wine Crush](https://itunes.apple.com/us/app/aspirations-winerys-wine-crush/id1131103492?mt=8): A free iOS app written to promote a friend’s winery and wine shop in Clearwater, Florida. It’s a wine-themed game in the style of Candy Crush, and a promotional tool that other wineries won't have. It's available for free on the App Store. Unlike other free games, there aren't any \\"poison pills\\" to extract money from players — this game's just about simple, unadulterated fun. • Mind Quieting, an audio player that guides the user through mind quieting exercises developed by Dr. Alan Banack, a Toronto-based psychotherapist, and based on techniques developed over years of working with patients to help counter stress.",
-        "logo": Object {
-          "alt": "",
-          "link": "",
-        },
         "name": "Joey deVilla Mobile Development",
         "roles": Array [
           Object {
-            "finishDate": "",
             "means": Array [
               Object {
                 "name": "swift",
@@ -164,14 +152,9 @@ Object {
       Object {
         "URL": "https://stackoverflow.com/users/story/lists/364189/global-nerdy?storyType=1",
         "description": "Global Nerdy is my technology and software development blog, to which I have been posting articles and tutorials since 2006. Since its inception, it has received nearly 8.7 million pageviews.",
-        "logo": Object {
-          "alt": "",
-          "link": "",
-        },
         "name": "Global Nerdy",
         "roles": Array [
           Object {
-            "finishDate": "",
             "means": Array [
               Object {
                 "name": "vb.net",
@@ -271,14 +254,12 @@ Sales, marketing, and community relations:
         "roles": Array [
           Object {
             "finishDate": "2019-06-01",
-            "means": Array [],
             "name": "Lead Product Manager",
             "startDate": "2017-07-01",
           },
         ],
       },
       Object {
-        "URL": "",
         "description": "Technical marketer and developer evangelist for the company during their pivot from RFID tag/inlay manufacturer to provider of an integrated RFID/cloud software solution to seamlessly connect real-world objects to their digital representations.
 
 *   Product owner: Gathered requirements, and then specified the functionality and workflows for a hardware/software system for embedding RFID tags in luxury goods for tracking them through the manufacturing process and the sales cycle, and as an anti-counterfeiting measure.
@@ -347,17 +328,12 @@ Sales, marketing, and community relations:
         ],
       },
       Object {
-        "URL": "",
         "description": "Managed a consultancy that became the de facto managed mobility services department of [Rogers Communications](https://www.rogers.com/) (the Canadian equivalent of Time-Warner), filling the roles of chief technologist and marketing department.
 
 *   Designed and developed turnkey solutions for Rogers, including “BYOD in a Box” and “CL in a Box”, applications for small- and medium-sized businesses to manage their BYOD (“Bring Your Own Device”) and CL (corporate-liable) mobile devices. These applications combined mobile device management, telecom expense management, device inventory, and help desk applications.
 *   Performed Rogers’ first mobile needs assessments, including one for an energy company in Canada’s far north, which involved on-site visits to their head office in Calgary and their drill site in northern Alberta, interviewing two dozen stakeholder groups in the organization, convening with their IT department, and producing a full report complete with recommendations for increased productivity and cost savings.
 *   Implemented processes for clients with 1,000+ employees move from corporate-liable mobile devices to individual-liable ones.
 *   Created Rogers-branded customer-facing documents, including a white paper listing tips for businesses who want to implement a BYOD program, a guide to help enterprises create mobile device policies, and “sell sheets” for various Rogers services.",
-        "logo": Object {
-          "alt": "",
-          "link": "",
-        },
         "name": "Comprehensive Technology Solutions",
         "roles": Array [
           Object {
@@ -711,16 +687,10 @@ Object {
   "experience": Object {
     "jobs": Array [
       Object {
-        "URL": "",
         "description": "Software developer focused in backend.",
-        "logo": Object {
-          "alt": "",
-          "link": "",
-        },
         "name": "IBM Research",
         "roles": Array [
           Object {
-            "finishDate": "",
             "means": Array [
               Object {
                 "name": "typescript",
@@ -780,12 +750,6 @@ Object {
         ],
       },
       Object {
-        "URL": "",
-        "description": "",
-        "logo": Object {
-          "alt": "",
-          "link": "",
-        },
         "name": "Otogami",
         "roles": Array [
           Object {
@@ -816,12 +780,6 @@ Object {
         ],
       },
       Object {
-        "URL": "",
-        "description": "",
-        "logo": Object {
-          "alt": "",
-          "link": "",
-        },
         "name": "Avantic Estudio de Ingenieros",
         "roles": Array [
           Object {

@@ -1,5 +1,5 @@
 import cheerio from 'cheerio';
-import * as _ from 'lodash';
+import cleanDeep from 'clean-deep';
 
 import {DevStoryDownloader} from './devStoryDownloader';
 import {MAC} from './models/mac';
@@ -45,17 +45,16 @@ export class DevStoryScraper {
     const elapsed = new Date().getTime() - startTime;
     log.debug(`${username} profile parsed in ${elapsed}ms`);
 
-    return _.omitBy(
-      {
-        settings,
-        aboutMe,
-        experience,
-        //---
-        likedTechnologies,
-        dislikedTechnologies,
-      },
-      (e) => _.isNil(e) || _.isEmpty(e),
-    ) as MAC;
+    const mac = {
+      settings,
+      aboutMe,
+      experience,
+      //---
+      likedTechnologies,
+      dislikedTechnologies,
+    };
+
+    return cleanDeep(mac) as MAC;
   }
 
   private defaultSettings(): Settings {

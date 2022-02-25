@@ -1,5 +1,4 @@
 import {CheerioAPI} from 'cheerio';
-import * as _ from 'lodash';
 
 import {Experience} from '../models/experience';
 import {DevStoryPositionParser} from './devStory/devStoryPositionParser';
@@ -25,13 +24,10 @@ export class ExperienceParser {
       .get();
     const projects = artifacts.filter((a) => this.isProject(a)).map((a) => this.toProject(a));
 
-    return _.omitBy(
-      {
-        jobs,
-        projects,
-      },
-      (e) => _.isNil(e) || _.isEmpty(e),
-    ) as Experience;
+    return {
+      jobs,
+      projects,
+    };
   }
 
   private toJob(position: DevStoryPosition): Job {

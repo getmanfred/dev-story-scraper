@@ -23,16 +23,13 @@ export class AboutMeParser {
     const relevantLinks = this.parseRelevantLinks($);
     const interestingFacts = this.parseInterestingFacts($);
 
-    return _.omitBy(
-      {
-        profile,
-        headline,
-        introduction,
-        relevantLinks,
-        interestingFacts,
-      },
-      (e) => _.isNil(e) || _.isEmpty(e),
-    ) as AboutMe;
+    return {
+      profile,
+      headline,
+      introduction,
+      relevantLinks,
+      interestingFacts,
+    };
   }
 
   private async parseProfile($: CheerioAPI): Promise<Profile> {
