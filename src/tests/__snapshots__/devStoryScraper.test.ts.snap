@@ -671,6 +671,7 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
     "swift",
   ],
   "settings": Object {
+    "MACversion": "0.2",
     "language": "EN",
   },
 }
@@ -858,6 +859,7 @@ Object {
     "mongodb",
   ],
   "settings": Object {
+    "MACversion": "0.2",
     "language": "EN",
   },
 }

@@ -29,7 +29,7 @@ export class DevStoryScraper {
 
     const $ = cheerio.load(profileAsHTML);
 
-    const settings = this.defaultEnglishSettings();
+    const settings = this.defaultSettings();
     const aboutMe = await this.aboutMeParser.parse($);
     const experience = this.experienceParser.parse($);
 
@@ -58,9 +58,10 @@ export class DevStoryScraper {
     ) as MAC;
   }
 
-  private defaultEnglishSettings(): Settings {
+  private defaultSettings(): Settings {
     return {
       language: 'EN',
+      MACversion: '0.2',
     };
   }
 }
