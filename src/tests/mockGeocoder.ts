@@ -8,6 +8,7 @@ export class MockGeocoder implements Geocoder {
         country: 'ES',
         municipality: 'Madrid',
         region: 'Community of Madrid',
+        notes: 'Autocompleted using Google Maps API',
       };
     }
 
@@ -15,6 +16,7 @@ export class MockGeocoder implements Geocoder {
       country: 'US',
       municipality: 'Tampa',
       region: 'Florida',
+      notes: 'Autocompleted using Google Maps API',
     };
   }
 }

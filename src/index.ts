@@ -4,7 +4,7 @@ import {DevStoryDownloader} from './devStoryDownloader';
 import {DevStoryScraper} from './devStoryScraper';
 import {MAC} from './models/mac';
 import {Logger} from './utils/logger';
-import {Geocoder} from './utils/geocoder';
+import {GoogleGeocoder} from './utils/geocoder';
 
 const successResponse = (mac: MAC) => ({
   statusCode: 200,
@@ -27,7 +27,7 @@ export const handler: Handler = async (event: APIGatewayProxyEvent) => {
     log.info(`scraping information from ${username}`);
 
     const downloader = new DevStoryDownloader();
-    const geocoder = new Geocoder();
+    const geocoder = new GoogleGeocoder();
     const scraper = new DevStoryScraper(downloader, geocoder);
     const profile = await scraper.parse(username);
 

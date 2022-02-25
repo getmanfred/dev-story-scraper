@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "test:local": "tsc src/localLauncher.ts",
+    "test:local": "yarn build && node dist/localLauncher.js",
     "lint": "eslint src/**/*.ts",
     "format": "prettier 'src/**/*.{ts,js,json}' --write"
   },

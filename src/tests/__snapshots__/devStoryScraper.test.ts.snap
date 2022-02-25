@@ -28,6 +28,7 @@ Object {
       "whereILive": Object {
         "country": "US",
         "municipality": "Tampa",
+        "notes": "Autocompleted using Google Maps API",
         "region": "Florida",
       },
     },
@@ -667,6 +668,7 @@ Object {
       "whereILive": Object {
         "country": "ES",
         "municipality": "Madrid",
+        "notes": "Autocompleted using Google Maps API",
         "region": "Community of Madrid",
       },
     },
