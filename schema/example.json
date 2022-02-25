@@ -1,21 +1,25 @@
 {
   "settings": {
     "language": "EN",
-    "lastUpdate": "2011-06-14"
+    "lastUpdate": "2011-06-14",
+    "MACversion": "0.2"
   },
   "aboutMe": {
     "profile": {
       "name": "David",
       "surnames": "Bonilla Fuertes",
       "avatar": {
-        "alt": "Lorem",
+        "alt": "picture of Mike Gomez",
         "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
       },
       "birthday": "1977-07-26",
       "whereILive": {
         "country": "US",
         "region": "California",
-        "municipality": "San Francisco"
+        "municipality": "San Francisco",
+        "postalCode": "Lorem",
+        "address": "Lorem",
+        "notes": "Lorem"
       }
     },
     "headline": "Full-stack Developer at Manfred. Slow Marathoner. Rock'n'roll Accordionist.",
@@ -25,6 +29,35 @@
         "type": "other",
         "URL": "sample.com",
         "description": "Lorem"
+      }
+    ],
+    "significativeRelationships": [
+      {
+        "name": "Sharon",
+        "surnames": "Vlaovic-Sorensen",
+        "title": "My supervisor",
+        "description": "Daniel was the perfect leader and he achieved all the goals assigned to the Departement but the most important thing is he's also a great colleague.",
+        "contact": {
+          "publicProfiles": [
+            {
+              "type": "other",
+              "URL": "https://www.getmanfred.com/mac/david"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "countryCode": 34,
+              "number": "616100584"
+            }
+          ],
+          "contactMails": [
+            "your.name@mail.com"
+          ]
+        },
+        "avatar": {
+          "alt": "picture of Mike Gomez",
+          "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+        }
       }
     ],
     "interestingFacts": [
@@ -40,19 +73,64 @@
         "Lorem"
       ]
     },
-    "noticePeriod": 13
+    "noticePeriod": 13,
+    "recommendations": [
+      {
+        "title": "Lorem",
+        "type": "web",
+        "URL": "Lorem",
+        "author": {
+          "name": "Sharon",
+          "surnames": "Vlaovic-Sorensen",
+          "title": "My supervisor",
+          "description": "Daniel was the perfect leader and he achieved all the goals assigned to the Departement but the most important thing is he's also a great colleague.",
+          "contact": {
+            "publicProfiles": [
+              {
+                "type": "other",
+                "URL": "https://www.getmanfred.com/mac/david"
+              }
+            ],
+            "phoneNumbers": [
+              {
+                "countryCode": 34,
+                "number": "616100584"
+              }
+            ],
+            "contactMails": [
+              "your.name@mail.com"
+            ]
+          },
+          "avatar": {
+            "alt": "picture of Mike Gomez",
+            "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+          }
+        },
+        "summary": "Lorem"
+      }
+    ]
   },
   "experience": {
     "jobs": [
       {
-        "name": "Manfred",
-        "type": "bigCorp",
-        "description": "A place to manage your career online",
-        "URL": "https://getmanfred.com",
-        "logo": {
-          "alt": "Manfred logo",
-          "link": "https://pbs.twimg.com/profile_images/946845160004112384/ap8_xjIa_400x400.jpg"
+        "organization": {
+          "name": "Stanford University",
+          "description": "Lorem",
+          "URL": "https://www.stanford.edu/",
+          "image": {
+            "alt": "picture of Mike Gomez",
+            "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+          },
+          "location": {
+            "country": "US",
+            "region": "California",
+            "municipality": "San Francisco",
+            "postalCode": "Lorem",
+            "address": "Lorem",
+            "notes": "Lorem"
+          }
         },
+        "type": "bigCorp",
         "roles": [
           {
             "name": "Developer",
@@ -70,7 +148,36 @@
               {
                 "name": "Excel",
                 "type": "domain",
-                "description": "Lorem"
+                "description": "Formule modeling and complex calculations"
+              }
+            ],
+            "referrals": [
+              {
+                "name": "Sharon",
+                "surnames": "Vlaovic-Sorensen",
+                "title": "My supervisor",
+                "description": "Daniel was the perfect leader and he achieved all the goals assigned to the Departement but the most important thing is he's also a great colleague.",
+                "contact": {
+                  "publicProfiles": [
+                    {
+                      "type": "other",
+                      "URL": "https://www.getmanfred.com/mac/david"
+                    }
+                  ],
+                  "phoneNumbers": [
+                    {
+                      "countryCode": 34,
+                      "number": "616100584"
+                    }
+                  ],
+                  "contactMails": [
+                    "your.name@mail.com"
+                  ]
+                },
+                "avatar": {
+                  "alt": "picture of Mike Gomez",
+                  "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+                }
               }
             ]
           }
@@ -79,14 +186,24 @@
     ],
     "projects": [
       {
-        "name": "Manfred Awesomic CV",
-        "type": "other",
-        "description": "Lorem",
-        "URL": "Lorem",
-        "logo": {
-          "alt": "Manfred logo",
-          "link": "https://pbs.twimg.com/profile_images/946845160004112384/ap8_xjIa_400x400.jpg"
+        "details": {
+          "name": "Stanford University",
+          "description": "Lorem",
+          "URL": "https://www.stanford.edu/",
+          "image": {
+            "alt": "picture of Mike Gomez",
+            "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+          },
+          "location": {
+            "country": "US",
+            "region": "California",
+            "municipality": "San Francisco",
+            "postalCode": "Lorem",
+            "address": "Lorem",
+            "notes": "Lorem"
+          }
         },
+        "type": "other",
         "roles": [
           {
             "name": "Developer",
@@ -104,7 +221,36 @@
               {
                 "name": "Excel",
                 "type": "domain",
-                "description": "Lorem"
+                "description": "Formule modeling and complex calculations"
+              }
+            ],
+            "referrals": [
+              {
+                "name": "Sharon",
+                "surnames": "Vlaovic-Sorensen",
+                "title": "My supervisor",
+                "description": "Daniel was the perfect leader and he achieved all the goals assigned to the Departement but the most important thing is he's also a great colleague.",
+                "contact": {
+                  "publicProfiles": [
+                    {
+                      "type": "other",
+                      "URL": "https://www.getmanfred.com/mac/david"
+                    }
+                  ],
+                  "phoneNumbers": [
+                    {
+                      "countryCode": 34,
+                      "number": "616100584"
+                    }
+                  ],
+                  "contactMails": [
+                    "your.name@mail.com"
+                  ]
+                },
+                "avatar": {
+                  "alt": "picture of Mike Gomez",
+                  "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+                }
               }
             ]
           }
@@ -113,20 +259,30 @@
     ],
     "publicArtifacts": [
       {
-        "name": "Lorem",
-        "description": "Lorem",
-        "URL": "Lorem",
+        "details": {
+          "name": "Stanford University",
+          "description": "Lorem",
+          "URL": "https://www.stanford.edu/",
+          "image": {
+            "alt": "picture of Mike Gomez",
+            "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+          },
+          "location": {
+            "country": "US",
+            "region": "California",
+            "municipality": "San Francisco",
+            "postalCode": "Lorem",
+            "address": "Lorem",
+            "notes": "Lorem"
+          }
+        },
         "type": "video",
         "publishingDate": "2011-06-14",
-        "thumbnail": {
-          "alt": "Manfred logo",
-          "link": "https://pbs.twimg.com/profile_images/946845160004112384/ap8_xjIa_400x400.jpg"
-        },
         "means": [
           {
             "name": "Excel",
             "type": "domain",
-            "description": "Lorem"
+            "description": "Formule modeling and complex calculations"
           }
         ]
       }
@@ -157,20 +313,44 @@
     ],
     "studies": [
       {
+        "studyType": "selfTraining",
+        "degreeAchieved": true,
         "name": "Software Engineering",
         "description": "Computer Science Grade",
+        "startDate": "2011-06-14",
+        "finishDate": "2011-06-14",
         "institution": {
           "name": "Stanford University",
           "URL": "https://www.stanford.edu/",
           "logo": {
-            "alt": "Stanford logo",
-            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Stanford_Cardinal_logo.svg/503px-Stanford_Cardinal_logo.svg.png"
+            "alt": "picture of Mike Gomez",
+            "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
           }
         },
-        "studyType": "selfTraining",
-        "degreeAchieved": true,
-        "startDate": "2011-06-14",
-        "finishDate": "2011-06-14"
+        "linkedMeans": [
+          {
+            "name": "Excel",
+            "type": "domain",
+            "description": "Formule modeling and complex calculations"
+          }
+        ],
+        "publicEntity": {
+          "name": "Stanford University",
+          "description": "Lorem",
+          "URL": "https://www.stanford.edu/",
+          "image": {
+            "alt": "picture of Mike Gomez",
+            "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+          },
+          "location": {
+            "country": "US",
+            "region": "California",
+            "municipality": "San Francisco",
+            "postalCode": "Lorem",
+            "address": "Lorem",
+            "notes": "Lorem"
+          }
+        }
       }
     ]
   },
@@ -209,10 +389,10 @@
         },
         "perks": {
           "mustHave": [
-            "Lorem"
+            "Health Insurance"
           ],
           "niceToHave": [
-            "Lorem"
+            "Free Meals"
           ]
         }
       },
@@ -225,30 +405,36 @@
         "openToRemote": true,
         "workingAreas": [
           {
-            "country": "US",
-            "region": "California",
-            "municipality": "San Francisco",
+            "location": {
+              "country": "US",
+              "region": "California",
+              "municipality": "San Francisco",
+              "postalCode": "Lorem",
+              "address": "Lorem",
+              "notes": "Lorem"
+            },
             "distanceFromMunicipality": {
-              "unit": "Lorem",
-              "amount": 4
+              "unit": "Mi",
+              "amount": 20
             }
           }
-        ]
+        ],
+        "comments": "I don't want to work in the Financial District. There are no decent donuts shops"
       }
     },
     "preferences": {
       "preferredMeans": [
         {
-          "name": "JAVA",
+          "name": "Excel",
           "type": "domain",
-          "description": "Develop web applications with JAVA"
+          "description": "Formule modeling and complex calculations"
         }
       ],
       "discardedMeans": [
         {
-          "name": "COBOL",
+          "name": "Excel",
           "type": "domain",
-          "description": "Develop legacy apps with punched cards"
+          "description": "Formule modeling and complex calculations"
         }
       ],
       "preferredOrganizations": [
@@ -256,6 +442,12 @@
       ],
       "discardedOrganizations": [
         "bigCorp"
+      ],
+      "preferredRoles": [
+        "Product Manager"
+      ],
+      "discardedRoles": [
+        "Project Manager"
       ]
     },
     "goals": [
