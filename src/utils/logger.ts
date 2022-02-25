@@ -10,7 +10,7 @@ export class Logger {
     if (!this.instance) {
       this.instance = pino({
         name: 'dev-story-scraper',
-        level: process.env.LOG_LEVEL || 'info',
+        level: process.env.SO_LOG_LEVEL || 'info',
       });
     }
 

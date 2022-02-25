@@ -8,7 +8,7 @@ export class Geocoder {
     const result = await client.geocode({
       params: {
         address: input,
-        key: process.env.GOOGLE_MAPS_API_KEY || '',
+        key: process.env.SO_GOOGLE_MAPS_API_KEY || '',
       },
     });
 
