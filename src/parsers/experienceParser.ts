@@ -38,6 +38,7 @@ export class ExperienceParser {
 
     return {
       organization,
+      type: 'startup', // TODO to be deleted or replaced with some strategy
       roles,
     };
   }

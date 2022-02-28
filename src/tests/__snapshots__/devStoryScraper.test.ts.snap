@@ -108,6 +108,7 @@ Object {
             "startDate": "2017-07-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -139,6 +140,7 @@ Object {
             "startDate": "2015-11-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -183,6 +185,7 @@ Object {
             "startDate": "2013-11-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -234,6 +237,7 @@ Object {
             "startDate": "2006-08-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -284,6 +288,7 @@ Object {
             "startDate": "2019-09-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -324,6 +329,7 @@ Sales, marketing, and community relations:
             "startDate": "2017-07-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -372,6 +378,7 @@ Sales, marketing, and community relations:
             "startDate": "2016-10-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -412,6 +419,7 @@ Sales, marketing, and community relations:
             "startDate": "2014-03-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -444,6 +452,7 @@ Sales, marketing, and community relations:
             "startDate": "2012-09-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -481,6 +490,7 @@ Sales, marketing, and community relations:
             "startDate": "2011-05-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -552,6 +562,7 @@ Sales, marketing, and community relations:
             "startDate": "2008-10-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -591,6 +602,7 @@ Sales, marketing, and community relations:
             "startDate": "2008-03-01",
           },
         ],
+        "type": "startup",
       },
     ],
     "projects": Array [
@@ -893,6 +905,7 @@ Object {
             "startDate": "2018-02-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -949,6 +962,7 @@ Object {
             "startDate": "2017-03-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -987,6 +1001,7 @@ Object {
             "startDate": "2014-01-01",
           },
         ],
+        "type": "startup",
       },
       Object {
         "organization": Object {
@@ -1021,6 +1036,7 @@ Object {
             "startDate": "2007-11-01",
           },
         ],
+        "type": "startup",
       },
     ],
   },
