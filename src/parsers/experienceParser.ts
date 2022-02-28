@@ -9,6 +9,8 @@ import {Mean} from '../models/mean';
 import {DevStoryArtifactParser} from './devStory/devStoryArtifactParser';
 import {DevStoryArtifact} from '../models/devStory/devStoryArtifact';
 import {Project} from '../models/project';
+import {Organization} from '../models/organization';
+import {Role} from '../models/role';
 
 export class ExperienceParser {
   parse($: CheerioAPI): Experience {
@@ -31,32 +33,41 @@ export class ExperienceParser {
   }
 
   private toJob(position: DevStoryPosition): Job {
-    const [roleName, name] = position.title.split(' at ');
-    const [startDate, finishDate] = DatesParser.parse(position.time);
+    const organization = this.toOrganization(position);
+    const roles = this.toRoles(position);
+
     return {
-      name,
-      description: position.description,
-      logo: {
-        alt: position.logoAlt,
-        link: position.logo || '',
-      },
-      URL: position.url,
-      roles: [
-        {
-          name: roleName,
-          startDate,
-          finishDate,
-          means: this.toJobMeans(position),
-        },
-      ],
+      organization,
+      roles,
     };
   }
 
-  private toJobMeans(position: DevStoryPosition): Mean[] {
-    return position.tags.map((t) => ({
-      name: t,
-      type: 'tool',
-    }));
+  private toOrganization(position: DevStoryPosition): Organization {
+    const name = position.title.split(' at ')[1] || '';
+
+    return {
+      name,
+      URL: position.url,
+      image: {
+        alt: position.logoAlt,
+        link: position.logo,
+      },
+    };
+  }
+
+  private toRoles(position: DevStoryPosition): Role[] {
+    const [name] = position.title.split(' at ');
+    const [startDate, finishDate] = DatesParser.parse(position.time);
+
+    return [
+      {
+        name,
+        challenges: [{description: position.description}],
+        startDate,
+        finishDate,
+        means: this.toMeans(position.tags),
+      },
+    ];
   }
 
   private isProject(artifact: DevStoryArtifact): boolean {
@@ -77,6 +88,7 @@ export class ExperienceParser {
       roles: [
         {
           name: 'Developer',
+          challenges: [{description: artifact.description}],
           startDate,
           finishDate: startDate,
           means: this.toProjectMeans(artifact),
@@ -85,10 +97,20 @@ export class ExperienceParser {
     };
   }
 
+  /**
+   * @deprecated
+   */
   private toProjectMeans(artifact: DevStoryArtifact): Mean[] {
     return artifact.tags.map((t) => ({
       name: t,
       type: 'tool',
+    }));
+  }
+
+  private toMeans(tags: string[]): Mean[] {
+    return tags.map((t) => ({
+      name: t,
+      type: 'technology',
     }));
   }
 }

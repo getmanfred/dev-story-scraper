@@ -1,10 +1,11 @@
 import {Role} from './role';
-import {Image} from './image';
+import {Organization} from './organization';
 
 export type Job = {
-  name?: string;
-  description?: string;
-  URL?: string;
-  logo?: Image;
+  organization: Organization;
+  // name?: string;
+  // description?: string;
+  // URL?: string;
+  // logo?: Image;
   roles?: Role[];
 };
