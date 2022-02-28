@@ -8,8 +8,7 @@
     "profile": {
       "name": "David",
       "surnames": "Bonilla Fuertes",
-      "title": "Fundador en Manfred / C-Level Executive"
-    ,
+      "title": "Fundador en Manfred / C-Level Executive",
       "description": "Llevo casi dos décadas desarrollando software, ocupando puestos a lo largo de toda la cadena de valor -programacion, diseño de producto, marketing, ventas y gestión de equipos, departamentos y empresas- pero creo que el rol donde se cruzan mi vocación, mis habilidades y las necesidades de la mayoría de las empresas es en la gestión de equipos y proyectos de construcción de activos digitales.\r\rMe apasiona contribuir en todo el ciclo de vida de un producto o servicio informático, desde la definición hasta el mantenimiento o soporte a clientes, y también involucrarme en la comercialización del mismo.\r\rMe gusta trabajar con gente y para la gente. Como responsable de equipos, mi principal prioridad siempre es eliminar cualquier problema que les impida alcanzar todo su potencial. También procuro devolver a la Comunidad informática parte del valor y el conocimiento que me han aportado a lo largo de mi carrera profesional, dando charlas o colaborando con grupos de usuarios y conferencias técnicas; y, a veces, organizándolos.",
       "avatar": {
         "alt": "foto de David Bonilla",
@@ -17,7 +16,7 @@
       },
       "birthday": "1977-07-26"
     },
-    "relevantYearsOfExperience" : 20,
+    "yearsOfExperience" : 20,
     "relevantLinks": [
       {
         "type": "linkedin",
