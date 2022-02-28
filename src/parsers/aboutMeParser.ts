@@ -18,15 +18,11 @@ export class AboutMeParser {
 
   async parse($: CheerioAPI): Promise<AboutMe> {
     const profile = await this.parseProfile($);
-    const headline = stripString($('#form-section-PersonalInfo div.job').text() || '');
-    const introduction = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
     const relevantLinks = this.parseRelevantLinks($);
     const interestingFacts = this.parseInterestingFacts($);
 
     return {
       profile,
-      headline,
-      introduction,
       relevantLinks,
       interestingFacts,
     };
@@ -36,14 +32,18 @@ export class AboutMeParser {
     const fullName = $('div[class="name"] h4').text().replace(/\s+/g, ' ');
     const name = _.head(fullName.split(' ')) || '';
     const surnames = _.tail(fullName.split(' ')).join(' ') || '';
+    const title = stripString($('#form-section-PersonalInfo div.job').text() || '');
+    const description = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
     const avatar = this.parseAvatar($);
-    const whereILive = await this.parseLocation($);
+    const location = await this.parseLocation($);
 
     return {
       name,
       surnames,
+      title,
+      description,
       avatar,
-      whereILive,
+      location,
     };
   }
 
