@@ -55,6 +55,7 @@ export class ExperienceParser {
   private toJobMeans(position: DevStoryPosition): Mean[] {
     return position.tags.map((t) => ({
       name: t,
+      type: 'tool',
     }));
   }
 
@@ -87,6 +88,7 @@ export class ExperienceParser {
   private toProjectMeans(artifact: DevStoryArtifact): Mean[] {
     return artifact.tags.map((t) => ({
       name: t,
+      type: 'tool',
     }));
   }
 }

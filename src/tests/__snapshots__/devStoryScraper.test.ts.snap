@@ -71,24 +71,31 @@ Object {
             "means": Array [
               Object {
                 "name": "ios",
+                "type": "tool",
               },
               Object {
                 "name": "swift",
+                "type": "tool",
               },
               Object {
                 "name": "objective-c",
+                "type": "tool",
               },
               Object {
                 "name": "java",
+                "type": "tool",
               },
               Object {
                 "name": "android",
+                "type": "tool",
               },
               Object {
                 "name": "kotlin",
+                "type": "tool",
               },
               Object {
                 "name": "arkit",
+                "type": "tool",
               },
             ],
             "name": "Author / Technical Editor / Presenter",
@@ -105,12 +112,15 @@ Object {
             "means": Array [
               Object {
                 "name": "objective-c",
+                "type": "tool",
               },
               Object {
                 "name": "swift",
+                "type": "tool",
               },
               Object {
                 "name": "ios",
+                "type": "tool",
               },
             ],
             "name": "Organizer / Presenter",
@@ -128,21 +138,27 @@ Object {
             "means": Array [
               Object {
                 "name": "swift",
+                "type": "tool",
               },
               Object {
                 "name": "objective-c",
+                "type": "tool",
               },
               Object {
                 "name": "java",
+                "type": "tool",
               },
               Object {
                 "name": "kotlin",
+                "type": "tool",
               },
               Object {
                 "name": "android",
+                "type": "tool",
               },
               Object {
                 "name": "ios",
+                "type": "tool",
               },
             ],
             "name": "Mobile Development Army of One",
@@ -159,27 +175,35 @@ Object {
             "means": Array [
               Object {
                 "name": "vb.net",
+                "type": "tool",
               },
               Object {
                 "name": "c#",
+                "type": "tool",
               },
               Object {
                 "name": "swift",
+                "type": "tool",
               },
               Object {
                 "name": "java",
+                "type": "tool",
               },
               Object {
                 "name": "javascript",
+                "type": "tool",
               },
               Object {
                 "name": "kotlin",
+                "type": "tool",
               },
               Object {
                 "name": "ruby",
+                "type": "tool",
               },
               Object {
                 "name": "python",
+                "type": "tool",
               },
             ],
             "name": "Editor",
@@ -207,18 +231,23 @@ Object {
             "means": Array [
               Object {
                 "name": "android",
+                "type": "tool",
               },
               Object {
                 "name": "appcelerator",
+                "type": "tool",
               },
               Object {
                 "name": "appcelerator-mobile",
+                "type": "tool",
               },
               Object {
                 "name": "javascript",
+                "type": "tool",
               },
               Object {
                 "name": "ios",
+                "type": "tool",
               },
             ],
             "name": "Mobile developer",
@@ -278,18 +307,23 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "java",
+                "type": "tool",
               },
               Object {
                 "name": "php",
+                "type": "tool",
               },
               Object {
                 "name": "python",
+                "type": "tool",
               },
               Object {
                 "name": "ruby",
+                "type": "tool",
               },
               Object {
                 "name": "swift",
+                "type": "tool",
               },
             ],
             "name": "Technology Evangelist",
@@ -315,12 +349,15 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "telecom",
+                "type": "tool",
               },
               Object {
                 "name": "php",
+                "type": "tool",
               },
               Object {
                 "name": "swift",
+                "type": "tool",
               },
             ],
             "name": "Platform Evangelist / Partner Technical Analyst",
@@ -342,9 +379,11 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "mobile",
+                "type": "tool",
               },
               Object {
                 "name": "telecommunication",
+                "type": "tool",
               },
             ],
             "name": "Chief Technical Officer",
@@ -371,9 +410,11 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "ruby",
+                "type": "tool",
               },
               Object {
                 "name": "ruby-on-rails",
+                "type": "tool",
               },
             ],
             "name": "Platform Evangelist",
@@ -402,33 +443,43 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "c#",
+                "type": "tool",
               },
               Object {
                 "name": "asp.net-mvc",
+                "type": "tool",
               },
               Object {
                 "name": "asp.net",
+                "type": "tool",
               },
               Object {
                 "name": "silverlight",
+                "type": "tool",
               },
               Object {
                 "name": "xna",
+                "type": "tool",
               },
               Object {
                 "name": "vb.net",
+                "type": "tool",
               },
               Object {
                 "name": "sql-server",
+                "type": "tool",
               },
               Object {
                 "name": "sql",
+                "type": "tool",
               },
               Object {
                 "name": "azure",
+                "type": "tool",
               },
               Object {
                 "name": "windows-phone-7",
+                "type": "tool",
               },
             ],
             "name": "Developer Evangelist",
@@ -453,12 +504,15 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "php",
+                "type": "tool",
               },
               Object {
                 "name": "wordpress",
+                "type": "tool",
               },
               Object {
                 "name": "ruby",
+                "type": "tool",
               },
             ],
             "name": "Nerd Wrangler / Technical Project Manager",
@@ -482,12 +536,15 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "watchos",
+                "type": "tool",
               },
               Object {
                 "name": "apple-watch",
+                "type": "tool",
               },
               Object {
                 "name": "swiftui",
+                "type": "tool",
               },
             ],
             "name": "Developer",
@@ -510,9 +567,11 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "javascript",
+                "type": "tool",
               },
               Object {
                 "name": "appcelerator-titanium",
+                "type": "tool",
               },
             ],
             "name": "Developer",
@@ -535,12 +594,15 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "ios",
+                "type": "tool",
               },
               Object {
                 "name": "swift",
+                "type": "tool",
               },
               Object {
                 "name": "swiftui",
+                "type": "tool",
               },
             ],
             "name": "Developer",
@@ -563,12 +625,15 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "ios",
+                "type": "tool",
               },
               Object {
                 "name": "swift",
+                "type": "tool",
               },
               Object {
                 "name": "arkit",
+                "type": "tool",
               },
             ],
             "name": "Developer",
@@ -591,12 +656,15 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "swift3",
+                "type": "tool",
               },
               Object {
                 "name": "ios",
+                "type": "tool",
               },
               Object {
                 "name": "sprite-kit",
+                "type": "tool",
               },
             ],
             "name": "Developer",
@@ -623,9 +691,11 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
             "means": Array [
               Object {
                 "name": "c++",
+                "type": "tool",
               },
               Object {
                 "name": "networking",
+                "type": "tool",
               },
             ],
             "name": "Developer",
@@ -696,12 +766,15 @@ Object {
             "means": Array [
               Object {
                 "name": "typescript",
+                "type": "tool",
               },
               Object {
                 "name": "visual-studio-code",
+                "type": "tool",
               },
               Object {
                 "name": "antlr4",
+                "type": "tool",
               },
             ],
             "name": "Backend specialist",
@@ -723,27 +796,35 @@ Object {
             "means": Array [
               Object {
                 "name": "java",
+                "type": "tool",
               },
               Object {
                 "name": "spring",
+                "type": "tool",
               },
               Object {
                 "name": "vert.x",
+                "type": "tool",
               },
               Object {
                 "name": "docker",
+                "type": "tool",
               },
               Object {
                 "name": "groovy",
+                "type": "tool",
               },
               Object {
                 "name": "netflix-zuul",
+                "type": "tool",
               },
               Object {
                 "name": "mongodb",
+                "type": "tool",
               },
               Object {
                 "name": "hazelcast",
+                "type": "tool",
               },
             ],
             "name": "Software Developer",
@@ -759,21 +840,27 @@ Object {
             "means": Array [
               Object {
                 "name": "java",
+                "type": "tool",
               },
               Object {
                 "name": "javascript",
+                "type": "tool",
               },
               Object {
                 "name": "groovy",
+                "type": "tool",
               },
               Object {
                 "name": "postgresql",
+                "type": "tool",
               },
               Object {
                 "name": "shiro",
+                "type": "tool",
               },
               Object {
                 "name": "antlr",
+                "type": "tool",
               },
             ],
             "name": "Software Developer",
@@ -789,18 +876,23 @@ Object {
             "means": Array [
               Object {
                 "name": "java",
+                "type": "tool",
               },
               Object {
                 "name": "javascript",
+                "type": "tool",
               },
               Object {
                 "name": "scala",
+                "type": "tool",
               },
               Object {
                 "name": "spring",
+                "type": "tool",
               },
               Object {
                 "name": "cordova",
+                "type": "tool",
               },
             ],
             "name": "Software Developer",
