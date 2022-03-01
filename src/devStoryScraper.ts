@@ -8,15 +8,18 @@ import {Settings} from './models/settings';
 import {AboutMeParser} from './parsers/aboutMeParser';
 import {Geocoder} from './utils/geocoder';
 import {ExperienceParser} from './parsers/experienceParser';
+import {CareerPreferencesParser} from './parsers/careerPreferencesParser';
 
 export class DevStoryScraper {
   aboutMeParser: AboutMeParser;
   experienceParser: ExperienceParser;
+  careerPreferencesParser: CareerPreferencesParser;
 
   constructor(private readonly downloader: DevStoryDownloader, geocoder: Geocoder) {
     this.aboutMeParser = new AboutMeParser(geocoder);
     // These parsers could be static, but declared here to keep code coherence
     this.experienceParser = new ExperienceParser();
+    this.careerPreferencesParser = new CareerPreferencesParser();
   }
 
   async parse(username: string): Promise<MAC> {
@@ -32,15 +35,7 @@ export class DevStoryScraper {
     const settings = this.defaultSettings();
     const aboutMe = await this.aboutMeParser.parse($);
     const experience = this.experienceParser.parse($);
-
-    const likedTechnologies = $('div[class="user-technologies"] .timeline-item-tags .post-tag')
-      .not('.disliked-tag')
-      .map((i, e) => $(e).text())
-      .get();
-
-    const dislikedTechnologies = $('div[class="user-technologies"] .timeline-item-tags .disliked-tag')
-      .map((i, e) => $(e).text())
-      .get();
+    const careerPreferences = this.careerPreferencesParser.parse($);
 
     const elapsed = new Date().getTime() - startTime;
     log.debug(`${username} profile parsed in ${elapsed}ms`);
@@ -49,9 +44,7 @@ export class DevStoryScraper {
       settings,
       aboutMe,
       experience,
-      //---
-      likedTechnologies,
-      dislikedTechnologies,
+      careerPreferences,
     };
 
     return cleanDeep(mac) as MAC;

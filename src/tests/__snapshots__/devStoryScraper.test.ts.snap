@@ -47,6 +47,48 @@ Object {
       },
     ],
   },
+  "careerPreferences": Object {
+    "preferences": Object {
+      "preferredMeans": Array [
+        Object {
+          "name": "android",
+          "type": "technology",
+        },
+        Object {
+          "name": "c#",
+          "type": "technology",
+        },
+        Object {
+          "name": "dart",
+          "type": "technology",
+        },
+        Object {
+          "name": "flutter",
+          "type": "technology",
+        },
+        Object {
+          "name": "ios",
+          "type": "technology",
+        },
+        Object {
+          "name": "javascript",
+          "type": "technology",
+        },
+        Object {
+          "name": "kotlin",
+          "type": "technology",
+        },
+        Object {
+          "name": "python",
+          "type": "technology",
+        },
+        Object {
+          "name": "swift",
+          "type": "technology",
+        },
+      ],
+    },
+  },
   "experience": Object {
     "jobs": Array [
       Object {
@@ -625,15 +667,15 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "watchos",
-                "type": "tool",
+                "type": "technology",
               },
               Object {
                 "name": "apple-watch",
-                "type": "tool",
+                "type": "technology",
               },
               Object {
                 "name": "swiftui",
-                "type": "tool",
+                "type": "technology",
               },
             ],
             "name": "Developer",
@@ -661,11 +703,11 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "javascript",
-                "type": "tool",
+                "type": "technology",
               },
               Object {
                 "name": "appcelerator-titanium",
-                "type": "tool",
+                "type": "technology",
               },
             ],
             "name": "Developer",
@@ -693,15 +735,15 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "ios",
-                "type": "tool",
+                "type": "technology",
               },
               Object {
                 "name": "swift",
-                "type": "tool",
+                "type": "technology",
               },
               Object {
                 "name": "swiftui",
-                "type": "tool",
+                "type": "technology",
               },
             ],
             "name": "Developer",
@@ -729,15 +771,15 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "ios",
-                "type": "tool",
+                "type": "technology",
               },
               Object {
                 "name": "swift",
-                "type": "tool",
+                "type": "technology",
               },
               Object {
                 "name": "arkit",
-                "type": "tool",
+                "type": "technology",
               },
             ],
             "name": "Developer",
@@ -765,15 +807,15 @@ Sales, marketing, and community relations:
             "means": Array [
               Object {
                 "name": "swift3",
-                "type": "tool",
+                "type": "technology",
               },
               Object {
                 "name": "ios",
-                "type": "tool",
+                "type": "technology",
               },
               Object {
                 "name": "sprite-kit",
-                "type": "tool",
+                "type": "technology",
               },
             ],
             "name": "Developer",
@@ -809,11 +851,11 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
             "means": Array [
               Object {
                 "name": "c++",
-                "type": "tool",
+                "type": "technology",
               },
               Object {
                 "name": "networking",
-                "type": "tool",
+                "type": "technology",
               },
             ],
             "name": "Developer",
@@ -824,17 +866,6 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
       },
     ],
   },
-  "likedTechnologies": Array [
-    "android",
-    "c#",
-    "dart",
-    "flutter",
-    "ios",
-    "javascript",
-    "kotlin",
-    "python",
-    "swift",
-  ],
   "settings": Object {
     "MACversion": "0.2",
     "language": "EN",
@@ -871,9 +902,42 @@ Object {
       },
     ],
   },
-  "dislikedTechnologies": Array [
-    "php",
-  ],
+  "careerPreferences": Object {
+    "preferences": Object {
+      "discardedMeans": Array [
+        Object {
+          "name": "php",
+          "type": "technology",
+        },
+      ],
+      "preferredMeans": Array [
+        Object {
+          "name": "java",
+          "type": "technology",
+        },
+        Object {
+          "name": "javascript",
+          "type": "technology",
+        },
+        Object {
+          "name": "groovy",
+          "type": "technology",
+        },
+        Object {
+          "name": "scala",
+          "type": "technology",
+        },
+        Object {
+          "name": "angularjs",
+          "type": "technology",
+        },
+        Object {
+          "name": "mongodb",
+          "type": "technology",
+        },
+      ],
+    },
+  },
   "experience": Object {
     "jobs": Array [
       Object {
@@ -1040,14 +1104,6 @@ Object {
       },
     ],
   },
-  "likedTechnologies": Array [
-    "java",
-    "javascript",
-    "groovy",
-    "scala",
-    "angularjs",
-    "mongodb",
-  ],
   "settings": Object {
     "MACversion": "0.2",
     "language": "EN",

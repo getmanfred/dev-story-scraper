@@ -107,11 +107,7 @@
                 ]
               },
               "fact": {
-                "type": "string",
-                "examples": [
-                  "Amstrad CPC 464",
-                  "Atlético de Madrid"
-                ]
+                "type": "string"
               }
             },
             "additionalProperties": false,
@@ -213,7 +209,6 @@
                 "$comment": "TBD Refactor to extract the entity \"organization\" to a common definitions file.",
                 "required": [
                   "organization",
-                  "type",
                   "roles"
                 ]
               }
@@ -284,6 +279,9 @@
                     "items": {
                       "$ref": "#/$defs/mean"
                     }
+                  },
+                  "tags": {
+                    "$ref": "#/$defs/tags"
                   }
                 },
                 "additionalProperties": false,
@@ -317,45 +315,35 @@
               "level": {
                 "type": "string",
                 "enum": [
-                  "basic",
-                  "intermediate",
-                  "high",
-                  "native"
-                ]
+                  "Elementary proficiency",
+                  "Limited working proficiency",
+                  "Professional working proficiency",
+                  "Full professional proficiency",
+                  "Native or bilingual proficiency"
+                ],
+                "$comment": "TBD make it required."
               }
             },
             "additionalProperties": false,
             "required": [
-              "name",
-              "level"
-            ]
+              "name"
+            ],
+            "dependentRequired": {
+              "level": [
+                "name"
+              ]
+            }
           }
         },
         "hardSkills": {
           "type": "array",
+          "description": "hardSkills are a subset of mean types (tool, technology or hardware).",
           "additionalItems": true,
-          "$comment": "TBD hardSkill and softSkill should be a \"mean\" with a subset of \"type\" values. In case of hardSkills (tool, technology or hardware).",
           "items": {
             "type": "object",
             "properties": {
-              "name": {
-                "type": "string",
-                "examples": [
-                  "Excel",
-                  "IntelliJ IDEA",
-                  "GitHub"
-                ]
-              },
-              "type": {
-                "type": "string",
-                "enum": [
-                  "tool",
-                  "technology",
-                  "hardware"
-                ]
-              },
-              "description": {
-                "type": "string"
+              "skill": {
+                "$ref": "#/$defs/mean"
               },
               "level": {
                 "type": "string",
@@ -367,38 +355,19 @@
                 ]
               }
             },
-            "additionalProperties": false,
-            "required": [
-              "name",
-              "type"
-            ]
+            "additionalProperties": false
           }
         },
         "softSkills": {
           "type": "array",
+          "description": "softSkills are a subset of mean types (practice or domain)",
           "additionalItems": true,
           "minItems": 1,
-          "$comment": "TBD hardSkill and softSkill should be a \"mean\" with a subset of \"type\" values. In case of hardSkills (tool, practice or domain).",
           "items": {
             "type": "object",
             "properties": {
-              "name": {
-                "type": "string",
-                "examples": [
-                  "Strategic Vision",
-                  "TDD",
-                  "eCommerce"
-                ]
-              },
-              "type": {
-                "type": "string",
-                "enum": [
-                  "practice",
-                  "domain"
-                ]
-              },
-              "description": {
-                "type": "string"
+              "skill": {
+                "$ref": "#/$defs/mean"
               },
               "level": {
                 "type": "string",
@@ -410,11 +379,7 @@
                 ]
               }
             },
-            "additionalProperties": false,
-            "required": [
-              "name",
-              "type"
-            ]
+            "additionalProperties": false
           }
         },
         "studies": {
@@ -462,32 +427,7 @@
                 "format": "date"
               },
               "institution": {
-                "type": "object",
-                "description": "Institution of education or company which awards academic degrees or professional certifications.",
-                "properties": {
-                  "name": {
-                    "type": "string",
-                    "examples": [
-                      "Stanford University",
-                      "IBM",
-                      "Project Management Institute"
-                    ]
-                  },
-                  "URL": {
-                    "type": "string",
-                    "format": "uri",
-                    "examples": [
-                      "https://www.stanford.edu/"
-                    ]
-                  },
-                  "logo": {
-                    "$ref": "#/$defs/image"
-                  }
-                },
-                "additionalProperties": false,
-                "required": [
-                  "name"
-                ]
+                "$ref": "#/$defs/publicEntityDetails"
               },
               "linkedMeans": {
                 "type": "array",
@@ -496,9 +436,6 @@
                 "items": {
                   "$ref": "#/$defs/mean"
                 }
-              },
-              "publicEntity": {
-                "$ref": "#/$defs/publicEntityDetails"
               }
             },
             "additionalProperties": false,
@@ -825,8 +762,7 @@
       },
       "additionalProperties": false,
       "required": [
-        "contact",
-        "status"
+        "contact"
       ]
     }
   },
@@ -1160,6 +1096,8 @@
               "actions": {
                 "type": "array",
                 "additionalItems": true,
+                "minContains": 1,
+                "minItems": 1,
                 "items": {
                   "type": "string"
                 }
@@ -1302,7 +1240,9 @@
         "NGO",
         "startup",
         "SME",
-        "bigCorp"
+        "bigCorp",
+        "academicalInstitution",
+        "other"
       ],
       "$comment": "TBD Refactor to extract the enumeration \"OrganizationType\" (used in jobs/roles/organization or careerPreferences/preferredOrganizations) to a common definition file."
     },
@@ -1348,6 +1288,20 @@
         "podcast",
         "web"
       ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "A list of tags with random values to provide the candidates a way to segment and categorize elements in their CV.",
+      "additionalItems": false,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "examples": [
+          "cooking",
+          "not available",
+          "february"
+        ]
+      }
     }
   }
 }

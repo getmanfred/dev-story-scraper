@@ -9,14 +9,14 @@
       "name": "David",
       "surnames": "Bonilla Fuertes",
       "title": "Fundador en Manfred / C-Level Executive",
-      "description": "Llevo casi dos décadas desarrollando software, ocupando puestos a lo largo de toda la cadena de valor -programacion, diseño de producto, marketing, ventas y gestión de equipos, departamentos y empresas- pero creo que el rol donde se cruzan mi vocación, mis habilidades y las necesidades de la mayoría de las empresas es en la gestión de equipos y proyectos de construcción de activos digitales.\r\rMe apasiona contribuir en todo el ciclo de vida de un producto o servicio informático, desde la definición hasta el mantenimiento o soporte a clientes, y también involucrarme en la comercialización del mismo.\r\rMe gusta trabajar con gente y para la gente. Como responsable de equipos, mi principal prioridad siempre es eliminar cualquier problema que les impida alcanzar todo su potencial. También procuro devolver a la Comunidad informática parte del valor y el conocimiento que me han aportado a lo largo de mi carrera profesional, dando charlas o colaborando con grupos de usuarios y conferencias técnicas; y, a veces, organizándolos.",
+      "description": "Llevo casi dos décadas desarrollando software, ocupando puestos a lo largo de toda la cadena de valor -programacion, diseño de producto, marketing, ventas y gestión de equipos, departamentos y empresas- pero creo que el rol donde se cruzan mi vocación, mis habilidades y las necesidades de la mayoría de las empresas es en la gestión de equipos y proyectos de construcción de activos digitales.\n\nMe apasiona contribuir en todo el ciclo de vida de un producto o servicio informático, desde la definición hasta el mantenimiento o soporte a clientes, y también involucrarme en la comercialización del mismo.\n\nMe gusta trabajar con gente y para la gente. Como responsable de equipos, mi principal prioridad siempre es eliminar cualquier problema que les impida alcanzar todo su potencial. También procuro devolver a la Comunidad informática parte del valor y el conocimiento que me han aportado a lo largo de mi carrera profesional, dando charlas o colaborando con grupos de usuarios y conferencias técnicas; y, a veces, organizándolos.",
       "avatar": {
         "alt": "foto de David Bonilla",
         "link": "https://pbs.twimg.com/profile_images/1387692137664458758/-Z8bTzmY_400x400.jpg"
       },
       "birthday": "1977-07-26"
     },
-    "yearsOfExperience" : 20,
+    "relevantYearsOfExperience": 20,
     "relevantLinks": [
       {
         "type": "linkedin",
@@ -67,7 +67,8 @@
         "name": "Diego",
         "surnames": "Mariño",
         "title": "Fundador de Ducksboard y antiguo Principal Product Manager en New Relic",
-        "description": "Amigo con el que siempre valido ideas y estrategias de Product Management.",
+        "description": "Amigo con el que siempre valido ideas y estrategias de Product Management.
+        ",
         "contact": {
           "publicProfiles": [
             {
@@ -126,6 +127,30 @@
       },
       {
         "fact": "Completar todos los trámites legales, operativos y fiscales necesarios para abrir la filial de una compañía multinacional en Bilbao."
+      },
+      {
+        "topic": "¿Cuáles son tus principales herramientas de trabajo (IDEs, editores de texto, clientes de correo, Excel...) y cómo las utilizas (plugins, configuraciones, trucos)?",
+        "fact": "Organizo mi tareas personales con **Passion Planner** (un sistema offline) y las profesionales con **Jira** y **Trello**.Tengo tableros compartidos con distintos equipos de trabajo. Uso labels y fechas de entrega para priorizar mi trabajo.\n\nProgramo HTML/CSS/JavaScript con **Visual Studio Code**. Uso algunas extensiones como ‘GitHistory’, ‘Paste JSON as Code’, o ‘Bookmarks’, pero tanto el trabajo con **Git** como la construcción y la construcción con **Gulp** me gusta hacerlo por línea de comandos.\n\nTambién uso bastante **Postman**, además de para hacer pruebas, directamente como interfaz para APIs REST que tengo en producción."
+      },
+      {
+        "topic": "¿Qué recursos online (webs, blogs, apps, foros, etc) usas para ayudarte a desempeñar tu trabajo?",
+        "fact": "Para informarme de lo más relevante del sector, uso bastante **Twitter** y tengo varias listas específicas por temas. También leo regularmente [Hacker News](https://news.ycombinator.com/) y [Increment](https://increment.com/) y escucho podcasts como[Más que Startups](https://masquestartups.com/).\n\nSi me atasco con algo de código suelo googlear bastante, no tengo un sitio de referencia al que ir, pero muchas veces acabo -supongo que como todos- en [StackOverflow](https://stackoverflow.com/).\n\nPertenezco a un canal de Slack llamado **‘Camaradas del Metal’** donde unas pocas decenas de personas con bastante experiencia suelen comentar y dar contexto a las noticias relacionadas con el emprendimiento tecnológico."
+      },
+      {
+        "topic": "¿Qué nuevas tecnologías y/o herramientas te llaman especialmente la atención y por qué?",
+        "fact": "Soy muy fan de **Git**, no sólo aplicado al código sino prácticamente a cualquier trabajo colaborativo como documentación o contratos.\n\nMe gusta mucho todo el Ecosistema JavaScript que va más allá del navegador (**React**, **Node**) porque me permite trabajar desde el interfaz a la base de datos (con MongoDB) con la misma sintaxis.\n\nTambién me interesa mucho las posibilidades que puede aportar **Blockchain** para cambiar por completo y democratizar el acceso a según qué sectores y nichos, antes vetados a unos pocos."
+      },
+      {
+        "topic": "¿Hay alguna empresa tecnológica que te llame la atención por lo bien que lo está haciendo?",
+        "fact": "Creo que [Microsoft](https://www.microsoft.com/es-es/) está dando los pasos correctos para crear todo un sistema de tooling y despliegue que puede atraer a los programadores.\n\nTambién me gusta todo lo que está construyendo [GitLab](https://about.gitlab.com/) y como lo está vendiendo, con una gran documentación y muchísima transparencia."
+      },
+      {
+        "topic": "¿Cómo intentas mantener actualizados tus conocimientos y habilidades profesionales?",
+        "fact": "Leo todo lo que puedo, pero sobre todo intento hacer pequeños *side projects* que me ayuden a automatizar tareas repetitivas o especialmente pesadas."
+      },
+      {
+        "topic": "¿Sueles compartir tu conocimiento por algún canal (posts, foros, contribución a open source, charlas públicas etc)?",
+        "fact": "Tengo una lista de correo llamada la [Bonilista](https://www.bonilista.com/) en la que escribo un artículo semanal sobre mis experiencias o temas que me interesan. También organizo —junto a más voluntarios— un evento anual sobre construcción de productos/proyectos digitales llamado [Tarugoconf](https://www.tarugoconf.com/) y suelo participar en distintas conferencias y grupos de usuarios."
       }
     ],
     "recommendations": [
@@ -138,7 +163,6 @@
           "title": "Former Chairman and CEO of Intel"
         },
         "summary": "Un buen manual sobre cómo organizar el trabajo y dirigir equipos para responsables de todos los niveles."
-
       }
     ]
   },
@@ -215,6 +239,14 @@
                   "Redacción de Copy",
                   "Implementación de copy y links definitivos en el HTML base"
                 ]
+              },
+              {
+                "description": "Apertura de nueva filial en Bilbao.",
+                "actions": [
+                  "Definición de interfaces",
+                  "Redacción de Copy",
+                  "Implementación de copy y links definitivos en el HTML base"
+                ]
               }
             ],
             "means": [
@@ -268,6 +300,10 @@
                 "type": "tool"
               },
               {
+                "name": "Basecamp",
+                "type": "tool"
+              },
+              {
                 "name": "Less",
                 "type": "technology"
               },
@@ -309,7 +345,7 @@
                       "URL": "https://www.linkedin.com/in/yago-cousi%C3%B1o-13533261/"
                     }
                   ],
-                  "contactMails" : [
+                  "contactMails": [
                     "yago@getmanfred.com"
                   ]
                 }
@@ -317,77 +353,116 @@
             ]
           }
         ]
-      }
-    ],
-    "projects": [
+      },
       {
-        "details": {
-          "name": "Stanford University",
-          "description": "Lorem",
-          "URL": "https://www.stanford.edu/",
+        "organization": {
+          "name": "Comalatech",
+          "description": "Herramientas para facilitar el trabajo colaborativo en el ecosistema de Atlassian Confluence.",
+          "URL": "https://www.comalatech.com/",
           "image": {
-            "alt": "picture of Mike Gomez",
-            "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+            "alt": "Logo de Comalatech",
+            "link": "https://www.comalatech.com/wp-content/themes/comalatech/images/comalatech_logo.png?v=1.0.1"
           },
           "location": {
-            "country": "US",
-            "region": "California",
-            "municipality": "San Francisco",
-            "postalCode": "Lorem",
-            "address": "Lorem",
-            "notes": "Lorem"
+            "country": "CA",
+            "region": "British Columbia",
+            "municipality": "Vancouver"
           }
         },
-        "type": "other",
+        "type": "startup",
         "roles": [
           {
-            "name": "Developer",
-            "startDate": "2019-06-20",
-            "finishDate": "2022-02-14",
+            "name": "CEO",
+            "startDate": "2017-02-01",
+            "finishDate": "2018-06-30",
             "challenges": [
               {
-                "description": "Lorem",
+                "description": "Adaptación de todos los procesos de la compañía al nuevo RGPD",
                 "actions": [
-                  "Lorem"
+                  "Definición de requisitos mínimos.",
+                  "Definición de plantillas a cumplimentar por cada nuevo proceso.",
+                  "Documentación de la adecuación de proveedores al reglamento.",
+                  "Definición de la estrategia de petición de consentimiento a usuarios (actuales y nuevos).",
+                  "Redacción de borradores de documentos legales previos a la revisión por departamento legal."
                 ]
+              },
+              {
+                "description": "Apertura de nueva filial en Bilbao",
+                "actions": [
+                  "Documentación y propuesta para aprovechar las ventajas del régimen fiscal y normativo local.",
+                  "Reuniones con Administraciones locales (Diputación y Gobierno Vasco) para alcanzar acuerdos de colaboración previos al establecimiento.",
+                  "Selección y contratación de los primeros empleados.",
+                  "Búsqueda de oficina representativa, adecuación y reforma de la misma.",
+                  "Búsqueda de proveedores locales (fiscalidad y legal)"
+                ]
+              },
+              {
+                "description": "Coordinación de actividades en Europa",
+                "actions": [
+                  "Gestión de personal (contrataciones, finiquitos, incidencias).",
+                  "Establecimiento de centro logístico para materiales de marketing en España.",
+                  "Gestión de la producción de materiales de marketing para distintos eventos."
+                ]
+              },
+              {
+                "description": "Estandarización de contratos",
+                "actions": [
+                  "Diseño de políticas retributivas y condiciones laborales comunes para la plantilla en Canadá y España.",
+                  "Negociación individual con cada uno de los empleados para la aceptación de las nuevas condiciones."
+                ]
+              },
+              {
+                "description": "Soporte"
+              },
+              {
+                "description": "Lanzamiento de Comala Agile Ranking"
               }
             ],
             "means": [
               {
-                "name": "Excel",
-                "type": "domain",
-                "description": "Formule modeling and complex calculations"
+                "name": "Basecamp",
+                "type": "tool"
+              },
+              {
+                "name": "Atlassian Confluence",
+                "type": "tool"
+              },
+              {
+                "name": "Atlassian JIRA",
+                "type": "tool"
+              },
+              {
+                "name": "BlueJeans Videoconference",
+                "type": "tool"
               }
             ],
             "referrals": [
               {
-                "name": "Sharon",
-                "surnames": "Vlaovic-Sorensen",
-                "title": "My supervisor",
-                "description": "Daniel was the perfect leader and he achieved all the goals assigned to the Departement but the most important thing is he's also a great colleague.",
+                "name": "Gorka",
+                "surnames": "Puente",
+                "title": "Group Product Manager en Comalatech",
                 "contact": {
                   "publicProfiles": [
                     {
-                      "type": "other",
-                      "URL": "https://www.getmanfred.com/mac/david"
+                      "type": "linkedin",
+                      "URL": "https://www.linkedin.com/in/gorkapuente/"
                     }
-                  ],
-                  "phoneNumbers": [
-                    {
-                      "countryCode": 34,
-                      "number": "616100584"
-                    }
-                  ],
-                  "contactMails": [
-                    "your.name@mail.com"
                   ]
-                },
-                "avatar": {
-                  "alt": "picture of Mike Gomez",
-                  "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
                 }
               }
             ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Instituto de Empresa"
+        },
+        "type": "academicalInstitution",
+        "roles": [
+          {
+            "name": "Profesor asociado de productividad y metodologías ágiles",
+            "startDate": "2015-04-12"
           }
         ]
       }
@@ -395,119 +470,168 @@
     "publicArtifacts": [
       {
         "details": {
-          "name": "Stanford University",
-          "description": "Lorem",
-          "URL": "https://www.stanford.edu/",
-          "image": {
-            "alt": "picture of Mike Gomez",
-            "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
-          },
-          "location": {
-            "country": "US",
-            "region": "California",
-            "municipality": "San Francisco",
-            "postalCode": "Lorem",
-            "address": "Lorem",
-            "notes": "Lorem"
-          }
+          "name": "JSON Schema: dotando a tus datos de un formato y a tus APIs de un contrato | T3chFest 2019",
+          "URL": "https://www.youtube.com/watch?v=KB2DkeQo8d8"
         },
-        "type": "video",
-        "publishingDate": "2011-06-14",
+        "type": "talk",
+        "publishingDate": "2019-03-22",
         "means": [
           {
-            "name": "Excel",
-            "type": "domain",
-            "description": "Formule modeling and complex calculations"
+            "name": "JSON",
+            "type": "technology"
+          },
+          {
+            "name": "recruiting",
+            "type": "domain"
           }
+        ],
+        "tags": [
+          "keynotes",
+          "youtube",
+          "t3chfest"
         ]
+      },
+      {
+        "details": {
+          "name": "Tarugoconf",
+          "description": "Organizador del evento más gallego y awesómico del mundo.",
+          "URL": "https://www.tarugoconf.com/",
+          "image": {
+            "alt": "Logo de la Tarugoconf",
+            "link": "https://www.tarugoconf.com/img/logo-tarugo.png"
+          }
+        },
+        "type": "sideProject"
       }
     ]
   },
   "knowledge": {
     "languages": [
       {
+        "name": "ES",
+        "level": "Native or bilingual proficiency"
+      },
+      {
         "name": "EN",
-        "level": "native"
+        "level": "Full professional proficiency"
+      },
+      {
+        "name": "GL",
+        "level": "Elementary proficiency"
       }
     ],
     "hardSkills": [
       {
-        "name": "Excel",
-        "type": "hardware",
-        "description": "Lorem",
+        "skill": {
+          "name": "JIRA",
+          "type": "tool",
+          "description": "Administración, configuración y gestión avanzada de JIRA."
+        },
         "level": "expert"
+      },
+      {
+        "skill": {
+          "name": "JAVA",
+          "type": "technology"
+        },
+        "level": "high"
       }
     ],
     "softSkills": [
       {
-        "name": "Liderazgo",
-        "type": "practice",
-        "description": "Liderar equipos/organizaciones para que alcancen los objetivos marcados, en tiempo y presupuesto, sin incrementar la rotación de personal.",
+        "skill": {
+          "name": "Liderazgo",
+          "type": "practice",
+          "description": "Liderar equipos/organizaciones para que alcancen los objetivos marcados, en tiempo y presupuesto, sin incrementar la rotación de personal."
+        },
         "level": "expert"
       },
       {
-        "name": "Atraer talento y retenerlo",
-        "type": "practice",
+        "skill": {
+          "name": "Atraer talento y retenerlo",
+          "type": "practice"
+        },
         "level": "expert"
       },
       {
-        "name": "Orientado a resultados",
-        "type": "practice",
-        "description": "Acabar proyectos, además de empezarlos.",
+        "skill": {
+          "name": "Orientado a resultados",
+          "type": "practice",
+          "description": "Acabar proyectos, además de empezarlos."
+        },
         "level": "expert"
       },
       {
-        "name": "Comunicación",
-        "type": "practice",
-        "description": "Comunicar lo que hago, cómo lo hago y -sobre todo- por qué lo hago, tanto de forma oral como escrita, con cierta efectividad.",
+        "skill": {
+          "name": "Comunicación",
+          "type": "practice",
+          "description": "Comunicar lo que hago, cómo lo hago y -sobre todo- por qué lo hago, tanto de forma oral como escrita, con cierta efectividad."
+        },
         "level": "expert"
       },
       {
-        "name": "Logística",
-        "type": "domain",
-        "description": "Conocimientos avanzados de aprovisionamiento, almacenamiento, gestión y distribución de bienes",
+        "skill": {
+          "name": "Logística",
+          "type": "domain",
+          "description": "Conocimientos avanzados de aprovisionamiento, almacenamiento, gestión y distribución de bienes"
+        },
         "level": "high"
       }
-
     ],
     "studies": [
       {
-        "studyType": "selfTraining",
-        "degreeAchieved": true,
-        "name": "Software Engineering",
+        "studyType": "officialDegree",
+        "degreeAchieved": false,
+        "name": "Ingeniería Técnica Informática",
         "description": "Computer Science Grade",
-        "startDate": "2011-06-14",
-        "finishDate": "2011-06-14",
+        "startDate": "2002-09-15",
+        "finishDate": "2006-06-30",
         "institution": {
-          "name": "Stanford University",
-          "URL": "https://www.stanford.edu/",
-          "logo": {
-            "alt": "picture of Mike Gomez",
-            "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
-          }
-        },
-        "linkedMeans": [
-          {
-            "name": "Excel",
-            "type": "domain",
-            "description": "Formule modeling and complex calculations"
-          }
-        ],
-        "publicEntity": {
-          "name": "Stanford University",
-          "description": "Lorem",
-          "URL": "https://www.stanford.edu/",
+          "name": "UOC",
+          "description": "Universitat Oberta de Catalunya",
+          "URL": "https://www.uoc.edu/",
           "image": {
-            "alt": "picture of Mike Gomez",
-            "link": "https://images.assetsdelivery.com/compings_v2/thesomeday123/thesomeday1231709/thesomeday123170900021.jpg"
+            "alt": "logo de UOC",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Logo_UOC.svg"
           },
           "location": {
-            "country": "US",
-            "region": "California",
-            "municipality": "San Francisco",
-            "postalCode": "Lorem",
-            "address": "Lorem",
-            "notes": "Lorem"
+            "country": "ES",
+            "region": "Cataluña",
+            "notes": "Universidad a distancia"
+          }
+        }
+      },
+      {
+        "studyType": "unregulated",
+        "degreeAchieved": true,
+        "name": "Master en Desarrollo de Aplicaciones Web",
+        "description": "Computer Science Grade",
+        "startDate": "2000-09-15",
+        "finishDate": "2001-06-30",
+        "institution": {
+          "name": "CFDTI IBM/La Caixa",
+          "description": "Centro de Formación de Desarrollo de Tecnologías Informáticas una joint venture de IBM y La Caixa que, desgraciadamente, no perduró en el tiempo.",
+          "location": {
+            "country": "ES",
+            "region": "Madrid",
+            "municipality": "Madrid"
+          }
+        }
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Certified Scrum Master",
+        "description": "Scrum Master certificado por la Scrum Alliance",
+        "startDate": "2007-05-14",
+        "finishDate": "2007-05-21",
+        "institution": {
+          "name": "Scrum Alliance",
+          "description": "Curso de certificación impartido por Ariel Ber",
+          "location": {
+            "country": "ES",
+            "region": "Madrid",
+            "municipality": "Madrid"
           }
         }
       }
@@ -517,96 +641,119 @@
     "contact": {
       "publicProfiles": [
         {
-          "type": "other",
+          "type": "manfred",
           "URL": "https://www.getmanfred.com/mac/david"
         }
-      ],
-      "phoneNumbers": [
-        {
-          "countryCode": 34,
-          "number": "616100584"
-        }
-      ],
-      "contactMails": [
-        "your.name@mail.com"
       ]
     },
     "status": "notAvailable",
     "requirements": {
       "compensation": {
         "salary": {
-          "currency": "USD",
-          "from": 50000,
-          "upto": 100000,
-          "comments": "Lorem"
+          "currency": "EUR",
+          "from": 100000
         },
         "equity": {
           "mustHave": true,
-          "from": 1.5,
-          "upto": 10,
-          "comments": "Lorem"
+          "from": 10
         },
         "perks": {
           "mustHave": [
-            "Health Insurance"
+            "Horario Flexible",
+            "BYOD"
           ],
           "niceToHave": [
-            "Free Meals"
+            "Seguro Médico",
+            "Clases de Idiomas"
           ]
         }
       },
       "contractTypes": [
-        "internship"
+        "permanent",
+        "freelance"
       ],
       "location": {
         "remoteOnly": false,
-        "openToRelocate": false,
+        "openToRelocate": true,
         "openToRemote": true,
         "workingAreas": [
           {
             "location": {
-              "country": "US",
-              "region": "California",
-              "municipality": "San Francisco",
-              "postalCode": "Lorem",
-              "address": "Lorem",
-              "notes": "Lorem"
+              "country": "ES",
+              "region": "Galicia",
+              "municipality": "A Coruña"
             },
             "distanceFromMunicipality": {
-              "unit": "Mi",
+              "unit": "Km",
               "amount": 20
+            }
+          },
+          {
+            "location": {
+              "country": "US",
+              "region": "California"
+            }
+          },
+          {
+            "location": {
+              "country": "US",
+              "region": "Colorado"
+            }
+          },
+          {
+            "location": {
+              "country": "DE"
+            }
+          },
+          {
+            "location": {
+              "country": "IT"
             }
           }
         ],
-        "comments": "I don't want to work in the Financial District. There are no decent donuts shops"
+        "comments": "I could consider moving to the States, Germany or Italy if the project is interesting and it makes sense. Otherwise, I prefer to work remotely."
       }
     },
     "preferences": {
       "preferredMeans": [
         {
-          "name": "Excel",
-          "type": "domain",
-          "description": "Formule modeling and complex calculations"
+          "name": "Agile",
+          "type": "practice",
+          "description": "Gestión ágil"
+        },
+        {
+          "name": "Holocracia",
+          "type": "practice",
+          "description": "Organizaciones Holocráticas"
         }
       ],
       "discardedMeans": [
         {
-          "name": "Excel",
+          "name": "organizaciones jerarquicas",
           "type": "domain",
-          "description": "Formule modeling and complex calculations"
+          "description": "No quiero trabajar en un organización muy jerarquizada"
+        },
+        {
+          "name": "juegos de azar",
+          "type": "domain"
+        },
+        {
+          "name": "tabaco",
+          "type": "domain"
+        },
+        {
+          "name": "industria armamentistica",
+          "type": "domain"
         }
       ],
       "preferredOrganizations": [
-        "bigCorp"
-      ],
-      "discardedOrganizations": [
-        "bigCorp"
+        "startup",
+        "academicalInstitution"
       ],
       "preferredRoles": [
-        "Product Manager"
-      ],
-      "discardedRoles": [
-        "Project Manager"
+        "CEO",
+        "CMO",
+        "CPO"
       ]
     },
     "goals": [
@@ -614,7 +761,7 @@
         "description": "Me gustaría trabajar en una compañía donde disfrutar de compañeros con orígenes y trayectorias vitales y profesionales diversas, pero que compartan mis valores y mi visión sobre la gestión empresarial en general y el desarrollo de software en particular."
       },
       {
-        "title" : "Transparencia",
+        "title": "Transparencia",
         "description": "Creo en la transparencia corporativa, en que la actividad, rendimiento, aciertos y fracasos de mis equipos deben ser visibles para el resto de la empresa."
       },
       {

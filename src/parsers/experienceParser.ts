@@ -5,12 +5,12 @@ import {DevStoryPositionParser} from './devStory/devStoryPositionParser';
 import {DevStoryPosition} from '../models/devStory/devStoryPosition';
 import {Job} from '../models/job';
 import {DatesParser} from './datesParser';
-import {Mean} from '../models/mean';
 import {DevStoryArtifactParser} from './devStory/devStoryArtifactParser';
 import {DevStoryArtifact} from '../models/devStory/devStoryArtifact';
 import {Project} from '../models/project';
 import {Organization} from '../models/organization';
 import {Role} from '../models/role';
+import {MeanParser} from '../models/meanParser';
 
 export class ExperienceParser {
   parse($: CheerioAPI): Experience {
@@ -66,7 +66,7 @@ export class ExperienceParser {
         challenges: [{description: position.description}],
         startDate,
         finishDate,
-        means: this.toMeans(position.tags),
+        means: MeanParser.parse(position.tags),
       },
     ];
   }
@@ -92,26 +92,9 @@ export class ExperienceParser {
           challenges: [{description: artifact.description}],
           startDate,
           finishDate: startDate,
-          means: this.toProjectMeans(artifact),
+          means: MeanParser.parse(artifact.tags),
         },
       ],
     };
-  }
-
-  /**
-   * @deprecated
-   */
-  private toProjectMeans(artifact: DevStoryArtifact): Mean[] {
-    return artifact.tags.map((t) => ({
-      name: t,
-      type: 'tool',
-    }));
-  }
-
-  private toMeans(tags: string[]): Mean[] {
-    return tags.map((t) => ({
-      name: t,
-      type: 'technology',
-    }));
   }
 }
