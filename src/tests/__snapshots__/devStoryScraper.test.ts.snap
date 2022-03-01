@@ -158,7 +158,7 @@ Object {
             "startDate": "2017-07-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -190,7 +190,7 @@ Object {
             "startDate": "2015-11-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -235,7 +235,7 @@ Object {
             "startDate": "2013-11-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -287,7 +287,7 @@ Object {
             "startDate": "2006-08-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -338,7 +338,7 @@ Object {
             "startDate": "2019-09-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -379,7 +379,7 @@ Sales, marketing, and community relations:
             "startDate": "2017-07-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -428,7 +428,7 @@ Sales, marketing, and community relations:
             "startDate": "2016-10-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -469,7 +469,7 @@ Sales, marketing, and community relations:
             "startDate": "2014-03-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -502,7 +502,7 @@ Sales, marketing, and community relations:
             "startDate": "2012-09-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -540,7 +540,7 @@ Sales, marketing, and community relations:
             "startDate": "2011-05-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -612,7 +612,7 @@ Sales, marketing, and community relations:
             "startDate": "2008-10-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -652,26 +652,22 @@ Sales, marketing, and community relations:
             "startDate": "2008-03-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
     ],
     "projects": Array [
       Object {
-        "URL": "https://apps.apple.com/us/app/big-event-2020/id1498328530",
-        "description": "This app — developed and deployed to the App Store on a Saturday afternoon — shows the scheduled events for the [Synapse Summit](https://synapsefl.com/summit/) 2020 conference, which took place in Tampa on Feb. 11 - 12, 2020. It’s a lot easier to check the schedule on your watch than it is to pull out your phone!",
-        "logo": Object {
-          "alt": "“Big Event 2020” Apple Watch app",
-          "link": "https://i.stack.imgur.com/A2LJ4.jpg",
+        "details": Object {
+          "URL": "https://apps.apple.com/us/app/big-event-2020/id1498328530",
+          "description": "This app — developed and deployed to the App Store on a Saturday afternoon — shows the scheduled events for the [Synapse Summit](https://synapsefl.com/summit/) 2020 conference, which took place in Tampa on Feb. 11 - 12, 2020. It’s a lot easier to check the schedule on your watch than it is to pull out your phone!",
+          "image": Object {
+            "alt": "“Big Event 2020” Apple Watch app",
+            "link": "https://i.stack.imgur.com/A2LJ4.jpg",
+          },
+          "name": "“Big Event 2020” Apple Watch app",
         },
-        "name": "“Big Event 2020” Apple Watch app",
         "roles": Array [
           Object {
-            "challenges": Array [
-              Object {
-                "description": "This app — developed and deployed to the App Store on a Saturday afternoon — shows the scheduled events for the [Synapse Summit](https://synapsefl.com/summit/) 2020 conference, which took place in Tampa on Feb. 11 - 12, 2020. It’s a lot easier to check the schedule on your watch than it is to pull out your phone!",
-              },
-            ],
-            "finishDate": "2020-02-01",
             "means": Array [
               Object {
                 "name": "watchos",
@@ -693,21 +689,17 @@ Sales, marketing, and community relations:
         "type": "other",
       },
       Object {
-        "URL": "https://play.google.com/store/apps/details?id=com.lilypadsolutions.lilypadappV2&hl=en_US",
-        "description": "The first Android version of the Lilypad app with my contributions (a lot of bug fixes and performance improvements) was released after my first month on the job. I was one of two programmers working on the mobile app, and most of my responsibilities were with the Android version.",
-        "logo": Object {
-          "alt": "Lilypad (Android version)",
-          "link": "https://i.stack.imgur.com/Sah8H.png",
+        "details": Object {
+          "URL": "https://play.google.com/store/apps/details?id=com.lilypadsolutions.lilypadappV2&hl=en_US",
+          "description": "The first Android version of the Lilypad app with my contributions (a lot of bug fixes and performance improvements) was released after my first month on the job. I was one of two programmers working on the mobile app, and most of my responsibilities were with the Android version.",
+          "image": Object {
+            "alt": "Lilypad (Android version)",
+            "link": "https://i.stack.imgur.com/Sah8H.png",
+          },
+          "name": "Lilypad (Android version)",
         },
-        "name": "Lilypad (Android version)",
         "roles": Array [
           Object {
-            "challenges": Array [
-              Object {
-                "description": "The first Android version of the Lilypad app with my contributions (a lot of bug fixes and performance improvements) was released after my first month on the job. I was one of two programmers working on the mobile app, and most of my responsibilities were with the Android version.",
-              },
-            ],
-            "finishDate": "2019-11-01",
             "means": Array [
               Object {
                 "name": "javascript",
@@ -725,21 +717,17 @@ Sales, marketing, and community relations:
         "type": "other",
       },
       Object {
-        "URL": "https://store.raywenderlich.com/products/ios-apprentice",
-        "description": "Co-author of “iOS Apprentice, 8th edition,” RayWenderlich.com’s “flagship” book. Completely revised two major sections of the book to cover developing apps using the SwiftUI framework. Rewrote two of the four apps presented in the book to reflect the new material.",
-        "logo": Object {
-          "alt": "iOS Apprentice, 8th Edition",
-          "link": "https://i.stack.imgur.com/3ItPz.png",
+        "details": Object {
+          "URL": "https://store.raywenderlich.com/products/ios-apprentice",
+          "description": "Co-author of “iOS Apprentice, 8th edition,” RayWenderlich.com’s “flagship” book. Completely revised two major sections of the book to cover developing apps using the SwiftUI framework. Rewrote two of the four apps presented in the book to reflect the new material.",
+          "image": Object {
+            "alt": "iOS Apprentice, 8th Edition",
+            "link": "https://i.stack.imgur.com/3ItPz.png",
+          },
+          "name": "iOS Apprentice, 8th Edition",
         },
-        "name": "iOS Apprentice, 8th Edition",
         "roles": Array [
           Object {
-            "challenges": Array [
-              Object {
-                "description": "Co-author of “iOS Apprentice, 8th edition,” RayWenderlich.com’s “flagship” book. Completely revised two major sections of the book to cover developing apps using the SwiftUI framework. Rewrote two of the four apps presented in the book to reflect the new material.",
-              },
-            ],
-            "finishDate": "2019-11-01",
             "means": Array [
               Object {
                 "name": "ios",
@@ -761,21 +749,17 @@ Sales, marketing, and community relations:
         "type": "other",
       },
       Object {
-        "URL": "https://store.raywenderlich.com/products/arkit-by-tutorials",
-        "description": "Technical editor of “ARKit by Tutorials,” a book covering augmented reality app development for iOS devices.",
-        "logo": Object {
-          "alt": "ARKit by Tutorials",
-          "link": "https://i.stack.imgur.com/deMhP.png",
+        "details": Object {
+          "URL": "https://store.raywenderlich.com/products/arkit-by-tutorials",
+          "description": "Technical editor of “ARKit by Tutorials,” a book covering augmented reality app development for iOS devices.",
+          "image": Object {
+            "alt": "ARKit by Tutorials",
+            "link": "https://i.stack.imgur.com/deMhP.png",
+          },
+          "name": "ARKit by Tutorials",
         },
-        "name": "ARKit by Tutorials",
         "roles": Array [
           Object {
-            "challenges": Array [
-              Object {
-                "description": "Technical editor of “ARKit by Tutorials,” a book covering augmented reality app development for iOS devices.",
-              },
-            ],
-            "finishDate": "2018-05-01",
             "means": Array [
               Object {
                 "name": "ios",
@@ -797,21 +781,17 @@ Sales, marketing, and community relations:
         "type": "other",
       },
       Object {
-        "URL": "https://itunes.apple.com/us/app/aspirations-winerys-wine-crush/id1131103492?mt=8",
-        "description": "_Aspirations Winery’s Wine Crush_ is a free iOS app written to promote a friend’s winery and wine shop in Clearwater, Florida. It’s a wine-themed game in the style of Candy Crush, and a promotional tool that other wineries won't have. It's available for free on the App Store. Unlike other free games, there aren't any \\"poison pills\\" to extract money from players — this game's just about simple, unadulterated fun.",
-        "logo": Object {
-          "alt": "Aspiration Winery’s Wine Crush",
-          "link": "https://i.stack.imgur.com/MFeKE.png",
+        "details": Object {
+          "URL": "https://itunes.apple.com/us/app/aspirations-winerys-wine-crush/id1131103492?mt=8",
+          "description": "_Aspirations Winery’s Wine Crush_ is a free iOS app written to promote a friend’s winery and wine shop in Clearwater, Florida. It’s a wine-themed game in the style of Candy Crush, and a promotional tool that other wineries won't have. It's available for free on the App Store. Unlike other free games, there aren't any \\"poison pills\\" to extract money from players — this game's just about simple, unadulterated fun.",
+          "image": Object {
+            "alt": "Aspiration Winery’s Wine Crush",
+            "link": "https://i.stack.imgur.com/MFeKE.png",
+          },
+          "name": "Aspiration Winery’s Wine Crush",
         },
-        "name": "Aspiration Winery’s Wine Crush",
         "roles": Array [
           Object {
-            "challenges": Array [
-              Object {
-                "description": "_Aspirations Winery’s Wine Crush_ is a free iOS app written to promote a friend’s winery and wine shop in Clearwater, Florida. It’s a wine-themed game in the style of Candy Crush, and a promotional tool that other wineries won't have. It's available for free on the App Store. Unlike other free games, there aren't any \\"poison pills\\" to extract money from players — this game's just about simple, unadulterated fun.",
-              },
-            ],
-            "finishDate": "2016-07-01",
             "means": Array [
               Object {
                 "name": "swift3",
@@ -833,29 +813,21 @@ Sales, marketing, and community relations:
         "type": "other",
       },
       Object {
-        "URL": "http://www.theregister.co.uk/2002/02/18/censorbuster_peeka_booty_goes_public/",
-        "description": "Peekabooty was an anti-censorship tool announced by the hacker and do-it-yourself media organization [Cult of the Dead Cow](http://cultdeadcow.com/) at the [DefCon](https://www.defcon.org/) conference in the summer of 2001. It was a peer-to-peer encrypted proxy system that circumvented internet censorship systems such as “The Great Firewall of China”, and has since been supplanted by VPN and similar anti-censorship technologies.
+        "details": Object {
+          "URL": "http://www.theregister.co.uk/2002/02/18/censorbuster_peeka_booty_goes_public/",
+          "description": "Peekabooty was an anti-censorship tool announced by the hacker and do-it-yourself media organization [Cult of the Dead Cow](http://cultdeadcow.com/) at the [DefCon](https://www.defcon.org/) conference in the summer of 2001. It was a peer-to-peer encrypted proxy system that circumvented internet censorship systems such as “The Great Firewall of China”, and has since been supplanted by VPN and similar anti-censorship technologies.
 
 Even though it was announced, the project wasn’t actually implemented until Paul Baranowski and I worked on it starting December 2001, and presented it at the CodeCon conference in February 2002. Paul was the back-end developer, building the underlying networking software, while I was the front-end developer, and built and designed the user interface, which included the cute bear icons that the screen used to show other users on the network.
 
 Peekabooty got a considerable amount of press at the time. Here’s a short list of articles: - _The Register:_ [Censor-buster Peek-A-Booty goes public](http://www.theregister.co.uk/2002/02/18/censorbuster_peeka_booty_goes_public/) - _Neowin:_ [Peek-A-Booty raises a few eyebrows at CodeCon](https://www.neowin.net/news/peek-a-booty-raises-a-few-eyebrows-at-codecon) - From the book _[Hacktivism and Cyberwars: Rebels with a Cause?:](https://www.amazon.com/Hacktivism-Cyberwars-Rebels-Tim-Jordan/dp/0415260043/ref=sr_1_1)_ I am briefly mentioned on page 102 for my involvement with Peekabooty. - _Spiegel Online:_ [Vorhang auf für Peek a Booty:](http://www.spiegel.de/netzwelt/tech/im-zeichen-des-teddies-vorhang-auf-fuer-peek-a-booty-a-183280.html) Peekabooty, as covered by the online version of the German news magazine _Der Spiegel_.",
-        "logo": Object {
-          "alt": "Peekabooty",
-          "link": "https://i.stack.imgur.com/C1b12.jpg",
+          "image": Object {
+            "alt": "Peekabooty",
+            "link": "https://i.stack.imgur.com/C1b12.jpg",
+          },
+          "name": "Peekabooty",
         },
-        "name": "Peekabooty",
         "roles": Array [
           Object {
-            "challenges": Array [
-              Object {
-                "description": "Peekabooty was an anti-censorship tool announced by the hacker and do-it-yourself media organization [Cult of the Dead Cow](http://cultdeadcow.com/) at the [DefCon](https://www.defcon.org/) conference in the summer of 2001. It was a peer-to-peer encrypted proxy system that circumvented internet censorship systems such as “The Great Firewall of China”, and has since been supplanted by VPN and similar anti-censorship technologies.
-
-Even though it was announced, the project wasn’t actually implemented until Paul Baranowski and I worked on it starting December 2001, and presented it at the CodeCon conference in February 2002. Paul was the back-end developer, building the underlying networking software, while I was the front-end developer, and built and designed the user interface, which included the cute bear icons that the screen used to show other users on the network.
-
-Peekabooty got a considerable amount of press at the time. Here’s a short list of articles: - _The Register:_ [Censor-buster Peek-A-Booty goes public](http://www.theregister.co.uk/2002/02/18/censorbuster_peeka_booty_goes_public/) - _Neowin:_ [Peek-A-Booty raises a few eyebrows at CodeCon](https://www.neowin.net/news/peek-a-booty-raises-a-few-eyebrows-at-codecon) - From the book _[Hacktivism and Cyberwars: Rebels with a Cause?:](https://www.amazon.com/Hacktivism-Cyberwars-Rebels-Tim-Jordan/dp/0415260043/ref=sr_1_1)_ I am briefly mentioned on page 102 for my involvement with Peekabooty. - _Spiegel Online:_ [Vorhang auf für Peek a Booty:](http://www.spiegel.de/netzwelt/tech/im-zeichen-des-teddies-vorhang-auf-fuer-peek-a-booty-a-183280.html) Peekabooty, as covered by the online version of the German news magazine _Der Spiegel_.",
-              },
-            ],
-            "finishDate": "2002-02-01",
             "means": Array [
               Object {
                 "name": "c++",
@@ -985,7 +957,7 @@ Object {
             "startDate": "2018-02-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -1042,7 +1014,7 @@ Object {
             "startDate": "2017-03-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -1081,7 +1053,7 @@ Object {
             "startDate": "2014-01-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
       Object {
         "organization": Object {
@@ -1116,7 +1088,7 @@ Object {
             "startDate": "2007-11-01",
           },
         ],
-        "type": "startup",
+        "type": "other",
       },
     ],
   },
