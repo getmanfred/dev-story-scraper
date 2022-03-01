@@ -35,7 +35,7 @@ export class DevStoryScraper {
     const settings = this.defaultSettings();
     const aboutMe = await this.aboutMeParser.parse($);
     const experience = this.experienceParser.parse($);
-    const careerPreferences = this.careerPreferencesParser.parse($);
+    const careerPreferences = this.careerPreferencesParser.parse($, url);
 
     const elapsed = new Date().getTime() - startTime;
     log.debug(`${username} profile parsed in ${elapsed}ms`);

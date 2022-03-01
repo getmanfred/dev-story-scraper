@@ -48,6 +48,14 @@ Object {
     ],
   },
   "careerPreferences": Object {
+    "contact": Object {
+      "publicProfiles": Array [
+        Object {
+          "URL": "https://stackoverflow.com/story/joeydevilla",
+          "type": "stackoverflow",
+        },
+      ],
+    },
     "preferences": Object {
       "preferredMeans": Array [
         Object {
@@ -903,6 +911,14 @@ Object {
     ],
   },
   "careerPreferences": Object {
+    "contact": Object {
+      "publicProfiles": Array [
+        Object {
+          "URL": "https://stackoverflow.com/story/ydarias",
+          "type": "stackoverflow",
+        },
+      ],
+    },
     "preferences": Object {
       "discardedMeans": Array [
         Object {
