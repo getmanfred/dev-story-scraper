@@ -100,6 +100,7 @@ export class DevStoryBookmarkParse {
       author: {
         name: _.head(firstAuthor.split(' ')) || '',
         surnames: _.tail(firstAuthor.split(' ')).join(' ') || '',
+        title: 'Author',
       },
       summary: Markdown.fromHTML($('.readings-item-summary .description-content-full').html() || ''),
     };

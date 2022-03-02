@@ -4,7 +4,9 @@ export type Bookmark = {
   author?: Author;
   summary?: string;
 };
+
 export type Author = {
   name: string;
   surnames: string;
+  title: string;
 };
