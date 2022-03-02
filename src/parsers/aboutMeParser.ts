@@ -33,7 +33,7 @@ export class AboutMeParser {
     const name = _.head(fullName.split(' ')) || '';
     const surnames = _.tail(fullName.split(' ')).join(' ') || '';
     const title = stripString($('#form-section-PersonalInfo div.job').text() || '');
-    const description = Markdown.fromHTML($('div.description span.description-content-full').html() || '');
+    const description = Markdown.fromHTML($('div.header-edit-section span.description-content-full').html() || '');
     const avatar = this.parseAvatar($);
     const location = await this.parseLocation($);
 

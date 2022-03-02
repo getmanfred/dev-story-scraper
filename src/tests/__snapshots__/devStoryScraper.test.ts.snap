@@ -860,7 +860,6 @@ Object {
       "avatar": Object {
         "link": "https://www.gravatar.com/avatar/bc91c9d44654771f5e9de85fa1eadb47?s=136&r=PG&d=https://i.stack.imgur.com/T119o.png",
       },
-      "description": "Software developer focused in backend.",
       "location": Object {
         "country": "ES",
         "municipality": "Madrid",
