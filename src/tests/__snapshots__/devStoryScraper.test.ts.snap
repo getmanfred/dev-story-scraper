@@ -1629,6 +1629,17 @@ Object {
       "surnames": "Darias",
       "title": "Developer at otogami.com",
     },
+    "recommendations": Array [
+      Object {
+        "URL": "https://corporate-rebels.com/iceberg-of-ignorance/",
+        "author": Object {
+          "name": "Joost",
+          "surnames": "Minnaar",
+        },
+        "summary": "Humility is a required skill for leaders to get more openness from people reporting to them. This prevents being ignorant of structural problems.",
+        "title": "How Real Leaders Melt The Iceberg of Ignorance With Humility",
+      },
+    ],
     "relevantLinks": Array [
       Object {
         "URL": "https://twitter.com/ydarias",
@@ -1873,6 +1884,16 @@ Object {
           },
           "name": "The Java and the Furious (JMX)",
         },
+        "means": Array [
+          Object {
+            "name": "java",
+            "type": "technology",
+          },
+          Object {
+            "name": "jmx",
+            "type": "technology",
+          },
+        ],
         "publishingDate": "2016-11-01",
         "type": "post",
       },

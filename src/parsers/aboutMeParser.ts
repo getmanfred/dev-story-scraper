@@ -1,4 +1,4 @@
-import {CheerioAPI} from 'cheerio';
+import cheerio, {CheerioAPI} from 'cheerio';
 import * as _ from 'lodash';
 
 import {Profile} from '../models/profile';
@@ -12,6 +12,7 @@ import {InterestingFact} from '../models/interestingFact';
 import {RelevantLink} from '../models/relevantLink';
 import {InterestingFactsParser} from './interestingFactsParser';
 import {RelevantLinksParser} from './relevantLinksParser';
+import {Bookmark} from '../models/bookmark';
 
 export class AboutMeParser {
   constructor(private readonly geocoder: Geocoder) {}
@@ -20,11 +21,16 @@ export class AboutMeParser {
     const profile = await this.parseProfile($);
     const relevantLinks = this.parseRelevantLinks($);
     const interestingFacts = this.parseInterestingFacts($);
+    const recommendations = $('#form-section-Readings div.readings-item')
+      .get()
+      .map((e) => $(e).html() || '')
+      .map((e) => DevStoryBookmarkParse.parse(e));
 
     return {
       profile,
       relevantLinks,
       interestingFacts,
+      recommendations,
     };
   }
 
@@ -33,7 +39,9 @@ export class AboutMeParser {
     const name = _.head(fullName.split(' ')) || '';
     const surnames = _.tail(fullName.split(' ')).join(' ') || '';
     const title = stripString($('#form-section-PersonalInfo div.job').text() || '');
-    const description = Markdown.fromHTML($('div.header-edit-section span.description-content-full').html() || '');
+    const description = Markdown.fromHTML(
+      $('header div.header-edit-section span.description-content-full').html() || '',
+    );
     const avatar = this.parseAvatar($);
     const location = await this.parseLocation($);
 
@@ -76,5 +84,23 @@ export class AboutMeParser {
       .get();
 
     return RelevantLinksParser.parse(links);
+  }
+}
+
+export class DevStoryBookmarkParse {
+  static parse(html: string): Bookmark {
+    const $ = cheerio.load(html);
+
+    const author = stripString($('.readings-item-author').text()).replace('by ', '');
+
+    return {
+      title: stripString($('.readings-item-title').text()),
+      URL: $('.readings-item-title a').attr('href'),
+      author: {
+        name: _.head(author.split(' ')) || '',
+        surnames: _.tail(author.split(' ')).join(' ') || '',
+      },
+      summary: Markdown.fromHTML($('.readings-item-summary .description-content-full').html() || ''),
+    };
   }
 }
