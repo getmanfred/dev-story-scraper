@@ -14,17 +14,17 @@ The only dependency is with Google Maps API, but if no API Key for Google is pro
 
 ![Code organization](doc/assets/code-organization.png)
 
-The scraping process is designed to follow the MAC JSON schema structure. So each "large" sub-document at the JSON Schema will have its own parser class.
+The scraping process is designed to follow the MAC JSON schema structure independently from the position at the Stack Overflows HTML. So each "large" sub-document at the JSON Schema usually have its own parser class.
 
 The `index.ts` file contains the handler that launches the Lambda function, and it is in charge of the bootstraping process.
 
-The `DevStoryDownloader` and `Geocoder` are created at the beginning so we can inject a mock for test purposes, avoiding overusing the Stack Overflow or Google's systems, this also prevents false red tests.
+The `DevStoryDownloader` and `Geocoder` are created at the beginning so we can inject a mock for test purposes, avoiding overusing the Stack Overflow or Google's systems, this also prevents false red tests. We could use the dependency injection in better ways, but for a project that is going to be used for a few days and discarded it doesn't worth the price.
 
 ### Tasks
 
 * `yarn install`: Installs all the required dependencies
 * `yarn test`: Launches the test suite
-* `yarn test:local`: Executes the complete process in local using the actual bootstraping.
+* `yarn test:local <username>`: Executes the complete process in local using the actual bootstraping.
 * `yarn build`: Transpilation process from TS to JS
 
 ## Deployment

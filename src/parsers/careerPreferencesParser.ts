@@ -1,6 +1,6 @@
 import {CheerioAPI} from 'cheerio';
 import {CareerPreferences} from '../models/careerPreferences';
-import {MeanParser} from '../models/meanParser';
+import {MeanParser} from './meanParser';
 
 export class CareerPreferencesParser {
   parse($: CheerioAPI, devStoryURL: string): CareerPreferences {

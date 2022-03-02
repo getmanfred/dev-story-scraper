@@ -1,7 +1,7 @@
 import {DevStoryPosition} from '../models/devStory/devStoryPosition';
 import {Job} from '../models/job';
 import {DatesParser} from './datesParser';
-import {MeanParser} from '../models/meanParser';
+import {MeanParser} from './meanParser';
 
 export class JobParser {
   static parse(position: DevStoryPosition): Job {

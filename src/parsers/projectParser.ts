@@ -1,7 +1,7 @@
 import {DevStoryArtifact} from '../models/devStory/devStoryArtifact';
 import {Project} from '../models/project';
 import {DatesParser} from './datesParser';
-import {MeanParser} from '../models/meanParser';
+import {MeanParser} from './meanParser';
 
 export class ProjectParser {
   static parse(artifact: DevStoryArtifact): Project {

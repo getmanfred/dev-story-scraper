@@ -1,4 +1,4 @@
-import {Mean} from './mean';
+import {Mean} from '../models/mean';
 
 export class MeanParser {
   static parse(tags: string[]): Mean[] {
