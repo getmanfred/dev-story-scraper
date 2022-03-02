@@ -845,6 +845,765 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
         "type": "other",
       },
     ],
+    "publicArtifacts": Array [
+      Object {
+        "details": Object {
+          "URL": "https://6figuredev.com/podcast/episode-123-ios-apprentice-accordions-with-joey-devilla/",
+          "description": "In this interview with the podcast _[The 6 Figure Developer](https://6figuredev.com/),_ I talk about working on _iOS Apprentice, 8th Edition,_ iOS development in general, mobile technology in general, and my philosophy for choosing technologies to work on: “Always bet on the tech that’s being dismissed as a toy.”",
+          "image": Object {
+            "alt": "Interview on “The 6-Figure Developer” podcast",
+            "link": "https://i.stack.imgur.com/WWrKi.jpg",
+          },
+          "name": "Interview on “The 6-Figure Developer” podcast",
+        },
+        "means": Array [
+          Object {
+            "name": "ios",
+            "type": "technology",
+          },
+          Object {
+            "name": "swiftui",
+            "type": "technology",
+          },
+          Object {
+            "name": "android",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2019-12-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.google.com/books/edition/Cult_of_the_Dead_Cow/055xDwAAQBAJ?hl=en&gbpv=1&dq=peekabooty+joey+devilla&pg=PT127&printsec=frontcover",
+          "description": "Paul Baranowski and I appear at the start of Chapter 9, which covers the _Peekabooty_ application.",
+          "image": Object {
+            "alt": "Cited in the book “Cult of the Dead Cow How the Original Hacking Supergroup Might Just Save the World” by Joseph Menn (2019)",
+            "link": "https://i.stack.imgur.com/Hl2kE.jpg",
+          },
+          "name": "Cited in the book “Cult of the Dead Cow How the Original Hacking Supergroup Might Just Save the World” by Joseph Menn (2019)",
+        },
+        "publishingDate": "2019-06-01",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=kVDP_-jmFtM",
+          "description": "This is a full hour-long interview on the _Thunder Nerds_ podcast where I talk about a recent presentation on Jupyter Notebooks, plus how I got started in programming, and what brought me to the Tampa Bay area.",
+          "image": Object {
+            "alt": "Full interview on “Thunder Nerds” on Jupyter Notebooks, accordions, and more",
+            "link": "https://i.stack.imgur.com/XnHz6.jpg",
+          },
+          "name": "Full interview on “Thunder Nerds” on Jupyter Notebooks, accordions, and more",
+        },
+        "means": Array [
+          Object {
+            "name": "python",
+            "type": "technology",
+          },
+          Object {
+            "name": "jupyter-notebook",
+            "type": "technology",
+          },
+          Object {
+            "name": "pandas",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2019-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=It00Uy8VNGM",
+          "description": "This interview was conducted at DevFest Florida 2019, a Google technologies-focused conference at Disney World. I talk about my presentation on using Jupyter Notebooks to make dynamic documents that combine both text and Python programs to create a whole new kind of document.",
+          "image": Object {
+            "alt": "Interview on “Thunder Nerds”, DevFest Florida 2019",
+            "link": "https://i.stack.imgur.com/8Z1V9.jpg",
+          },
+          "name": "Interview on “Thunder Nerds”, DevFest Florida 2019",
+        },
+        "means": Array [
+          Object {
+            "name": "python",
+            "type": "technology",
+          },
+          Object {
+            "name": "jupyter-notebook",
+            "type": "technology",
+          },
+          Object {
+            "name": "pandas",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2019-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=_sjyaDhKk2Q",
+          "description": "This is the second of TWO presentations I gave at the RWDevCon 2018 conference on developing augmented reality apps with ARKit. I walk the audience through the development of 4 AR apps.",
+          "image": Object {
+            "alt": "ARKit Workshop at RWDevCon 2018",
+            "link": "https://i.stack.imgur.com/bQpeG.jpg",
+          },
+          "name": "ARKit Workshop",
+        },
+        "means": Array [
+          Object {
+            "name": "ios",
+            "type": "technology",
+          },
+          Object {
+            "name": "arkit",
+            "type": "technology",
+          },
+          Object {
+            "name": "scenekit",
+            "type": "technology",
+          },
+          Object {
+            "name": "coreml",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2018-04-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=0bea2V8Jrw4",
+          "description": "This is one of TWO presentations I gave at the RWDevCon 2018 conference on ARKit. This 2-hour session is the shorter presentation, where I teach ARKit by walking through the development of 2 apps: a Bob Ross-inspired “3D painter” app in the spirit of Google’s [Tilt Brush](https://www.tiltbrush.com/) and a scaled-down version of the _IKEA Place_ app.",
+          "image": Object {
+            "alt": "Getting Started with ARKit with Joey Devilla - Live Tutorial Session - RWDevCon 2018",
+            "link": "https://i.stack.imgur.com/cE5Rp.jpg",
+          },
+          "name": "Getting Started with ARKit with Joey Devilla - Live Tutorial Session - RWDevCon 2018",
+        },
+        "means": Array [
+          Object {
+            "name": "ios",
+            "type": "technology",
+          },
+          Object {
+            "name": "arkit",
+            "type": "technology",
+          },
+          Object {
+            "name": "augmented-reality",
+            "type": "technology",
+          },
+          Object {
+            "name": "scenekit",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2018-04-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=AlG3fEHlF3E",
+          "description": "This interview was conducted at DevFest Florida 2017, a Google technologies-focused conference at Disney World. I talk about my presentation on native Android development for web developers, working at an office after years of remote work, and mobile technologies.",
+          "image": Object {
+            "alt": "Interview on “Thunder Nerds”, DevFest Florida 2017",
+            "link": "https://i.stack.imgur.com/0GPW1.jpg",
+          },
+          "name": "Interview on “Thunder Nerds”, DevFest Florida 2017",
+        },
+        "means": Array [
+          Object {
+            "name": "android",
+            "type": "technology",
+          },
+          Object {
+            "name": "android-studio",
+            "type": "technology",
+          },
+          Object {
+            "name": "kotlin",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2017-11-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=6tHGYhKCx7o",
+          "description": "We were ninety minutes into a one-hour job interview when the CTO said “We like your _breadth_ of experience. Now we’d like to test your _depth_. If we gave you a quick programming assignment, which would you prefer — writing an iOS app, or an Android app? You should go with the one you’re stronger in.”
+
+I’m a much stronger iOS programmer than an Android one. The smart move would’ve been to answer “iOS,” and be done with it.
+
+Instead, I replied “Yes, but you want a guy who can lead a team of both iOS and Android developers. You really should give me both.”
+
+The CTO raised an eyebrow, gave me a look, made a note on his pad, and said “Hmmm...I think I will.”
+
+This is either a “total baller move” (to borrow a turn of phrase the kids are using these day), or the end of that job prospect. But for the job that they’re trying to fill, taking on that challenge was the right thing to do.
+
+It had been a couple of years since I’d touched C or Objective-C, but after bumping my head once or twice against C-isms (“Oh yeah, pointers”), I got into a groove and a few days later, I had an app that I could show them.
+
+I sent them my project files for the iOS app, along with this “highlight reel” of the app in action, which I made using Camtasia Studio. “Tell me what you think while I work on the Android version.”
+
+And that’s the last I heard from them. Follow-up emails were met with silence. After the 6th email (“If you have any questions or comments about the app, please feel free to contact me”), it became apparent that this was a dead end, and it wouldn’t be worth my while to continue working on the Android version. Perhaps I’ll work on it as a way to sharpen my Kotlin skills.",
+          "image": Object {
+            "alt": "My “Trucker App” job interview homework assignment",
+            "link": "https://i.stack.imgur.com/mwUEp.jpg",
+          },
+          "name": "My “Trucker App” job interview homework assignment",
+        },
+        "means": Array [
+          Object {
+            "name": "ios",
+            "type": "technology",
+          },
+          Object {
+            "name": "objective-c",
+            "type": "technology",
+          },
+          Object {
+            "name": "alamofire",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2017-06-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "http://www.globalnerdy.com/2017/03/06/my-day-at-gms-makers-hustle-harder-hackathon-in-tampa/",
+          "description": "The first of three “Makers Hustle Harder” hackathons run by GM in 2017 was held at Tampa Hackerspace. It was an opportunity for Tampa Bay techies to try their programming chops on GM’s Next Generation Infotainment (NGI) in-car console system.
+
+In about an hour, I came up with, coded, and tested an app called “Fitness Fire Drill”, which acts as a referee for [the classic “fire drill” game you play with friends in a car](https://en.wikipedia.org/wiki/Chinese_fire_drill).
+
+The judges liked the app so much that they invented the “Judges’ Fetish” category simply for the purpose of awarding it a prize.",
+          "image": Object {
+            "alt": "Winning a prize at GM’s “Makers Hustle Harder” hackathon",
+            "link": "https://i.stack.imgur.com/gCKMu.jpg",
+          },
+          "name": "Winning a prize",
+        },
+        "means": Array [
+          Object {
+            "name": "javascript",
+            "type": "technology",
+          },
+          Object {
+            "name": "css",
+            "type": "technology",
+          },
+          Object {
+            "name": "html5",
+            "type": "technology",
+          },
+          Object {
+            "name": "node.js",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2017-03-01",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=z27MXXfY2KE",
+          "description": "I _always_ bring my accordion when I’m out for a beer, including when I’m out for a beer at Tampa’s Bay Area Renaissance Festival. While watching the Jackdaws, their guitarist Whiplash saw my accordion and invited me to join them onstage to perform “Three Gypsies” (a.k.a. “The Wraggle-Taggle Gypsies-Oh!”).
+
+I’ve included this video to show that yes, I can win over a crowd, which is actually a useful skill in the tech world.",
+          "image": Object {
+            "alt": "Playing “Three Gypsies” with the Jackdaws at Tampa’s Bay Area Renaissance Festival",
+            "link": "https://i.stack.imgur.com/zIjoU.jpg",
+          },
+          "name": "Playing “Three Gypsies” with the Jackdaws",
+        },
+        "means": Array [
+          Object {
+            "name": "accordion",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2017-03-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://techcrunch.com/2016/10/30/accordion-guy-joey-devilla-talks-the-future-of-culture-and-iot/",
+          "description": "John Biggs invited me to chat on his \\"Technotopia\\" podcast, where we talked about my new job at SMARTRAC, RFID and the internet of things, nostalgia, pop culture, and how they intersect with technology, and optimism about the future.
+
+Here’s how he introduced me: Joey DeVilla is my blogging hero. He's run his blog for most of two decades and he's worked at Microsoft, Shopify, and Tucows. Most recently he's taken on the..",
+          "image": Object {
+            "alt": "TechCrunch: Accordion Guy Joey DeVilla talks the future of culture and IoT",
+            "link": "https://i.stack.imgur.com/B921A.jpg",
+          },
+          "name": "TechCrunch: Accordion Guy Joey DeVilla talks the future of culture and IoT",
+        },
+        "publishingDate": "2016-10-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=6GUPWih1NYs",
+          "description": "This video gives you a taste of the app I created for a friend’s winery, best described as “Like that Candy game, but with _wine!_”",
+          "image": Object {
+            "alt": "Promo video for “Aspirations Winery’s Wine Crush”",
+            "link": "https://i.stack.imgur.com/5toVf.jpg",
+          },
+          "name": "Promo video for “Aspirations Winery’s Wine Crush”",
+        },
+        "publishingDate": "2016-07-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=W3Cd1shIu7I",
+          "description": "This one's a work in progress -- a little \\"Frogger\\"/\\"Crossy Road\\"-type game for iOS that I'm hoping to put in the App Store later this year. There's still lots to polish, but the basic game mechanics are in place.",
+          "image": Object {
+            "alt": "Dale Mabry Highway prototype",
+            "link": "https://i.stack.imgur.com/yKtgT.jpg",
+          },
+          "name": "Dale Mabry Highway prototype",
+        },
+        "means": Array [
+          Object {
+            "name": "swift",
+            "type": "technology",
+          },
+          Object {
+            "name": "ios",
+            "type": "technology",
+          },
+          Object {
+            "name": "sprite-kit",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2016-02-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=dX9_msIbOqM",
+          "description": "This 5-minute, 33-second video introduces IBM’s NICO service to the viewer. It explains how your network infrastructure could be costing your organization significantly more than it should, and how NICO can drive down your infrastructure and service costs, identify and fix system issues in your telecom system, and give you the tools and best practices to make the most of your network.
+
+I was the “army of one” behind this video, which I produced when I was the Technology Evangelist at GSG, who are an IBM partner, and provide the software platform and assessment services that go into NICO. I wrote the script, did the narration, gathered or created its images, and produced it — all in the span of a couple of weeks.",
+          "image": Object {
+            "alt": "IBM NICO: Network Infrastructure Cost Optimization (IBM version)",
+            "link": "https://i.stack.imgur.com/qNWg8.jpg",
+          },
+          "name": "IBM NICO: Network Infrastructure Cost Optimization (IBM version)",
+        },
+        "publishingDate": "2015-11-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=kB3ixebexnc",
+          "description": "This 13-minute, 12-second video is taken from the “Dark Mobile” webinar that I led for a division of Honeywell formerly known as Enterprise Mobile. “Dark Mobile” is a term that I coined the term during my time at GSG, and it refers to those parts of an enterprise’s mobile telecom environment that goes unobserved, unmanaged, and unknown.
+
+In addition to coming up with the topic and title for the webinar, I wrote the script, hosted the webinar, and produced the video based on the recording and Honeywell’s slides.",
+          "image": Object {
+            "alt": "“Dark Mobile” webinar for Enterprise Mobile (Honeywell)",
+            "link": "https://i.stack.imgur.com/yu3vQ.jpg",
+          },
+          "name": "“Dark Mobile” webinar for Enterprise Mobile (Honeywell)",
+        },
+        "publishingDate": "2015-09-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=bk_B9U0jaqI",
+          "description": "I gave this presentation -- the second-last of the evening -- at Ignite Tampa Bay 2015, which took place in Tampa's Cuban Club on Thursday, August 27, 2015. In it, I sang the praises of \\"Florida Man\\" and \\"Florida Woman\\", those staples of slow news days and internet memes, and showed how they're this state's most valuable resource, complete with Florida Man logic and a closing accordion number.
+
+This was a presentation given in the \\"Ignite\\" format. It's 5 minutes long, with 20 slides, each slide advancing automatically every 15 seconds. The format has been described as \\"the presentation equivalent of a haiku or sonnet.\\" They're more challenging than your typical presentation, and require more rehearsal -- and they're also more thrilling to give!",
+          "image": Object {
+            "alt": "My Ignite Tampa Bay 2015 presentation: A stirring defense of Florida Man and Florida Woman!",
+            "link": "https://i.stack.imgur.com/21Uth.jpg",
+          },
+          "name": "My Ignite Tampa Bay 2015 presentation: A stirring defense of Florida Man and Florida Woman!",
+        },
+        "publishingDate": "2015-08-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "http://www.canadianbusiness.com/innovation/how-to/2015-manage-it-better/",
+          "description": "_Canadian Business_ magazine has a regular “How-To” section that features advice from a expert, and in the July 2015 issue, _I_ was the expert!
+
+Here’s how they introduced me: Joey deVilla, platform evangelist at GSG Telco, shares four tips for how to keep your tech people from phoning it in. A little acknowledgement really helps.",
+          "image": Object {
+            "alt": "Canadian Business: How to have a great relationship with your IT department",
+            "link": "https://i.stack.imgur.com/xq7c3.jpg",
+          },
+          "name": "Canadian Business: How to have a great relationship with your IT department",
+        },
+        "publishingDate": "2015-07-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=Q8gTDF6JP4Q",
+          "description": "\\"Mobility 101\\" is a series of videos that I put together for [GSG](http://gsgtelco.com) to help the company's partners and their customers understand various aspects of mobile devices, services, applications, and management.
+
+This was my second video for GSG. This one introduces TEM — telecom expense management — in an entertaining way. As with most of these videos, I’m the “army of one” behind it.",
+          "image": Object {
+            "alt": "GSG's Mobility 101: Telecom Expense Management, or TEM",
+            "link": "https://i.stack.imgur.com/86MqL.jpg",
+          },
+          "name": "GSG's Mobility 101: Telecom Expense Management, or TEM",
+        },
+        "publishingDate": "2014-08-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=u3wwapEsRIo",
+          "description": "\\"Mobility 101\\" is a series of videos that I put together for [GSG](http://gsgtelco.com) to help the company's partners and their customers understand various aspects of mobile devices, services, applications, and management.
+
+This 8-minute, 19-second video was my first video for GSG. This one explains what MMS is — it’s short for managed mobility services or mobility managed services, depending on whom you ask. As with most of these videos, I’m the “army of one” behind it.",
+          "image": Object {
+            "alt": "GSG's Mobility 101: Intro to MMS",
+            "link": "https://i.stack.imgur.com/2Xrwk.jpg",
+          },
+          "name": "GSG's Mobility 101: Intro to MMS",
+        },
+        "publishingDate": "2014-05-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=D8eCS6YJc34",
+          "description": "During the 20102 holiday season, I took a day off from my CTO duties at Comprehensive Technology Solutions/Top Right Corner to participate in the Ford C-MAX Holiday Challenge, where we tried to get maximum efficiency out of Ford's new hybrid vehicles and go toy shopping for charity.
+
+(“Top Right Corner” was a name we were considering to replace “Comprehensive Technology Solutions”, but we never went through with the change.)",
+          "image": Object {
+            "alt": "Taking Ford Canada’s C-MAX Holiday Challenge (2012)",
+            "link": "https://i.stack.imgur.com/bbguC.jpg",
+          },
+          "name": "Taking Ford Canada’s C-MAX Holiday Challenge (2012)",
+        },
+        "publishingDate": "2012-12-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=4lNx-7ICxVI",
+          "description": "A roundup of the first four projects to be funded by the million-dollar Shopify Fund. Written, directed, shot and narrated by Yours Truly.",
+          "image": Object {
+            "alt": "Announcing the first four Shopify Fund projects (2012)",
+            "link": "https://i.stack.imgur.com/wzmIJ.jpg",
+          },
+          "name": "Announcing the first four Shopify Fund projects (2012)",
+        },
+        "publishingDate": "2012-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=Ux8nGYm95ak",
+          "description": "Here’s a 4-minute, 10-second video that I made during my time as a Developer Evangelist at Shopify. This one was aimed at developers, letting them know about the Shopify Fund, a $1 million fund to incentivize developers to build apps for the Shopify ecommerce platform. As with the other videos in this post, this was pretty much me, a microphone, and a laptop with Camtasia Studio and Audacity.",
+          "image": Object {
+            "alt": "Introducing the Shopify Fund",
+            "link": "https://i.stack.imgur.com/lR3e0.jpg",
+          },
+          "name": "Introducing the Shopify Fund",
+        },
+        "publishingDate": "2012-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=52yjrhykCks",
+          "description": "This video by New Relic features some of the software world’s brightest lights: Matz, Guido, Linus, DHH, Bill Joy,James Gosling, Sir Tim, Marc, Woz, Rasmus, The Gu, Sergey, Dries and finally Zuck. But guess whose picture they close with at the 1:04 mark!",
+          "image": Object {
+            "alt": "New Relic's \\"We Love Developers\\" Video, featuring Joey deVilla (December 2011)",
+            "link": "https://i.stack.imgur.com/PVwEb.jpg",
+          },
+          "name": "New Relic's \\"We Love Developers\\" Video, featuring Joey deVilla (December 2011)",
+        },
+        "publishingDate": "2011-12-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=84EnkkN9wgo",
+          "description": "In October 2010, Toronto’s [AndroidTO](http://androidto.com/) conference needed a couple of big sponsors to help ensure that they could hold their day-long, hundreds-of-attendees event without losing money. I’d heard that Google wasn’t going to sponsor them, and asked: _\\\\_Why doesn’t Microsoft sponsor them instead?\\\\__
+
+I used the event as an opportunity to showcase Windows as a great development platform for Android, by demoing an HP touchscreen computer set up as an Android development station running Eclipse (which at the time was the preferred Android IDE) and also showing the Windows Phone development environment, which looked a lot less confusing and more aesthetically pleasing than Eclipse (although that’s easy), and showing the C# language (similar to Java, so it seems familiar) and Windows Phone in the process.",
+          "image": Object {
+            "alt": "The time I got Microsoft to sponsor an Android conference because Google wouldn’t",
+            "link": "https://i.stack.imgur.com/wLCtl.jpg",
+          },
+          "name": "The time I got Microsoft to sponsor an Android conference because Google wouldn’t",
+        },
+        "means": Array [
+          Object {
+            "name": "c#",
+            "type": "technology",
+          },
+          Object {
+            "name": "windows-phone-7",
+            "type": "technology",
+          },
+          Object {
+            "name": "android",
+            "type": "technology",
+          },
+          Object {
+            "name": "java",
+            "type": "technology",
+          },
+          Object {
+            "name": "visual-studio",
+            "type": "technology",
+          },
+          Object {
+            "name": "eclipse",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2010-10-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=dC9BDyggLmM",
+          "description": "This video shows the highlights from Microsoft’s Windows Phone 7 Showcase, held one evening in Toronto in September 2010. We put the spotlight on Windows Phone apps created by a number of Toronto-area developers including:
+
+*   Mark Arteaga of Redbit Develeopment
+*   Barranger Ridler of 4MK Mobile
+*   Alexey Adamsky and Alex Yakobovich of Ryerson University's Digital Media Zone
+*   Shawn Konopinsky of Nascent Digital
+*   Mike Kasprzak of Sykhronics
+
+I hosted and helped organize this event.",
+          "image": Object {
+            "alt": "Windows Phone 7 Showcase in Toronto",
+            "link": "https://i.stack.imgur.com/uuItt.jpg",
+          },
+          "name": "Windows Phone 7 Showcase in Toronto",
+        },
+        "publishingDate": "2010-09-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=sQ-vlJv2dWE",
+          "description": "When I was a Developer Evangelist at Microsoft, a fellow Microsoftie had a problem: he was buried in work and needed a video comparing HTML with rich internet applications (RIAs) such as Adobe Flash or Microsoft Silverlight. “Can you make one…by tomorrow evening?” he asked. “That’s when I have to show it to this group in Montreal.”
+
+I got to work, and the result is this 5-minute, 46-second piece that summarizes the web world in the summer of 2010. I wrote, designed, narrated, and as the credits say, hastily produced this video, and my coworker was able to present it the following evening.",
+          "image": Object {
+            "alt": "HTML5 and RIAs: Friends with Benefits",
+            "link": "https://i.stack.imgur.com/HrdK2.jpg",
+          },
+          "name": "HTML5 and RIAs: Friends with Benefits",
+        },
+        "publishingDate": "2010-08-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=OU0hUzhhEzA",
+          "description": "Developer Jr. was an all-too-short-lived video series for children ages 7 through 12 that aimed to teach them programming and other creative things they can do with computers and technology. It starred me playing myself, and \\"Junior\\", an impish puppet played by Brian Hogg. It was sponsored by Microsoft Canada and produced by Butterscotch.com in early 2010.
+
+In this episode, Junior and I make a simple movie using Windows Movie Maker.",
+          "image": Object {
+            "alt": "Developer Jr., episode 2: Making movies with Windows Movie Maker",
+            "link": "https://i.stack.imgur.com/IfvqN.jpg",
+          },
+          "name": "Developer Jr., episode 2: Making movies with Windows Movie Maker",
+        },
+        "means": Array [
+          Object {
+            "name": "windows",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2010-05-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=VdPg8VZF76E",
+          "description": "Developer Jr. was an all-too-short-lived video series for children ages 7 through 12 that aimed to teach them programming and other creative things they can do with computers and technology. It starred me playing myself, and \\"Junior\\", an impish puppet played by Brian Hogg. It was sponsored by Microsoft Canada and produced by Butterscotch.com in early 2010.
+
+In this episode, Junior and I explore basic videogame programming using a Microsoft Labs tool called Kodu.",
+          "image": Object {
+            "alt": "Developer Jr., episode 1: Making games with Kodu",
+            "link": "https://i.stack.imgur.com/IopUF.jpg",
+          },
+          "name": "Developer Jr., episode 1: Making games with Kodu",
+        },
+        "means": Array [
+          Object {
+            "name": "kodu",
+            "type": "technology",
+          },
+          Object {
+            "name": "xbox360",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2010-04-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=z5tmAH5kIQA",
+          "description": "Here’s Butterscotch.com’s Matt Harris interviewing me about “Developer Jr.”, my technology show for kids starring Yours Truly and a puppet, Junior.",
+          "image": Object {
+            "alt": "On the “Developer Jr.” set with Joey deVilla and Junior",
+            "link": "https://i.stack.imgur.com/1Yplw.jpg",
+          },
+          "name": "On the “Developer Jr.” set with Joey deVilla and Junior",
+        },
+        "publishingDate": "2010-03-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=UpVqyef7o-0",
+          "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
+
+This Byte Club episode covered DemoCamp Toronto, a monthly show-and-tell gathering where Toronto techies could demo their projects in front of an audience of their peers. I was one of the people who co-hosted these gatherings.
+
+You had a time limit to present, and no slides were allowed at DemoCamp — you could only show your project in action!",
+          "image": Object {
+            "alt": "“Byte Club” covers DemoCamp Toronto",
+            "link": "https://i.stack.imgur.com/e5dM3.jpg",
+          },
+          "name": "“Byte Club” covers DemoCamp Toronto",
+        },
+        "publishingDate": "2008-10-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/1854/python-what-os-am-i-running-on/1871#1871",
+          "name": "Python: What OS am I running on?",
+        },
+        "publishingDate": "2008-08-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/626/when-to-use-lambda-when-to-use-proc-new/723#723",
+          "name": "When to use lambda, when to use Proc.new?",
+        },
+        "publishingDate": "2008-08-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=DnxT5YvLYZk",
+          "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
+
+This was the first Byte Club episode, which covered b5media and featured interviews with the people who ran it, including Yours Truly.",
+          "image": Object {
+            "alt": "“Byte Club” covers b5media",
+            "link": "https://i.stack.imgur.com/voh1H.jpg",
+          },
+          "name": "“Byte Club” covers b5media",
+        },
+        "means": Array [
+          Object {
+            "name": "wordpress",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2008-08-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=A8MIp58qeDs",
+          "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
+
+This Byte Club episode featured the RubyFringe conference, a very offbeat conference that featured some of the bright lights of the Ruby community, including Obie Fernandez, Zed Shaw, Dan Grigsby, Hampton Catlin, Pete Forde, and Yours Truly!",
+          "image": Object {
+            "alt": "“Byte Club” covers RubyFringe",
+            "link": "https://i.stack.imgur.com/g55SR.jpg",
+          },
+          "name": "“Byte Club” covers RubyFringe",
+        },
+        "means": Array [
+          Object {
+            "name": "ruby",
+            "type": "technology",
+          },
+          Object {
+            "name": "ruby-on-rails",
+            "type": "technology",
+          },
+          Object {
+            "name": "merb",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2008-07-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=eSqCog2WxdU",
+          "description": "Upon seeing my accordion, RailsConf 2007 organizer Chad Fowler invited me to come up with a number that we could both perform at the keynote — me on accordion, him on ukulele. Here’s the result: a parody of Radiohead’s “Creep”, re-done as a tribute to Rails creator David Heinemeier Hansson and the “Depot” Rails tutorial.",
+          "image": Object {
+            "alt": "Performing at the RailsConf 2007 evening keynote",
+            "link": "https://i.stack.imgur.com/w69Fp.jpg",
+          },
+          "name": "Performing",
+        },
+        "means": Array [
+          Object {
+            "name": "ruby",
+            "type": "technology",
+          },
+          Object {
+            "name": "ruby-on-rails",
+            "type": "technology",
+          },
+          Object {
+            "name": "accordion",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "2007-05-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.google.com/books/edition/Hacktivism_and_Cyberwars/hew6jmcZvD4C?hl=en&gbpv=1&dq=peekabooty+joey+devilla&pg=PA102&printsec=frontcover",
+          "description": "Paul Baranowski and I appear for a number of pages starting at page 102 in a section that covers the _Peekabooty_ application.",
+          "image": Object {
+            "alt": "Cited in the book “Hacktivism and Cyberwars: Rebels with a Cause?” by Tim Jordan and Paul A. Taylor (2004)",
+            "link": "https://i.stack.imgur.com/WY68b.jpg",
+          },
+          "name": "Cited in the book “Hacktivism and Cyberwars: Rebels with a Cause?” by Tim Jordan and Paul A. Taylor (2004)",
+        },
+        "publishingDate": "2004-07-01",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://craphound.com/nonfic/mackerel.html",
+          "description": "This is an unpublished story that [Cory Doctorow](https://en.wikipedia.org/wiki/Cory_Doctorow) wrote for _Wired_ about Mackerel Interactive Multimedia, a Toronto-based scrappy upstart multimedia company during the era of the CD-ROM. I’m featured prominently in it.",
+          "image": Object {
+            "alt": "Mackerel: Burying the Fish",
+            "link": "https://i.stack.imgur.com/cvWT3.gif",
+          },
+          "name": "Mackerel: Burying the Fish",
+        },
+        "means": Array [
+          Object {
+            "name": "macromedia",
+            "type": "technology",
+          },
+        ],
+        "publishingDate": "1998-07-01",
+        "type": "post",
+      },
+    ],
   },
   "settings": Object {
     "MACversion": "0.2",
@@ -1088,6 +1847,47 @@ Object {
           },
         ],
         "type": "other",
+      },
+    ],
+    "publicArtifacts": Array [
+      Object {
+        "details": Object {
+          "URL": "https://speakerdeck.com/ydarias/betabeers-salamanca",
+          "description": "These are the slides of my talk about my experience (a kind of postmortem) in Runnics given at BetaBeers Salamanca.",
+          "image": Object {
+            "alt": "BetaBeers Salamanca",
+            "link": "https://i.stack.imgur.com/VsP6C.jpg",
+          },
+          "name": "BetaBeers Salamanca",
+        },
+        "publishingDate": "2018-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://speakerdeck.com/ydarias/the-java-and-the-furious-jmx",
+          "description": "Talk given at Codemotion 2016 in Madrid about how to measure (Java) code speed and health with JMX.",
+          "image": Object {
+            "alt": "The Java and the Furious (JMX)",
+            "link": "https://i.stack.imgur.com/hFE4O.jpg",
+          },
+          "name": "The Java and the Furious (JMX)",
+        },
+        "publishingDate": "2016-11-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "http://developerscookbook.blogspot.com.es/2014/09/runnics-en-betabeers-madrid.html",
+          "description": "El viernes pasado me invitaron a dar una charla sobre Runnics en el Betabeers de Madrid, y al parecer gustó bastante, razón por la cual ...",
+          "image": Object {
+            "alt": "Runnics en Betabeers Madrid",
+            "link": "https://i.stack.imgur.com/XFOmD.jpg",
+          },
+          "name": "Runnics en Betabeers Madrid",
+        },
+        "publishingDate": "2014-09-01",
+        "type": "post",
       },
     ],
   },

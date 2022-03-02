@@ -6,12 +6,6 @@ export type Project = {
   details?: ProjectDetails;
   type?: ProjectType;
   roles: Role[];
-  // name: string;
-  // type: ProjectType;
-  // description: string;
-  // URL: string;
-  // logo: Image;
-  // roles: Role[];
 };
 
 export type ProjectDetails = {

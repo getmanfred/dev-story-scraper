@@ -1,13 +1,13 @@
 import cheerio, {CheerioAPI} from 'cheerio';
 
-import {DevStoryArtifact} from '../../models/devStory/devStoryArtifact';
+import {DevStoryArtifact, DevStoryArtifactType} from '../../models/devStory/devStoryArtifact';
 import {stripString} from '../../utils/utils';
 import {Markdown} from '../../utils/markdown';
 
 export class DevStoryArtifactParser {
   static parse(html: string): DevStoryArtifact {
     const $ = cheerio.load(html);
-    const type = stripString($('.timeline-item-type').text());
+    const type = stripString($('.timeline-item-type').text()) as DevStoryArtifactType;
     const time = stripString($('.timeline-item-date').text());
     const title = stripString($('.timeline-item-title').text());
     const url = $('.timeline-item-title a').attr('href') || '';
