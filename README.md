@@ -42,7 +42,7 @@ To adapt the scraped data to the MAC JSON Schema we took some design decisions.
 
 ### Name to name and surnames
 
-Stack Overflow uses just a name, to create `name` and `surnames` fields we decided to use the first word as name and the rest as surnames.
+Stack Overflow uses just a string with full name, to create `name` and `surnames` fields we decided to use the first word as name and the rest as surnames.
 
 Example:
 
@@ -75,6 +75,6 @@ Examples:
 
 ![job parsing details diagram](doc/assets/job-parsing.png)
 
-## Developer notes
+### Assessment parsing
 
-* WARN: The URL from a position is a reference to Stack Overflow and not the actual company.
+![assessment parsing details diagram](doc/assets/assessment-parsing.png)
