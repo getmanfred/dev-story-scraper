@@ -9,7 +9,7 @@
       "name": "David",
       "surnames": "Bonilla Fuertes",
       "title": "Fundador en Manfred / C-Level Executive",
-      "description": "Llevo casi dos décadas desarrollando software, ocupando puestos a lo largo de toda la cadena de valor -programacion, diseño de producto, marketing, ventas y gestión de equipos, departamentos y empresas- pero creo que el rol donde se cruzan mi vocación, mis habilidades y las necesidades de la mayoría de las empresas es en la gestión de equipos y proyectos de construcción de activos digitales.\n\nMe apasiona contribuir en todo el ciclo de vida de un producto o servicio informático, desde la definición hasta el mantenimiento o soporte a clientes, y también involucrarme en la comercialización del mismo.\n\nMe gusta trabajar con gente y para la gente. Como responsable de equipos, mi principal prioridad siempre es eliminar cualquier problema que les impida alcanzar todo su potencial. También procuro devolver a la Comunidad informática parte del valor y el conocimiento que me han aportado a lo largo de mi carrera profesional, dando charlas o colaborando con grupos de usuarios y conferencias técnicas; y, a veces, organizándolos.",
+      "description": "Llevo casi dos décadas desarrollando software, ocupando puestos a lo largo de toda la cadena de valor -programacion, diseño de producto, marketing, ventas y gestión de equipos, departamentos y empresas- pero creo que el rol donde se cruzan mi vocación, mis habilidades y las necesidades de la mayoría de las empresas es en la gestión de equipos y proyectos de construcción de activos digitales.\n\nMe apasiona contribuir en todo el ciclo de vida de un producto o servicio informático, desde la definición hasta el mantenimiento o soporte a clientes, y también involucrarme en la comercialización del mismo.\n\nMe gusta trabajar con gente y para la gente. Como responsable de equipos, mi principal prioridad siempre es eliminar cualquier problema que les impida alcanzar todo su potencial. También procuro devolver a la Comunidad informática parte del valor y el conocimiento que me han aportado a lo largo de mi carrera profesional, dando charlas o colaborando con grupos de usuarios y conferencias técnicas; y, a veces, organizándolos.\n",
       "avatar": {
         "alt": "foto de David Bonilla",
         "link": "https://pbs.twimg.com/profile_images/1387692137664458758/-Z8bTzmY_400x400.jpg"
@@ -67,8 +67,7 @@
         "name": "Diego",
         "surnames": "Mariño",
         "title": "Fundador de Ducksboard y antiguo Principal Product Manager en New Relic",
-        "description": "Amigo con el que siempre valido ideas y estrategias de Product Management.
-        ",
+        "description": "Amigo con el que siempre valido ideas y estrategias de Product Management.\n",
         "contact": {
           "publicProfiles": [
             {
@@ -157,11 +156,13 @@
       {
         "title": "High Output Management",
         "type": "reading",
-        "author": {
-          "name": "Andrew S.",
-          "surnames": "Grove",
-          "title": "Former Chairman and CEO of Intel"
-        },
+        "authors": [
+          {
+            "name": "Andrew S.",
+            "surnames": "Grove",
+            "title": "Former Chairman and CEO of Intel"
+          }
+        ],
         "summary": "Un buen manual sobre cómo organizar el trabajo y dirigir equipos para responsables de todos los niveles."
       }
     ]
@@ -249,7 +250,7 @@
                 ]
               }
             ],
-            "means": [
+            "competences": [
               {
                 "name": "Balsamiq Mockups",
                 "type": "tool",
@@ -418,7 +419,7 @@
                 "description": "Lanzamiento de Comala Agile Ranking"
               }
             ],
-            "means": [
+            "competences": [
               {
                 "name": "Basecamp",
                 "type": "tool"
@@ -475,7 +476,7 @@
         },
         "type": "talk",
         "publishingDate": "2019-03-22",
-        "means": [
+        "relatedCompetences": [
           {
             "name": "JSON",
             "type": "technology"
@@ -602,7 +603,7 @@
         }
       },
       {
-        "studyType": "unregulated",
+        "studyType": "certification",
         "degreeAchieved": true,
         "name": "Master en Desarrollo de Aplicaciones Web",
         "description": "Computer Science Grade",
@@ -715,7 +716,7 @@
       }
     },
     "preferences": {
-      "preferredMeans": [
+      "preferredCompetences": [
         {
           "name": "Agile",
           "type": "practice",
@@ -727,7 +728,7 @@
           "description": "Organizaciones Holocráticas"
         }
       ],
-      "discardedMeans": [
+      "discardedCompetences": [
         {
           "name": "organizaciones jerarquicas",
           "type": "domain",
