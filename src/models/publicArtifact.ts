@@ -1,10 +1,10 @@
 import {PublicArtifactDetails} from './publicArtifactDetails';
 import {PublicArtifactType} from './publicArtifactType';
-import {Mean} from './mean';
+import {Competence} from './competence';
 
 export type PublicArtifact = {
   details: PublicArtifactDetails;
   type?: PublicArtifactType;
   publishingDate?: string;
-  means?: Mean[];
+  competences?: Competence[];
 };

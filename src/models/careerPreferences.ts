@@ -1,4 +1,4 @@
-import {Mean} from './mean';
+import {Competence} from './competence';
 
 export type CareerPreferences = {
   contact: Contact;
@@ -15,6 +15,6 @@ export type PublicProfile = {
 };
 
 export type Preferences = {
-  preferredMeans: Mean[];
-  discardedMeans: Mean[];
+  preferredCompetences: Competence[];
+  discardedCompetences: Competence[];
 };

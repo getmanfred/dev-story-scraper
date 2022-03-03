@@ -1,7 +1,7 @@
 import {DevStoryArtifact} from '../models/devStory/devStoryArtifact';
 import {PublicArtifact} from '../models/publicArtifact';
 import {DatesParser} from './datesParser';
-import {MeanParser} from './meanParser';
+import {CompetenceParser} from './competenceParser';
 import {PublicArtifactType} from '../models/publicArtifactType';
 import * as _ from 'lodash';
 
@@ -22,7 +22,7 @@ export class PublicArtifactParser {
       },
       type: PublicArtifactParser.toPublicArtifactType(artifact.type),
       publishingDate: startDate,
-      means: MeanParser.parse(artifact.tags),
+      competences: CompetenceParser.parse(artifact.tags),
     };
   }
 

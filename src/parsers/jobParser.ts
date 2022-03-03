@@ -1,7 +1,7 @@
 import {DevStoryPosition} from '../models/devStory/devStoryPosition';
 import {Job} from '../models/job';
 import {DatesParser} from './datesParser';
-import {MeanParser} from './meanParser';
+import {CompetenceParser} from './competenceParser';
 
 export class JobParser {
   static parse(position: DevStoryPosition): Job {
@@ -24,7 +24,7 @@ export class JobParser {
           challenges: [{description: position.description}],
           startDate,
           finishDate,
-          means: MeanParser.parse(position.tags),
+          competences: CompetenceParser.parse(position.tags),
         },
       ],
     };

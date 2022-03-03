@@ -1,6 +1,6 @@
 import {CheerioAPI} from 'cheerio';
 import {CareerPreferences} from '../models/careerPreferences';
-import {MeanParser} from './meanParser';
+import {CompetenceParser} from './competenceParser';
 
 export class CareerPreferencesParser {
   parse($: CheerioAPI, devStoryURL: string): CareerPreferences {
@@ -23,8 +23,8 @@ export class CareerPreferencesParser {
         ],
       },
       preferences: {
-        preferredMeans: MeanParser.parse(likedTechnologies),
-        discardedMeans: MeanParser.parse(dislikedTechnologies),
+        preferredCompetences: CompetenceParser.parse(likedTechnologies),
+        discardedCompetences: CompetenceParser.parse(dislikedTechnologies),
       },
     };
   }

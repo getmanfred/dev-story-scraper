@@ -1,4 +1,4 @@
-import {Mean} from './mean';
+import {Competence} from './competence';
 import {Challenge} from './challenge';
 
 export type Role = {
@@ -6,5 +6,5 @@ export type Role = {
   startDate: string;
   finishDate?: string;
   challenges?: Challenge[];
-  means?: Mean[];
+  competences?: Competence[];
 };

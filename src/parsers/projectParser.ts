@@ -1,7 +1,7 @@
 import {DevStoryArtifact} from '../models/devStory/devStoryArtifact';
 import {Project} from '../models/project';
 import {DatesParser} from './datesParser';
-import {MeanParser} from './meanParser';
+import {CompetenceParser} from './competenceParser';
 
 export class ProjectParser {
   static parse(artifact: DevStoryArtifact): Project {
@@ -24,7 +24,7 @@ export class ProjectParser {
           name: 'Developer',
           startDate,
           finishDate,
-          means: MeanParser.parse(artifact.tags),
+          competences: CompetenceParser.parse(artifact.tags),
         },
       ],
     };
