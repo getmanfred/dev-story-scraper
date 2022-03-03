@@ -7,13 +7,18 @@ describe('A Dev Story scraper', () => {
   const downloader = new MockDevStoryDownloader(); // To prevent too many requests to Stack Overflows servers
   const scraper = new DevStoryScraper(downloader, geocoder);
 
-  it('should parse a simple dev story', async () => {
+  it('should parse the dev story from Yeray', async () => {
     const result = await scraper.parse('ydarias');
     expect(result).toMatchSnapshot();
   });
 
-  it('should parse a complex dev story', async () => {
+  it('should parse the dev story from Joey deVilla', async () => {
     const result = await scraper.parse('joeydevilla');
+    expect(result).toMatchSnapshot();
+  });
+
+  it('should parse the dev story from Ferran Buireu', async () => {
+    const result = await scraper.parse('fbuireu');
     expect(result).toMatchSnapshot();
   });
 });
