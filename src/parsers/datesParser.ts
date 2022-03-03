@@ -16,6 +16,15 @@ export class DatesParser {
 
       return [startDate, endDate];
     } else {
+      // It could be just a year like 2018 → 2019
+      const anotherMatch = /(\d{4}) → (\d{4})/.exec(cleanedInput);
+      if (anotherMatch) {
+        const startDate = this.toDate(anotherMatch[1]);
+        const endDate = this.toDate(anotherMatch[2]);
+
+        return [startDate, endDate];
+      }
+
       const startDate = this.toDate(input);
       if (/\d{4}-\d{2}-\d{2}/.exec(startDate)) {
         return [startDate, ''];
@@ -27,6 +36,9 @@ export class DatesParser {
 
   private static toDate(input: string): string {
     if (!input.includes(' ')) {
+      if (/\d{4}/.exec(input)) {
+        return `${input}-01-01`;
+      }
       return '';
     }
 

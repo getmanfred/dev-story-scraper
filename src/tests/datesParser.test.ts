@@ -13,6 +13,23 @@ describe('A dates parser', () => {
     });
   });
 
+  describe('for dates with only year', () => {
+    it('should return end and start date', () => {
+      const result = DatesParser.parse('2018 → 2022 (4 years)');
+      expect(result).toStrictEqual(['2018-01-01', '2022-01-01']);
+    });
+
+    it('should return end and start date', () => {
+      const result = DatesParser.parse('2018 → 2022');
+      expect(result).toStrictEqual(['2018-01-01', '2022-01-01']);
+    });
+
+    it('should return end and start date', () => {
+      const result = DatesParser.parse('2009');
+      expect(result).toStrictEqual(['2009-01-01', '']);
+    });
+  });
+
   describe('for simple dates', () => {
     it('should return start date', () => {
       const result = DatesParser.parse('Feb 2018');
