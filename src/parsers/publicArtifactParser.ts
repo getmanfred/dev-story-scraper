@@ -22,7 +22,7 @@ export class PublicArtifactParser {
       },
       type: PublicArtifactParser.toPublicArtifactType(artifact.type),
       publishingDate: startDate,
-      competences: CompetenceParser.parse(artifact.tags),
+      relatedCompetences: CompetenceParser.parse(artifact.tags),
     };
   }
 

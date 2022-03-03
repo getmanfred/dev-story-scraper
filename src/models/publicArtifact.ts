@@ -6,5 +6,5 @@ export type PublicArtifact = {
   details: PublicArtifactDetails;
   type?: PublicArtifactType;
   publishingDate?: string;
-  competences?: Competence[];
+  relatedCompetences?: Competence[];
 };

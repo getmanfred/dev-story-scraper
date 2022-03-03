@@ -1262,12 +1262,6 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
     ],
     "publicArtifacts": Array [
       Object {
-        "competences": Array [
-          Object {
-            "name": "git",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "image": Object {
             "alt": "Title: Managing Source Code with Git - Score: 190/300",
@@ -1275,15 +1269,15 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
           },
         },
         "publishingDate": "2021-09-01",
-        "type": "achievement",
-      },
-      Object {
-        "competences": Array [
+        "relatedCompetences": Array [
           Object {
-            "name": "flutter",
+            "name": "git",
             "type": "technology",
           },
         ],
+        "type": "achievement",
+      },
+      Object {
         "details": Object {
           "image": Object {
             "alt": "Title: Build Mobile Web Applications With Flutter - Score: 197/300",
@@ -1291,10 +1285,23 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
           },
         },
         "publishingDate": "2021-09-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "flutter",
+            "type": "technology",
+          },
+        ],
         "type": "achievement",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "image": Object {
+            "alt": "Title: ES6 - Score: 169/300",
+            "link": "https://i.stack.imgur.com/7xkbT.png",
+          },
+        },
+        "publishingDate": "2021-09-01",
+        "relatedCompetences": Array [
           Object {
             "name": "es6",
             "type": "technology",
@@ -1304,22 +1311,9 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "type": "technology",
           },
         ],
-        "details": Object {
-          "image": Object {
-            "alt": "Title: ES6 - Score: 169/300",
-            "link": "https://i.stack.imgur.com/7xkbT.png",
-          },
-        },
-        "publishingDate": "2021-09-01",
         "type": "achievement",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "typescript",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "image": Object {
             "alt": "Title: TypeScript Core Language - Score: 170/300",
@@ -1327,10 +1321,23 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
           },
         },
         "publishingDate": "2021-09-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "typescript",
+            "type": "technology",
+          },
+        ],
         "type": "achievement",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "image": Object {
+            "alt": "Title: Building Websites with HTML, CSS, and JavaScript - Score: 272/300",
+            "link": "https://i.stack.imgur.com/u8ALR.png",
+          },
+        },
+        "publishingDate": "2021-09-01",
+        "relatedCompetences": Array [
           Object {
             "name": "css",
             "type": "technology",
@@ -1344,22 +1351,9 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "type": "technology",
           },
         ],
-        "details": Object {
-          "image": Object {
-            "alt": "Title: Building Websites with HTML, CSS, and JavaScript - Score: 272/300",
-            "link": "https://i.stack.imgur.com/u8ALR.png",
-          },
-        },
-        "publishingDate": "2021-09-01",
         "type": "achievement",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "javascript",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "image": Object {
             "alt": "Title: JavaScript Core Language - Score: 195/300",
@@ -1367,15 +1361,15 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
           },
         },
         "publishingDate": "2021-09-01",
-        "type": "achievement",
-      },
-      Object {
-        "competences": Array [
+        "relatedCompetences": Array [
           Object {
-            "name": "reactjs",
+            "name": "javascript",
             "type": "technology",
           },
         ],
+        "type": "achievement",
+      },
+      Object {
         "details": Object {
           "image": Object {
             "alt": "Title: Building Web Applications With React - Score: 159/300",
@@ -1383,10 +1377,23 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
           },
         },
         "publishingDate": "2021-09-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "reactjs",
+            "type": "technology",
+          },
+        ],
         "type": "achievement",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "image": Object {
+            "alt": "Title: Working with Node.js - Score: 176/300",
+            "link": "https://i.stack.imgur.com/sYMjP.png",
+          },
+        },
+        "publishingDate": "2021-09-01",
+        "relatedCompetences": Array [
           Object {
             "name": "javascript",
             "type": "technology",
@@ -1396,13 +1403,6 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "type": "technology",
           },
         ],
-        "details": Object {
-          "image": Object {
-            "alt": "Title: Working with Node.js - Score: 176/300",
-            "link": "https://i.stack.imgur.com/sYMjP.png",
-          },
-        },
-        "publishingDate": "2021-09-01",
         "type": "achievement",
       },
       Object {
@@ -1494,12 +1494,6 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
         "type": "post",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "reactjs",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "image": Object {
             "alt": "Title: React - Score: 122/300",
@@ -1507,6 +1501,12 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
           },
         },
         "publishingDate": "2020-03-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "reactjs",
+            "type": "technology",
+          },
+        ],
         "type": "achievement",
       },
       Object {
@@ -1526,12 +1526,6 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
         "type": "post",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "css",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "image": Object {
             "alt": "Title: CSS - Score: 186/300",
@@ -1539,15 +1533,15 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
           },
         },
         "publishingDate": "2018-12-01",
-        "type": "achievement",
-      },
-      Object {
-        "competences": Array [
+        "relatedCompetences": Array [
           Object {
-            "name": "javascript",
+            "name": "css",
             "type": "technology",
           },
         ],
+        "type": "achievement",
+      },
+      Object {
         "details": Object {
           "image": Object {
             "alt": "Title: JavaScript - Score: 178/300",
@@ -1555,10 +1549,23 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
           },
         },
         "publishingDate": "2018-12-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "javascript",
+            "type": "technology",
+          },
+        ],
         "type": "achievement",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "image": Object {
+            "alt": "Title: jQuery - Score: 182/300",
+            "link": "https://i.stack.imgur.com/c2J3j.png",
+          },
+        },
+        "publishingDate": "2018-12-01",
+        "relatedCompetences": Array [
           Object {
             "name": "jquery",
             "type": "technology",
@@ -1568,22 +1575,9 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "type": "technology",
           },
         ],
-        "details": Object {
-          "image": Object {
-            "alt": "Title: jQuery - Score: 182/300",
-            "link": "https://i.stack.imgur.com/c2J3j.png",
-          },
-        },
-        "publishingDate": "2018-12-01",
         "type": "achievement",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "html5",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "image": Object {
             "alt": "Title: HTML5 - Score: 207/300",
@@ -1591,6 +1585,12 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
           },
         },
         "publishingDate": "2018-12-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "html5",
+            "type": "technology",
+          },
+        ],
         "type": "achievement",
       },
       Object {
@@ -2473,7 +2473,17 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
     ],
     "publicArtifacts": Array [
       Object {
-        "competences": Array [
+        "details": Object {
+          "URL": "https://6figuredev.com/podcast/episode-123-ios-apprentice-accordions-with-joey-devilla/",
+          "description": "In this interview with the podcast _[The 6 Figure Developer](https://6figuredev.com/),_ I talk about working on _iOS Apprentice, 8th Edition,_ iOS development in general, mobile technology in general, and my philosophy for choosing technologies to work on: “Always bet on the tech that’s being dismissed as a toy.”",
+          "image": Object {
+            "alt": "Interview on “The 6-Figure Developer” podcast",
+            "link": "https://i.stack.imgur.com/WWrKi.jpg",
+          },
+          "name": "Interview on “The 6-Figure Developer” podcast",
+        },
+        "publishingDate": "2019-12-01",
+        "relatedCompetences": Array [
           Object {
             "name": "ios",
             "type": "technology",
@@ -2487,16 +2497,6 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
             "type": "technology",
           },
         ],
-        "details": Object {
-          "URL": "https://6figuredev.com/podcast/episode-123-ios-apprentice-accordions-with-joey-devilla/",
-          "description": "In this interview with the podcast _[The 6 Figure Developer](https://6figuredev.com/),_ I talk about working on _iOS Apprentice, 8th Edition,_ iOS development in general, mobile technology in general, and my philosophy for choosing technologies to work on: “Always bet on the tech that’s being dismissed as a toy.”",
-          "image": Object {
-            "alt": "Interview on “The 6-Figure Developer” podcast",
-            "link": "https://i.stack.imgur.com/WWrKi.jpg",
-          },
-          "name": "Interview on “The 6-Figure Developer” podcast",
-        },
-        "publishingDate": "2019-12-01",
         "type": "post",
       },
       Object {
@@ -2513,20 +2513,6 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
         "type": "achievement",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "python",
-            "type": "technology",
-          },
-          Object {
-            "name": "jupyter-notebook",
-            "type": "technology",
-          },
-          Object {
-            "name": "pandas",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "URL": "https://www.youtube.com/watch?v=kVDP_-jmFtM",
           "description": "This is a full hour-long interview on the _Thunder Nerds_ podcast where I talk about a recent presentation on Jupyter Notebooks, plus how I got started in programming, and what brought me to the Tampa Bay area.",
@@ -2537,10 +2523,7 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
           "name": "Full interview on “Thunder Nerds” on Jupyter Notebooks, accordions, and more",
         },
         "publishingDate": "2019-01-01",
-        "type": "post",
-      },
-      Object {
-        "competences": Array [
+        "relatedCompetences": Array [
           Object {
             "name": "python",
             "type": "technology",
@@ -2554,6 +2537,9 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
             "type": "technology",
           },
         ],
+        "type": "post",
+      },
+      Object {
         "details": Object {
           "URL": "https://www.youtube.com/watch?v=It00Uy8VNGM",
           "description": "This interview was conducted at DevFest Florida 2019, a Google technologies-focused conference at Disney World. I talk about my presentation on using Jupyter Notebooks to make dynamic documents that combine both text and Python programs to create a whole new kind of document.",
@@ -2564,10 +2550,34 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
           "name": "Interview on “Thunder Nerds”, DevFest Florida 2019",
         },
         "publishingDate": "2019-01-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "python",
+            "type": "technology",
+          },
+          Object {
+            "name": "jupyter-notebook",
+            "type": "technology",
+          },
+          Object {
+            "name": "pandas",
+            "type": "technology",
+          },
+        ],
         "type": "post",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=_sjyaDhKk2Q",
+          "description": "This is the second of TWO presentations I gave at the RWDevCon 2018 conference on developing augmented reality apps with ARKit. I walk the audience through the development of 4 AR apps.",
+          "image": Object {
+            "alt": "ARKit Workshop at RWDevCon 2018",
+            "link": "https://i.stack.imgur.com/bQpeG.jpg",
+          },
+          "name": "ARKit Workshop",
+        },
+        "publishingDate": "2018-04-01",
+        "relatedCompetences": Array [
           Object {
             "name": "ios",
             "type": "technology",
@@ -2585,20 +2595,20 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
             "type": "technology",
           },
         ],
-        "details": Object {
-          "URL": "https://www.youtube.com/watch?v=_sjyaDhKk2Q",
-          "description": "This is the second of TWO presentations I gave at the RWDevCon 2018 conference on developing augmented reality apps with ARKit. I walk the audience through the development of 4 AR apps.",
-          "image": Object {
-            "alt": "ARKit Workshop at RWDevCon 2018",
-            "link": "https://i.stack.imgur.com/bQpeG.jpg",
-          },
-          "name": "ARKit Workshop",
-        },
-        "publishingDate": "2018-04-01",
         "type": "post",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=0bea2V8Jrw4",
+          "description": "This is one of TWO presentations I gave at the RWDevCon 2018 conference on ARKit. This 2-hour session is the shorter presentation, where I teach ARKit by walking through the development of 2 apps: a Bob Ross-inspired “3D painter” app in the spirit of Google’s [Tilt Brush](https://www.tiltbrush.com/) and a scaled-down version of the _IKEA Place_ app.",
+          "image": Object {
+            "alt": "Getting Started with ARKit with Joey Devilla - Live Tutorial Session - RWDevCon 2018",
+            "link": "https://i.stack.imgur.com/cE5Rp.jpg",
+          },
+          "name": "Getting Started with ARKit with Joey Devilla - Live Tutorial Session - RWDevCon 2018",
+        },
+        "publishingDate": "2018-04-01",
+        "relatedCompetences": Array [
           Object {
             "name": "ios",
             "type": "technology",
@@ -2616,20 +2626,20 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
             "type": "technology",
           },
         ],
-        "details": Object {
-          "URL": "https://www.youtube.com/watch?v=0bea2V8Jrw4",
-          "description": "This is one of TWO presentations I gave at the RWDevCon 2018 conference on ARKit. This 2-hour session is the shorter presentation, where I teach ARKit by walking through the development of 2 apps: a Bob Ross-inspired “3D painter” app in the spirit of Google’s [Tilt Brush](https://www.tiltbrush.com/) and a scaled-down version of the _IKEA Place_ app.",
-          "image": Object {
-            "alt": "Getting Started with ARKit with Joey Devilla - Live Tutorial Session - RWDevCon 2018",
-            "link": "https://i.stack.imgur.com/cE5Rp.jpg",
-          },
-          "name": "Getting Started with ARKit with Joey Devilla - Live Tutorial Session - RWDevCon 2018",
-        },
-        "publishingDate": "2018-04-01",
         "type": "post",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=AlG3fEHlF3E",
+          "description": "This interview was conducted at DevFest Florida 2017, a Google technologies-focused conference at Disney World. I talk about my presentation on native Android development for web developers, working at an office after years of remote work, and mobile technologies.",
+          "image": Object {
+            "alt": "Interview on “Thunder Nerds”, DevFest Florida 2017",
+            "link": "https://i.stack.imgur.com/0GPW1.jpg",
+          },
+          "name": "Interview on “Thunder Nerds”, DevFest Florida 2017",
+        },
+        "publishingDate": "2017-11-01",
+        "relatedCompetences": Array [
           Object {
             "name": "android",
             "type": "technology",
@@ -2643,33 +2653,9 @@ Peekabooty got a considerable amount of press at the time. Here’s a short list
             "type": "technology",
           },
         ],
-        "details": Object {
-          "URL": "https://www.youtube.com/watch?v=AlG3fEHlF3E",
-          "description": "This interview was conducted at DevFest Florida 2017, a Google technologies-focused conference at Disney World. I talk about my presentation on native Android development for web developers, working at an office after years of remote work, and mobile technologies.",
-          "image": Object {
-            "alt": "Interview on “Thunder Nerds”, DevFest Florida 2017",
-            "link": "https://i.stack.imgur.com/0GPW1.jpg",
-          },
-          "name": "Interview on “Thunder Nerds”, DevFest Florida 2017",
-        },
-        "publishingDate": "2017-11-01",
         "type": "post",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "ios",
-            "type": "technology",
-          },
-          Object {
-            "name": "objective-c",
-            "type": "technology",
-          },
-          Object {
-            "name": "alamofire",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "URL": "https://www.youtube.com/watch?v=6tHGYhKCx7o",
           "description": "We were ninety minutes into a one-hour job interview when the CTO said “We like your _breadth_ of experience. Now we’d like to test your _depth_. If we gave you a quick programming assignment, which would you prefer — writing an iOS app, or an Android app? You should go with the one you’re stronger in.”
@@ -2694,10 +2680,38 @@ And that’s the last I heard from them. Follow-up emails were met with silence.
           "name": "My “Trucker App” job interview homework assignment",
         },
         "publishingDate": "2017-06-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "ios",
+            "type": "technology",
+          },
+          Object {
+            "name": "objective-c",
+            "type": "technology",
+          },
+          Object {
+            "name": "alamofire",
+            "type": "technology",
+          },
+        ],
         "type": "post",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "URL": "http://www.globalnerdy.com/2017/03/06/my-day-at-gms-makers-hustle-harder-hackathon-in-tampa/",
+          "description": "The first of three “Makers Hustle Harder” hackathons run by GM in 2017 was held at Tampa Hackerspace. It was an opportunity for Tampa Bay techies to try their programming chops on GM’s Next Generation Infotainment (NGI) in-car console system.
+
+In about an hour, I came up with, coded, and tested an app called “Fitness Fire Drill”, which acts as a referee for [the classic “fire drill” game you play with friends in a car](https://en.wikipedia.org/wiki/Chinese_fire_drill).
+
+The judges liked the app so much that they invented the “Judges’ Fetish” category simply for the purpose of awarding it a prize.",
+          "image": Object {
+            "alt": "Winning a prize at GM’s “Makers Hustle Harder” hackathon",
+            "link": "https://i.stack.imgur.com/gCKMu.jpg",
+          },
+          "name": "Winning a prize",
+        },
+        "publishingDate": "2017-03-01",
+        "relatedCompetences": Array [
           Object {
             "name": "javascript",
             "type": "technology",
@@ -2715,29 +2729,9 @@ And that’s the last I heard from them. Follow-up emails were met with silence.
             "type": "technology",
           },
         ],
-        "details": Object {
-          "URL": "http://www.globalnerdy.com/2017/03/06/my-day-at-gms-makers-hustle-harder-hackathon-in-tampa/",
-          "description": "The first of three “Makers Hustle Harder” hackathons run by GM in 2017 was held at Tampa Hackerspace. It was an opportunity for Tampa Bay techies to try their programming chops on GM’s Next Generation Infotainment (NGI) in-car console system.
-
-In about an hour, I came up with, coded, and tested an app called “Fitness Fire Drill”, which acts as a referee for [the classic “fire drill” game you play with friends in a car](https://en.wikipedia.org/wiki/Chinese_fire_drill).
-
-The judges liked the app so much that they invented the “Judges’ Fetish” category simply for the purpose of awarding it a prize.",
-          "image": Object {
-            "alt": "Winning a prize at GM’s “Makers Hustle Harder” hackathon",
-            "link": "https://i.stack.imgur.com/gCKMu.jpg",
-          },
-          "name": "Winning a prize",
-        },
-        "publishingDate": "2017-03-01",
         "type": "achievement",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "accordion",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "URL": "https://www.youtube.com/watch?v=z27MXXfY2KE",
           "description": "I _always_ bring my accordion when I’m out for a beer, including when I’m out for a beer at Tampa’s Bay Area Renaissance Festival. While watching the Jackdaws, their guitarist Whiplash saw my accordion and invited me to join them onstage to perform “Three Gypsies” (a.k.a. “The Wraggle-Taggle Gypsies-Oh!”).
@@ -2750,6 +2744,12 @@ I’ve included this video to show that yes, I can win over a crowd, which is ac
           "name": "Playing “Three Gypsies” with the Jackdaws",
         },
         "publishingDate": "2017-03-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "accordion",
+            "type": "technology",
+          },
+        ],
         "type": "post",
       },
       Object {
@@ -2781,7 +2781,17 @@ Here’s how he introduced me: Joey DeVilla is my blogging hero. He's run his bl
         "type": "post",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=W3Cd1shIu7I",
+          "description": "This one's a work in progress -- a little \\"Frogger\\"/\\"Crossy Road\\"-type game for iOS that I'm hoping to put in the App Store later this year. There's still lots to polish, but the basic game mechanics are in place.",
+          "image": Object {
+            "alt": "Dale Mabry Highway prototype",
+            "link": "https://i.stack.imgur.com/yKtgT.jpg",
+          },
+          "name": "Dale Mabry Highway prototype",
+        },
+        "publishingDate": "2016-02-01",
+        "relatedCompetences": Array [
           Object {
             "name": "swift",
             "type": "technology",
@@ -2795,16 +2805,6 @@ Here’s how he introduced me: Joey DeVilla is my blogging hero. He's run his bl
             "type": "technology",
           },
         ],
-        "details": Object {
-          "URL": "https://www.youtube.com/watch?v=W3Cd1shIu7I",
-          "description": "This one's a work in progress -- a little \\"Frogger\\"/\\"Crossy Road\\"-type game for iOS that I'm hoping to put in the App Store later this year. There's still lots to polish, but the basic game mechanics are in place.",
-          "image": Object {
-            "alt": "Dale Mabry Highway prototype",
-            "link": "https://i.stack.imgur.com/yKtgT.jpg",
-          },
-          "name": "Dale Mabry Highway prototype",
-        },
-        "publishingDate": "2016-02-01",
         "type": "post",
       },
       Object {
@@ -2952,7 +2952,19 @@ This 8-minute, 19-second video was my first video for GSG. This one explains wha
         "type": "post",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=84EnkkN9wgo",
+          "description": "In October 2010, Toronto’s [AndroidTO](http://androidto.com/) conference needed a couple of big sponsors to help ensure that they could hold their day-long, hundreds-of-attendees event without losing money. I’d heard that Google wasn’t going to sponsor them, and asked: _\\\\_Why doesn’t Microsoft sponsor them instead?\\\\__
+
+I used the event as an opportunity to showcase Windows as a great development platform for Android, by demoing an HP touchscreen computer set up as an Android development station running Eclipse (which at the time was the preferred Android IDE) and also showing the Windows Phone development environment, which looked a lot less confusing and more aesthetically pleasing than Eclipse (although that’s easy), and showing the C# language (similar to Java, so it seems familiar) and Windows Phone in the process.",
+          "image": Object {
+            "alt": "The time I got Microsoft to sponsor an Android conference because Google wouldn’t",
+            "link": "https://i.stack.imgur.com/wLCtl.jpg",
+          },
+          "name": "The time I got Microsoft to sponsor an Android conference because Google wouldn’t",
+        },
+        "publishingDate": "2010-10-01",
+        "relatedCompetences": Array [
           Object {
             "name": "c#",
             "type": "technology",
@@ -2978,18 +2990,6 @@ This 8-minute, 19-second video was my first video for GSG. This one explains wha
             "type": "technology",
           },
         ],
-        "details": Object {
-          "URL": "https://www.youtube.com/watch?v=84EnkkN9wgo",
-          "description": "In October 2010, Toronto’s [AndroidTO](http://androidto.com/) conference needed a couple of big sponsors to help ensure that they could hold their day-long, hundreds-of-attendees event without losing money. I’d heard that Google wasn’t going to sponsor them, and asked: _\\\\_Why doesn’t Microsoft sponsor them instead?\\\\__
-
-I used the event as an opportunity to showcase Windows as a great development platform for Android, by demoing an HP touchscreen computer set up as an Android development station running Eclipse (which at the time was the preferred Android IDE) and also showing the Windows Phone development environment, which looked a lot less confusing and more aesthetically pleasing than Eclipse (although that’s easy), and showing the C# language (similar to Java, so it seems familiar) and Windows Phone in the process.",
-          "image": Object {
-            "alt": "The time I got Microsoft to sponsor an Android conference because Google wouldn’t",
-            "link": "https://i.stack.imgur.com/wLCtl.jpg",
-          },
-          "name": "The time I got Microsoft to sponsor an Android conference because Google wouldn’t",
-        },
-        "publishingDate": "2010-10-01",
         "type": "post",
       },
       Object {
@@ -3029,12 +3029,6 @@ I got to work, and the result is this 5-minute, 46-second piece that summarizes 
         "type": "post",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "windows",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "URL": "https://www.youtube.com/watch?v=OU0hUzhhEzA",
           "description": "Developer Jr. was an all-too-short-lived video series for children ages 7 through 12 that aimed to teach them programming and other creative things they can do with computers and technology. It starred me playing myself, and \\"Junior\\", an impish puppet played by Brian Hogg. It was sponsored by Microsoft Canada and produced by Butterscotch.com in early 2010.
@@ -3047,19 +3041,15 @@ In this episode, Junior and I make a simple movie using Windows Movie Maker.",
           "name": "Developer Jr., episode 2: Making movies with Windows Movie Maker",
         },
         "publishingDate": "2010-05-01",
-        "type": "post",
-      },
-      Object {
-        "competences": Array [
+        "relatedCompetences": Array [
           Object {
-            "name": "kodu",
-            "type": "technology",
-          },
-          Object {
-            "name": "xbox360",
+            "name": "windows",
             "type": "technology",
           },
         ],
+        "type": "post",
+      },
+      Object {
         "details": Object {
           "URL": "https://www.youtube.com/watch?v=VdPg8VZF76E",
           "description": "Developer Jr. was an all-too-short-lived video series for children ages 7 through 12 that aimed to teach them programming and other creative things they can do with computers and technology. It starred me playing myself, and \\"Junior\\", an impish puppet played by Brian Hogg. It was sponsored by Microsoft Canada and produced by Butterscotch.com in early 2010.
@@ -3072,6 +3062,16 @@ In this episode, Junior and I explore basic videogame programming using a Micros
           "name": "Developer Jr., episode 1: Making games with Kodu",
         },
         "publishingDate": "2010-04-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "kodu",
+            "type": "technology",
+          },
+          Object {
+            "name": "xbox360",
+            "type": "technology",
+          },
+        ],
         "type": "post",
       },
       Object {
@@ -3121,12 +3121,6 @@ You had a time limit to present, and no slides were allowed at DemoCamp — you 
         "type": "post",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "wordpress",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "URL": "https://www.youtube.com/watch?v=DnxT5YvLYZk",
           "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
@@ -3139,10 +3133,28 @@ This was the first Byte Club episode, which covered b5media and featured intervi
           "name": "“Byte Club” covers b5media",
         },
         "publishingDate": "2008-08-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "wordpress",
+            "type": "technology",
+          },
+        ],
         "type": "post",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=A8MIp58qeDs",
+          "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
+
+This Byte Club episode featured the RubyFringe conference, a very offbeat conference that featured some of the bright lights of the Ruby community, including Obie Fernandez, Zed Shaw, Dan Grigsby, Hampton Catlin, Pete Forde, and Yours Truly!",
+          "image": Object {
+            "alt": "“Byte Club” covers RubyFringe",
+            "link": "https://i.stack.imgur.com/g55SR.jpg",
+          },
+          "name": "“Byte Club” covers RubyFringe",
+        },
+        "publishingDate": "2008-07-01",
+        "relatedCompetences": Array [
           Object {
             "name": "ruby",
             "type": "technology",
@@ -3156,22 +3168,20 @@ This was the first Byte Club episode, which covered b5media and featured intervi
             "type": "technology",
           },
         ],
-        "details": Object {
-          "URL": "https://www.youtube.com/watch?v=A8MIp58qeDs",
-          "description": "Byte Club was a series of videos that covered the Toronto tech scene around 2008 and 2009. As a community leader in that scene, I showed up in a number of these videos.
-
-This Byte Club episode featured the RubyFringe conference, a very offbeat conference that featured some of the bright lights of the Ruby community, including Obie Fernandez, Zed Shaw, Dan Grigsby, Hampton Catlin, Pete Forde, and Yours Truly!",
-          "image": Object {
-            "alt": "“Byte Club” covers RubyFringe",
-            "link": "https://i.stack.imgur.com/g55SR.jpg",
-          },
-          "name": "“Byte Club” covers RubyFringe",
-        },
-        "publishingDate": "2008-07-01",
         "type": "post",
       },
       Object {
-        "competences": Array [
+        "details": Object {
+          "URL": "https://www.youtube.com/watch?v=eSqCog2WxdU",
+          "description": "Upon seeing my accordion, RailsConf 2007 organizer Chad Fowler invited me to come up with a number that we could both perform at the keynote — me on accordion, him on ukulele. Here’s the result: a parody of Radiohead’s “Creep”, re-done as a tribute to Rails creator David Heinemeier Hansson and the “Depot” Rails tutorial.",
+          "image": Object {
+            "alt": "Performing at the RailsConf 2007 evening keynote",
+            "link": "https://i.stack.imgur.com/w69Fp.jpg",
+          },
+          "name": "Performing",
+        },
+        "publishingDate": "2007-05-01",
+        "relatedCompetences": Array [
           Object {
             "name": "ruby",
             "type": "technology",
@@ -3185,16 +3195,6 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
             "type": "technology",
           },
         ],
-        "details": Object {
-          "URL": "https://www.youtube.com/watch?v=eSqCog2WxdU",
-          "description": "Upon seeing my accordion, RailsConf 2007 organizer Chad Fowler invited me to come up with a number that we could both perform at the keynote — me on accordion, him on ukulele. Here’s the result: a parody of Radiohead’s “Creep”, re-done as a tribute to Rails creator David Heinemeier Hansson and the “Depot” Rails tutorial.",
-          "image": Object {
-            "alt": "Performing at the RailsConf 2007 evening keynote",
-            "link": "https://i.stack.imgur.com/w69Fp.jpg",
-          },
-          "name": "Performing",
-        },
-        "publishingDate": "2007-05-01",
         "type": "post",
       },
       Object {
@@ -3211,12 +3211,6 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
         "type": "achievement",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "macromedia",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "URL": "https://craphound.com/nonfic/mackerel.html",
           "description": "This is an unpublished story that [Cory Doctorow](https://en.wikipedia.org/wiki/Cory_Doctorow) wrote for _Wired_ about Mackerel Interactive Multimedia, a Toronto-based scrappy upstart multimedia company during the era of the CD-ROM. I’m featured prominently in it.",
@@ -3227,6 +3221,12 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
           "name": "Mackerel: Burying the Fish",
         },
         "publishingDate": "1998-07-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "macromedia",
+            "type": "technology",
+          },
+        ],
         "type": "post",
       },
     ],
@@ -3504,16 +3504,6 @@ Object {
         "type": "post",
       },
       Object {
-        "competences": Array [
-          Object {
-            "name": "java",
-            "type": "technology",
-          },
-          Object {
-            "name": "jmx",
-            "type": "technology",
-          },
-        ],
         "details": Object {
           "URL": "https://speakerdeck.com/ydarias/the-java-and-the-furious-jmx",
           "description": "Talk given at Codemotion 2016 in Madrid about how to measure (Java) code speed and health with JMX.",
@@ -3524,6 +3514,16 @@ Object {
           "name": "The Java and the Furious (JMX)",
         },
         "publishingDate": "2016-11-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "java",
+            "type": "technology",
+          },
+          Object {
+            "name": "jmx",
+            "type": "technology",
+          },
+        ],
         "type": "post",
       },
       Object {
