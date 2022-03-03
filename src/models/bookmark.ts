@@ -1,7 +1,7 @@
 export type Bookmark = {
   title: string;
   URL?: string;
-  author?: Author;
+  authors?: Author[];
   summary?: string;
 };
 
