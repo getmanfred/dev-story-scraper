@@ -1619,6 +1619,52 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
       },
     ],
   },
+  "knowledge": Object {
+    "studies": Array [
+      Object {
+        "degreeAchieved": true,
+        "description": "The main goal of the course is to develop, implement and maintain web applications, regardless of the model used and using specific technologies, ensuring access to the data safety and fulfilling the accessibility, usability and quality criteria demanded in the established standards.",
+        "finishDate": "2014-09-01",
+        "name": "Stucom Centre d'Estudis",
+        "startDate": "2014-09-01",
+        "studyType": "officialDegree",
+      },
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2016-03-01",
+        "name": "Managerial skills",
+        "startDate": "2016-03-01",
+        "studyType": "certification",
+      },
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2015-05-01",
+        "name": "TOEIC (780)",
+        "startDate": "2015-05-01",
+        "studyType": "certification",
+      },
+      Object {
+        "degreeAchieved": true,
+        "description": "The master's degree in Reservoir geology and geophysics is an interuniversity degree coordinated by the University of Barcelona and the Autonomous University of Barcelona.
+
+It is intended to provide students with training in the main lines of R&D&I currently pursued in the exploration and geological and geophysical characterization of geological reservoirs. Students will gain familiarity with the most modern techniques and tools currently used by the members of research teams involved as teaching faculty in the program. These techniques and tools include the three-dimensional characterization of reservoirs and the analogical and numerical modeling of geological processes.
+
+The rapid spread of these techniques makes them fundamental to the effective characterization of structural systems and sedimentary reservoirs.",
+        "finishDate": "2013-09-01",
+        "name": "MSc in reservoir geology and geophysics, Universitat de Barcelona",
+        "startDate": "2013-09-01",
+        "studyType": "officialDegree",
+      },
+      Object {
+        "degreeAchieved": true,
+        "description": "The general objective of the career is to form professionals with wide and large knowledge in the principles and practical applications of geology, focusing in the skills to work in private and public sector companies in the field, public sector geological services, research, and education, knowing how to adapt in an evolving work environment.",
+        "finishDate": "2001-09-01",
+        "name": "Degree in geology, Universitat de Barcelona",
+        "startDate": "2001-09-01",
+        "studyType": "officialDegree",
+      },
+    ],
+  },
   "settings": Object {
     "MACversion": "0.2",
     "language": "EN",
@@ -3228,6 +3274,31 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
           },
         ],
         "type": "post",
+      },
+    ],
+  },
+  "knowledge": Object {
+    "studies": Array [
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2018-03-01",
+        "name": "Certified Scrum Developer",
+        "startDate": "2018-03-01",
+        "studyType": "certification",
+      },
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2018-02-01",
+        "name": "Certified Scrum Product Owner",
+        "startDate": "2018-02-01",
+        "studyType": "certification",
+      },
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2018-02-01",
+        "name": "Certified ScrumMaster",
+        "startDate": "2018-02-01",
+        "studyType": "certification",
       },
     ],
   },

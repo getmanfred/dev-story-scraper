@@ -9,16 +9,19 @@ import {AboutMeParser} from './parsers/aboutMeParser';
 import {Geocoder} from './utils/geocoder';
 import {ExperienceParser} from './parsers/experienceParser';
 import {CareerPreferencesParser} from './parsers/careerPreferencesParser';
+import {KnowledgeParser} from './parsers/knowledgeParser';
 
 export class DevStoryScraper {
   aboutMeParser: AboutMeParser;
   experienceParser: ExperienceParser;
+  knowledgeParser: KnowledgeParser;
   careerPreferencesParser: CareerPreferencesParser;
 
   constructor(private readonly downloader: DevStoryDownloader, geocoder: Geocoder) {
     this.aboutMeParser = new AboutMeParser(geocoder);
     // These parsers could be static, but declared here to keep code coherence
     this.experienceParser = new ExperienceParser();
+    this.knowledgeParser = new KnowledgeParser();
     this.careerPreferencesParser = new CareerPreferencesParser();
   }
 
@@ -35,6 +38,7 @@ export class DevStoryScraper {
     const settings = this.defaultSettings();
     const aboutMe = await this.aboutMeParser.parse($);
     const experience = this.experienceParser.parse($);
+    const knowledge = this.knowledgeParser.parse($);
     const careerPreferences = this.careerPreferencesParser.parse($, url);
 
     const elapsed = new Date().getTime() - startTime;
@@ -44,6 +48,7 @@ export class DevStoryScraper {
       settings,
       aboutMe,
       experience,
+      knowledge,
       careerPreferences,
     };
 
