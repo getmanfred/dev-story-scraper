@@ -1642,10 +1642,6 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "type": "technology",
           },
           Object {
-            "name": "graphql",
-            "type": "technology",
-          },
-          Object {
             "name": "reactjs",
             "type": "technology",
           },
@@ -1667,18 +1663,6 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "name": "javascript",
             "type": "technology",
           },
-          Object {
-            "name": "netlify",
-            "type": "technology",
-          },
-          Object {
-            "name": "node.js",
-            "type": "technology",
-          },
-          Object {
-            "name": "strapi",
-            "type": "technology",
-          },
         ],
         "type": "achievement",
       },
@@ -1691,10 +1675,6 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
         "relatedCompetences": Array [
           Object {
             "name": "html",
-            "type": "technology",
-          },
-          Object {
-            "name": "node-modules",
             "type": "technology",
           },
         ],
@@ -3367,10 +3347,6 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
         "relatedCompetences": Array [
           Object {
             "name": "python",
-            "type": "technology",
-          },
-          Object {
-            "name": "ruby",
             "type": "technology",
           },
         ],

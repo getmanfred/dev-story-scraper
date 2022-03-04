@@ -12,9 +12,11 @@ import {PublicArtifactParser} from './publicArtifactParser';
 import {PublicArtifact} from '../models/publicArtifact';
 import {CompetenceParser} from './competenceParser';
 import {stripString} from '../utils/utils';
+import {CareerPreferences} from '../models/careerPreferences';
+import {Competence} from '../models/competence';
 
 export class ExperienceParser {
-  parse($: CheerioAPI): Experience {
+  parse($: CheerioAPI, careerPreferences: CareerPreferences): Experience {
     const jobs = $('div[class="timeline-item job"]')
       .map((i, e) => {
         const position = DevStoryPositionParser.parse($(e).html() || '');
@@ -29,7 +31,7 @@ export class ExperienceParser {
 
     const projects = timeLineItems.filter(this.isProject).map(ProjectParser.parse);
     const timeLineArtifacts = timeLineItems.filter(this.isPublicArtifact).map(PublicArtifactParser.parse);
-    const stackOverflowAchievements = DevStoryTopsParser.parse($);
+    const stackOverflowAchievements = DevStoryTopsParser.parse($, careerPreferences);
 
     return {
       jobs,
@@ -51,7 +53,7 @@ export class ExperienceParser {
 }
 
 export class DevStoryTopsParser {
-  static parse($: CheerioAPI): PublicArtifact[] {
+  static parse($: CheerioAPI, careerPreferences: CareerPreferences): PublicArtifact[] {
     return $('.user-technologies .top')
       .get()
       .map((e) => {
@@ -61,6 +63,8 @@ export class DevStoryTopsParser {
           .get()
           .map((e) => stripString($(e).text() || ''));
 
+        const relatedCompetences = DevStoryTopsParser.parsePreferredCompetences(topTags, careerPreferences);
+
         return {
           details: {
             name: DevStoryTopsParser.parseName(topElement),
@@ -68,7 +72,7 @@ export class DevStoryTopsParser {
           },
           type: 'achievement',
           publishingDate: moment().format('YYYY-MM-DD'),
-          relatedCompetences: CompetenceParser.parse(topTags),
+          relatedCompetences,
         };
       });
   }
@@ -77,5 +81,11 @@ export class DevStoryTopsParser {
     const quantity = stripString($('.number').text());
 
     return `Top ${quantity} at Stack Overflow answers`;
+  }
+
+  private static parsePreferredCompetences(topTags: string[], careerPreferences: CareerPreferences): Competence[] {
+    const preferredCompetences = careerPreferences.preferences.preferredCompetences;
+
+    return _.intersectionBy(CompetenceParser.parse(topTags), preferredCompetences, 'name');
   }
 }
