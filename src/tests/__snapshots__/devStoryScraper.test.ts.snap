@@ -1630,6 +1630,76 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
         "publishingDate": "2015-11-01",
         "type": "post",
       },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 1% Stack Overflow answerers in these technologies",
+          "name": "Top 1% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "gatsby",
+            "type": "technology",
+          },
+          Object {
+            "name": "graphql",
+            "type": "technology",
+          },
+          Object {
+            "name": "reactjs",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 5% Stack Overflow answerers in these technologies",
+          "name": "Top 5% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "css",
+            "type": "technology",
+          },
+          Object {
+            "name": "javascript",
+            "type": "technology",
+          },
+          Object {
+            "name": "netlify",
+            "type": "technology",
+          },
+          Object {
+            "name": "node.js",
+            "type": "technology",
+          },
+          Object {
+            "name": "strapi",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 10% Stack Overflow answerers in these technologies",
+          "name": "Top 10% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "html",
+            "type": "technology",
+          },
+          Object {
+            "name": "node-modules",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
     ],
   },
   "knowledge": Object {
@@ -3287,6 +3357,38 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
           },
         ],
         "type": "post",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 5% Stack Overflow answerers in these technologies",
+          "name": "Top 5% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "python",
+            "type": "technology",
+          },
+          Object {
+            "name": "ruby",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 30% Stack Overflow answerers in this technology",
+          "name": "Top 30% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "swift",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
       },
     ],
   },

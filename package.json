@@ -16,6 +16,7 @@
     "cheerio": "^1.0.0-rc.10",
     "clean-deep": "^3.4.0",
     "lodash": "^4.17.21",
+    "moment": "^2.29.1",
     "pino": "^7.8.0",
     "turndown": "^7.1.1"
   },

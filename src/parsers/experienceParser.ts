@@ -1,5 +1,6 @@
-import {CheerioAPI} from 'cheerio';
+import cheerio, {CheerioAPI} from 'cheerio';
 import * as _ from 'lodash';
+import moment from 'moment';
 
 import {Experience} from '../models/experience';
 import {DevStoryPositionParser} from './devStory/devStoryPositionParser';
@@ -8,6 +9,9 @@ import {ProjectParser} from './projectParser';
 import {JobParser} from './jobParser';
 import {DevStoryArtifact} from '../models/devStory/devStoryArtifact';
 import {PublicArtifactParser} from './publicArtifactParser';
+import {PublicArtifact} from '../models/publicArtifact';
+import {CompetenceParser} from './competenceParser';
+import {stripString} from '../utils/utils';
 
 export class ExperienceParser {
   parse($: CheerioAPI): Experience {
@@ -24,12 +28,13 @@ export class ExperienceParser {
       .get();
 
     const projects = timeLineItems.filter(this.isProject).map(ProjectParser.parse);
-    const publicArtifacts = timeLineItems.filter(this.isPublicArtifact).map(PublicArtifactParser.parse);
+    const timeLineArtifacts = timeLineItems.filter(this.isPublicArtifact).map(PublicArtifactParser.parse);
+    const stackOverflowAchievements = DevStoryTopsParser.parse($);
 
     return {
       jobs,
       projects,
-      publicArtifacts,
+      publicArtifacts: _.concat(timeLineArtifacts, stackOverflowAchievements),
     };
   }
 
@@ -42,5 +47,35 @@ export class ExperienceParser {
       ['Blogs or videos', 'Acheivement', 'Accomplishment', 'Top post', 'Assessment', 'Milestone'],
       artifact.type,
     );
+  }
+}
+
+export class DevStoryTopsParser {
+  static parse($: CheerioAPI): PublicArtifact[] {
+    return $('.user-technologies .top')
+      .get()
+      .map((e) => {
+        const topElement = cheerio.load($(e).html() || '');
+
+        const topTags = topElement('.post-tag')
+          .get()
+          .map((e) => stripString($(e).text() || ''));
+
+        return {
+          details: {
+            name: DevStoryTopsParser.parseName(topElement),
+            description: stripString(topElement('.informative-tooltip').text()),
+          },
+          type: 'achievement',
+          publishingDate: moment().format('YYYY-MM-DD'),
+          relatedCompetences: CompetenceParser.parse(topTags),
+        };
+      });
+  }
+
+  private static parseName($: CheerioAPI): string {
+    const quantity = stripString($('.number').text());
+
+    return `Top ${quantity} at Stack Overflow answers`;
   }
 }
