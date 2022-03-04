@@ -24,7 +24,7 @@ The `DevStoryDownloader` and `Geocoder` are created at the beginning so we can i
 
 * `yarn install`: Installs all the required dependencies
 * `yarn test`: Launches the test suite
-* `yarn test:local <username>`: Executes the complete process in local using the actual bootstraping.
+* `yarn test:local <username|dev story URL>`: Executes the complete process in local using the actual bootstraping.
 * `yarn build`: Transpilation process from TS to JS
 
 ## Deployment
