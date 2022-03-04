@@ -9,32 +9,22 @@ export class DatesParser {
    */
   static parse(input: string): [string, string] {
     const cleanedInput = input.replace(/\s+/, ' ').trim();
-    const match = /(.*) → (.*?) (\(.*?\))/.exec(cleanedInput);
+    const match = /^([a-zA-Z]*\s*\d{4})( → )?([a-zA-Z]*\s*\d{4}|Current)?( \(.*?\))?$/.exec(cleanedInput);
     if (match) {
       const startDate = this.toDate(match[1]);
-      const endDate = this.toDate(match[2]);
+      const endDate = this.toDate(match[3] || '');
 
       return [startDate, endDate];
-    } else {
-      // It could be just a year like 2018 → 2019
-      const anotherMatch = /(\d{4}) → (\d{4})/.exec(cleanedInput);
-      if (anotherMatch) {
-        const startDate = this.toDate(anotherMatch[1]);
-        const endDate = this.toDate(anotherMatch[2]);
-
-        return [startDate, endDate];
-      }
-
-      const startDate = this.toDate(input);
-      if (/\d{4}-\d{2}-\d{2}/.exec(startDate)) {
-        return [startDate, ''];
-      }
     }
 
     return ['', ''];
   }
 
   private static toDate(input: string): string {
+    if (input === 'Current' || input === '') {
+      return '';
+    }
+
     if (!input.includes(' ')) {
       if (/\d{4}/.exec(input)) {
         return `${input}-01-01`;
