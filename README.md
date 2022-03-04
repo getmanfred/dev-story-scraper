@@ -78,3 +78,7 @@ Examples:
 ### Assessment parsing
 
 ![assessment parsing details diagram](doc/assets/assessment-parsing.png)
+
+### Stack Overflow top answers parsing
+
+![stack overflow top answers parsing diagram](doc/assets/top-answers-parsing.png)
