@@ -25,11 +25,8 @@ export class DatesParser {
       return '';
     }
 
-    if (!input.includes(' ')) {
-      if (/\d{4}/.exec(input)) {
-        return `${input}-01-01`;
-      }
-      return '';
+    if (/^\d{4}$/.exec(input)) {
+      return `${input}-01-01`;
     }
 
     const [month, year] = input.split(' ');
