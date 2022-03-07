@@ -4,6 +4,7 @@ import {Logger} from './utils/logger';
 import {TorDevStoryDownloader} from './downloader/torDevStoryDownloader';
 import {GoogleGeocoder} from './utils/geocoder';
 import {DevStoryScraper} from './devStoryScraper';
+import {ProfileNotFoundException} from './errors/profileNotFoundException';
 
 const app = express();
 const log = Logger.getInstance();
@@ -11,7 +12,7 @@ const downloader = new TorDevStoryDownloader();
 const geocoder = new GoogleGeocoder();
 const scraper = new DevStoryScraper(downloader, geocoder);
 
-const port = 3000;
+const port = process.env.SO_PORT || 3000;
 
 app.get('/', async (req, res) => {
   try {
@@ -19,7 +20,12 @@ app.get('/', async (req, res) => {
     const profile = await scraper.parse(username);
     res.json(profile);
   } catch (e) {
-    res.status(500);
+    // Not using a middleware because it is too simple and a temporal service
+    if (e instanceof ProfileNotFoundException) {
+      res.status(404);
+    } else {
+      res.status(500);
+    }
     res.json({
       error: e,
     });

@@ -1,6 +1,7 @@
 import {Logger} from '../utils/logger';
-import axios from 'axios';
+import axios, {AxiosError} from 'axios';
 import {DevStoryDownloader} from './devStoryDownloader';
+import {ProfileNotFoundException} from '../errors/profileNotFoundException';
 
 export class BasicDevStoryDownloader implements DevStoryDownloader {
   async download(source: string): Promise<string> {
@@ -12,10 +13,20 @@ export class BasicDevStoryDownloader implements DevStoryDownloader {
     const log = Logger.getInstance();
     log.info(`loading ${url}`);
 
-    const response = await axios.get(url);
+    try {
+      const response = await axios.get(url);
 
-    log.debug(`${url} loaded`);
+      log.debug(`${url} loaded`);
 
-    return response.data;
+      return response.data;
+    } catch (e) {
+      if ((e as AxiosError)?.response?.status === 404) {
+        throw new ProfileNotFoundException();
+      }
+
+      log.error(e as AxiosError);
+
+      throw e;
+    }
   }
 }

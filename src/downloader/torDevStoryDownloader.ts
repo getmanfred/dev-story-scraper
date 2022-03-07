@@ -1,6 +1,8 @@
 import {torSetup} from '../utils/torAxios';
 import {Logger} from '../utils/logger';
 import {DevStoryDownloader} from './devStoryDownloader';
+import {AxiosError} from 'axios';
+import {ProfileNotFoundException} from '../errors/profileNotFoundException';
 
 export class TorDevStoryDownloader implements DevStoryDownloader {
   async download(source: string): Promise<string> {
@@ -21,9 +23,13 @@ export class TorDevStoryDownloader implements DevStoryDownloader {
 
       return response.data;
     } catch (e) {
-      log.error(e);
+      if ((e as AxiosError)?.response?.status === 404) {
+        throw new ProfileNotFoundException();
+      }
 
-      return '';
+      log.error(e as AxiosError);
+
+      throw e;
     }
   }
 }

@@ -18,6 +18,7 @@ const noUsernameResponse = () => ({
   },
 });
 
+// TODO to be removed once discarded the Lambda code
 export const handler: Handler = async (event: APIGatewayProxyEvent) => {
   const log = Logger.getInstance();
 
