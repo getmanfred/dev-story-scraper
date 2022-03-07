@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "tsc",
+    "start": "node dist/app.js",
     "test": "jest",
-    "test:local": "yarn build && node dist/localLauncher.js",
     "lint": "eslint src/**/*.ts",
     "format": "prettier 'src/**/*.{ts,js,json}' --write"
   },
@@ -15,6 +15,7 @@
     "axios": "^0.26.0",
     "cheerio": "^1.0.0-rc.10",
     "clean-deep": "^3.4.0",
+    "express": "^4.17.3",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "pino": "^7.8.0",
@@ -25,6 +26,7 @@
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
     "@types/aws-lambda": "^8.10.92",
+    "@types/express": "^4.17.13",
     "@types/jest": "27.0.2",
     "@types/lodash": "^4.14.178",
     "@types/turndown": "^5.0.1",
