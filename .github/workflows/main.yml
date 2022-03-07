@@ -26,17 +26,10 @@ jobs:
       - name: test
         run: |
           yarn test
-      - name: build
+      - name: push to ECR
+        id: tag
         run: |
-          yarn build
-      - name: dependencies
-        run: |
-          yarn install --production
-          cp -r node_modules dist/node_modules
-      - name: bundle
-        working-directory: ./dist
-        run: |
-          zip -r ../bundle.zip ./*
-      - name: deploy
-        run: |
-          aws lambda update-function-code --function-name=sofred-reader --zip-file=fileb://bundle.zip
+          aws ecr get-login-password --region ${{ secrets.AWS_REGION }}  | docker login --username AWS --password-stdin ${{ secrets.ECR_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com
+          docker build --tag ${{ secrets.ECR_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/${{ secrets.ECR_REPOSITORY }}:v1.${GITHUB_RUN_NUMBER} .
+
+          docker push ${{ secrets.ECR_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/${{ secrets.ECR_REPOSITORY }}:v1.${GITHUB_RUN_NUMBER}
