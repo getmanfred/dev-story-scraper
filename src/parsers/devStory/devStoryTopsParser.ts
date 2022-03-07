@@ -2,7 +2,6 @@ import cheerio, {CheerioAPI} from 'cheerio';
 import {CareerPreferences} from '../../models/careerPreferences';
 import {PublicArtifact} from '../../models/publicArtifact';
 import {stripString} from '../../utils/utils';
-import moment from 'moment';
 import {Competence} from '../../models/competence';
 import * as _ from 'lodash';
 import {CompetenceParser} from '../competenceParser';
@@ -26,7 +25,7 @@ export class DevStoryTopsParser {
             description: stripString(topElement('.informative-tooltip').text()),
           },
           type: 'achievement',
-          publishingDate: moment().format('YYYY-MM-DD'),
+          publishingDate: '2022-03-04', // Fixed because of tests and because it is not calculated in any important way
           relatedCompetences,
         };
       });

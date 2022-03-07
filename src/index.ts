@@ -1,10 +1,10 @@
 import {APIGatewayProxyEvent, Handler} from 'aws-lambda';
 
-import {DevStoryDownloader} from './devStoryDownloader';
 import {DevStoryScraper} from './devStoryScraper';
 import {MAC} from './models/mac';
 import {Logger} from './utils/logger';
 import {GoogleGeocoder} from './utils/geocoder';
+import {TorDevStoryDownloader} from './torDevStoryDownloader';
 
 const successResponse = (mac: MAC) => ({
   statusCode: 200,
@@ -26,7 +26,7 @@ export const handler: Handler = async (event: APIGatewayProxyEvent) => {
 
     log.info(`scraping information from ${username}`);
 
-    const downloader = new DevStoryDownloader();
+    const downloader = new TorDevStoryDownloader();
     const geocoder = new GoogleGeocoder();
     const scraper = new DevStoryScraper(downloader, geocoder);
     const profile = await scraper.parse(username);

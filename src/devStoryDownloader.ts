@@ -2,7 +2,11 @@ import axios from 'axios';
 
 import {Logger} from './utils/logger';
 
-export class DevStoryDownloader {
+export type DevStoryDownloader = {
+  download(source: string): Promise<string>;
+};
+
+export class BasicDevStoryDownloader implements DevStoryDownloader {
   async download(source: string): Promise<string> {
     let url = `https://stackoverflow.com/story/${source}`;
     if (source.includes('https://')) {
