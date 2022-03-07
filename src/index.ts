@@ -4,7 +4,7 @@ import {DevStoryScraper} from './devStoryScraper';
 import {MAC} from './models/mac';
 import {Logger} from './utils/logger';
 import {GoogleGeocoder} from './utils/geocoder';
-import {TorDevStoryDownloader} from './torDevStoryDownloader';
+import {TorDevStoryDownloader} from './downloader/torDevStoryDownloader';
 
 const successResponse = (mac: MAC) => ({
   statusCode: 200,

@@ -2,7 +2,7 @@ import * as _ from 'lodash';
 
 import {GoogleGeocoder} from './utils/geocoder';
 import {DevStoryScraper} from './devStoryScraper';
-import {TorDevStoryDownloader} from './torDevStoryDownloader';
+import {TorDevStoryDownloader} from './downloader/torDevStoryDownloader';
 
 !(async () => {
   const downloader = new TorDevStoryDownloader();

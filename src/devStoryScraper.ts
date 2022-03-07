@@ -1,7 +1,7 @@
 import cheerio from 'cheerio';
 import cleanDeep from 'clean-deep';
 
-import {DevStoryDownloader} from './devStoryDownloader';
+import {DevStoryDownloader} from './downloader/devStoryDownloader';
 import {MAC} from './models/mac';
 import {Logger} from './utils/logger';
 import {Settings} from './models/settings';

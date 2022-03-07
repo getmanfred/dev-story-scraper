@@ -1,6 +1,6 @@
 import {readFileSync} from 'fs';
 
-import {DevStoryDownloader} from '../devStoryDownloader';
+import {DevStoryDownloader} from '../downloader/devStoryDownloader';
 
 export class MockDevStoryDownloader implements DevStoryDownloader {
   async download(url: string): Promise<string> {

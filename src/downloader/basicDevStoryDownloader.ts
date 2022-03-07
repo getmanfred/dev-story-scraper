@@ -1,10 +1,6 @@
+import {Logger} from '../utils/logger';
 import axios from 'axios';
-
-import {Logger} from './utils/logger';
-
-export type DevStoryDownloader = {
-  download(source: string): Promise<string>;
-};
+import {DevStoryDownloader} from './devStoryDownloader';
 
 export class BasicDevStoryDownloader implements DevStoryDownloader {
   async download(source: string): Promise<string> {
