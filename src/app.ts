@@ -23,12 +23,15 @@ app.get('/', async (req, res) => {
     // Not using a middleware because it is too simple and a temporal service
     if (e instanceof ProfileNotFoundException) {
       res.status(404);
+      res.json({
+        error: 'No profile found for given username',
+      });
     } else {
       res.status(500);
+      res.json({
+        error: `Unknown error`,
+      });
     }
-    res.json({
-      error: e,
-    });
   }
 });
 
