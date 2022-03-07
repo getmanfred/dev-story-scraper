@@ -1,14 +1,14 @@
 import express from 'express';
 
 import {Logger} from './utils/logger';
-import {TorDevStoryDownloader} from './downloader/torDevStoryDownloader';
 import {GoogleGeocoder} from './utils/geocoder';
 import {DevStoryScraper} from './devStoryScraper';
 import {ProfileNotFoundException} from './errors/profileNotFoundException';
+import {BasicDevStoryDownloader} from './downloader/basicDevStoryDownloader';
 
 const app = express();
 const log = Logger.getInstance();
-const downloader = new TorDevStoryDownloader();
+const downloader = new BasicDevStoryDownloader();
 const geocoder = new GoogleGeocoder();
 const scraper = new DevStoryScraper(downloader, geocoder);
 
