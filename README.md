@@ -4,11 +4,34 @@
 
 ## General overview
 
-The project is pretty simple and it is prepared to be deployed as an AWS Lambda function.
-
 ![General overview diagram](doc/assets/general-overview.png)
 
-The only dependency is with Google Maps API, but if no API Key for Google is provided it just don't autocomplete the field `whereILive`. In that case the location information from the Dev Story is stored at `aboutMe.profile.whereILive.notes`.
+The only dependency is with Google Maps API. If no key for Google Maps API is provided it just doesn't autocomplete the field `whereILive`. In that case the location information from the Dev Story is stored at `aboutMe.profile.whereILive.notes`.
+
+## How to run
+
+### Plain Node.js
+
+```shell
+yarn install
+
+yarn build
+
+yarn start
+
+curl http://localhost:3000\?username\=<Dev Story username>
+```
+
+### Docker
+
+```shell
+docker build . -t username/dev-story-scraper
+
+docker run -p3000:3000 -d username/dev-story-scraper
+
+# If you have a Google Maps API
+docker run -p3000:3000 -e SO_GOOGLE_MAPS_API_KEY=<key value> -d username/dev-story-scraper
+```
 
 ## Code
 
@@ -20,21 +43,11 @@ The `index.ts` file contains the handler that launches the Lambda function, and 
 
 The `DevStoryDownloader` and `Geocoder` are created at the beginning so we can inject a mock for test purposes, avoiding overusing the Stack Overflow or Google's systems, this also prevents false red tests. We could use the dependency injection in better ways, but for a project that is going to be used for a few days and discarded it doesn't worth the price.
 
-### Tasks
-
-* `yarn install`: Installs all the required dependencies
-* `yarn test`: Launches the test suite
-* `yarn test:local <username|dev story URL>`: Executes the complete process in local using the actual bootstraping.
-* `yarn build`: Transpilation process from TS to JS
-
 ## Deployment
 
 ![Components architecture](doc/assets/deployment.png)
 
-We deploy the code at AWS Lambda using GitHub Actions. There are some details we need to take care of:
-* The default timeout of a lambda is 3 seconds, and it is too slow for larger dev stories. It is better to increase up to 15 seconds. *The observed time with real examples is in general under 9 seconds*.
-* By default, the log level is `info` we can change it with the environment variable `LOG_LEVEL`.
-* **We need to configure the `GOOGLE_MAPS_API_KEY` to use the  geocoder**.
+**We need to configure the `GOOGLE_MAPS_API_KEY` to use the  geocoder**.
 
 ## Design decisions
 
