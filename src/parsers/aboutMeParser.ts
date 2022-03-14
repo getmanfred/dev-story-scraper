@@ -35,7 +35,7 @@ export class AboutMeParser {
   }
 
   private async parseProfile($: CheerioAPI): Promise<Profile> {
-    const fullName = $('div[class="name"] h4').text().replace(/\s+/g, ' ');
+    const fullName = stripString($('div[class="name"] h4').text());
     const name = _.head(fullName.split(' ')) || '';
     const surnames = _.tail(fullName.split(' ')).join(' ') || '';
     const title = stripString($('#form-section-PersonalInfo div.job').text() || '');
