@@ -1688,6 +1688,13 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
         "degreeAchieved": true,
         "description": "The main goal of the course is to develop, implement and maintain web applications, regardless of the model used and using specific technologies, ensuring access to the data safety and fulfilling the accessibility, usability and quality criteria demanded in the established standards.",
         "finishDate": "2016-06-01",
+        "institution": Object {
+          "URL": "https://www.stucom.com/",
+          "image": Object {
+            "link": "https://i.stack.imgur.com/7G6ck.png",
+          },
+          "name": "Stucom Centre d'Estudis",
+        },
         "name": "Stucom Centre d'Estudis",
         "startDate": "2014-09-01",
         "studyType": "officialDegree",
@@ -1695,6 +1702,14 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
       Object {
         "degreeAchieved": true,
         "finishDate": "2016-03-01",
+        "institution": Object {
+          "URL": "https://www.escueladeempresa.com/",
+          "image": Object {
+            "alt": "Managerial skills",
+            "link": "https://i.stack.imgur.com/lh9NT.png",
+          },
+          "name": "Managerial skills",
+        },
         "name": "Managerial skills",
         "startDate": "2016-03-01",
         "studyType": "certification",
@@ -1702,6 +1717,14 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
       Object {
         "degreeAchieved": true,
         "finishDate": "2015-05-01",
+        "institution": Object {
+          "URL": "https://www.ets.org/toeic/",
+          "image": Object {
+            "alt": "TOEIC (780)",
+            "link": "https://i.stack.imgur.com/A9ZX2.jpg",
+          },
+          "name": "TOEIC (780)",
+        },
         "name": "TOEIC (780)",
         "startDate": "2015-05-01",
         "studyType": "certification",
@@ -1714,6 +1737,14 @@ It is intended to provide students with training in the main lines of R&D&I curr
 
 The rapid spread of these techniques makes them fundamental to the effective characterization of structural systems and sedimentary reservoirs.",
         "finishDate": "2014-07-01",
+        "institution": Object {
+          "URL": "https://www.ub.edu/web/ub/en/",
+          "image": Object {
+            "alt": "MSc in reservoir geology and geophysics",
+            "link": "https://i.stack.imgur.com/FK6sa.png",
+          },
+          "name": "MSc in reservoir geology and geophysics, Universitat de Barcelona",
+        },
         "name": "MSc in reservoir geology and geophysics, Universitat de Barcelona",
         "startDate": "2013-09-01",
         "studyType": "officialDegree",
@@ -1722,6 +1753,14 @@ The rapid spread of these techniques makes them fundamental to the effective cha
         "degreeAchieved": true,
         "description": "The general objective of the career is to form professionals with wide and large knowledge in the principles and practical applications of geology, focusing in the skills to work in private and public sector companies in the field, public sector geological services, research, and education, knowing how to adapt in an evolving work environment.",
         "finishDate": "2013-07-01",
+        "institution": Object {
+          "URL": "https://www.ub.edu/web/ub/en/",
+          "image": Object {
+            "alt": "Degree in geology",
+            "link": "https://i.stack.imgur.com/FK6sa.png",
+          },
+          "name": "Degree in geology, Universitat de Barcelona",
+        },
         "name": "Degree in geology, Universitat de Barcelona",
         "startDate": "2001-09-01",
         "studyType": "officialDegree",
@@ -3373,6 +3412,14 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
       Object {
         "degreeAchieved": true,
         "finishDate": "2018-03-01",
+        "institution": Object {
+          "URL": "https://www.scrumalliance.org/community/profile/jdevilla2",
+          "image": Object {
+            "alt": "Certified Scrum Developer",
+            "link": "https://i.stack.imgur.com/MIrLn.png",
+          },
+          "name": "Certified Scrum Developer",
+        },
         "name": "Certified Scrum Developer",
         "startDate": "2018-03-01",
         "studyType": "certification",
@@ -3380,6 +3427,14 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
       Object {
         "degreeAchieved": true,
         "finishDate": "2018-02-01",
+        "institution": Object {
+          "URL": "https://www.scrumalliance.org/community/profile/jdevilla2",
+          "image": Object {
+            "alt": "Certified Scrum Product Owner",
+            "link": "https://i.stack.imgur.com/s28V3.png",
+          },
+          "name": "Certified Scrum Product Owner",
+        },
         "name": "Certified Scrum Product Owner",
         "startDate": "2018-02-01",
         "studyType": "certification",
@@ -3387,6 +3442,14 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
       Object {
         "degreeAchieved": true,
         "finishDate": "2018-02-01",
+        "institution": Object {
+          "URL": "https://www.scrumalliance.org/community/profile/jdevilla2",
+          "image": Object {
+            "alt": "Certified ScrumMaster",
+            "link": "https://i.stack.imgur.com/zVfeB.png",
+          },
+          "name": "Certified ScrumMaster",
+        },
         "name": "Certified ScrumMaster",
         "startDate": "2018-02-01",
         "studyType": "certification",

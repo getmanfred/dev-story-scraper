@@ -14,6 +14,14 @@ export class StudyParser {
       startDate,
       finishDate: finishDate || startDate,
       description: artifact.description,
+      institution: {
+        name: artifact.title,
+        URL: artifact.url,
+        image: {
+          alt: artifact.logoAlt,
+          link: artifact.logo,
+        },
+      },
     };
   }
 
