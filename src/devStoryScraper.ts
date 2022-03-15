@@ -53,7 +53,11 @@ export class DevStoryScraper {
       careerPreferences,
     };
 
-    return cleanDeep(mac) as MAC;
+    const cleanMac = cleanDeep(mac) as MAC;
+    // Some fields are mandatory by the JSON Schema but are not present at Stack Overflow's dev story
+    cleanMac.aboutMe.profile.title = cleanMac.aboutMe.profile.title || '';
+
+    return cleanMac;
   }
 
   private defaultSettings(): Settings {
