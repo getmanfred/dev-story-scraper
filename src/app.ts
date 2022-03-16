@@ -41,6 +41,12 @@ app.get('/', async (req, res) => {
   }
 });
 
+app.get('/version', async (req, res) => {
+  res.json({
+    version: '1.0.0',
+  });
+});
+
 app.listen(port, () => {
   log.info(`Server listening at http://localhost:${port}`);
 });
