@@ -99,8 +99,8 @@ Object {
         "URL": "http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0132350882",
         "authors": Array [
           Object {
-            "name": "Robert",
-            "surnames": "C. Martin",
+            "name": "Robert C.",
+            "surnames": "Martin",
             "title": "Author",
           },
         ],
@@ -125,8 +125,8 @@ Object {
         "URL": "http://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0137081073",
         "authors": Array [
           Object {
-            "name": "Robert",
-            "surnames": "C. Martin",
+            "name": "Robert C.",
+            "surnames": "Martin",
             "title": "Author",
           },
         ],
@@ -138,8 +138,8 @@ Object {
         "URL": "http://www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201835959",
         "authors": Array [
           Object {
-            "name": "Frederick",
-            "surnames": "P. Brooks",
+            "name": "Frederick P.",
+            "surnames": "Brooks",
             "title": "Author",
           },
         ],
@@ -151,8 +151,8 @@ Object {
         "URL": "http://www.amazon.com/Seven-Languages-Weeks-Programming-Programmers/dp/193435659X%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D193435659X",
         "authors": Array [
           Object {
-            "name": "Bruce",
-            "surnames": "A. Tate",
+            "name": "Bruce A.",
+            "surnames": "Tate",
             "title": "Author",
           },
         ],
@@ -1351,8 +1351,8 @@ Object {
         "URL": "https://amzn.to/3ChXCLF",
         "authors": Array [
           Object {
-            "name": "Robert",
-            "surnames": "C. Martin",
+            "name": "Robert C.",
+            "surnames": "Martin",
             "title": "Author",
           },
         ],
@@ -1428,8 +1428,8 @@ Object {
         "URL": "https://amzn.to/39cK8V1",
         "authors": Array [
           Object {
-            "name": "Robert",
-            "surnames": "C. Martin",
+            "name": "Robert C.",
+            "surnames": "Martin",
             "title": "Author",
           },
         ],
@@ -1467,8 +1467,8 @@ Object {
         "URL": "https://amzn.to/2Z0Q1md",
         "authors": Array [
           Object {
-            "name": "Frederick",
-            "surnames": "P. Brooks",
+            "name": "Frederick P.",
+            "surnames": "Brooks",
             "title": "Author",
           },
         ],
@@ -1537,8 +1537,8 @@ Object {
         "URL": "https://amzn.to/3ChZhkn",
         "authors": Array [
           Object {
-            "name": "Robert",
-            "surnames": "C. Martin",
+            "name": "Robert C.",
+            "surnames": "Martin",
             "title": "Author",
           },
         ],
@@ -1563,18 +1563,18 @@ Object {
         "URL": "https://amzn.to/3hHs9uu",
         "authors": Array [
           Object {
-            "name": "Thomas",
-            "surnames": "H. Cormen",
+            "name": "Thomas H.",
+            "surnames": "Cormen",
             "title": "Author",
           },
           Object {
-            "name": "Charles",
-            "surnames": "E. Leiserson",
+            "name": "Charles E.",
+            "surnames": "Leiserson",
             "title": "Author",
           },
           Object {
-            "name": "Ronald",
-            "surnames": "L. Rivest",
+            "name": "Ronald L.",
+            "surnames": "Rivest",
             "title": "Author",
           },
           Object {
@@ -1591,8 +1591,8 @@ Object {
         "URL": "https://amzn.to/3An7lQ4",
         "authors": Array [
           Object {
-            "name": "Robert",
-            "surnames": "C. Martin",
+            "name": "Robert C.",
+            "surnames": "Martin",
             "title": "Author",
           },
         ],
@@ -1643,8 +1643,8 @@ Object {
         "URL": "https://amzn.to/3i39bP3",
         "authors": Array [
           Object {
-            "name": "T.",
-            "surnames": "J. Crowder",
+            "name": "T. J.",
+            "surnames": "Crowder",
             "title": "Author",
           },
         ],

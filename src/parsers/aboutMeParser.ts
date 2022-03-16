@@ -1,11 +1,10 @@
 import {CheerioAPI} from 'cheerio';
-import * as _ from 'lodash';
 
 import {Profile} from '../models/profile';
 import {AboutMe} from '../models/aboutMe';
 import {Image} from '../models/image';
 import {Location} from '../models/location';
-import {stripString} from '../utils/utils';
+import {asNameAndSurnames, stripString} from '../utils/utils';
 import {Geocoder} from '../utils/geocoder';
 import {Markdown} from '../utils/markdown';
 import {InterestingFact} from '../models/interestingFact';
@@ -36,8 +35,7 @@ export class AboutMeParser {
 
   private async parseProfile($: CheerioAPI): Promise<Profile> {
     const fullName = stripString($('div[class="name"] h4').text());
-    const name = _.head(fullName.split(' ')) || '';
-    const surnames = _.tail(fullName.split(' ')).join(' ') || '';
+    const [name, surnames] = asNameAndSurnames(fullName);
     const title = stripString($('#form-section-PersonalInfo div.job').text() || '');
     const description = Markdown.fromHTML(
       $('header div.header-edit-section span.description-content-full').html() || '',
