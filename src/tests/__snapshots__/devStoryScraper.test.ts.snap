@@ -1268,6 +1268,41 @@ Original author.",
         "publishingDate": "2022-03-04",
         "type": "achievement",
       },
+      Object {
+        "details": Object {
+          "description": "I've been working full-time as a developer since 1993. In that time I've used dozens of technologies and many programming languages. The skills that transfer, though, are methodologies and design.",
+          "name": "Background",
+        },
+        "publishingDate": "2017-02-01",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.geonetric.com/operation-overnight/",
+          "description": "Built websites for local nonprofits with cross-functional teams in 24 hours (2015 and 2016).",
+          "name": "Operation Overnight",
+        },
+        "publishingDate": "2015-10-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "wordpress",
+            "type": "technology",
+          },
+          Object {
+            "name": "contact-form-7",
+            "type": "technology",
+          },
+          Object {
+            "name": "agile",
+            "type": "technology",
+          },
+          Object {
+            "name": "scrum",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
     ],
   },
   "knowledge": Object {
