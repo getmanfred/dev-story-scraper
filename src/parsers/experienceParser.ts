@@ -12,13 +12,13 @@ import {CareerPreferences} from '../models/careerPreferences';
 import {DevStoryTopsParser} from './devStory/devStoryTopsParser';
 
 export class ExperienceParser {
-  parse($: CheerioAPI, careerPreferences: CareerPreferences): Experience {
-    const jobs = $('div[class="timeline-item job"]')
-      .map((i, e) => {
-        const position = DevStoryPositionParser.parse($(e).html() || '');
-        return JobParser.parse(position);
-      })
+  constructor(private readonly jobParser: JobParser) {}
+
+  async parse($: CheerioAPI, careerPreferences: CareerPreferences): Promise<Experience> {
+    const devStoryPositions = $('div[class="timeline-item job"]')
+      .map((i, e) => DevStoryPositionParser.parse($(e).html() || ''))
       .get();
+    const jobs = await Promise.all(devStoryPositions.map((position) => this.jobParser.parse(position)));
 
     const timeLineItems = $('.timeline-item')
       .not('.job')

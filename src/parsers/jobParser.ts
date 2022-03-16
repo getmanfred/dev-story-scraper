@@ -2,16 +2,19 @@ import {DevStoryPosition} from '../models/devStory/devStoryPosition';
 import {Job} from '../models/job';
 import {DatesParser} from './datesParser';
 import {CompetenceParser} from './competenceParser';
+import {CompanyUrlParser} from './companyUrlParser';
 
 export class JobParser {
-  static parse(position: DevStoryPosition): Job {
+  constructor(private readonly companyUrlParser: CompanyUrlParser) {}
+
+  async parse(position: DevStoryPosition): Promise<Job> {
     const [name, company] = position.title.split(' at ');
     const [startDate, finishDate] = DatesParser.parse(position.time);
 
     return {
       organization: {
         name: company,
-        URL: position.url,
+        URL: await this.companyUrlParser.parseFrom(position.url),
         image: {
           alt: position.logoAlt,
           link: position.logo,

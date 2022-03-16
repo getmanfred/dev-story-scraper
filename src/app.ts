@@ -5,12 +5,18 @@ import {GoogleGeocoder} from './utils/geocoder';
 import {DevStoryScraper} from './devStoryScraper';
 import {ProfileNotFoundException} from './errors/profileNotFoundException';
 import {BasicDevStoryDownloader} from './downloader/basicDevStoryDownloader';
+import {JobParser} from './parsers/jobParser';
+import {CompanyUrlParser} from './parsers/companyUrlParser';
+import {HttpClient} from './clients/httpClient';
 
 const app = express();
 const log = Logger.getInstance();
+const httpClient = new HttpClient();
 const downloader = new BasicDevStoryDownloader();
 const geocoder = new GoogleGeocoder();
-const scraper = new DevStoryScraper(downloader, geocoder);
+const companyUrlParser = new CompanyUrlParser(httpClient);
+const jobParser = new JobParser(companyUrlParser);
+const scraper = new DevStoryScraper(downloader, geocoder, jobParser);
 
 const port = process.env.SO_PORT || 3000;
 
