@@ -10,6 +10,7 @@ import {DevStoryArtifact} from '../models/devStory/devStoryArtifact';
 import {PublicArtifactParser} from './publicArtifactParser';
 import {CareerPreferences} from '../models/careerPreferences';
 import {DevStoryTopsParser} from './devStory/devStoryTopsParser';
+import {AchievementParser} from './achievementParser';
 
 export class ExperienceParser {
   parse($: CheerioAPI, careerPreferences: CareerPreferences): Experience {
@@ -28,11 +29,12 @@ export class ExperienceParser {
     const projects = timeLineItems.filter(this.isProject).map(ProjectParser.parse);
     const timeLineArtifacts = timeLineItems.filter(this.isPublicArtifact).map(PublicArtifactParser.parse);
     const stackOverflowAchievements = DevStoryTopsParser.parse($, careerPreferences);
+    const unknownArtifacts = timeLineItems.filter(this.isUnknownArtifact).map(AchievementParser.parse);
 
     return {
       jobs,
       projects,
-      publicArtifacts: _.concat(timeLineArtifacts, stackOverflowAchievements),
+      publicArtifacts: _.concat(timeLineArtifacts, stackOverflowAchievements, unknownArtifacts),
     };
   }
 
@@ -44,6 +46,27 @@ export class ExperienceParser {
     return _.includes(
       ['Blogs or videos', 'Acheivement', 'Accomplishment', 'Top post', 'Assessment', 'Milestone'],
       artifact.type,
+    );
+  }
+
+  private isUnknownArtifact(artifact: DevStoryArtifact): boolean {
+    return (
+      (artifact.type as string) !== '' &&
+      !_.includes(
+        [
+          'Blogs or videos',
+          'Acheivement',
+          'Accomplishment',
+          'Top post',
+          'Assessment',
+          'Milestone',
+          'Feature or Apps',
+          'Open source',
+          'Certification',
+          'Education',
+        ],
+        artifact.type,
+      )
     );
   }
 }
