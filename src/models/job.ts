@@ -3,6 +3,6 @@ import {Organization} from './organization';
 
 export type Job = {
   organization: Organization;
-  type: string;
-  roles?: Role[];
+  type?: string;
+  roles: Role[];
 };

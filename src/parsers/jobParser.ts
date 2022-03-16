@@ -17,7 +17,6 @@ export class JobParser {
           link: position.logo,
         },
       },
-      type: 'other',
       roles: [
         {
           name,

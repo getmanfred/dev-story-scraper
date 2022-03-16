@@ -266,7 +266,6 @@ Object {
             "startDate": "2021-01-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -391,7 +390,6 @@ Object {
             "startDate": "2019-06-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -467,7 +465,6 @@ Object {
             "startDate": "2017-04-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -567,7 +564,6 @@ Object {
             "startDate": "2015-06-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -643,7 +639,6 @@ Object {
             "startDate": "2014-12-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -719,7 +714,6 @@ Object {
             "startDate": "2004-07-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -763,7 +757,6 @@ Object {
             "startDate": "2003-01-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -823,7 +816,6 @@ Object {
             "startDate": "1998-01-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -847,7 +839,6 @@ Object {
             "startDate": "1997-01-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -875,7 +866,6 @@ Object {
             "startDate": "1996-01-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -915,7 +905,6 @@ Object {
             "startDate": "1995-01-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -947,7 +936,6 @@ Object {
             "startDate": "1993-01-01",
           },
         ],
-        "type": "other",
       },
     ],
     "projects": Array [
@@ -1892,7 +1880,6 @@ Technologies used:
             "startDate": "2019-11-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -2025,7 +2012,6 @@ Technologies used:
             "startDate": "2018-12-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -2158,7 +2144,6 @@ Technologies used:
             "startDate": "2017-04-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -2241,7 +2226,6 @@ Technologies used: -JavaScript, jQuery, PHP, MySQL, HTML, Sass, and Gulp.",
             "startDate": "2016-04-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -2316,7 +2300,6 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "startDate": "2016-03-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -2395,7 +2378,6 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "startDate": "2015-10-01",
           },
         ],
-        "type": "other",
       },
     ],
     "projects": Array [
@@ -3254,7 +3236,6 @@ Object {
             "startDate": "2017-07-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -3286,7 +3267,6 @@ Object {
             "startDate": "2015-11-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -3331,7 +3311,6 @@ Object {
             "startDate": "2013-11-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -3383,7 +3362,6 @@ Object {
             "startDate": "2006-08-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -3434,7 +3412,6 @@ Object {
             "startDate": "2019-09-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -3475,7 +3452,6 @@ Sales, marketing, and community relations:
             "startDate": "2017-07-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -3524,7 +3500,6 @@ Sales, marketing, and community relations:
             "startDate": "2016-10-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -3565,7 +3540,6 @@ Sales, marketing, and community relations:
             "startDate": "2014-03-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -3598,7 +3572,6 @@ Sales, marketing, and community relations:
             "startDate": "2012-09-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -3636,7 +3609,6 @@ Sales, marketing, and community relations:
             "startDate": "2011-05-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -3708,7 +3680,6 @@ Sales, marketing, and community relations:
             "startDate": "2008-10-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -3748,7 +3719,6 @@ Sales, marketing, and community relations:
             "startDate": "2008-03-01",
           },
         ],
-        "type": "other",
       },
     ],
     "projects": Array [
@@ -4902,7 +4872,6 @@ Object {
             "startDate": "2018-02-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -4959,7 +4928,6 @@ Object {
             "startDate": "2017-03-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -4998,7 +4966,6 @@ Object {
             "startDate": "2014-01-01",
           },
         ],
-        "type": "other",
       },
       Object {
         "organization": Object {
@@ -5033,7 +5000,6 @@ Object {
             "startDate": "2007-11-01",
           },
         ],
-        "type": "other",
       },
     ],
     "publicArtifacts": Array [
