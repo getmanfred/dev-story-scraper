@@ -39,8 +39,6 @@ docker run -p3000:3000 -e SO_GOOGLE_MAPS_API_KEY=<key value> -d username/dev-sto
 
 The scraping process is designed to follow the MAC JSON schema structure independently from the position at the Stack Overflows HTML. So each "large" sub-document at the JSON Schema usually have its own parser class.
 
-The `index.ts` file contains the handler that launches the Lambda function, and it is in charge of the bootstraping process.
-
 The `DevStoryDownloader` and `Geocoder` are created at the beginning so we can inject a mock for test purposes, avoiding overusing the Stack Overflow or Google's systems, this also prevents false red tests. We could use the dependency injection in better ways, but for a project that is going to be used for a few days and discarded it doesn't worth the price.
 
 ## Deployment

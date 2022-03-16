@@ -1,16 +1,11 @@
 import {Logger} from '../utils/logger';
 import axios, {AxiosError} from 'axios';
-import {DevStoryDownloader} from './devStoryDownloader';
 import {ProfileNotFoundException} from '../errors/profileNotFoundException';
 
-export class BasicDevStoryDownloader implements DevStoryDownloader {
-  async download(source: string): Promise<string> {
-    let url = `https://stackoverflow.com/story/${source}`;
-    if (source.includes('https://')) {
-      url = source;
-    }
-
+export class HttpClient {
+  async getHTML(url: string): Promise<string> {
     const log = Logger.getInstance();
+
     log.info(`loading ${url}`);
 
     try {
