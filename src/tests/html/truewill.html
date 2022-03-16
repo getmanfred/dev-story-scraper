@@ -1,0 +1,3526 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>William Sorensen - Stack Overflow</title>
+    <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196">
+    <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com" />
+    <meta property="og:type" content="website" />
+            <meta property="og:image" itemprop="image primaryImageOfPage" content="https://www.gravatar.com/avatar/b6e20141459496c64aa8eac645b1f033?s=200&amp;r=PG&amp;d=https://i.stack.imgur.com/T119o.png" />
+            <meta name="twitter:title" property="og:title" itemprop="title name" content="William Sorensen" />
+            <meta name="twitter:description" property="og:description" itemprop="description" content="William Sorensen&#x27;s Developer Story" />
+            <meta property="og:url" content="https://stackoverflow.com/story/truewill" />
+
+    <script id="webpack-public-path" type="text/uri-list">https://cdn.sstatic.net/</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script async src="https://cdn.sstatic.net/Js/third-party/stacks/stacks.min.js?v=636658ad2e24"></script>
+    <script src="https://cdn.sstatic.net/Js/stub.en.js?v=fce5f0cba23f"></script>
+    <script src="https://cdn.sstatic.net/Js/user.en.js?v=b3c977297943"></script>
+    <script src="https://cdn.sstatic.net/Js/story.en.js?v=2601f44bffe0"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=9b3c752346b4">
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=7b2b38645ccd">
+        <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=4cbb26526eb0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/shared/devstory/pdf.css?v=477f6f8ab7fd">
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/shared/devstory/pdf.css?v=477f6f8ab7fd" media="print">
+    
+    <script type="application/json" data-role="module-args" data-module-name="Shared/options.mod">{"options":{"locale":"en","serverTime":1647416157,"routeName":"UsersStory/StoryChromeless","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"3d45b6f5c3a7fc4781b22ea5ff9604e9fe0e82867b68244239c4c26b4c8e9124","tid":"f062d211-acc0-b02a-84bc-316186f47b18","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"cc5b3e0efea0"}}</script>
+<script type="application/json" data-role="module-args" data-module-name="Shared/settings.mod">{"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}</script>
+<script>StackExchange.init();</script>
+
+    <script>
+        StackExchange.using.setCacheBreakers({"js/adops.en.js":"6da43f5e0a84","js/ask.en.js":"7ff9a9068fd6","js/begin-edit-event.en.js":"dd955babf04d","js/copy-transpiled.en.js":"6e17fb344f2c","js/events.en.js":"","js/explore-qlist.en.js":"2b1f34938b8b","js/full-anon.en.js":"920cc57ec2ed","js/full.en.js":"7dea62be7716","js/highlightjs-loader.en.js":"3c37abf5cb6d","js/inline-tag-editing.en.js":"c0cbc31e5702","js/keyboard-shortcuts.en.js":"7de4e127b6af","js/markdown-it-loader.en.js":"5818ef89ff9d","js/moderator.en.js":"4989aaaca9f5","js/postCollections-transpiled.en.js":"8126e59701f9","js/post-validation.en.js":"09f528ac466a","js/question-editor.en.js":"","js/review-v2-transpiled.en.js":"d4e8ed8cd584","js/revisions.en.js":"839f528889ff","js/stacks-editor.en.js":"7c971287f03c","js/tageditor.en.js":"825c9597ce2d","js/tageditornew.en.js":"857acd8b77e4","js/tagsuggestions.en.js":"1bcff7d98f97","js/unlimited-transpiled.en.js":"7ed67670b600","js/wmd.en.js":"0ccf559d0629","js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+        StackExchange.using("gps", function () {
+            StackExchange.gps.init(false);
+        });
+    </script>
+</head>
+<body>
+
+    <div class="timeline-public print:d-none">
+        <div class="timeline-public-header">
+            <a class="logo" href="https://stackoverflow.com" title="Stack Overflow"></a>
+            <a href="#" class="s-btn s-btn__filled print-btn" onclick="window.print(); return false;">
+                <span class="icon-print"></span>
+                Print
+            </a>
+        </div>
+        
+
+<div class="timeline-wrapper">
+    <div class="timeline">
+
+        <header class="header">
+            
+<div id="form-section-PersonalInfo" class="header-edit-section header-edit-section-1">
+
+    <div class="display-only">
+        
+
+<div class="d-inline-block p12 bg-black-025 bar-lg my24 bs-md">
+    <img class="d-block bar-sm" src="https://www.gravatar.com/avatar/b6e20141459496c64aa8eac645b1f033?s=136&amp;r=PG&amp;d=https://i.stack.imgur.com/T119o.png" width="136" height="136">
+</div>
+
+<div class="name">
+    <h4>William Sorensen</h4>
+</div>
+
+    <div class="d-flex jc-center gs16 fc-light fw-wrap">
+            <div class="d-flex ai-center">
+                <div class="flex--item mr4"><svg aria-hidden="true" class="svg-icon iconLocation" width="18" height="18" viewBox="0 0 18 18"><path d="M2 6.38C2 9.91 8.1 17.7 8.1 17.7c.22.29.58.29.8 0 0 0 6.1-7.8 6.1-11.32A6.44 6.44 0 0 0 8.5 0 6.44 6.44 0 0 0 2 6.38Zm9.25.12a2.75 2.75 0 1 1-5.5 0 2.75 2.75 0 0 1 5.5 0Z"/></svg></div>
+                <div class="flex--item wmx2 truncate">Denver, CO, USA</div>
+            </div>
+
+
+            <a href="https://twitter.com/BillSorensen" rel="me" class="d-flex ai-center s-link s-link__inherit">
+                <div class="flex--item mr4"><svg aria-hidden="true" class="svg-icon iconTwitter" width="18" height="18" viewBox="0 0 18 18"><path d="M17 4.04c-.59.26-1.22.44-1.88.52a3.3 3.3 0 0 0 1.44-1.82c-.64.37-1.34.64-2.09.79a3.28 3.28 0 0 0-5.6 2.99A9.3 9.3 0 0 1 2.12 3.1a3.28 3.28 0 0 0 1.02 4.38 3.28 3.28 0 0 1-1.49-.4v.03a3.29 3.29 0 0 0 2.64 3.22 3.34 3.34 0 0 1-1.48.06 3.29 3.29 0 0 0 3.07 2.28 6.58 6.58 0 0 1-4.85 1.36 9.33 9.33 0 0 0 5.04 1.47c6.04 0 9.34-5 9.34-9.33v-.42a6.63 6.63 0 0 0 1.63-1.7L17 4.04Z" fill="#2AA3EF"/></svg></div>
+                <div class="flex--item">BillSorensen</div>
+            </a>
+
+            <a href="https://github.com/TrueWill" rel="me" class="d-flex ai-center s-link s-link__inherit">
+                <div class="flex--item mr4"><svg aria-hidden="true" class="svg-icon iconGitHub" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38l-.01-1.49c-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.42 7.42 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48l-.01 2.2c0 .21.15.46.55.38A8.01 8.01 0 0 0 9 1Z" fill="#010101"/></svg></div>
+                <div class="flex--item">TrueWill</div>
+            </a>
+                <div class="flex--item fl-none jc-center last-seen">Last active on Stack Overflow today</div>
+    </div>
+    <div class="network-accounts meta">
+            <div class="network-account">
+                <a href="https://stackoverflow.com/users/161457" title="Stack Overflow">
+                    <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div>
+                    <span class="score">24.3k</span>
+                </a>
+            </div>
+    </div>
+
+    </div>
+</div>
+            
+<div id="form-section-PersonalStatementAndTools" class="header-edit-section header-edit-section-2">
+
+    <div class="display-only">
+        <div class="description">
+
+
+</div>
+    </div>
+</div>
+            
+<div id="form-section-TechStack" class="header-edit-section header-edit-section-3">
+
+    <div class="display-only">
+        
+    <div class="user-technologies">
+            <label class="block">I want to work with</label>
+                <div class="timeline-item-tags">
+                        <span class="post-tag">typescript</span>
+                        <span class="post-tag">javascript</span>
+                        <span class="post-tag">reactjs</span>
+                        <span class="post-tag">node.js</span>
+                        <span class="post-tag">express</span>
+                        <span class="post-tag">git</span>
+                </div>
+        <div class="tag-wrapper">
+                        <div class="top top-1">
+                <div class="score has-tooltip">
+                        <div class="informative-tooltip display-above size-200">This user is part of the top 1% Stack Overflow answerers in this technology</div>
+                    <span class="number-top">top</span>
+                    <div class="number">1<span class="percent">%</span></div>
+                </div>
+
+                <div class="tag-wrapper-item">
+                        <span class="post-tag">c#</span>
+                </div>
+            </div>
+
+                        <div class="top top-2">
+                <div class="score has-tooltip">
+                        <div class="informative-tooltip display-above size-200">This user is part of the top 5% Stack Overflow answerers in these technologies</div>
+                    <span class="number-top">top</span>
+                    <div class="number">5<span class="percent">%</span></div>
+                </div>
+
+                <div class="tag-wrapper-item">
+                        <span class="post-tag">.net</span>
+                        <span class="post-tag">moq</span>
+                        <span class="post-tag">nunit</span>
+                        <span class="post-tag">oop</span>
+                        <span class="post-tag">polymorphism</span>
+                        <span class="post-tag dno more">unit-testing</span>
+                        <span class="post-tag dno more">unity-container</span>
+                        <a href="#" class="js-tag-toggle" title="2 more tags">more</a>
+                </div>
+            </div>
+
+                        <div class="top top-3">
+                <div class="score has-tooltip">
+                        <div class="informative-tooltip display-above size-200">This user is part of the top 10% Stack Overflow answerers in these technologies</div>
+                    <span class="number-top">top</span>
+                    <div class="number">10<span class="percent">%</span></div>
+                </div>
+
+                <div class="tag-wrapper-item">
+                        <span class="post-tag">c#-4.0</span>
+                        <span class="post-tag">dependency-injection</span>
+                        <span class="post-tag">design-patterns</span>
+                        <span class="post-tag">error-handling</span>
+                        <span class="post-tag">exception</span>
+                        <span class="post-tag dno more">inversion-of-control</span>
+                        <span class="post-tag dno more">linq</span>
+                        <span class="post-tag dno more">mocking</span>
+                        <span class="post-tag dno more">tdd</span>
+                        <span class="post-tag dno more">wcf</span>
+                        <span class="post-tag dno more">workflow-foundation</span>
+                        <a href="#" class="js-tag-toggle" title="6 more tags">more</a>
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        <div class="dislike">
+        </div>
+    </div>
+
+    </div>
+</div>
+            </header>
+        <div class="js-featured-assessments">
+            
+        </div>
+
+            <div class="timeline-feed">
+      
+                <div class="timeline-line"></div>
+
+                        <div id="item-9291684" class="timeline-item job" data-order-by="20220316-002-0009291684">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                Jan 2021 &#x2192; Current
+                    <span>(1 year, 3 months)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno  js-listcard-hover" data-list-url="/users/story/lists/8273/jellyvision?storyType=1">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+        <div class="img logo  js-listcard-hover" data-list-url="/users/story/lists/8273/jellyvision?storyType=1">
+            <img src="https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1397183073/5e8debbe11eb02f5713db0c5104d3db8.jpg" alt="Jellyvision" class="js-list-img" onerror="StackExchange.user.handleListImageError(this)"  data-list-id="8273"/>
+        </div>
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+Lead Software Engineer at        <span class="js-listcard-hover" data-list-url="/users/story/lists/8273/jellyvision?storyType=1">
+            <a href="https://stackoverflow.com/users/story/lists/8273/jellyvision?storyType=1">Jellyvision</a>
+        </span>
+
+</div>
+
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-8217441" class="timeline-item project github" data-order-by="20220316-000-0008217441">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Open source</span>
+
+
+                <span class="timeline-item-date">
+                Mar 2020 &#x2192; Current
+                    <span>(2 years, 1 month)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="img logo"></div>
+
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+   <a href="https://github.com/TrueWill/tzientist">Tzientist</a>
+</div>
+
+    <div class="-commits _last">Last commit on Nov 17, 21</div>
+    <div class="-commits">
+        <span>105 Commits / </span>
+        <span class="-additions">18,553 ++ </span>
+        <span>/</span>
+        <span class="-deletions">7,605 --</span>
+    </div>
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-8217441-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>A Scientist-like library for comparing legacy and refactored code paths in production environments.</p>
+</span>
+        <span class="description-content-truncated"><p>A Scientist-like library for comparing legacy and refactored code paths in production environments.</p>
+</span>
+        <label class="description-expander-label" for="item-8217441-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">typescript</span>
+            <span class="flex--item s-tag">node.js</span>
+    </div>
+
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-5931804" class="timeline-item project github" data-order-by="20220316-000-0005931804">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Open source</span>
+
+
+                <span class="timeline-item-date">
+                Aug 2018 &#x2192; Current
+                    <span>(3 years, 8 months)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="img logo"></div>
+
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+   <a href="https://github.com/UFGInsurance/mulint">mulint</a>
+</div>
+
+    <div class="-commits _last">Last commit on May 28, 19</div>
+    <div class="-commits">
+        <span>171 Commits / </span>
+        <span class="-additions">9,426 ++ </span>
+        <span>/</span>
+        <span class="-deletions">4,192 --</span>
+    </div>
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-5931804-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Mule project linter.</p>
+
+<p>Contributor.</p>
+</span>
+        <span class="description-content-truncated"><p>Mule project linter.</p>
+
+<p>Contributor.</p>
+</span>
+        <label class="description-expander-label" for="item-5931804-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">mule</span>
+            <span class="flex--item s-tag">node.js</span>
+    </div>
+
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298088" class="timeline-item project github" data-order-by="20220316-000-0001298088">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Open source</span>
+
+
+                <span class="timeline-item-date">
+                May 2012 &#x2192; Current
+                    <span>(9 years, 11 months)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="img logo"></div>
+
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+   <a href="https://github.com/TrueWill/FSM.NET">FSM.NET</a>
+</div>
+
+    <div class="-commits _last">Last commit on Mar 22, 20</div>
+    <div class="-commits">
+        <span>53 Commits / </span>
+        <span class="-additions">3,805 ++ </span>
+        <span>/</span>
+        <span class="-deletions">482 --</span>
+    </div>
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298088-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>A simple "stateless" finite-state machine library for .NET.</p>
+
+<p>Original author.</p>
+</span>
+        <span class="description-content-truncated"><p>A simple "stateless" finite-state machine library for .NET.</p>
+
+<p>Original author.</p>
+</span>
+        <label class="description-expander-label" for="item-1298088-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">f#</span>
+            <span class="flex--item s-tag">.net</span>
+            <span class="flex--item s-tag">finite-state-machine</span>
+            <span class="flex--item s-tag">functional-programming</span>
+    </div>
+
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-7310679" class="timeline-item job" data-order-by="20201201-002-0007310679">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                Jun 2019 &#x2192; Dec 2020
+                    <span>(1 year, 7 months)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno align-self js-listcard-hover" data-list-url="/users/story/lists/412729/redox?storyType=1">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+        <div class="img logo align-self js-listcard-hover" data-list-url="/users/story/lists/412729/redox?storyType=1">
+            <img src="https://i.stack.imgur.com/OUyXz.png" alt="Redox" class="js-list-img" onerror="StackExchange.user.handleListImageError(this)"  data-list-id="412729"/>
+        </div>
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+Engineering Architect at        <span class="js-listcard-hover" data-list-url="/users/story/lists/412729/redox?storyType=1">
+            <a href="https://stackoverflow.com/users/story/lists/412729/redox?storyType=1">Redox</a>
+        </span>
+
+</div>
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">node.js</span>
+            <span class="flex--item s-tag">typescript</span>
+            <span class="flex--item s-tag">javascript</span>
+            <span class="flex--item s-tag">apache-kafka</span>
+            <span class="flex--item s-tag">kafka-rest</span>
+            <span class="flex--item s-tag">postgresql</span>
+            <span class="flex--item s-tag">amazon-web-services</span>
+            <span class="flex--item s-tag">express</span>
+            <span class="flex--item s-tag">git</span>
+            <span class="flex--item s-tag">github</span>
+            <span class="flex--item s-tag">docker</span>
+            <span class="flex--item s-tag">kubernetes</span>
+            <span class="flex--item s-tag">reactjs</span>
+            <span class="flex--item s-tag">gatsby</span>
+            <span class="flex--item s-tag">jestjs</span>
+            <span class="flex--item s-tag">hl7-fhir</span>
+            <span class="flex--item s-tag">oauth-2.0</span>
+            <span class="flex--item s-tag">redis</span>
+            <span class="flex--item s-tag">grafana</span>
+            <span class="flex--item s-tag">knex.js</span>
+            <span class="flex--item s-tag">rancher</span>
+            <span class="flex--item s-tag">microservices</span>
+            <span class="flex--item s-tag">scrum</span>
+            <span class="flex--item s-tag">sumologic</span>
+            <span class="flex--item s-tag">openapi</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-7310679-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>With agile team, extracted several microservices from monolith, including Configurations service (DSL-based message translator). Revised Kafka wrapper library. Assisted with customer dashboard migration from AngularJS to React. Helped create and document FHIR-compliant RESTful API. Member of Developer Tooling Guild, Knowledge Champions, and Front End Guild. Worked on design, implementation, testing, deployment, documentation, and support. Frequently pair-programmed. Co-led Event Storming workshop.</p>
+</span>
+        <span class="description-content-truncated"><p>With agile team, extracted several microservices from monolith, including Configurations service (DSL-based message translator). Revised Kafka wrapper library. Assisted with customer dashboard migration from AngularJS to React. Helped create and document FHIR-compliant RESTful API. Member of Developer Tooling Guild, Knowledge Champions, and Front End Guild. Worked on design, implementation, testing, deployment, documentation, and support. Frequently pair-programmed. Co-led Event Storming workshop.</p>
+</span>
+        <label class="description-expander-label" for="item-7310679-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-5931791" class="timeline-item certification" data-order-by="20200301-000-0005931791">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Certification</span>
+
+
+                <span class="timeline-item-date">
+                Mar 2018 &#x2192; Mar 2020
+                    <span>(2 years, 1 month)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+<div class="timeline-item-title">
+MuleSoft Certified Developer - Integration and API Associate</div>
+
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">mule</span>
+    </div>
+
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-5931794" class="timeline-item certification" data-order-by="20200201-000-0005931794">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Certification</span>
+
+
+                <span class="timeline-item-date">
+                Feb 2018 &#x2192; Feb 2020
+                    <span>(2 years, 1 month)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+<div class="timeline-item-title">
+MuleSoft Certified Developer - API Design Associate (RAML 1.0)</div>
+
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">mule</span>
+    </div>
+
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-4373457" class="timeline-item job" data-order-by="20190501-002-0004373457">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                Apr 2017 &#x2192; May 2019
+                    <span>(2 years, 2 months)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno align-self " data-list-url="">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+         Enterprise Architect at United Fire Group, Inc.
+
+</div>
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">c#</span>
+            <span class="flex--item s-tag">asp.net-mvc</span>
+            <span class="flex--item s-tag">nunit</span>
+            <span class="flex--item s-tag">javascript</span>
+            <span class="flex--item s-tag">reactjs</span>
+            <span class="flex--item s-tag">redux</span>
+            <span class="flex--item s-tag">jestjs</span>
+            <span class="flex--item s-tag">mule</span>
+            <span class="flex--item s-tag">teamcity</span>
+            <span class="flex--item s-tag">octopus-deploy</span>
+            <span class="flex--item s-tag">sql-server</span>
+            <span class="flex--item s-tag">git</span>
+            <span class="flex--item s-tag">github</span>
+            <span class="flex--item s-tag">reselect</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-4373457-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Developed and supported insurance web applications with a team. Evaluated API gateways, front-end frameworks, and enterprise batch schedulers as part of decision process. Worked on back-end integrations and front-end code.</p>
+</span>
+        <span class="description-content-truncated"><p>Developed and supported insurance web applications with a team. Evaluated API gateways, front-end frameworks, and enterprise batch schedulers as part of decision process. Worked on back-end integrations and front-end code.</p>
+</span>
+        <label class="description-expander-label" for="item-4373457-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-5931781" class="timeline-item artifact" data-order-by="20181001-000-0005931781">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Blogs or videos</span>
+
+
+                <span class="timeline-item-date">
+                Oct 2018
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="timeline-item-text">
+            
+<div class="timeline-item-title">
+	    <a href="https://medium.com/@teamsorensen/3-career-changing-books-you-havent-read-75fa6dd82ac2">
+	        3 Career-changing Books You Haven&#x2019;t Read &#x2013; Bill Sorensen &#x2013; Medium
+	    </a>
+</div>
+
+
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-5931781-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Lesser-known books that made an impact on my career.</p>
+</span>
+        <span class="description-content-truncated"><p>Lesser-known books that made an impact on my career.</p>
+</span>
+        <label class="description-expander-label" for="item-5931781-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-5931777" class="timeline-item artifact" data-order-by="20181001-000-0005931777">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Blogs or videos</span>
+
+
+                <span class="timeline-item-date">
+                Oct 2018
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="timeline-item-text">
+            
+<div class="timeline-item-title">
+	    <a href="https://medium.com/@teamsorensen/key-principles-and-practices-of-software-development-1d029fbd9367">
+	        Key Principles and Practices of Software Development
+	    </a>
+</div>
+
+
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-5931777-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>This is a post on guidelines I wrote in 2010, updated only slightly.</p>
+</span>
+        <span class="description-content-truncated"><p>This is a post on guidelines I wrote in 2010, updated only slightly.</p>
+</span>
+        <label class="description-expander-label" for="item-5931777-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-2461710" class="timeline-item job" data-order-by="20170201-002-0002461710">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                Jun 2015 &#x2192; Feb 2017
+                    <span>(1 year, 9 months)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno align-self " data-list-url="">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+         Senior Software Developer at Geonetric
+
+</div>
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">c#</span>
+            <span class="flex--item s-tag">nancy</span>
+            <span class="flex--item s-tag">dapper</span>
+            <span class="flex--item s-tag">nunit</span>
+            <span class="flex--item s-tag">javascript</span>
+            <span class="flex--item s-tag">angularjs</span>
+            <span class="flex--item s-tag">jquery</span>
+            <span class="flex--item s-tag">jquery-validate</span>
+            <span class="flex--item s-tag">webpack</span>
+            <span class="flex--item s-tag">requirejs</span>
+            <span class="flex--item s-tag">jasmine</span>
+            <span class="flex--item s-tag">nightwatch.js</span>
+            <span class="flex--item s-tag">google-analytics</span>
+            <span class="flex--item s-tag">git</span>
+            <span class="flex--item s-tag">teamcity</span>
+            <span class="flex--item s-tag">octopus-deploy</span>
+            <span class="flex--item s-tag">sql-server</span>
+            <span class="flex--item s-tag">agile</span>
+            <span class="flex--item s-tag">scrum</span>
+            <span class="flex--item s-tag">domain-driven-design</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-2461710-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Worked on Agile teams to deliver HIPAA-compliant SaaS Single-Page Application (Form Builder) and internal Google Analytics reporting tool. Maintained other software products as needed.</p>
+</span>
+        <span class="description-content-truncated"><p>Worked on Agile teams to deliver HIPAA-compliant SaaS Single-Page Application (Form Builder) and internal Google Analytics reporting tool. Maintained other software products as needed.</p>
+</span>
+        <label class="description-expander-label" for="item-2461710-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298087" class="timeline-item generic" data-order-by="20170201-000-0001298087">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Background</span>
+
+
+                <span class="timeline-item-date">
+                Feb 2017
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="timeline-item-text">
+            
+<div class="timeline-item-title">
+Background</div>
+
+
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298087-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>I've been working full-time as a developer since 1993. In that time I've used dozens of technologies and many programming languages. The skills that transfer, though, are methodologies and design.</p>
+</span>
+        <span class="description-content-truncated"><p>I've been working full-time as a developer since 1993. In that time I've used dozens of technologies and many programming languages. The skills that transfer, though, are methodologies and design.</p>
+</span>
+        <label class="description-expander-label" for="item-1298087-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-2500593" class="timeline-item artifact" data-order-by="20160601-000-0002500593">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Blogs or videos</span>
+
+
+                <span class="timeline-item-date">
+                Jun 2016
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="timeline-item-text">
+            
+<div class="timeline-item-title">
+	    <a href="https://www.slideshare.net/TrueWill/mongodb-presentation-63334007">
+	        MongoDB presentation
+	    </a>
+</div>
+
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">mongodb</span>
+            <span class="flex--item s-tag">nosql</span>
+            <span class="flex--item s-tag">sql-server</span>
+            <span class="flex--item s-tag">membershipreboot</span>
+    </div>
+
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-2500593-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Slide deck (from hand-drawn cards, done with my wife's help) for office presentation: the “pro” side of a NoSQL debate.</p>
+</span>
+        <span class="description-content-truncated"><p>Slide deck (from hand-drawn cards, done with my wife's help) for office presentation: the “pro” side of a NoSQL debate.</p>
+</span>
+        <label class="description-expander-label" for="item-2500593-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-2470857" class="timeline-item project github" data-order-by="20160501-000-0002470857">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Open source</span>
+
+
+                <span class="timeline-item-date">
+                May 2016 &#x2192; May 2016
+                    <span>(1 month)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="img logo"></div>
+
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+   <a href="https://github.com/jquery-validation/jquery-validation/commit/3c323005e1b2e68877695f3a30c3427b1eb8a554">jquery-validation</a>
+</div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-2470857-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Minor bug fix to library; pull request accepted.</p>
+</span>
+        <span class="description-content-truncated"><p>Minor bug fix to library; pull request accepted.</p>
+</span>
+        <label class="description-expander-label" for="item-2470857-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">javascript</span>
+            <span class="flex--item s-tag">jquery</span>
+            <span class="flex--item s-tag">jquery-validate</span>
+    </div>
+
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-2470832" class="timeline-item generic" data-order-by="20151001-000-0002470832">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Volunteering</span>
+
+
+                <span class="timeline-item-date">
+                Oct 2015
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="timeline-item-text">
+            
+<div class="timeline-item-title">
+        <a href="https://www.geonetric.com/operation-overnight/">
+            Operation Overnight
+        </a>
+</div>
+
+
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">wordpress</span>
+            <span class="flex--item s-tag">contact-form-7</span>
+            <span class="flex--item s-tag">agile</span>
+            <span class="flex--item s-tag">scrum</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-2470832-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Built websites for local nonprofits with cross-functional teams in 24 hours (2015 and 2016).</p>
+</span>
+        <span class="description-content-truncated"><p>Built websites for local nonprofits with cross-functional teams in 24 hours (2015 and 2016).</p>
+</span>
+        <label class="description-expander-label" for="item-2470832-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298097" class="timeline-item job" data-order-by="20150501-002-0001298097">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                Dec 2014 &#x2192; May 2015
+                    <span>(6 months)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno align-self " data-list-url="">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+         Software Engineer III at J&amp;P Cycles
+
+</div>
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">c#</span>
+            <span class="flex--item s-tag">asp.net-mvc</span>
+            <span class="flex--item s-tag">topshelf</span>
+            <span class="flex--item s-tag">nunit</span>
+            <span class="flex--item s-tag">javascript</span>
+            <span class="flex--item s-tag">jquery</span>
+            <span class="flex--item s-tag">knockout.js</span>
+            <span class="flex--item s-tag">gruntjs</span>
+            <span class="flex--item s-tag">jasmine</span>
+            <span class="flex--item s-tag">git</span>
+            <span class="flex--item s-tag">github</span>
+            <span class="flex--item s-tag">teamcity</span>
+            <span class="flex--item s-tag">octopus-deploy</span>
+            <span class="flex--item s-tag">sql-server</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298097-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Worked with Agile team to support major retail website. Revised drop ship process for more real-time inventory data. Integrated Adobe Analytics on two web sites. Helped create fly-out shopping cart.</p>
+</span>
+        <span class="description-content-truncated"><p>Worked with Agile team to support major retail website. Revised drop ship process for more real-time inventory data. Integrated Adobe Analytics on two web sites. Helped create fly-out shopping cart.</p>
+</span>
+        <label class="description-expander-label" for="item-1298097-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-2478629" class="timeline-item certification" data-order-by="20150101-000-0002478629">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Certification</span>
+
+
+                <span class="timeline-item-date">
+                Nov 2014 &#x2192; Jan 2015
+                    <span>(3 months)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+<div class="timeline-item-title">
+        <a href="https://verify.edx.org/cert/46760a7399b34df491ac5700a20df6c1">
+            FP101x, Introduction to Functional Programming
+        </a>
+</div>
+
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">haskell</span>
+            <span class="flex--item s-tag">functional-programming</span>
+    </div>
+
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298090" class="timeline-item job" data-order-by="20141101-002-0001298090">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                Jul 2004 &#x2192; Nov 2014
+                    <span>(10 years, 5 months)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno align-self " data-list-url="">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+         Application Developer III at Integrated DNA Technologies, Inc.
+
+</div>
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">c#</span>
+            <span class="flex--item s-tag">asp.net-web-api</span>
+            <span class="flex--item s-tag">topshelf</span>
+            <span class="flex--item s-tag">entity-framework</span>
+            <span class="flex--item s-tag">dapper</span>
+            <span class="flex--item s-tag">winforms</span>
+            <span class="flex--item s-tag">workflow-foundation</span>
+            <span class="flex--item s-tag">nunit</span>
+            <span class="flex--item s-tag">nant</span>
+            <span class="flex--item s-tag">delphi</span>
+            <span class="flex--item s-tag">teamcity</span>
+            <span class="flex--item s-tag">sql-server</span>
+            <span class="flex--item s-tag">rabbitmq</span>
+            <span class="flex--item s-tag">bpm</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298090-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Gathered requirements, wrote user stories, performed iterative development, worked with teams, wrote unit and acceptance tests, deployed and supported software in a high-tech manufacturing environment. Worked on architecture team to set standards.</p>
+</span>
+        <span class="description-content-truncated"><p>Gathered requirements, wrote user stories, performed iterative development, worked with teams, wrote unit and acceptance tests, deployed and supported software in a high-tech manufacturing environment. Worked on architecture team to set standards.</p>
+</span>
+        <label class="description-expander-label" for="item-1298090-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-2500564" class="timeline-item artifact" data-order-by="20131001-000-0002500564">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Blogs or videos</span>
+
+
+                <span class="timeline-item-date">
+                Oct 2013
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="timeline-item-text">
+            
+<div class="timeline-item-title">
+	    <a href="https://www.slideshare.net/TrueWill/fsmnet-presentation">
+	        FSM.NET presentation
+	    </a>
+</div>
+
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">f#</span>
+            <span class="flex--item s-tag">.net</span>
+            <span class="flex--item s-tag">finite-state-machine</span>
+            <span class="flex--item s-tag">functional-programming</span>
+    </div>
+
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-2500564-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Slide deck for users' group presentation on my open source project.</p>
+</span>
+        <span class="description-content-truncated"><p>Slide deck for users' group presentation on my open source project.</p>
+</span>
+        <label class="description-expander-label" for="item-2500564-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298109" class="timeline-item achievement" data-order-by="20120706-000-0001298109">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts answered-accepted">0</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Jul 2012
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/11366665/calling-base-class-in-c-sharp-example/11367021#11367021">
+        Calling base class in C# example
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298108" class="timeline-item achievement" data-order-by="20120124-000-0001298108">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts answered-accepted">3</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Jan 2012
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/8966018/having-trouble-understanding-how-to-test-some-things/8981159#8981159">
+        Having trouble understanding how to test some things
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298107" class="timeline-item achievement" data-order-by="20120108-000-0001298107">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts">2</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Jan 2012
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/8776485/automated-testing-against-third-party-library-that-maintains-a-singleton-state-i/8779465#8779465">
+        Automated testing against third party library that maintains a singleton state internally
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298106" class="timeline-item achievement" data-order-by="20110821-000-0001298106">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts answered-accepted">2</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Aug 2011
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/7139187/workflow-foundation-design-concerns-considerations/7139751#7139751">
+        Workflow Foundation Design Concerns/Considerations?
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298105" class="timeline-item achievement" data-order-by="20100409-000-0001298105">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts">5</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Apr 2010
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/2609204/unit-testing-database-application-with-business-logic-performed-in-the-ui/2609410#2609410">
+        Unit testing database application with business logic performed in the UI
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298104" class="timeline-item achievement" data-order-by="20100305-000-0001298104">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts answered-accepted">3</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Mar 2010
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/2347951/using-moq-question/2384351#2384351">
+        using Moq - question
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298103" class="timeline-item achievement" data-order-by="20100213-000-0001298103">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts">9</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Feb 2010
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/2259241/comparison-between-cruisecontrol-teamcity-and-team-foundation-server/2259289#2259289">
+        Comparison between CruiseControl, TeamCity and Team Foundation Server
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298110" class="timeline-item artifact" data-order-by="20100101-000-0001298110">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Blogs or videos</span>
+
+
+                <span class="timeline-item-date">
+                Jan 2010
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="timeline-item-text">
+            
+<div class="timeline-item-title">
+	    <a href="http://www.truewill.net/myblog/index.php/2010/01/31/key_principles_and_practices_of_software">
+	        Key Principles and Practices of Software Development
+	    </a>
+</div>
+
+
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298110-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>The guidelines (not absolute rules!) I find most useful.</p>
+</span>
+        <span class="description-content-truncated"><p>The guidelines (not absolute rules!) I find most useful.</p>
+</span>
+        <label class="description-expander-label" for="item-1298110-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298102" class="timeline-item achievement" data-order-by="20091115-000-0001298102">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts">28</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Nov 2009
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/1736146/why-is-exception-handling-bad/1736492#1736492">
+        Why is exception handling bad?
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298101" class="timeline-item achievement" data-order-by="20090919-000-0001298101">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts">37</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Sep 2009
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/871405/why-do-i-need-an-ioc-container-as-opposed-to-straightforward-di-code/1447550#1447550">
+        Why do I need an IoC container as opposed to straightforward DI code?
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298100" class="timeline-item achievement" data-order-by="20090918-000-0001298100">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts">9</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Sep 2009
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read/1442468#1442468">
+        What is the single most influential book every programmer should read?
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298099" class="timeline-item achievement" data-order-by="20090831-000-0001298099">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts">12</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Aug 2009
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/1359841/what-are-some-performance-dos-donts-in-c-sharp-asp-net/1359940#1359940">
+        What are some Performance [Dos/Don&#x27;ts] in C# -ASP.NET
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298098" class="timeline-item achievement" data-order-by="20090824-000-0001298098">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+    <div class="icon-wrapper">
+        <div class="favicon-wrapper">
+            <div class="favicon favicon-stackoverflow"></div>
+        </div>
+
+        <div class="mini-counts">8</div>
+    </div>
+
+        <header>
+                <span class="timeline-item-type">Top post</span>
+
+
+                <span class="timeline-item-date">
+                Aug 2009
+            </span>
+        </header>
+
+    <div class="timeline-item-content ">
+        
+        <div class="timeline-item-text">
+            
+
+<div class="timeline-item-title">
+    <a href="https://stackoverflow.com/questions/1321352/why-choose-a-static-class-over-a-singleton-implementation/1323827#1323827">
+        Why choose a static class over a singleton implementation?
+    </a>
+</div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298091" class="timeline-item job" data-order-by="20041201-002-0001298091">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                2003 &#x2192; 2004
+                    <span>(2 years)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno align-self " data-list-url="">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+         Programmer at OverCoffee Productions, L.C.
+
+</div>
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">delphi</span>
+            <span class="flex--item s-tag">php</span>
+            <span class="flex--item s-tag">perl</span>
+            <span class="flex--item s-tag">mysql</span>
+            <span class="flex--item s-tag">oracle</span>
+            <span class="flex--item s-tag">linux</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298091-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Wrote client and server portions of remote web site administration/data transfer tool.</p>
+</span>
+        <span class="description-content-truncated"><p>Wrote client and server portions of remote web site administration/data transfer tool.</p>
+</span>
+        <label class="description-expander-label" for="item-1298091-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298092" class="timeline-item job" data-order-by="20031201-002-0001298092">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                1998 &#x2192; 2003
+                    <span>(6 years)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno align-self " data-list-url="">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+         Programmer/Analyst at ASItransact.com E-ASI Billing (formerly ASI/EDI)
+
+</div>
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">delphi</span>
+            <span class="flex--item s-tag">java</span>
+            <span class="flex--item s-tag">servlets</span>
+            <span class="flex--item s-tag">jdbc</span>
+            <span class="flex--item s-tag">ant</span>
+            <span class="flex--item s-tag">perl</span>
+            <span class="flex--item s-tag">edi</span>
+            <span class="flex--item s-tag">unit-testing</span>
+            <span class="flex--item s-tag">mysql</span>
+            <span class="flex--item s-tag">xpath</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298092-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Rewrote EDI (Electronic Data Interchange) network and client software, including EDI translator/mapper. Wrote e-commerce client and server-side software. Ported log4j to Delphi.</p>
+</span>
+        <span class="description-content-truncated"><p>Rewrote EDI (Electronic Data Interchange) network and client software, including EDI translator/mapper. Wrote e-commerce client and server-side software. Ported log4j to Delphi.</p>
+</span>
+        <label class="description-expander-label" for="item-1298092-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298095" class="timeline-item job" data-order-by="19981201-002-0001298095">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                1997 &#x2192; 1998
+                    <span>(2 years)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno align-self " data-list-url="">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+         Programmer/Analyst at Murdock Communications Corp.
+
+</div>
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">delphi</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298095-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Wrote analysis and reporting applications on telecommunications data.</p>
+</span>
+        <span class="description-content-truncated"><p>Wrote analysis and reporting applications on telecommunications data.</p>
+</span>
+        <label class="description-expander-label" for="item-1298095-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298093" class="timeline-item job" data-order-by="19971201-002-0001298093">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                1996 &#x2192; 1997
+                    <span>(2 years)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno align-self " data-list-url="">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+         Programmer/Analyst at Vanguard Appraisals, Inc.
+
+</div>
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">delphi</span>
+            <span class="flex--item s-tag">sql</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298093-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Worked with team to write commercial multi-user Windows CAMA (computer-aided mass appraisal) software. Developed software to integrate digital photographs with parcel data.</p>
+</span>
+        <span class="description-content-truncated"><p>Worked with team to write commercial multi-user Windows CAMA (computer-aided mass appraisal) software. Developed software to integrate digital photographs with parcel data.</p>
+</span>
+        <label class="description-expander-label" for="item-1298093-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298094" class="timeline-item job" data-order-by="19961201-002-0001298094">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                1995 &#x2192; 1996
+                    <span>(2 years)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno align-self " data-list-url="">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+         Programmer/Analyst at Featherlite Mfg., Inc.
+
+</div>
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">delphi</span>
+            <span class="flex--item s-tag">pick-basic</span>
+            <span class="flex--item s-tag">ca-clipper</span>
+            <span class="flex--item s-tag">c</span>
+            <span class="flex--item s-tag">unix</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298094-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Wrote client/server applications to access manufacturing and accounting data on HP-UX server. Heavily customized commercial ERP software. Performed UNIX system administration.</p>
+</span>
+        <span class="description-content-truncated"><p>Wrote client/server applications to access manufacturing and accounting data on HP-UX server. Heavily customized commercial ERP software. Performed UNIX system administration.</p>
+</span>
+        <label class="description-expander-label" for="item-1298094-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298096" class="timeline-item job" data-order-by="19951201-002-0001298096">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Position</span>
+
+
+                <span class="timeline-item-date">
+                1993 &#x2192; 1995
+                    <span>(3 years)</span>
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+    <div class="js-listcard-container" ></div>
+    <div class="g-center img logo logo-blank js-logo-blank dno align-self " data-list-url="">
+        <svg aria-hidden="true" class="svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6c1.09 0 2 .91 2 2v2h2c1.09 0 2 .91 2 2v8h-6ZM4 4v2h2V4H4Zm0 4v2h2V8H4Zm4-4v2h2V4H8Zm0 4v2h2V8H8Zm-4 4v2h2v-2H4Zm8 0v2h2v-2h-2Zm0-4v2h2V8h-2Z"/></svg>
+    </div>
+
+
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+         Programmer/Analyst at ASI/EDI Inc.
+
+</div>
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">ca-clipper</span>
+            <span class="flex--item s-tag">c</span>
+            <span class="flex--item s-tag">edi</span>
+    </div>
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298096-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Wrote and maintained software for EDI, telecommunications, order entry, and billing.</p>
+</span>
+        <span class="description-content-truncated"><p>Wrote and maintained software for EDI, telecommunications, order entry, and billing.</p>
+</span>
+        <label class="description-expander-label" for="item-1298096-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+                        <div id="item-1298089" class="timeline-item education" data-order-by="19851201-000-0001298089">
+    <div class="timeline-item-warning">
+        <div class="text ta-center">
+            <h4>Are you sure you want to do that?</h4>
+
+            <a class="s-btn s-btn__muted s-btn__outlined js-btn-warning">Cancel</a>
+            <a class="s-btn s-btn__filled s-btn__danger js-loader js-btn-confirm">Yes, delete it</a>
+        </div>
+    </div>
+
+
+        <header>
+                <span class="timeline-item-type">Education</span>
+
+
+                <span class="timeline-item-date">
+                1980 &#x2192; 1985
+            </span>
+        </header>
+
+    <div class="timeline-item-content with-description">
+        
+        <div class="timeline-item-text">
+            <div class="timeline-item-title">
+Computer Science (did not complete program), Iowa State University</div>
+
+    <div class="timeline-item-tags d-flex gs4 fl-none fw-wrap mt16">
+            <span class="flex--item s-tag">pascal</span>
+            <span class="flex--item s-tag">data-structures</span>
+    </div>
+
+
+
+    <div class="timeline-item-paragraph">
+    <div class="description">
+        <input class="dno description-expander" id="item-1298089-collapsible-description" type="checkbox"/>
+        <span class="description-content-full"><p>Freshman Honors Program, Dean’s List.</p>
+</span>
+        <span class="description-content-truncated"><p>Freshman Honors Program, Dean’s List.</p>
+</span>
+        <label class="description-expander-label" for="item-1298089-collapsible-description" data-less="Less" data-more="Read more"></label>
+    </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- /timeline-item -->
+
+            </div>
+
+        
+<div id="form-section-Readings" class="header-edit-section readings">
+
+    <div class="display-only">
+        
+    <h3 class="ta-center readings-title">Recommended reading</h3>
+    <div class="readings-list">
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/Framework-Design-Guidelines-Conventions-Libraries/dp/0321545613%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321545613" title="Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable .NET Libraries (2nd Edition)">Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable .NE...</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Krzysztof Cwalina, Brad Abrams">by Krzysztof Cwalina, Brad Abrams</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298112-summary" type="checkbox"/>
+        <span class="description-content-full"><p>This is one of my favorite technical books of recent years. It gives best practices, but more importantly, the reasons behind those practices. It taught me many of the idioms of .NET and C#.</p>
+</span>
+        <span class="description-content-truncated"><p>This is one of my favorite technical books of recent years. It gives best practices, but more importantly, the reasons behind those practices. It taught me many of the idioms of .NET and C#.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298112-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201485672" title="Refactoring: Improving the Design of Existing Code">Refactoring: Improving the Design of Existing Code</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts">by Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298113-summary" type="checkbox"/>
+        <span class="description-content-full"><p>This classic helped me to recognize code smells and to deal with them.</p>
+</span>
+        <span class="description-content-truncated"><p>This classic helped me to recognize code smells and to deal with them.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298113-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0201616416%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201616416" title="Extreme Programming Explained: Embrace Change">Extreme Programming Explained: Embrace Change</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Kent Beck">by Kent Beck</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298114-summary" type="checkbox"/>
+        <span class="description-content-full"><p>XP changed the way I see software development. While other methodologies (such as Scrum and Lean) have had recent successes in project management, XP's technical practices still hold up.</p>
+</span>
+        <span class="description-content-truncated"><p>XP changed the way I see software development. While other methodologies (such as Scrum and Lean) have had recent successes in project management, XP's technical practices still hold up.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298114-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0131177052" title="Working Effectively with Legacy Code">Working Effectively with Legacy Code</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Michael Feathers">by Michael Feathers</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298116-summary" type="checkbox"/>
+        <span class="description-content-full"><p>This is an excellent resource of techniques to safely change existing code, primarily through making it testable.</p>
+</span>
+        <span class="description-content-truncated"><p>This is an excellent resource of techniques to safely change existing code, primarily through making it testable.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298116-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0132350882" title="Clean Code: A Handbook of Agile Software Craftsmanship">Clean Code: A Handbook of Agile Software Craftsmanship</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Robert C. Martin">by Robert C. Martin</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298117-summary" type="checkbox"/>
+        <span class="description-content-full"><p>"Uncle Bob" made me think like a professional. I continue to try to live up to his exacting standards.</p>
+</span>
+        <span class="description-content-truncated"><p>"Uncle Bob" made me think like a professional. I continue to try to live up to his exacting standards.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298117-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="https://www.manning.com/books/the-art-of-unit-testing-second-edition" title="The Art of Unit Testing with examples in C# (2nd Edition)">The Art of Unit Testing with examples in C# (2nd Edition)</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Roy Osherove">by Roy Osherove</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298118-summary" type="checkbox"/>
+        <span class="description-content-full"><p>This book taught me to write better tests. I was one of the reviewers of the manuscript for the second edition.</p>
+</span>
+        <span class="description-content-truncated"><p>This book taught me to write better tests. I was one of the reviewers of the manuscript for the second edition.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298118-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0137081073" title="The Clean Coder: A Code of Conduct for Professional Programmers (Robert C. Martin Series)">The Clean Coder: A Code of Conduct for Professional Programmers (Robert C. Mart...</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Robert C. Martin">by Robert C. Martin</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298123-summary" type="checkbox"/>
+        <span class="description-content-full"><p>I feel this is one of the most important books for the software development field of the last ten years. It covers professional ethics and sets standards. Major topics include interpersonal skills and testing. The chapter on estimation is particularly good. While I don't agree with everything the author says, I agree with 90% of it.</p>
+</span>
+        <span class="description-content-truncated"><p>I feel this is one of the most important books for the software development field of the last ten years. It covers professional ethics and sets standards. Major topics include interpersonal skills and testing. The chapter on estimation is particularly good. While I don't agree with everything the author says, I agree with 90% of it.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298123-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201835959" title="The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition (2nd Edition)">The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition (2n...</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Frederick P. Brooks">by Frederick P. Brooks</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298124-summary" type="checkbox"/>
+        <span class="description-content-full"><p>The historical perspective of this book is impressive. Many "modern" Agile development ideas were conceived decades earlier.</p>
+</span>
+        <span class="description-content-truncated"><p>The historical perspective of this book is impressive. Many "modern" Agile development ideas were conceived decades earlier.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298124-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/Seven-Languages-Weeks-Programming-Programmers/dp/193435659X%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D193435659X" title="Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages (Pragmatic Programmers)">Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Langu...</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Bruce A. Tate">by Bruce A. Tate</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298126-summary" type="checkbox"/>
+        <span class="description-content-full"><p>Studying Scala, Erlang, Clojure, and Haskell improved my understanding of functional programming. I liked the inclusion of exercises; this was definitely a "participatory" book.</p>
+</span>
+        <span class="description-content-truncated"><p>Studying Scala, Erlang, Clojure, and Haskell improved my understanding of functional programming. I liked the inclusion of exercises; this was definitely a "participatory" book.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298126-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/Dependency-Injection-NET-Mark-Seemann/dp/1935182501%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1935182501" title="Dependency Injection in .NET">Dependency Injection in .NET</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Mark Seemann">by Mark Seemann</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298127-summary" type="checkbox"/>
+        <span class="description-content-full"><p>The book is an in-depth discussion of best practices for DI and IoC, along with specifics for C# projects. The author defines precise terms for discussing these topics. His <a href="http://blog.ploeh.dk/" rel="nofollow">blog</a> is also excellent. This book significantly improved my design skills.</p>
+</span>
+        <span class="description-content-truncated"><p>The book is an in-depth discussion of best practices for DI and IoC, along with specifics for C# projects. The author defines precise terms for discussing these topics. His <a href="http://blog.ploeh.dk/" rel="nofollow">blog</a> is also excellent. This book significantly improved my design skills.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298127-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/Domain-Specific-Languages-Addison-Wesley-Signature-Series/dp/0321712943%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321712943" title="Domain-Specific Languages (Addison-Wesley Signature Series (Fowler))">Domain-Specific Languages (Addison-Wesley Signature Series (Fowler))</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Martin Fowler">by Martin Fowler</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298128-summary" type="checkbox"/>
+        <span class="description-content-full"><p>Fowler is excellent at providing guidance. He knows that the answer is usually "it depends" - but he specifies the contexts and considerations on which it depends. I was very interested in DSLs before I read this, and now I have a much better idea of where they are applicable, as well as a great reference.</p>
+</span>
+        <span class="description-content-truncated"><p>Fowler is excellent at providing guidance. He knows that the answer is usually "it depends" - but he specifies the contexts and considerations on which it depends. I was very interested in DSLs before I read this, and now I have a much better idea of where they are applicable, as well as a great reference.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298128-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0596517742" title="JavaScript: The Good Parts">JavaScript: The Good Parts</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Douglas Crockford">by Douglas Crockford</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298130-summary" type="checkbox"/>
+        <span class="description-content-full"><p>The author helped me appreciate JavaScript as a "real" language, showcasing its functional programming capabilities and providing workarounds for the bad parts.</p>
+</span>
+        <span class="description-content-truncated"><p>The author helped me appreciate JavaScript as a "real" language, showcasing its functional programming capabilities and providing workarounds for the bad parts.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298130-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="readings-item">
+
+                <div class="readings-image is-empty"></div>
+
+                <div class="readings-item-text">
+                    <div class="readings-item-title">
+                            <a href="http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321125215" title="Domain-Driven Design: Tackling Complexity in the Heart of Software">Domain-Driven Design: Tackling Complexity in the Heart of Software</a>
+                    </div>
+
+                        <div class="readings-item-author" title="Eric Evans">by Eric Evans</div>
+
+                        <div class="readings-item-summary-wrapper">
+                            <div class="readings-item-summary">
+    <div class="description">
+        <input class="dno description-expander" id="form-section-Readings-1298131-summary" type="checkbox"/>
+        <span class="description-content-full"><p>Evans made it clear to me that developers need to acquire a deep understanding of the problem domain to build quality software. We have to be able to communicate with the stakeholders in their own language.</p>
+</span>
+        <span class="description-content-truncated"><p>Evans made it clear to me that developers need to acquire a deep understanding of the problem domain to build quality software. We have to be able to communicate with the stakeholders in their own language.</p>
+</span>
+        <label class="description-expander-label" for="form-section-Readings-1298131-summary" data-less="Less" data-more="Read more"></label>
+    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+    </div>
+
+    </div>
+</div>
+
+        <div class="footer-notice">
+            Company data powered by <a href="http://www.crunchbase.com" target="_blank" title="CrunchBase"></a>
+        </div>
+    </div>
+
+</div>
+    <script>
+        StackExchange.ready(function() {
+            if (StackExchange.user) {
+                StackExchange.user.initTimeline();
+                initTagRenderer("".split(" "), "".split(" "));
+            }
+        })
+    </script>
+
+    </div>
+
+    <div class="timeline-print d-none print:d-block">
+        
+
+<div class="wrapper">
+    <div class="col-full header">
+        <div class="name">
+            <h1>William Sorensen</h1>
+        </div>
+        <div class="personal-info" toggle-section="personal" toggle-section-title="Personal Info">
+ <span class="address" toggle-id="location" toggle-description="Address">Denver, CO, USA</span>  <span class="github" toggle-id="github" toggle-description="Github"><a href="https://github.com/TrueWill">https://github.com/TrueWill</a></span>         </div>
+    </div>
+
+
+        <div class="col-full skills" toggle-section="technical" toggle-section-title="Technical Skills">
+            <div class="col-left">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="col-right">
+                <table>
+                        <tr toggle-id="likes" toggle-description="Likes">
+                            <td class="tags">Likes:</td>
+                            <td>typescript javascript reactjs node.js express git</td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+
+        
+    <div class="col-full">
+        <div class="col-left">
+            <h2>Experience</h2>
+        </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jan 2021 &#x2192; Current
+                        </em>
+                    </span>
+                    <strong>Lead Software Engineer</strong>
+&ndash;                            <a href="http://jellyvision.com" class="title">
+                                Jellyvision
+                            </a>
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jun 2019 &#x2192; Dec 2020
+                        </em>
+                    </span>
+                    <strong>Engineering Architect</strong>
+&ndash;                            <a href="https://www.redoxengine.com/" class="title">
+                                Redox
+                            </a>
+                        <div>node.js, typescript, javascript, apache-kafka, kafka-rest, postgresql, amazon-web-services, express, git, github, docker, kubernetes, reactjs, gatsby, jestjs, hl7-fhir, oauth-2.0, redis, grafana, knex.js, rancher, microservices, scrum, sumologic, openapi</div>
+                </div>
+                <div class="description">
+                    <p>With agile team, extracted several microservices from monolith, including Configurations service (DSL-based message translator). Revised Kafka wrapper library. Assisted with customer dashboard migration from AngularJS to React. Helped create and document FHIR-compliant RESTful API. Member of Developer Tooling Guild, Knowledge Champions, and Front End Guild. Worked on design, implementation, testing, deployment, documentation, and support. Frequently pair-programmed. Co-led Event Storming workshop.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Apr 2017 &#x2192; May 2019
+                        </em>
+                    </span>
+                    <strong>Enterprise Architect</strong>
+&ndash;                            <a href="https://www.ufginsurance.com/" class="title">
+                                United Fire Group, Inc.
+                            </a>
+                        <div>c#, asp.net-mvc, nunit, javascript, reactjs, redux, jestjs, mule, teamcity, octopus-deploy, sql-server, git, github, reselect</div>
+                </div>
+                <div class="description">
+                    <p>Developed and supported insurance web applications with a team. Evaluated API gateways, front-end frameworks, and enterprise batch schedulers as part of decision process. Worked on back-end integrations and front-end code.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jun 2015 &#x2192; Feb 2017
+                        </em>
+                    </span>
+                    <strong>Senior Software Developer</strong>
+&ndash;                            <a href="https://www.geonetric.com/" class="title">
+                                Geonetric
+                            </a>
+                        <div>c#, nancy, dapper, nunit, javascript, angularjs, jquery, jquery-validate, webpack, requirejs, jasmine, nightwatch.js, google-analytics, git, teamcity, octopus-deploy, sql-server, agile, scrum, domain-driven-design</div>
+                </div>
+                <div class="description">
+                    <p>Worked on Agile teams to deliver HIPAA-compliant SaaS Single-Page Application (Form Builder) and internal Google Analytics reporting tool. Maintained other software products as needed.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Dec 2014 &#x2192; May 2015
+                        </em>
+                    </span>
+                    <strong>Software Engineer III</strong>
+&ndash;                            <span class="title">
+                                J&amp;P Cycles
+                            </span>
+                        <div>c#, asp.net-mvc, topshelf, nunit, javascript, jquery, knockout.js, gruntjs, jasmine, git, github, teamcity, octopus-deploy, sql-server</div>
+                </div>
+                <div class="description">
+                    <p>Worked with Agile team to support major retail website. Revised drop ship process for more real-time inventory data. Integrated Adobe Analytics on two web sites. Helped create fly-out shopping cart.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jul 2004 &#x2192; Nov 2014
+                        </em>
+                    </span>
+                    <strong>Application Developer III</strong>
+&ndash;                            <span class="title">
+                                Integrated DNA Technologies, Inc.
+                            </span>
+                        <div>c#, asp.net-web-api, topshelf, entity-framework, dapper, winforms, workflow-foundation, nunit, nant, delphi, teamcity, sql-server, rabbitmq, bpm</div>
+                </div>
+                <div class="description">
+                    <p>Gathered requirements, wrote user stories, performed iterative development, worked with teams, wrote unit and acceptance tests, deployed and supported software in a high-tech manufacturing environment. Worked on architecture team to set standards.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            2003 &#x2192; 2004
+                        </em>
+                    </span>
+                    <strong>Programmer</strong>
+&ndash;                            <span class="title">
+                                OverCoffee Productions, L.C.
+                            </span>
+                        <div>delphi, php, perl, mysql, oracle, linux</div>
+                </div>
+                <div class="description">
+                    <p>Wrote client and server portions of remote web site administration/data transfer tool.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            1998 &#x2192; 2003
+                        </em>
+                    </span>
+                    <strong>Programmer/Analyst</strong>
+&ndash;                            <span class="title">
+                                ASItransact.com E-ASI Billing (formerly ASI/EDI)
+                            </span>
+                        <div>delphi, java, servlets, jdbc, ant, perl, edi, unit-testing, mysql, xpath</div>
+                </div>
+                <div class="description">
+                    <p>Rewrote EDI (Electronic Data Interchange) network and client software, including EDI translator/mapper. Wrote e-commerce client and server-side software. Ported log4j to Delphi.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            1997 &#x2192; 1998
+                        </em>
+                    </span>
+                    <strong>Programmer/Analyst</strong>
+&ndash;                            <span class="title">
+                                Murdock Communications Corp.
+                            </span>
+                        <div>delphi</div>
+                </div>
+                <div class="description">
+                    <p>Wrote analysis and reporting applications on telecommunications data.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            1996 &#x2192; 1997
+                        </em>
+                    </span>
+                    <strong>Programmer/Analyst</strong>
+&ndash;                            <span class="title">
+                                Vanguard Appraisals, Inc.
+                            </span>
+                        <div>delphi, sql</div>
+                </div>
+                <div class="description">
+                    <p>Worked with team to write commercial multi-user Windows CAMA (computer-aided mass appraisal) software. Developed software to integrate digital photographs with parcel data.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            1995 &#x2192; 1996
+                        </em>
+                    </span>
+                    <strong>Programmer/Analyst</strong>
+&ndash;                            <span class="title">
+                                Featherlite Mfg., Inc.
+                            </span>
+                        <div>delphi, pick-basic, ca-clipper, c, unix</div>
+                </div>
+                <div class="description">
+                    <p>Wrote client/server applications to access manufacturing and accounting data on HP-UX server. Heavily customized commercial ERP software. Performed UNIX system administration.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            1993 &#x2192; 1995
+                        </em>
+                    </span>
+                    <strong>Programmer/Analyst</strong>
+&ndash;                            <span class="title">
+                                ASI/EDI Inc.
+                            </span>
+                        <div>ca-clipper, c, edi</div>
+                </div>
+                <div class="description">
+                    <p>Wrote and maintained software for EDI, telecommunications, order entry, and billing.</p>
+
+                </div>
+            </div>
+    </div>
+
+        
+    <div class="col-full">
+        <div class="col-left">
+            <h2>Education</h2>
+        </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            1980 &#x2192; 1985
+                        </em>
+                    </span>
+                    <strong>Computer Science (did not complete program)</strong>
+&ndash;                            <span class="title">
+                                Iowa State University
+                            </span>
+                        <div>pascal, data-structures</div>
+                </div>
+                <div class="description">
+                    <p>Freshman Honors Program, Dean’s List.</p>
+
+                </div>
+            </div>
+    </div>
+
+        
+    <div class="col-full">
+        <div class="col-left">
+            <h2>Certifications</h2>
+        </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Mar 2018 &#x2192; Mar 2020
+                        </em>
+                    </span>
+                    <strong>MuleSoft Certified Developer - Integration and API Associate</strong>
+                        <div>mule</div>
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Feb 2018 &#x2192; Feb 2020
+                        </em>
+                    </span>
+                    <strong>MuleSoft Certified Developer - API Design Associate (RAML 1.0)</strong>
+                        <div>mule</div>
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Nov 2014 &#x2192; Jan 2015
+                        </em>
+                    </span>
+                    <strong>FP101x, Introduction to Functional Programming</strong>
+&ndash;                        <a class="title" href="https://verify.edx.org/cert/46760a7399b34df491ac5700a20df6c1">
+                            https://verify.edx.org/cert/46760a7399b34df491ac5700a20df6c1
+                        </a>
+                        <div>haskell, functional-programming</div>
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+    </div>
+
+        
+    <div class="col-full">
+        <div class="col-left">
+            <h2>Projects &amp; Interests</h2>
+        </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Aug 2009 &#x2192; Current
+                        </em>
+                    </span>
+                    <strong>Stack Overflow</strong>
+&ndash;                        <a class="title" href="https://stackoverflow.com/users/161457/truewill">
+                            https://stackoverflow.com/users/161457/truewill
+                        </a>
+                </div>
+                <div class="description">
+                    Written 551 answers.  Active in c#, .net, moq, nunit, oop and 14 other tags.
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Mar 2020 &#x2192; Current
+                        </em>
+                    </span>
+                    <strong>Tzientist</strong>
+&ndash;                        <a class="title" href="https://github.com/TrueWill/tzientist">
+                            https://github.com/TrueWill/tzientist
+                        </a>
+                        <div>typescript, node.js</div>
+                </div>
+                <div class="description">
+                    <p>A Scientist-like library for comparing legacy and refactored code paths in production environments.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Aug 2018 &#x2192; Current
+                        </em>
+                    </span>
+                    <strong>mulint</strong>
+&ndash;                        <a class="title" href="https://github.com/UFGInsurance/mulint">
+                            https://github.com/UFGInsurance/mulint
+                        </a>
+                        <div>mule, node.js</div>
+                </div>
+                <div class="description">
+                    <p>Mule project linter.</p>
+
+<p>Contributor.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            May 2012 &#x2192; Current
+                        </em>
+                    </span>
+                    <strong>FSM.NET</strong>
+&ndash;                        <a class="title" href="https://github.com/TrueWill/FSM.NET">
+                            https://github.com/TrueWill/FSM.NET
+                        </a>
+                        <div>f#, .net, finite-state-machine, functional-programming</div>
+                </div>
+                <div class="description">
+                    <p>A simple "stateless" finite-state machine library for .NET.</p>
+
+<p>Original author.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            May 2016 &#x2192; May 2016
+                        </em>
+                    </span>
+                    <strong>jquery-validation</strong>
+&ndash;                        <a class="title" href="https://github.com/jquery-validation/jquery-validation/commit/3c323005e1b2e68877695f3a30c3427b1eb8a554">
+                            https://github.com/jquery-validation/jquery-validation/commit/3c323005e1b2e68877695f3a30c3427b1eb8a554
+                        </a>
+                        <div>javascript, jquery, jquery-validate</div>
+                </div>
+                <div class="description">
+                    <p>Minor bug fix to library; pull request accepted.</p>
+
+                </div>
+            </div>
+    </div>
+
+        
+    <div class="col-full">
+        <div class="col-left">
+            <h2>Public Artifacts</h2>
+        </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Oct 2018
+                        </em>
+                    </span>
+                    <strong>3 Career-changing Books You Haven&#x2019;t Read &#x2013; Bill Sorensen &#x2013; Medium</strong>
+&ndash;                        <a class="title" href="https://medium.com/@teamsorensen/3-career-changing-books-you-havent-read-75fa6dd82ac2">
+                            https://medium.com/@teamsorensen/3-career-changing-books-you-havent-read-75fa6dd82ac2
+                        </a>
+                </div>
+                <div class="description">
+                    <p>Lesser-known books that made an impact on my career.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Oct 2018
+                        </em>
+                    </span>
+                    <strong>Key Principles and Practices of Software Development</strong>
+&ndash;                        <a class="title" href="https://medium.com/@teamsorensen/key-principles-and-practices-of-software-development-1d029fbd9367">
+                            https://medium.com/@teamsorensen/key-principles-and-practices-of-software-development-1d029fbd9367
+                        </a>
+                </div>
+                <div class="description">
+                    <p>This is a post on guidelines I wrote in 2010, updated only slightly.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jun 2016
+                        </em>
+                    </span>
+                    <strong>MongoDB presentation</strong>
+&ndash;                        <a class="title" href="https://www.slideshare.net/TrueWill/mongodb-presentation-63334007">
+                            https://www.slideshare.net/TrueWill/mongodb-presentation-63334007
+                        </a>
+                        <div>mongodb, nosql, sql-server, membershipreboot</div>
+                </div>
+                <div class="description">
+                    <p>Slide deck (from hand-drawn cards, done with my wife's help) for office presentation: the “pro” side of a NoSQL debate.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Oct 2013
+                        </em>
+                    </span>
+                    <strong>FSM.NET presentation</strong>
+&ndash;                        <a class="title" href="https://www.slideshare.net/TrueWill/fsmnet-presentation">
+                            https://www.slideshare.net/TrueWill/fsmnet-presentation
+                        </a>
+                        <div>f#, .net, finite-state-machine, functional-programming</div>
+                </div>
+                <div class="description">
+                    <p>Slide deck for users' group presentation on my open source project.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Jan 2010
+                        </em>
+                    </span>
+                    <strong>Key Principles and Practices of Software Development</strong>
+&ndash;                        <a class="title" href="http://www.truewill.net/myblog/index.php/2010/01/31/key_principles_and_practices_of_software">
+                            http://www.truewill.net/myblog/index.php/2010/01/31/key_principles_and_practices_of_software
+                        </a>
+                </div>
+                <div class="description">
+                    <p>The guidelines (not absolute rules!) I find most useful.</p>
+
+                </div>
+            </div>
+    </div>
+
+        
+
+        
+    <div class="col-full">
+        <div class="col-left">
+            <h2>Others</h2>
+        </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Feb 2017
+                        </em>
+                    </span>
+                    <strong>Background</strong>
+&ndash;                            <span class="title">
+                                Background
+                            </span>
+                </div>
+                <div class="description">
+                    <p>I've been working full-time as a developer since 1993. In that time I've used dozens of technologies and many programming languages. The skills that transfer, though, are methodologies and design.</p>
+
+                </div>
+            </div>
+            <div class="col-right avoid-break">
+                <div class="meta">
+                    <span class="dates float-right">
+                        <em>
+                            Oct 2015
+                        </em>
+                    </span>
+                    <strong>Operation Overnight</strong>
+&ndash;                            <span class="title">
+                                Volunteering
+                            </span>
+                        <div>wordpress, contact-form-7, agile, scrum</div>
+                </div>
+                <div class="description">
+                    <p>Built websites for local nonprofits with cross-functional teams in 24 hours (2015 and 2016).</p>
+
+                </div>
+            </div>
+    </div>
+
+
+
+        <div class="col-full">
+            <div class="col-left">
+                <h2>Readings</h2>
+            </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable .NET Libraries (2nd Edition)</strong>
+
+&ndash;
+                            <span class="title">
+                                Krzysztof Cwalina, Brad Abrams
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/Framework-Design-Guidelines-Conventions-Libraries/dp/0321545613%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321545613
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>This is one of my favorite technical books of recent years. It gives best practices, but more importantly, the reasons behind those practices. It taught me many of the idioms of .NET and C#.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>Refactoring: Improving the Design of Existing Code</strong>
+
+&ndash;
+                            <span class="title">
+                                Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201485672
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>This classic helped me to recognize code smells and to deal with them.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>Extreme Programming Explained: Embrace Change</strong>
+
+&ndash;
+                            <span class="title">
+                                Kent Beck
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0201616416%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201616416
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>XP changed the way I see software development. While other methodologies (such as Scrum and Lean) have had recent successes in project management, XP's technical practices still hold up.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>Working Effectively with Legacy Code</strong>
+
+&ndash;
+                            <span class="title">
+                                Michael Feathers
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0131177052
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>This is an excellent resource of techniques to safely change existing code, primarily through making it testable.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>Clean Code: A Handbook of Agile Software Craftsmanship</strong>
+
+&ndash;
+                            <span class="title">
+                                Robert C. Martin
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0132350882
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>"Uncle Bob" made me think like a professional. I continue to try to live up to his exacting standards.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>The Art of Unit Testing with examples in C# (2nd Edition)</strong>
+
+&ndash;
+                            <span class="title">
+                                Roy Osherove
+                            </span>
+&ndash;
+                            <span class="title">
+                                https://www.manning.com/books/the-art-of-unit-testing-second-edition
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>This book taught me to write better tests. I was one of the reviewers of the manuscript for the second edition.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>The Clean Coder: A Code of Conduct for Professional Programmers (Robert C. Martin Series)</strong>
+
+&ndash;
+                            <span class="title">
+                                Robert C. Martin
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0137081073
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>I feel this is one of the most important books for the software development field of the last ten years. It covers professional ethics and sets standards. Major topics include interpersonal skills and testing. The chapter on estimation is particularly good. While I don't agree with everything the author says, I agree with 90% of it.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition (2nd Edition)</strong>
+
+&ndash;
+                            <span class="title">
+                                Frederick P. Brooks
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201835959
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>The historical perspective of this book is impressive. Many "modern" Agile development ideas were conceived decades earlier.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages (Pragmatic Programmers)</strong>
+
+&ndash;
+                            <span class="title">
+                                Bruce A. Tate
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/Seven-Languages-Weeks-Programming-Programmers/dp/193435659X%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D193435659X
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>Studying Scala, Erlang, Clojure, and Haskell improved my understanding of functional programming. I liked the inclusion of exercises; this was definitely a "participatory" book.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>Dependency Injection in .NET</strong>
+
+&ndash;
+                            <span class="title">
+                                Mark Seemann
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/Dependency-Injection-NET-Mark-Seemann/dp/1935182501%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1935182501
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>The book is an in-depth discussion of best practices for DI and IoC, along with specifics for C# projects. The author defines precise terms for discussing these topics. His <a href="http://blog.ploeh.dk/" rel="nofollow">blog</a> is also excellent. This book significantly improved my design skills.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>Domain-Specific Languages (Addison-Wesley Signature Series (Fowler))</strong>
+
+&ndash;
+                            <span class="title">
+                                Martin Fowler
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/Domain-Specific-Languages-Addison-Wesley-Signature-Series/dp/0321712943%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321712943
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>Fowler is excellent at providing guidance. He knows that the answer is usually "it depends" - but he specifies the contexts and considerations on which it depends. I was very interested in DSLs before I read this, and now I have a much better idea of where they are applicable, as well as a great reference.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>JavaScript: The Good Parts</strong>
+
+&ndash;
+                            <span class="title">
+                                Douglas Crockford
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0596517742
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>The author helped me appreciate JavaScript as a "real" language, showcasing its functional programming capabilities and providing workarounds for the bad parts.</p>
+
+                    </div>
+                </div>
+                <div class="col-right avoid-break">
+                    <div class="meta">
+                        <strong>Domain-Driven Design: Tackling Complexity in the Heart of Software</strong>
+
+&ndash;
+                            <span class="title">
+                                Eric Evans
+                            </span>
+&ndash;
+                            <span class="title">
+                                http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321125215
+                            </span>
+                    </div>
+                    <div class="description">
+                        <p>Evans made it clear to me that developers need to acquire a deep understanding of the problem domain to build quality software. We have to be able to communicate with the stakeholders in their own language.</p>
+
+                    </div>
+                </div>
+        </div>
+
+
+</div>
+
+    </div>
+</body>
+</html>

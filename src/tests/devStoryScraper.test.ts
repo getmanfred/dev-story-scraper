@@ -21,4 +21,9 @@ describe('A Dev Story scraper', () => {
     const result = await scraper.parse('fbuireu');
     expect(result).toMatchSnapshot();
   });
+
+  it('should parse open source projects from William Sorensen Dev Story', async () => {
+    const result = await scraper.parse('truewill');
+    expect(result).toMatchSnapshot();
+  });
 });

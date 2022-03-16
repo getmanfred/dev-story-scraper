@@ -1,5 +1,1327 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`A Dev Story scraper should parse open source projects from William Sorensen Dev Story 1`] = `
+Object {
+  "aboutMe": Object {
+    "profile": Object {
+      "avatar": Object {
+        "link": "https://www.gravatar.com/avatar/b6e20141459496c64aa8eac645b1f033?s=136&r=PG&d=https://i.stack.imgur.com/T119o.png",
+      },
+      "location": Object {
+        "country": "US",
+        "municipality": "Tampa",
+        "notes": "Autocompleted using Google Maps API",
+        "region": "Florida",
+      },
+      "name": "William",
+      "surnames": "Sorensen",
+      "title": "",
+    },
+    "recommendations": Array [
+      Object {
+        "URL": "http://www.amazon.com/Framework-Design-Guidelines-Conventions-Libraries/dp/0321545613%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321545613",
+        "authors": Array [
+          Object {
+            "name": "Krzysztof",
+            "surnames": "Cwalina",
+            "title": "Author",
+          },
+          Object {
+            "name": "Brad",
+            "surnames": "Abrams",
+            "title": "Author",
+          },
+        ],
+        "summary": "This is one of my favorite technical books of recent years. It gives best practices, but more importantly, the reasons behind those practices. It taught me many of the idioms of .NET and C#.",
+        "title": "Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable .NE...",
+      },
+      Object {
+        "URL": "http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201485672",
+        "authors": Array [
+          Object {
+            "name": "Martin",
+            "surnames": "Fowler",
+            "title": "Author",
+          },
+          Object {
+            "name": "Kent",
+            "surnames": "Beck",
+            "title": "Author",
+          },
+          Object {
+            "name": "John",
+            "surnames": "Brant",
+            "title": "Author",
+          },
+          Object {
+            "name": "William",
+            "surnames": "Opdyke",
+            "title": "Author",
+          },
+          Object {
+            "name": "Don",
+            "surnames": "Roberts",
+            "title": "Author",
+          },
+        ],
+        "summary": "This classic helped me to recognize code smells and to deal with them.",
+        "title": "Refactoring: Improving the Design of Existing Code",
+      },
+      Object {
+        "URL": "http://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0201616416%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201616416",
+        "authors": Array [
+          Object {
+            "name": "Kent",
+            "surnames": "Beck",
+            "title": "Author",
+          },
+        ],
+        "summary": "XP changed the way I see software development. While other methodologies (such as Scrum and Lean) have had recent successes in project management, XP's technical practices still hold up.",
+        "title": "Extreme Programming Explained: Embrace Change",
+      },
+      Object {
+        "URL": "http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0131177052",
+        "authors": Array [
+          Object {
+            "name": "Michael",
+            "surnames": "Feathers",
+            "title": "Author",
+          },
+        ],
+        "summary": "This is an excellent resource of techniques to safely change existing code, primarily through making it testable.",
+        "title": "Working Effectively with Legacy Code",
+      },
+      Object {
+        "URL": "http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0132350882",
+        "authors": Array [
+          Object {
+            "name": "Robert",
+            "surnames": "C. Martin",
+            "title": "Author",
+          },
+        ],
+        "summary": "\\"Uncle Bob\\" made me think like a professional. I continue to try to live up to his exacting standards.",
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      },
+      Object {
+        "URL": "https://www.manning.com/books/the-art-of-unit-testing-second-edition",
+        "authors": Array [
+          Object {
+            "name": "Roy",
+            "surnames": "Osherove",
+            "title": "Author",
+          },
+        ],
+        "summary": "This book taught me to write better tests. I was one of the reviewers of the manuscript for the second edition.",
+        "title": "The Art of Unit Testing with examples in C# (2nd Edition)",
+      },
+      Object {
+        "URL": "http://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0137081073",
+        "authors": Array [
+          Object {
+            "name": "Robert",
+            "surnames": "C. Martin",
+            "title": "Author",
+          },
+        ],
+        "summary": "I feel this is one of the most important books for the software development field of the last ten years. It covers professional ethics and sets standards. Major topics include interpersonal skills and testing. The chapter on estimation is particularly good. While I don't agree with everything the author says, I agree with 90% of it.",
+        "title": "The Clean Coder: A Code of Conduct for Professional Programmers (Robert C. Mart...",
+      },
+      Object {
+        "URL": "http://www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201835959",
+        "authors": Array [
+          Object {
+            "name": "Frederick",
+            "surnames": "P. Brooks",
+            "title": "Author",
+          },
+        ],
+        "summary": "The historical perspective of this book is impressive. Many \\"modern\\" Agile development ideas were conceived decades earlier.",
+        "title": "The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition (2n...",
+      },
+      Object {
+        "URL": "http://www.amazon.com/Seven-Languages-Weeks-Programming-Programmers/dp/193435659X%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D193435659X",
+        "authors": Array [
+          Object {
+            "name": "Bruce",
+            "surnames": "A. Tate",
+            "title": "Author",
+          },
+        ],
+        "summary": "Studying Scala, Erlang, Clojure, and Haskell improved my understanding of functional programming. I liked the inclusion of exercises; this was definitely a \\"participatory\\" book.",
+        "title": "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Langu...",
+      },
+      Object {
+        "URL": "http://www.amazon.com/Dependency-Injection-NET-Mark-Seemann/dp/1935182501%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1935182501",
+        "authors": Array [
+          Object {
+            "name": "Mark",
+            "surnames": "Seemann",
+            "title": "Author",
+          },
+        ],
+        "summary": "The book is an in-depth discussion of best practices for DI and IoC, along with specifics for C# projects. The author defines precise terms for discussing these topics. His [blog](http://blog.ploeh.dk/) is also excellent. This book significantly improved my design skills.",
+        "title": "Dependency Injection in .NET",
+      },
+      Object {
+        "URL": "http://www.amazon.com/Domain-Specific-Languages-Addison-Wesley-Signature-Series/dp/0321712943%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321712943",
+        "authors": Array [
+          Object {
+            "name": "Martin",
+            "surnames": "Fowler",
+            "title": "Author",
+          },
+        ],
+        "summary": "Fowler is excellent at providing guidance. He knows that the answer is usually \\"it depends\\" - but he specifies the contexts and considerations on which it depends. I was very interested in DSLs before I read this, and now I have a much better idea of where they are applicable, as well as a great reference.",
+        "title": "Domain-Specific Languages (Addison-Wesley Signature Series (Fowler))",
+      },
+      Object {
+        "URL": "http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0596517742",
+        "authors": Array [
+          Object {
+            "name": "Douglas",
+            "surnames": "Crockford",
+            "title": "Author",
+          },
+        ],
+        "summary": "The author helped me appreciate JavaScript as a \\"real\\" language, showcasing its functional programming capabilities and providing workarounds for the bad parts.",
+        "title": "JavaScript: The Good Parts",
+      },
+      Object {
+        "URL": "http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321125215",
+        "authors": Array [
+          Object {
+            "name": "Eric",
+            "surnames": "Evans",
+            "title": "Author",
+          },
+        ],
+        "summary": "Evans made it clear to me that developers need to acquire a deep understanding of the problem domain to build quality software. We have to be able to communicate with the stakeholders in their own language.",
+        "title": "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+      },
+    ],
+    "relevantLinks": Array [
+      Object {
+        "URL": "https://twitter.com/BillSorensen",
+        "type": "twitter",
+      },
+      Object {
+        "URL": "https://github.com/TrueWill",
+        "type": "github",
+      },
+    ],
+  },
+  "careerPreferences": Object {
+    "contact": Object {
+      "publicProfiles": Array [
+        Object {
+          "URL": "https://stackoverflow.com/story/truewill",
+          "type": "stackoverflow",
+        },
+      ],
+    },
+    "preferences": Object {
+      "preferredCompetences": Array [
+        Object {
+          "name": "typescript",
+          "type": "technology",
+        },
+        Object {
+          "name": "javascript",
+          "type": "technology",
+        },
+        Object {
+          "name": "reactjs",
+          "type": "technology",
+        },
+        Object {
+          "name": "node.js",
+          "type": "technology",
+        },
+        Object {
+          "name": "express",
+          "type": "technology",
+        },
+        Object {
+          "name": "git",
+          "type": "technology",
+        },
+      ],
+    },
+  },
+  "experience": Object {
+    "jobs": Array [
+      Object {
+        "organization": Object {
+          "URL": "https://stackoverflow.com/users/story/lists/8273/jellyvision?storyType=1",
+          "image": Object {
+            "alt": "Jellyvision",
+            "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1397183073/5e8debbe11eb02f5713db0c5104d3db8.jpg",
+          },
+          "name": "Jellyvision",
+        },
+        "roles": Array [
+          Object {
+            "name": "Lead Software Engineer",
+            "startDate": "2021-01-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "organization": Object {
+          "URL": "https://stackoverflow.com/users/story/lists/412729/redox?storyType=1",
+          "image": Object {
+            "alt": "Redox",
+            "link": "https://i.stack.imgur.com/OUyXz.png",
+          },
+          "name": "Redox",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "With agile team, extracted several microservices from monolith, including Configurations service (DSL-based message translator). Revised Kafka wrapper library. Assisted with customer dashboard migration from AngularJS to React. Helped create and document FHIR-compliant RESTful API. Member of Developer Tooling Guild, Knowledge Champions, and Front End Guild. Worked on design, implementation, testing, deployment, documentation, and support. Frequently pair-programmed. Co-led Event Storming workshop.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "node.js",
+                "type": "technology",
+              },
+              Object {
+                "name": "typescript",
+                "type": "technology",
+              },
+              Object {
+                "name": "javascript",
+                "type": "technology",
+              },
+              Object {
+                "name": "apache-kafka",
+                "type": "technology",
+              },
+              Object {
+                "name": "kafka-rest",
+                "type": "technology",
+              },
+              Object {
+                "name": "postgresql",
+                "type": "technology",
+              },
+              Object {
+                "name": "amazon-web-services",
+                "type": "technology",
+              },
+              Object {
+                "name": "express",
+                "type": "technology",
+              },
+              Object {
+                "name": "git",
+                "type": "technology",
+              },
+              Object {
+                "name": "github",
+                "type": "technology",
+              },
+              Object {
+                "name": "docker",
+                "type": "technology",
+              },
+              Object {
+                "name": "kubernetes",
+                "type": "technology",
+              },
+              Object {
+                "name": "reactjs",
+                "type": "technology",
+              },
+              Object {
+                "name": "gatsby",
+                "type": "technology",
+              },
+              Object {
+                "name": "jestjs",
+                "type": "technology",
+              },
+              Object {
+                "name": "hl7-fhir",
+                "type": "technology",
+              },
+              Object {
+                "name": "oauth-2.0",
+                "type": "technology",
+              },
+              Object {
+                "name": "redis",
+                "type": "technology",
+              },
+              Object {
+                "name": "grafana",
+                "type": "technology",
+              },
+              Object {
+                "name": "knex.js",
+                "type": "technology",
+              },
+              Object {
+                "name": "rancher",
+                "type": "technology",
+              },
+              Object {
+                "name": "microservices",
+                "type": "technology",
+              },
+              Object {
+                "name": "scrum",
+                "type": "technology",
+              },
+              Object {
+                "name": "sumologic",
+                "type": "technology",
+              },
+              Object {
+                "name": "openapi",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2020-12-01",
+            "name": "Engineering Architect",
+            "startDate": "2019-06-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "organization": Object {
+          "name": "United Fire Group, Inc.",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Developed and supported insurance web applications with a team. Evaluated API gateways, front-end frameworks, and enterprise batch schedulers as part of decision process. Worked on back-end integrations and front-end code.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "c#",
+                "type": "technology",
+              },
+              Object {
+                "name": "asp.net-mvc",
+                "type": "technology",
+              },
+              Object {
+                "name": "nunit",
+                "type": "technology",
+              },
+              Object {
+                "name": "javascript",
+                "type": "technology",
+              },
+              Object {
+                "name": "reactjs",
+                "type": "technology",
+              },
+              Object {
+                "name": "redux",
+                "type": "technology",
+              },
+              Object {
+                "name": "jestjs",
+                "type": "technology",
+              },
+              Object {
+                "name": "mule",
+                "type": "technology",
+              },
+              Object {
+                "name": "teamcity",
+                "type": "technology",
+              },
+              Object {
+                "name": "octopus-deploy",
+                "type": "technology",
+              },
+              Object {
+                "name": "sql-server",
+                "type": "technology",
+              },
+              Object {
+                "name": "git",
+                "type": "technology",
+              },
+              Object {
+                "name": "github",
+                "type": "technology",
+              },
+              Object {
+                "name": "reselect",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2019-05-01",
+            "name": "Enterprise Architect",
+            "startDate": "2017-04-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "organization": Object {
+          "name": "Geonetric",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Worked on Agile teams to deliver HIPAA-compliant SaaS Single-Page Application (Form Builder) and internal Google Analytics reporting tool. Maintained other software products as needed.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "c#",
+                "type": "technology",
+              },
+              Object {
+                "name": "nancy",
+                "type": "technology",
+              },
+              Object {
+                "name": "dapper",
+                "type": "technology",
+              },
+              Object {
+                "name": "nunit",
+                "type": "technology",
+              },
+              Object {
+                "name": "javascript",
+                "type": "technology",
+              },
+              Object {
+                "name": "angularjs",
+                "type": "technology",
+              },
+              Object {
+                "name": "jquery",
+                "type": "technology",
+              },
+              Object {
+                "name": "jquery-validate",
+                "type": "technology",
+              },
+              Object {
+                "name": "webpack",
+                "type": "technology",
+              },
+              Object {
+                "name": "requirejs",
+                "type": "technology",
+              },
+              Object {
+                "name": "jasmine",
+                "type": "technology",
+              },
+              Object {
+                "name": "nightwatch.js",
+                "type": "technology",
+              },
+              Object {
+                "name": "google-analytics",
+                "type": "technology",
+              },
+              Object {
+                "name": "git",
+                "type": "technology",
+              },
+              Object {
+                "name": "teamcity",
+                "type": "technology",
+              },
+              Object {
+                "name": "octopus-deploy",
+                "type": "technology",
+              },
+              Object {
+                "name": "sql-server",
+                "type": "technology",
+              },
+              Object {
+                "name": "agile",
+                "type": "technology",
+              },
+              Object {
+                "name": "scrum",
+                "type": "technology",
+              },
+              Object {
+                "name": "domain-driven-design",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2017-02-01",
+            "name": "Senior Software Developer",
+            "startDate": "2015-06-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "organization": Object {
+          "name": "J&P Cycles",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Worked with Agile team to support major retail website. Revised drop ship process for more real-time inventory data. Integrated Adobe Analytics on two web sites. Helped create fly-out shopping cart.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "c#",
+                "type": "technology",
+              },
+              Object {
+                "name": "asp.net-mvc",
+                "type": "technology",
+              },
+              Object {
+                "name": "topshelf",
+                "type": "technology",
+              },
+              Object {
+                "name": "nunit",
+                "type": "technology",
+              },
+              Object {
+                "name": "javascript",
+                "type": "technology",
+              },
+              Object {
+                "name": "jquery",
+                "type": "technology",
+              },
+              Object {
+                "name": "knockout.js",
+                "type": "technology",
+              },
+              Object {
+                "name": "gruntjs",
+                "type": "technology",
+              },
+              Object {
+                "name": "jasmine",
+                "type": "technology",
+              },
+              Object {
+                "name": "git",
+                "type": "technology",
+              },
+              Object {
+                "name": "github",
+                "type": "technology",
+              },
+              Object {
+                "name": "teamcity",
+                "type": "technology",
+              },
+              Object {
+                "name": "octopus-deploy",
+                "type": "technology",
+              },
+              Object {
+                "name": "sql-server",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2015-05-01",
+            "name": "Software Engineer III",
+            "startDate": "2014-12-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "organization": Object {
+          "name": "Integrated DNA Technologies, Inc.",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Gathered requirements, wrote user stories, performed iterative development, worked with teams, wrote unit and acceptance tests, deployed and supported software in a high-tech manufacturing environment. Worked on architecture team to set standards.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "c#",
+                "type": "technology",
+              },
+              Object {
+                "name": "asp.net-web-api",
+                "type": "technology",
+              },
+              Object {
+                "name": "topshelf",
+                "type": "technology",
+              },
+              Object {
+                "name": "entity-framework",
+                "type": "technology",
+              },
+              Object {
+                "name": "dapper",
+                "type": "technology",
+              },
+              Object {
+                "name": "winforms",
+                "type": "technology",
+              },
+              Object {
+                "name": "workflow-foundation",
+                "type": "technology",
+              },
+              Object {
+                "name": "nunit",
+                "type": "technology",
+              },
+              Object {
+                "name": "nant",
+                "type": "technology",
+              },
+              Object {
+                "name": "delphi",
+                "type": "technology",
+              },
+              Object {
+                "name": "teamcity",
+                "type": "technology",
+              },
+              Object {
+                "name": "sql-server",
+                "type": "technology",
+              },
+              Object {
+                "name": "rabbitmq",
+                "type": "technology",
+              },
+              Object {
+                "name": "bpm",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2014-11-01",
+            "name": "Application Developer III",
+            "startDate": "2004-07-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "organization": Object {
+          "name": "OverCoffee Productions, L.C.",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Wrote client and server portions of remote web site administration/data transfer tool.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "delphi",
+                "type": "technology",
+              },
+              Object {
+                "name": "php",
+                "type": "technology",
+              },
+              Object {
+                "name": "perl",
+                "type": "technology",
+              },
+              Object {
+                "name": "mysql",
+                "type": "technology",
+              },
+              Object {
+                "name": "oracle",
+                "type": "technology",
+              },
+              Object {
+                "name": "linux",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2004-01-01",
+            "name": "Programmer",
+            "startDate": "2003-01-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "organization": Object {
+          "name": "ASItransact.com E-ASI Billing (formerly ASI/EDI)",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Rewrote EDI (Electronic Data Interchange) network and client software, including EDI translator/mapper. Wrote e-commerce client and server-side software. Ported log4j to Delphi.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "delphi",
+                "type": "technology",
+              },
+              Object {
+                "name": "java",
+                "type": "technology",
+              },
+              Object {
+                "name": "servlets",
+                "type": "technology",
+              },
+              Object {
+                "name": "jdbc",
+                "type": "technology",
+              },
+              Object {
+                "name": "ant",
+                "type": "technology",
+              },
+              Object {
+                "name": "perl",
+                "type": "technology",
+              },
+              Object {
+                "name": "edi",
+                "type": "technology",
+              },
+              Object {
+                "name": "unit-testing",
+                "type": "technology",
+              },
+              Object {
+                "name": "mysql",
+                "type": "technology",
+              },
+              Object {
+                "name": "xpath",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2003-01-01",
+            "name": "Programmer/Analyst",
+            "startDate": "1998-01-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "organization": Object {
+          "name": "Murdock Communications Corp.",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Wrote analysis and reporting applications on telecommunications data.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "delphi",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "1998-01-01",
+            "name": "Programmer/Analyst",
+            "startDate": "1997-01-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "organization": Object {
+          "name": "Vanguard Appraisals, Inc.",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Worked with team to write commercial multi-user Windows CAMA (computer-aided mass appraisal) software. Developed software to integrate digital photographs with parcel data.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "delphi",
+                "type": "technology",
+              },
+              Object {
+                "name": "sql",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "1997-01-01",
+            "name": "Programmer/Analyst",
+            "startDate": "1996-01-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "organization": Object {
+          "name": "Featherlite Mfg., Inc.",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Wrote client/server applications to access manufacturing and accounting data on HP-UX server. Heavily customized commercial ERP software. Performed UNIX system administration.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "delphi",
+                "type": "technology",
+              },
+              Object {
+                "name": "pick-basic",
+                "type": "technology",
+              },
+              Object {
+                "name": "ca-clipper",
+                "type": "technology",
+              },
+              Object {
+                "name": "c",
+                "type": "technology",
+              },
+              Object {
+                "name": "unix",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "1996-01-01",
+            "name": "Programmer/Analyst",
+            "startDate": "1995-01-01",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "organization": Object {
+          "name": "ASI/EDI Inc.",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Wrote and maintained software for EDI, telecommunications, order entry, and billing.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "ca-clipper",
+                "type": "technology",
+              },
+              Object {
+                "name": "c",
+                "type": "technology",
+              },
+              Object {
+                "name": "edi",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "1995-01-01",
+            "name": "Programmer/Analyst",
+            "startDate": "1993-01-01",
+          },
+        ],
+        "type": "other",
+      },
+    ],
+    "projects": Array [
+      Object {
+        "details": Object {
+          "URL": "https://github.com/TrueWill/tzientist",
+          "description": "A Scientist-like library for comparing legacy and refactored code paths in production environments.",
+          "name": "Tzientist",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "typescript",
+                "type": "technology",
+              },
+              Object {
+                "name": "node.js",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2020-03-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/UFGInsurance/mulint",
+          "description": "Mule project linter.
+
+Contributor.",
+          "name": "mulint",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "mule",
+                "type": "technology",
+              },
+              Object {
+                "name": "node.js",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2018-08-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/TrueWill/FSM.NET",
+          "description": "A simple \\"stateless\\" finite-state machine library for .NET.
+
+Original author.",
+          "name": "FSM.NET",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "f#",
+                "type": "technology",
+              },
+              Object {
+                "name": ".net",
+                "type": "technology",
+              },
+              Object {
+                "name": "finite-state-machine",
+                "type": "technology",
+              },
+              Object {
+                "name": "functional-programming",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2012-05-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/jquery-validation/jquery-validation/commit/3c323005e1b2e68877695f3a30c3427b1eb8a554",
+          "description": "Minor bug fix to library; pull request accepted.",
+          "name": "jquery-validation",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "javascript",
+                "type": "technology",
+              },
+              Object {
+                "name": "jquery",
+                "type": "technology",
+              },
+              Object {
+                "name": "jquery-validate",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2016-05-01",
+            "name": "Developer",
+            "startDate": "2016-05-01",
+          },
+        ],
+        "type": "openSource",
+      },
+    ],
+    "publicArtifacts": Array [
+      Object {
+        "details": Object {
+          "URL": "https://medium.com/@teamsorensen/3-career-changing-books-you-havent-read-75fa6dd82ac2",
+          "description": "Lesser-known books that made an impact on my career.",
+          "name": "3 Career-changing Books You Haven’t Read – Bill Sorensen – Medium",
+        },
+        "publishingDate": "2018-10-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://medium.com/@teamsorensen/key-principles-and-practices-of-software-development-1d029fbd9367",
+          "description": "This is a post on guidelines I wrote in 2010, updated only slightly.",
+          "name": "Key Principles and Practices of Software Development",
+        },
+        "publishingDate": "2018-10-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.slideshare.net/TrueWill/mongodb-presentation-63334007",
+          "description": "Slide deck (from hand-drawn cards, done with my wife's help) for office presentation: the “pro” side of a NoSQL debate.",
+          "name": "MongoDB presentation",
+        },
+        "publishingDate": "2016-06-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "mongodb",
+            "type": "technology",
+          },
+          Object {
+            "name": "nosql",
+            "type": "technology",
+          },
+          Object {
+            "name": "sql-server",
+            "type": "technology",
+          },
+          Object {
+            "name": "membershipreboot",
+            "type": "technology",
+          },
+        ],
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://www.slideshare.net/TrueWill/fsmnet-presentation",
+          "description": "Slide deck for users' group presentation on my open source project.",
+          "name": "FSM.NET presentation",
+        },
+        "publishingDate": "2013-10-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "f#",
+            "type": "technology",
+          },
+          Object {
+            "name": ".net",
+            "type": "technology",
+          },
+          Object {
+            "name": "finite-state-machine",
+            "type": "technology",
+          },
+          Object {
+            "name": "functional-programming",
+            "type": "technology",
+          },
+        ],
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/11366665/calling-base-class-in-c-sharp-example/11367021#11367021",
+          "name": "Calling base class in C# example",
+        },
+        "publishingDate": "2012-07-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/8966018/having-trouble-understanding-how-to-test-some-things/8981159#8981159",
+          "name": "Having trouble understanding how to test some things",
+        },
+        "publishingDate": "2012-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/8776485/automated-testing-against-third-party-library-that-maintains-a-singleton-state-i/8779465#8779465",
+          "name": "Automated testing against third party library that maintains a singleton state internally",
+        },
+        "publishingDate": "2012-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/7139187/workflow-foundation-design-concerns-considerations/7139751#7139751",
+          "name": "Workflow Foundation Design Concerns/Considerations?",
+        },
+        "publishingDate": "2011-08-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/2609204/unit-testing-database-application-with-business-logic-performed-in-the-ui/2609410#2609410",
+          "name": "Unit testing database application with business logic performed in the UI",
+        },
+        "publishingDate": "2010-04-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/2347951/using-moq-question/2384351#2384351",
+          "name": "using Moq - question",
+        },
+        "publishingDate": "2010-03-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/2259241/comparison-between-cruisecontrol-teamcity-and-team-foundation-server/2259289#2259289",
+          "name": "Comparison between CruiseControl, TeamCity and Team Foundation Server",
+        },
+        "publishingDate": "2010-02-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "http://www.truewill.net/myblog/index.php/2010/01/31/key_principles_and_practices_of_software",
+          "description": "The guidelines (not absolute rules!) I find most useful.",
+          "name": "Key Principles and Practices of Software Development",
+        },
+        "publishingDate": "2010-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/1736146/why-is-exception-handling-bad/1736492#1736492",
+          "name": "Why is exception handling bad?",
+        },
+        "publishingDate": "2009-11-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/871405/why-do-i-need-an-ioc-container-as-opposed-to-straightforward-di-code/1447550#1447550",
+          "name": "Why do I need an IoC container as opposed to straightforward DI code?",
+        },
+        "publishingDate": "2009-09-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read/1442468#1442468",
+          "name": "What is the single most influential book every programmer should read?",
+        },
+        "publishingDate": "2009-09-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/1359841/what-are-some-performance-dos-donts-in-c-sharp-asp-net/1359940#1359940",
+          "name": "What are some Performance [Dos/Don'ts] in C# -ASP.NET",
+        },
+        "publishingDate": "2009-08-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/1321352/why-choose-a-static-class-over-a-singleton-implementation/1323827#1323827",
+          "name": "Why choose a static class over a singleton implementation?",
+        },
+        "publishingDate": "2009-08-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 1% Stack Overflow answerers in this technology",
+          "name": "Top 1% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 5% Stack Overflow answerers in these technologies",
+          "name": "Top 5% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 10% Stack Overflow answerers in these technologies",
+          "name": "Top 10% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "type": "achievement",
+      },
+    ],
+  },
+  "knowledge": Object {
+    "studies": Array [
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2020-03-01",
+        "institution": Object {
+          "name": "MuleSoft Certified Developer - Integration and API Associate",
+        },
+        "name": "MuleSoft Certified Developer - Integration and API Associate",
+        "startDate": "2018-03-01",
+        "studyType": "certification",
+      },
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2020-02-01",
+        "institution": Object {
+          "name": "MuleSoft Certified Developer - API Design Associate (RAML 1.0)",
+        },
+        "name": "MuleSoft Certified Developer - API Design Associate (RAML 1.0)",
+        "startDate": "2018-02-01",
+        "studyType": "certification",
+      },
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2015-01-01",
+        "institution": Object {
+          "URL": "https://verify.edx.org/cert/46760a7399b34df491ac5700a20df6c1",
+          "name": "FP101x, Introduction to Functional Programming",
+        },
+        "name": "FP101x, Introduction to Functional Programming",
+        "startDate": "2014-11-01",
+        "studyType": "certification",
+      },
+      Object {
+        "degreeAchieved": true,
+        "description": "Freshman Honors Program, Dean’s List.",
+        "finishDate": "1985-01-01",
+        "institution": Object {
+          "name": "Computer Science (did not complete program), Iowa State University",
+        },
+        "name": "Computer Science (did not complete program), Iowa State University",
+        "startDate": "1980-01-01",
+        "studyType": "officialDegree",
+      },
+    ],
+  },
+  "settings": Object {
+    "MACversion": "0.2",
+    "language": "EN",
+  },
+}
+`;
+
 exports[`A Dev Story scraper should parse the dev story from Ferran Buireu 1`] = `
 Object {
   "aboutMe": Object {
@@ -1089,7 +2411,7 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "startDate": "2021-09-01",
           },
         ],
-        "type": "other",
+        "type": "openSource",
       },
       Object {
         "details": Object {
@@ -1103,7 +2425,7 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "startDate": "2021-04-01",
           },
         ],
-        "type": "other",
+        "type": "openSource",
       },
       Object {
         "details": Object {
@@ -1116,7 +2438,7 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "startDate": "2020-11-01",
           },
         ],
-        "type": "other",
+        "type": "openSource",
       },
       Object {
         "details": Object {
@@ -1130,7 +2452,7 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "startDate": "2020-07-01",
           },
         ],
-        "type": "other",
+        "type": "openSource",
       },
       Object {
         "details": Object {
@@ -1144,7 +2466,7 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "startDate": "2020-03-01",
           },
         ],
-        "type": "other",
+        "type": "openSource",
       },
       Object {
         "details": Object {
@@ -1158,7 +2480,7 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "startDate": "2020-03-01",
           },
         ],
-        "type": "other",
+        "type": "openSource",
       },
       Object {
         "details": Object {
@@ -1173,7 +2495,7 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "startDate": "2021-01-01",
           },
         ],
-        "type": "other",
+        "type": "openSource",
       },
       Object {
         "details": Object {
