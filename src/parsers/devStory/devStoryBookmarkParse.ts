@@ -14,6 +14,7 @@ export class DevStoryBookmarkParse {
 
     return {
       title: stripString($('.readings-item-title').text()),
+      type: 'reading',
       URL: $('.readings-item-title a').attr('href'),
       authors: this.toBookmarkAuthors(authors),
       summary: Markdown.fromHTML($('.readings-item-summary .description-content-full').html() || ''),
