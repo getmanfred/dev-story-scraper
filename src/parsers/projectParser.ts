@@ -1,7 +1,8 @@
-import {DevStoryArtifact} from '../models/devStory/devStoryArtifact';
+import {DevStoryArtifact, DevStoryArtifactType} from '../models/devStory/devStoryArtifact';
 import {Project} from '../models/project';
 import {DatesParser} from './datesParser';
 import {CompetenceParser} from './competenceParser';
+import {ProjectType} from '../models/projectType';
 
 export class ProjectParser {
   static parse(artifact: DevStoryArtifact): Project {
@@ -18,7 +19,7 @@ export class ProjectParser {
           link: artifact.logo,
         },
       },
-      type: 'other',
+      type: ProjectParser.parseType(artifact.type),
       roles: [
         {
           name: 'Developer',
@@ -28,5 +29,13 @@ export class ProjectParser {
         },
       ],
     };
+  }
+
+  private static parseType(devStoryType: DevStoryArtifactType): ProjectType {
+    if (devStoryType === 'Open source') {
+      return 'openSource';
+    }
+
+    return 'other';
   }
 }
