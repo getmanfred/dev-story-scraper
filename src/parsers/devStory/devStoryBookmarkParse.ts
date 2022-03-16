@@ -1,7 +1,6 @@
 import {Author, Bookmark} from '../../models/bookmark';
 import cheerio from 'cheerio';
-import {stripString} from '../../utils/utils';
-import * as _ from 'lodash';
+import {asNameAndSurnames, stripString} from '../../utils/utils';
 import {Markdown} from '../../utils/markdown';
 
 export class DevStoryBookmarkParse {
@@ -22,10 +21,13 @@ export class DevStoryBookmarkParse {
   }
 
   private static toBookmarkAuthors(authors: string[]): Author[] {
-    return authors.map((a) => ({
-      name: _.head(a.split(' ')) || '',
-      surnames: _.tail(a.split(' ')).join(' ') || '',
-      title: 'Author',
-    }));
+    return authors.map((a) => {
+      const [name, surnames] = asNameAndSurnames(a);
+      return {
+        name,
+        surnames,
+        title: 'Author',
+      };
+    });
   }
 }
