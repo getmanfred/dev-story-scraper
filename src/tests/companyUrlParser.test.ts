@@ -1,48 +1,8 @@
 import {mock} from 'jest-mock-extended';
 import {readFileSync} from 'fs';
-import cheerio from 'cheerio';
-import {Logger} from '../utils/logger';
-import axios, {AxiosError} from 'axios';
-import {ProfileNotFoundException} from '../errors/profileNotFoundException';
 
-export class HttpClient {
-  async getHTML(url: string): Promise<string> {
-    const log = Logger.getInstance();
-
-    log.info(`loading ${url}`);
-
-    try {
-      const response = await axios.get(url);
-
-      log.debug(`${url} loaded`);
-
-      return response.data;
-    } catch (e) {
-      if ((e as AxiosError)?.response?.status === 404) {
-        throw new ProfileNotFoundException();
-      }
-
-      log.error(e as AxiosError);
-
-      throw e;
-    }
-  }
-}
-
-export class CompanyUrlParser {
-  constructor(private readonly httpClient: HttpClient) {}
-
-  async parseFrom(url: string): Promise<string> {
-    if (url.includes('stackoverflow.com')) {
-      const html = await this.httpClient.getHTML(url);
-      const $ = cheerio.load(html);
-
-      return $('.team-summary .-details a').get()[0]?.attribs?.href || url;
-    }
-
-    return url;
-  }
-}
+import {HttpClient} from '../clients/httpClient';
+import {CompanyUrlParser} from '../parsers/companyUrlParser';
 
 describe('A company URL parser', () => {
   const httpClient = mock<HttpClient>();
