@@ -62,7 +62,7 @@ export class AboutMeParser {
   }
 
   private async parseLocation($: CheerioAPI): Promise<Location> {
-    const location = stripString($('div.d-flex.ai-center').text());
+    const location = stripString($('div#form-section-PersonalInfo div.d-flex.ai-center').text());
 
     return this.geocoder.geocode(location);
   }
