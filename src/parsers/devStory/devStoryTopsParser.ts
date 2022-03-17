@@ -1,13 +1,9 @@
 import cheerio, {CheerioAPI} from 'cheerio';
-import {CareerPreferences} from '../../models/careerPreferences';
 import {PublicArtifact} from '../../models/publicArtifact';
 import {stripString} from '../../utils/utils';
-import {Competence} from '../../models/competence';
-import * as _ from 'lodash';
-import {CompetenceParser} from '../competenceParser';
 
 export class DevStoryTopsParser {
-  static parse($: CheerioAPI, careerPreferences: CareerPreferences): PublicArtifact[] {
+  static parse($: CheerioAPI): PublicArtifact[] {
     return $('.user-technologies .top')
       .get()
       .map((e) => {
@@ -17,7 +13,10 @@ export class DevStoryTopsParser {
           .get()
           .map((e) => stripString($(e).text() || ''));
 
-        const relatedCompetences = DevStoryTopsParser.parsePreferredCompetences(topTags, careerPreferences);
+        const relatedCompetences = topTags.map((tag) => ({
+          name: tag,
+          type: 'technology',
+        }));
 
         return {
           details: {
@@ -35,11 +34,5 @@ export class DevStoryTopsParser {
     const quantity = stripString($('.number').text());
 
     return `Top ${quantity} at Stack Overflow answers`;
-  }
-
-  private static parsePreferredCompetences(topTags: string[], careerPreferences: CareerPreferences): Competence[] {
-    const preferredCompetences = careerPreferences.preferences.preferredCompetences;
-
-    return _.intersectionBy(CompetenceParser.parse(topTags), preferredCompetences, 'name');
   }
 }

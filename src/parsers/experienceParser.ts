@@ -8,14 +8,13 @@ import {ProjectParser} from './projectParser';
 import {JobParser} from './jobParser';
 import {DevStoryArtifact} from '../models/devStory/devStoryArtifact';
 import {PublicArtifactParser} from './publicArtifactParser';
-import {CareerPreferences} from '../models/careerPreferences';
 import {DevStoryTopsParser} from './devStory/devStoryTopsParser';
 import {AchievementParser} from './achievementParser';
 
 export class ExperienceParser {
   constructor(private readonly jobParser: JobParser) {}
 
-  async parse($: CheerioAPI, careerPreferences: CareerPreferences): Promise<Experience> {
+  async parse($: CheerioAPI): Promise<Experience> {
     const devStoryPositions = $('div[class="timeline-item job"]')
       .map((i, e) => DevStoryPositionParser.parse($(e).html() || ''))
       .get();
@@ -28,7 +27,7 @@ export class ExperienceParser {
 
     const projects = timeLineItems.filter(this.isProject).map(ProjectParser.parse);
     const timeLineArtifacts = timeLineItems.filter(this.isPublicArtifact).map(PublicArtifactParser.parse);
-    const stackOverflowAchievements = DevStoryTopsParser.parse($, careerPreferences);
+    const stackOverflowAchievements = DevStoryTopsParser.parse($);
     const unknownArtifacts = timeLineItems.filter(this.isUnknownArtifact).map(AchievementParser.parse);
 
     return {

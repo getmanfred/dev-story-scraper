@@ -9,5 +9,9 @@ export const asNameAndSurnames = (input = ''): [string, string] => {
     return [match[1], match[3]];
   }
 
+  if (input !== '') {
+    return [input, input];
+  }
+
   return ['', ''];
 };

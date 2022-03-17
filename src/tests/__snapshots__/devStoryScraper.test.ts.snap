@@ -1254,6 +1254,12 @@ Original author.",
           "name": "Top 1% at Stack Overflow answers",
         },
         "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "c#",
+            "type": "technology",
+          },
+        ],
         "type": "achievement",
       },
       Object {
@@ -1262,6 +1268,36 @@ Original author.",
           "name": "Top 5% at Stack Overflow answers",
         },
         "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": ".net",
+            "type": "technology",
+          },
+          Object {
+            "name": "moq",
+            "type": "technology",
+          },
+          Object {
+            "name": "nunit",
+            "type": "technology",
+          },
+          Object {
+            "name": "oop",
+            "type": "technology",
+          },
+          Object {
+            "name": "polymorphism",
+            "type": "technology",
+          },
+          Object {
+            "name": "unit-testing",
+            "type": "technology",
+          },
+          Object {
+            "name": "unity-container",
+            "type": "technology",
+          },
+        ],
         "type": "achievement",
       },
       Object {
@@ -1270,6 +1306,52 @@ Original author.",
           "name": "Top 10% at Stack Overflow answers",
         },
         "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "c#-4.0",
+            "type": "technology",
+          },
+          Object {
+            "name": "dependency-injection",
+            "type": "technology",
+          },
+          Object {
+            "name": "design-patterns",
+            "type": "technology",
+          },
+          Object {
+            "name": "error-handling",
+            "type": "technology",
+          },
+          Object {
+            "name": "exception",
+            "type": "technology",
+          },
+          Object {
+            "name": "inversion-of-control",
+            "type": "technology",
+          },
+          Object {
+            "name": "linq",
+            "type": "technology",
+          },
+          Object {
+            "name": "mocking",
+            "type": "technology",
+          },
+          Object {
+            "name": "tdd",
+            "type": "technology",
+          },
+          Object {
+            "name": "wcf",
+            "type": "technology",
+          },
+          Object {
+            "name": "workflow-foundation",
+            "type": "technology",
+          },
+        ],
         "type": "achievement",
       },
       Object {
@@ -1356,7 +1438,7 @@ Original author.",
     ],
   },
   "settings": Object {
-    "MACversion": "0.2",
+    "MACversion": "0.3",
     "language": "EN",
   },
 }
@@ -3024,6 +3106,10 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "type": "technology",
           },
           Object {
+            "name": "graphql",
+            "type": "technology",
+          },
+          Object {
             "name": "reactjs",
             "type": "technology",
           },
@@ -3045,6 +3131,18 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
             "name": "javascript",
             "type": "technology",
           },
+          Object {
+            "name": "netlify",
+            "type": "technology",
+          },
+          Object {
+            "name": "node.js",
+            "type": "technology",
+          },
+          Object {
+            "name": "strapi",
+            "type": "technology",
+          },
         ],
         "type": "achievement",
       },
@@ -3057,6 +3155,10 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
         "relatedCompetences": Array [
           Object {
             "name": "html",
+            "type": "technology",
+          },
+          Object {
+            "name": "node-modules",
             "type": "technology",
           },
         ],
@@ -3150,7 +3252,7 @@ The rapid spread of these techniques makes them fundamental to the effective cha
     ],
   },
   "settings": Object {
-    "MACversion": "0.2",
+    "MACversion": "0.3",
     "language": "EN",
   },
 }
@@ -4762,6 +4864,10 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
             "name": "python",
             "type": "technology",
           },
+          Object {
+            "name": "ruby",
+            "type": "technology",
+          },
         ],
         "type": "achievement",
       },
@@ -4831,7 +4937,7 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
     ],
   },
   "settings": Object {
-    "MACversion": "0.2",
+    "MACversion": "0.3",
     "language": "EN",
   },
 }
@@ -6443,6 +6549,10 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
             "name": "python",
             "type": "technology",
           },
+          Object {
+            "name": "ruby",
+            "type": "technology",
+          },
         ],
         "type": "achievement",
       },
@@ -6512,7 +6622,905 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
     ],
   },
   "settings": Object {
-    "MACversion": "0.2",
+    "MACversion": "0.3",
+    "language": "EN",
+  },
+}
+`;
+
+exports[`A Dev Story scraper should parse the dev story from Martin Peck embedded 1`] = `
+Object {
+  "aboutMe": Object {
+    "interestingFacts": Array [
+      Object {
+        "fact": "Visual Studio Code",
+        "topic": "Favorite editor",
+      },
+      Object {
+        "fact": "Sinclair ZX81",
+        "topic": "First computer",
+      },
+    ],
+    "profile": Object {
+      "avatar": Object {
+        "link": "https://www.gravatar.com/avatar/ddcb67dc4378c7d82d4ea8de932f541e?s=136&r=PG&d=https://i.stack.imgur.com/T119o.png",
+      },
+      "location": Object {
+        "country": "US",
+        "municipality": "Tampa",
+        "notes": "Autocompleted using Google Maps API",
+        "region": "Florida",
+      },
+      "name": "Martin",
+      "surnames": "Peck",
+      "title": "Software Engineering Manager - Leading Teams and Contributing Code",
+    },
+    "recommendations": Array [
+      Object {
+        "URL": "http://www.amazon.com/Team-Geek-Software-Developers-Working/dp/1449302440",
+        "authors": Array [
+          Object {
+            "name": "Brian W.",
+            "surnames": "Fitzpatrick",
+            "title": "Author",
+          },
+          Object {
+            "name": "Ben",
+            "surnames": "Collins-Sussman",
+            "title": "Author",
+          },
+        ],
+        "title": "Team Geek: A Software Developer's Guide to Working Well with Others",
+        "type": "reading",
+      },
+    ],
+    "relevantLinks": Array [
+      Object {
+        "URL": "http://martinpeck.com",
+        "type": "other",
+      },
+      Object {
+        "URL": "https://twitter.com/martinpeck",
+        "type": "twitter",
+      },
+      Object {
+        "URL": "https://github.com/martinpeck",
+        "type": "github",
+      },
+    ],
+  },
+  "careerPreferences": Object {
+    "contact": Object {
+      "publicProfiles": Array [
+        Object {
+          "URL": "https://twitter.com/martinpeck",
+          "type": "other",
+        },
+        Object {
+          "URL": "https://github.com/martinpeck",
+          "type": "other",
+        },
+      ],
+    },
+    "preferences": Object {
+      "preferredCompetences": Array [
+        Object {
+          "name": "azure",
+          "type": "technology",
+        },
+        Object {
+          "name": "amazon-web-services",
+          "type": "technology",
+        },
+        Object {
+          "name": "python",
+          "type": "technology",
+        },
+        Object {
+          "name": "graphql",
+          "type": "technology",
+        },
+        Object {
+          "name": "rest",
+          "type": "technology",
+        },
+        Object {
+          "name": "javascript",
+          "type": "technology",
+        },
+        Object {
+          "name": "node.js",
+          "type": "technology",
+        },
+      ],
+    },
+  },
+  "experience": Object {
+    "jobs": Array [
+      Object {
+        "organization": Object {
+          "URL": "http://www.fon.com",
+          "image": Object {
+            "alt": "Microsoft",
+            "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1501613147/ypg7mliwmzomf9fdrkvz.png",
+          },
+          "name": "Microsoft",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "azure",
+                "type": "technology",
+              },
+              Object {
+                "name": "python",
+                "type": "technology",
+              },
+              Object {
+                "name": "kubernetes",
+                "type": "technology",
+              },
+              Object {
+                "name": "serverless",
+                "type": "technology",
+              },
+              Object {
+                "name": "azure-functions",
+                "type": "technology",
+              },
+              Object {
+                "name": "terraform",
+                "type": "technology",
+              },
+              Object {
+                "name": "go",
+                "type": "technology",
+              },
+            ],
+            "name": "Principal Software Engineering Manager",
+            "startDate": "2017-10-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "Lexis-Nexis UK",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": ".net",
+                "type": "technology",
+              },
+              Object {
+                "name": "c#",
+                "type": "technology",
+              },
+              Object {
+                "name": "amazon-web-services",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2017-08-31",
+            "name": "Director of Engineering",
+            "startDate": "2016-10-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "Raspberry Pi Foundation and Code Club",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Code Club is a not-for-profit organisation that has created a nationwide network of volunteer-led after school coding clubs for children aged 9-11. Code Club has recently merged with the Raspberry Pi Foundation (RPF), and I now have responsibility for delivering services used by both Code Club and RPF.
+
+When joined Code Club the developers there were not part of a single team. Now, under my leadership, Code Club has a cohesive engineering team that share engineering practices and tool set. The engineering team is now capable of reacting to the business’ needs, able to build software in a sustainable manner, and achieves the right balance between building things quickly and building them to last. Having performed a full review of Code Club’s code and infrastructure, I have lead a number of work streams that have resulted in Code Club now having a modern engineering pipeline.
+
+In addition to leading the engineering team, I have taken on a number of other tasks including those of Product Lead. I have helped define and document Code Club’s product roadmap, and am currently helping to do the same for the Raspberry Pi Foundation.
+
+The team size at Code Club has allowed me to remain hands-on, and I’ve been responsible for the delivery of a number of features. I regularly work with my team to perform code and design reviews.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "ruby",
+                "type": "technology",
+              },
+              Object {
+                "name": "ruby-on-rails",
+                "type": "technology",
+              },
+              Object {
+                "name": "vagrant",
+                "type": "technology",
+              },
+              Object {
+                "name": "sinatra",
+                "type": "technology",
+              },
+              Object {
+                "name": "jekyll",
+                "type": "technology",
+              },
+              Object {
+                "name": "newrelic",
+                "type": "technology",
+              },
+              Object {
+                "name": "python",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2016-10-31",
+            "name": "Director of Engineering",
+            "startDate": "2015-01-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "blinkbox Books",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "As Director of Engineering I looked after more than 50 developers, testers and operations engineers. My role included making strategic technology decisions, working closely with the management team, and remaining hands on and deeply involved in the work of the technology group. I oversaw the ground up re-architecture of the platform, from client apps, website through to new RESTful API and SOA based back end.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "scala",
+                "type": "technology",
+              },
+              Object {
+                "name": "java",
+                "type": "technology",
+              },
+              Object {
+                "name": "ruby",
+                "type": "technology",
+              },
+              Object {
+                "name": "angularjs",
+                "type": "technology",
+              },
+              Object {
+                "name": "android",
+                "type": "technology",
+              },
+              Object {
+                "name": "ios",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2015-01-31",
+            "name": "Director of Engineering",
+            "startDate": "2013-01-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "blinkbox entertainment",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Leading teams of developers who are building video playback experiences across TV, PC, mobile devices and games consoles.
+
+Working closely with Test, Product Management and Operations Teams to ensure the delivery of high quality products that delight customers.
+
+Planning and delivery of features.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "c#",
+                "type": "technology",
+              },
+              Object {
+                "name": ".net",
+                "type": "technology",
+              },
+              Object {
+                "name": "asp.net-mvc",
+                "type": "technology",
+              },
+              Object {
+                "name": "objective-c",
+                "type": "technology",
+              },
+              Object {
+                "name": "html",
+                "type": "technology",
+              },
+              Object {
+                "name": "javascript",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2013-01-31",
+            "name": "Head of Client Devices Development",
+            "startDate": "2012-03-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "Microsoft",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Principal Development Lead of the EMEA development team as part of Microsoft's Interactive Entertainment Business (IEB).
+
+I lead a team building video and TV experiences for platforms such as Microsoft Xbox and Microsoft Mediaroom that are used by millions of people worldwide everyday.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "asp.net-mvc",
+                "type": "technology",
+              },
+              Object {
+                "name": "sql-server",
+                "type": "technology",
+              },
+              Object {
+                "name": ".net-cf-3.5",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2012-03-31",
+            "name": "Principal Development Lead",
+            "startDate": "2001-11-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "Elysium Consultants Ltd",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "html",
+                "type": "technology",
+              },
+              Object {
+                "name": "javascript",
+                "type": "technology",
+              },
+              Object {
+                "name": "sql-server",
+                "type": "technology",
+              },
+              Object {
+                "name": "vb6",
+                "type": "technology",
+              },
+              Object {
+                "name": "com+",
+                "type": "technology",
+              },
+              Object {
+                "name": "oracle",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2005-11-30",
+            "name": "Contract Software Engineer",
+            "startDate": "1995-01-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "BMW (GB) Ltd",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "vb6",
+                "type": "technology",
+              },
+              Object {
+                "name": "sql-server",
+                "type": "technology",
+              },
+              Object {
+                "name": "mts",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "1999-01-01",
+            "name": "Contract Software Development Engineer",
+            "startDate": "1997-01-01",
+          },
+        ],
+      },
+    ],
+    "projects": Array [
+      Object {
+        "details": Object {
+          "URL": "https://github.com/martinpeck/ocr_tool",
+          "description": "A Python tool that uses Azure Cognitive Services to OCR text from images",
+          "name": "OCR Tool using Azure Computer Vision",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "python",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2019-11-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/martinpeck/bedlam-slack",
+          "description": "A python flask based app that implements some pretty pointless Slack slash commands.",
+          "name": "bedlam-slack",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "python",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2016-04-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/martinpeck/random-pi",
+          "description": "Random files from my Raspberry Pi",
+          "name": "random-pi",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "python",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2015-09-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/martinpeck/martinpeck.com",
+          "description": "My blog, hosted at martinpeck.com",
+          "name": "martinpeck.com",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "css",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2015-07-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/martinpeck/gh-issue-label-generator",
+          "description": "Generates issue labels in GitHub repositories because doing it manually is boring.",
+          "name": "gh-issue-label-generator",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "python",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2015-06-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/martinpeck/plinky",
+          "description": "Python Link Redirection.",
+          "name": "plinky",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "python",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2015-06-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/martinpeck/python-projects",
+          "description": "A collection of Python scripts.",
+          "name": "python-projects",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "python",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2015-05-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/martinpeck/scratch-curriculum",
+          "description": "Term 1 and 2 of Code Club, learning Scratch",
+          "name": "scratch-curriculum",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "ruby",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2013-08-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/martinpeck/progfun",
+          "description": "Code exercises written as part of the \\"Functional Programming Principles in Scala\\" course on Coursera",
+          "name": "progfun",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "scala",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2013-04-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/opencb/opencga/",
+          "description": "An Open Computational Genomics Analysis platform for big data processing and analysis in genomics",
+          "name": "OpenCGA",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "java",
+                "type": "technology",
+              },
+              Object {
+                "name": "azure",
+                "type": "technology",
+              },
+              Object {
+                "name": "arm",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2019-03-31",
+            "name": "Developer",
+            "startDate": "2018-11-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/martinpeck/vigenere-cipher-app",
+          "description": "A Vue.js app that encodes and decodes text using a Vigenere cipher",
+          "name": "martinpeck/vigenere-cipher-app",
+        },
+        "roles": Array [
+          Object {
+            "finishDate": "2017-09-30",
+            "name": "Developer",
+            "startDate": "2017-09-01",
+          },
+        ],
+        "type": "openSource",
+      },
+    ],
+    "publicArtifacts": Array [
+      Object {
+        "details": Object {
+          "URL": "http://martinpeck.com/blog/2016/04/02/plinky-short-urls/",
+          "description": "I recently got frustrated with Bitly as a url shorter and decided to write my own simple alternative.",
+          "name": "plinky - A bit like Bitly · martinpeck.com",
+        },
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://blogs.msdn.microsoft.com/mpeck/2009/03/31/solving-problems-in-c-and-f-part-2/",
+          "description": "UPDATE: It’s been pointed out that the extension method RaiseToThePowerOf isn’t required. I’ve updated the C# solution to Problem 25 here, but left this post “as is”. This is part one of a three part…",
+          "name": "Solving Problems in C# and F# – Part 2 | Peck's Blog — Peck's Blog",
+        },
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://blogs.msdn.microsoft.com/mpeck/2009/03/03/solving-problems-in-c-and-f-part-1/",
+          "description": "On a recently snowboarding holiday I found myself having some decidedly geeky conversations with a good friend of mine, Giles Knap. Giles is currently learning F# and was extolling its virtues while…",
+          "name": "Solving Problems in C# and F# – Part 1 | Peck's Blog — Peck's Blog",
+        },
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "http://martinpeck.com/blog/2016/01/23/volunteering-for-code-club/",
+          "description": "I joined Code Club in Jan 2015 to head up their engineering team. However, way before this I was already voluneering for Code Club.",
+          "name": "Volunteering for Code Club · martinpeck.com",
+        },
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://martinpeck.com/blog/2020/11/06/Raspberry-Pi-400/",
+          "description": "These are my first impressions of the new Raspberry Pi 400, and my experiences of setting it up as a machine for development and blogging.",
+          "image": Object {
+            "alt": "Raspberry Pi 400 - First Impressions",
+            "link": "https://i.stack.imgur.com/DR8yN.jpg",
+          },
+          "name": "Raspberry Pi 400 - First Impressions",
+        },
+        "publishingDate": "2020-11-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "raspberry-pi",
+            "type": "technology",
+          },
+          Object {
+            "name": "docker",
+            "type": "technology",
+          },
+          Object {
+            "name": "visual-studio-code",
+            "type": "technology",
+          },
+        ],
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://martinpeck.com",
+          "description": "A blog, written by someone called Martin Peck",
+          "name": "martinpeck.com - a blog",
+        },
+        "publishingDate": "2019-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/36793679/flask-404-error-under-windows/36796273#36796273",
+          "name": "flask 404 error under windows",
+        },
+        "publishingDate": "2016-04-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/1813559/net-c-using-rss-net-with-stack-overflow-feeds-how-to-handle-special-properti/1862896#1862896",
+          "name": ".NET/C#: Using RSS.NET with Stack Overflow Feeds: How To Handle Special Properties of RSS Items?",
+        },
+        "publishingDate": "2009-12-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/883270/problems-with-deploymentitem-attribute/883283#883283",
+          "name": "Problems with DeploymentItem attribute",
+        },
+        "publishingDate": "2009-05-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/836811/how-does-iis-know-if-its-serving-a-web-site-or-a-web-application-project/837025#837025",
+          "name": "How does IIS know if it's serving a Web Site or a Web Application project?",
+        },
+        "publishingDate": "2009-05-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/811074/what-is-the-coolest-thing-you-can-do-in-10-lines-of-simple-code-help-me-inspir/811236#811236",
+          "name": "What is the coolest thing you can do in <10 lines of simple code? Help me inspire beginners!",
+        },
+        "publishingDate": "2009-05-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/760612/how-can-path-combine-be-used-with-more-than-two-arguments/760707#760707",
+          "name": "How can Path.Combine be used with more than two arguments?",
+        },
+        "publishingDate": "2009-04-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 5% Stack Overflow answerers in these technologies",
+          "name": "Top 5% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": ".net",
+            "type": "technology",
+          },
+          Object {
+            "name": "asp.net",
+            "type": "technology",
+          },
+          Object {
+            "name": "c#",
+            "type": "technology",
+          },
+          Object {
+            "name": "configuration",
+            "type": "technology",
+          },
+          Object {
+            "name": "visual-studio",
+            "type": "technology",
+          },
+          Object {
+            "name": "wcf",
+            "type": "technology",
+          },
+          Object {
+            "name": "winforms",
+            "type": "technology",
+          },
+          Object {
+            "name": "xml",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 10% Stack Overflow answerers in these technologies",
+          "name": "Top 10% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "asp.net-mvc",
+            "type": "technology",
+          },
+          Object {
+            "name": "iis",
+            "type": "technology",
+          },
+          Object {
+            "name": "vb.net",
+            "type": "technology",
+          },
+          Object {
+            "name": "web-services",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 20% Stack Overflow answerers in these technologies",
+          "name": "Top 20% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "debugging",
+            "type": "technology",
+          },
+          Object {
+            "name": "http",
+            "type": "technology",
+          },
+          Object {
+            "name": "if-statement",
+            "type": "technology",
+          },
+          Object {
+            "name": "linq",
+            "type": "technology",
+          },
+          Object {
+            "name": "string",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+    ],
+  },
+  "knowledge": Object {
+    "studies": Array [
+      Object {
+        "degreeAchieved": true,
+        "description": "Completed course, with distinction.",
+        "finishDate": "2013-01-01",
+        "institution": Object {
+          "name": "Functional Programming Principles in Scala, Coursera",
+        },
+        "name": "Functional Programming Principles in Scala, Coursera",
+        "startDate": "2013-01-01",
+        "studyType": "officialDegree",
+      },
+      Object {
+        "degreeAchieved": true,
+        "description": "First Class Degree with Honours",
+        "finishDate": "1993-01-01",
+        "institution": Object {
+          "name": "Computer Aided Chemistry, University of Surrey",
+        },
+        "name": "Computer Aided Chemistry, University of Surrey",
+        "startDate": "1989-01-01",
+        "studyType": "officialDegree",
+      },
+    ],
+  },
+  "settings": Object {
+    "MACversion": "0.3",
     "language": "EN",
   },
 }
@@ -6823,7 +7831,7 @@ Object {
     ],
   },
   "settings": Object {
-    "MACversion": "0.2",
+    "MACversion": "0.3",
     "language": "EN",
   },
 }

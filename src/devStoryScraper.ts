@@ -40,7 +40,7 @@ export class DevStoryScraper {
     const settings = this.defaultSettings();
     const aboutMe = await this.aboutMeParser.parse($);
     const careerPreferences = this.careerPreferencesParser.parse($, url, aboutMe);
-    const experience = await this.experienceParser.parse($, careerPreferences);
+    const experience = await this.experienceParser.parse($);
     const knowledge = this.knowledgeParser.parse($);
 
     const elapsed = new Date().getTime() - startTime;
@@ -64,7 +64,7 @@ export class DevStoryScraper {
   private defaultSettings(): Settings {
     return {
       language: 'EN',
-      MACversion: '0.2',
+      MACversion: '0.3',
     };
   }
 }
