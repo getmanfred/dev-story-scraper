@@ -64,7 +64,7 @@ export class DevStoryScraper {
   private defaultSettings(): Settings {
     return {
       language: 'EN',
-      MACversion: '0.2',
+      MACversion: '0.3',
     };
   }
 }
