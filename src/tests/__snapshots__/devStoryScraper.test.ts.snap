@@ -228,8 +228,12 @@ Object {
     "contact": Object {
       "publicProfiles": Array [
         Object {
-          "URL": "https://stackoverflow.com/story/truewill",
-          "type": "stackoverflow",
+          "URL": "https://twitter.com/BillSorensen",
+          "type": "other",
+        },
+        Object {
+          "URL": "https://github.com/TrueWill",
+          "type": "other",
         },
       ],
     },
@@ -1796,8 +1800,8 @@ Object {
     "contact": Object {
       "publicProfiles": Array [
         Object {
-          "URL": "https://stackoverflow.com/story/fbuireu",
-          "type": "stackoverflow",
+          "URL": "https://github.com/fbuireu",
+          "type": "other",
         },
       ],
     },
@@ -3203,8 +3207,12 @@ Object {
     "contact": Object {
       "publicProfiles": Array [
         Object {
-          "URL": "https://stackoverflow.com/story/joeydevilla",
-          "type": "stackoverflow",
+          "URL": "https://twitter.com/AccordionGuy",
+          "type": "other",
+        },
+        Object {
+          "URL": "https://github.com/AccordionGuy",
+          "type": "other",
         },
       ],
     },
@@ -4880,8 +4888,12 @@ Object {
     "contact": Object {
       "publicProfiles": Array [
         Object {
-          "URL": "https://stackoverflow.com/story/joeydevilla-inner",
-          "type": "stackoverflow",
+          "URL": "https://twitter.com/AccordionGuy",
+          "type": "other",
+        },
+        Object {
+          "URL": "https://github.com/AccordionGuy",
+          "type": "other",
         },
       ],
     },
@@ -6553,8 +6565,12 @@ Object {
     "contact": Object {
       "publicProfiles": Array [
         Object {
-          "URL": "https://stackoverflow.com/story/ydarias",
-          "type": "stackoverflow",
+          "URL": "https://twitter.com/ydarias",
+          "type": "other",
+        },
+        Object {
+          "URL": "https://github.com/ydarias",
+          "type": "other",
         },
       ],
     },

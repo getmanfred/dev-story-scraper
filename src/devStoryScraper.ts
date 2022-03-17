@@ -39,7 +39,7 @@ export class DevStoryScraper {
 
     const settings = this.defaultSettings();
     const aboutMe = await this.aboutMeParser.parse($);
-    const careerPreferences = this.careerPreferencesParser.parse($, url);
+    const careerPreferences = this.careerPreferencesParser.parse($, url, aboutMe);
     const experience = await this.experienceParser.parse($, careerPreferences);
     const knowledge = this.knowledgeParser.parse($);
 
