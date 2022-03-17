@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/app.js",
+    "start:dev": "ts-node src/app.ts",
     "test": "jest",
     "lint": "eslint src/**/*.ts",
     "format": "prettier 'src/**/*.{ts,js,json}' --write"
