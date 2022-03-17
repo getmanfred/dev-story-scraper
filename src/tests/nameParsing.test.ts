@@ -16,13 +16,13 @@ describe('A name and surnames parsing', () => {
     expect(result).toStrictEqual(['Juan', 'Martín Pérez']);
   });
 
-  it('should not break with wrong input', () => {
-    const result = asNameAndSurnames('345');
-    expect(result).toStrictEqual(['', '']);
-  });
-
   it('should separate names with just initial letter', () => {
     const result = asNameAndSurnames('T. J. Crowder');
     expect(result).toStrictEqual(['T. J.', 'Crowder']);
+  });
+
+  it('should use the name as surnames if just one word is used as fullname', () => {
+    const result = asNameAndSurnames('kristinlustig');
+    expect(result).toStrictEqual(['kristinlustig', 'kristinlustig']);
   });
 });
