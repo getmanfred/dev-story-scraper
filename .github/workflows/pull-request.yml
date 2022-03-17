@@ -1,0 +1,19 @@
+name: pull-request
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: install
+        run: yarn install
+
+      - name: test
+        run: yarn test
