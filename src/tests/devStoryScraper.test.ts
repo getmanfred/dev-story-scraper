@@ -50,4 +50,9 @@ describe('A Dev Story scraper', () => {
     const result = await parseFor('truewill');
     expect(result).toMatchSnapshot();
   });
+
+  it('should parse the dev story from Joey deVilla when embedded', async () => {
+    const result = await parseFor('joeydevilla-inner');
+    expect(result).toMatchSnapshot();
+  });
 });
