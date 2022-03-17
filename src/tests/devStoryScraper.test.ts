@@ -55,4 +55,10 @@ describe('A Dev Story scraper', () => {
     const result = await parseFor('joeydevilla-inner');
     expect(result).toMatchSnapshot();
   });
+
+  // Stack Overflow achievements with competences
+  it('should parse the dev story from Martin Peck embedded', async () => {
+    const result = await parseFor('martin-peck');
+    expect(result).toMatchSnapshot();
+  });
 });
