@@ -33,6 +33,7 @@ app.get('/', async (req, res) => {
         error: 'No profile found for given username',
       });
     } else {
+      log.error(e);
       res.status(500);
       res.json({
         error: `Unknown error`,
