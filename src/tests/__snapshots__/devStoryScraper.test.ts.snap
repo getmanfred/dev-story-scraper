@@ -7113,6 +7113,9 @@ However, those that do so only to gain knowledge, with permission, should be enc
         ],
       },
       Object {
+        "organization": Object {
+          "name": "Self employed",
+        },
         "roles": Array [
           Object {
             "competences": Array [
@@ -7133,6 +7136,7 @@ However, those that do so only to gain knowledge, with permission, should be enc
             "startDate": "2009-05-01",
           },
         ],
+        "type": "freelance",
       },
       Object {
         "organization": Object {
