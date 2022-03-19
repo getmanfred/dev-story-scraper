@@ -63,8 +63,14 @@ describe('A Dev Story scraper', () => {
   });
 
   // Timeline items without a publishing date
-  it('should parset the dev story from Blanca embedded', async () => {
+  it('should parse the dev story from Blanca embedded', async () => {
     const result = await parseFor('blanca');
+    expect(result).toMatchSnapshot();
+  });
+
+  // Self employment positions
+  it('should parse the dev story from Makoto', async () => {
+    const result = await parseFor('makoto');
     expect(result).toMatchSnapshot();
   });
 });

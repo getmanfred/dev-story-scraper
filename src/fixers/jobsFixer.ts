@@ -5,7 +5,7 @@ import {Fix} from './fix';
 import {today} from '../utils/utils';
 
 export class JobsFixer {
-  fixes: Fix<Job>[] = [new StartDateFix()];
+  fixes: Fix<Job>[] = [new StartDateFix(), new SelfEmploymentFix()];
 
   fix(jobs: Job[] = []): Job[] {
     return jobs.map((job) => {
@@ -24,5 +24,18 @@ class StartDateFix implements Fix<Job> {
     job.roles[0].startDate = today();
 
     return job;
+  }
+}
+
+class SelfEmploymentFix implements Fix<Job> {
+  execute(job: Job): Job {
+    job.organization.name = 'Self employed';
+    job.type = 'freelance';
+
+    return job;
+  }
+
+  isRequired(job: Job): boolean {
+    return _.isNil(job.organization?.name) || job.organization.name === '';
   }
 }

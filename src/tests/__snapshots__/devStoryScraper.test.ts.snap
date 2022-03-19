@@ -1444,6 +1444,331 @@ Original author.",
 }
 `;
 
+exports[`A Dev Story scraper should parse the dev story from Blanca embedded 1`] = `
+Object {
+  "aboutMe": Object {
+    "interestingFacts": Array [
+      Object {
+        "fact": "onenote",
+        "topic": "Favorite editor",
+      },
+      Object {
+        "fact": "iphone",
+        "topic": "First computer",
+      },
+    ],
+    "profile": Object {
+      "avatar": Object {
+        "link": "https://lh3.googleusercontent.com/a-/AOh14GgxhDIeBDobyqCWhE2bY2oO7vV1kC4c0Pb915G5=k-s136",
+      },
+      "description": "Lidero organizaciones que desarrollan productos digitales. Mi misión es asegurarme que construimos, lanzamos y gestionamos los productos correctos para los clientes correctos en en el momento _correcto_.",
+      "location": Object {
+        "country": "US",
+        "municipality": "Tampa",
+        "notes": "Autocompleted using Google Maps API",
+        "region": "Florida",
+      },
+      "name": "Blanca",
+      "surnames": "Lanaspa",
+      "title": "Digital Product Leader that forgot how to cook at home",
+    },
+    "recommendations": Array [
+      Object {
+        "authors": Array [
+          Object {
+            "name": "Marty",
+            "surnames": "Cagan",
+            "title": "Author",
+          },
+        ],
+        "title": "Inspired",
+        "type": "reading",
+      },
+      Object {
+        "authors": Array [
+          Object {
+            "name": "Dios",
+            "surnames": "Dios",
+            "title": "Author",
+          },
+        ],
+        "summary": "Mateo 3.16",
+        "title": "La Biblia",
+        "type": "reading",
+      },
+      Object {
+        "URL": "https://www.goodreads.com/book/show/15807278-the-photograph",
+        "authors": Array [
+          Object {
+            "name": "Harald",
+            "surnames": "Mante",
+            "title": "Author",
+          },
+        ],
+        "title": "The Photograph",
+        "type": "reading",
+      },
+    ],
+    "relevantLinks": Array [
+      Object {
+        "URL": "http://www.blancalanaspa.com",
+        "type": "other",
+      },
+      Object {
+        "URL": "https://twitter.com/blanaspa",
+        "type": "twitter",
+      },
+      Object {
+        "URL": "https://github.com/blanaspa",
+        "type": "github",
+      },
+    ],
+  },
+  "careerPreferences": Object {
+    "contact": Object {
+      "publicProfiles": Array [
+        Object {
+          "URL": "https://twitter.com/blanaspa",
+          "type": "other",
+        },
+        Object {
+          "URL": "https://github.com/blanaspa",
+          "type": "other",
+        },
+      ],
+    },
+    "preferences": Object {
+      "discardedCompetences": Array [
+        Object {
+          "name": "php",
+          "type": "technology",
+        },
+      ],
+      "preferredCompetences": Array [
+        Object {
+          "name": "jira",
+          "type": "technology",
+        },
+        Object {
+          "name": "product",
+          "type": "technology",
+        },
+        Object {
+          "name": "javascript",
+          "type": "technology",
+        },
+        Object {
+          "name": "c#",
+          "type": "technology",
+        },
+        Object {
+          "name": "android",
+          "type": "technology",
+        },
+        Object {
+          "name": "php",
+          "type": "technology",
+        },
+        Object {
+          "name": "html",
+          "type": "technology",
+        },
+      ],
+    },
+  },
+  "experience": Object {
+    "jobs": Array [
+      Object {
+        "organization": Object {
+          "name": "Manfred",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Lidero organizaciones que desarrollan productos digitales. Mi misión es asegurarme que construimos, lanzamos y gestionamos los productos correctos para los clientes correctos en en el momento correcto.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "jira",
+                "type": "technology",
+              },
+              Object {
+                "name": "figma",
+                "type": "technology",
+              },
+            ],
+            "name": "VP Product",
+            "startDate": "2021-01-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "Manfred",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "hola hola hola",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "php",
+                "type": "technology",
+              },
+              Object {
+                "name": "cobol",
+                "type": "technology",
+              },
+            ],
+            "name": "Esto es una prueba",
+            "startDate": "2017-01-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "URL": "http://www.fon.com",
+          "image": Object {
+            "alt": "Novozymes",
+            "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1442056036/z5edufcvd3in0s054tr7.png",
+          },
+          "name": "Novozymes",
+        },
+        "roles": Array [
+          Object {
+            "finishDate": "2018-01-01",
+            "name": "Head of DS and Governance",
+            "startDate": "2017-02-01",
+          },
+        ],
+      },
+    ],
+    "projects": Array [
+      Object {
+        "details": Object {
+          "description": "_This is italics_ **This is bold**",
+          "name": "La burbuja negra",
+        },
+        "roles": Array [
+          Object {
+            "name": "Developer",
+            "startDate": "2022-03-19",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/getmanfred/mac/blob/master/schema/schema.json",
+          "description": "el proyecto de david",
+          "name": "json mac",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "json",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2018-03-31",
+            "name": "Developer",
+            "startDate": "2017-04-01",
+          },
+        ],
+        "type": "openSource",
+      },
+    ],
+    "publicArtifacts": Array [
+      Object {
+        "details": Object {
+          "URL": "https://anchor.fm/sw20/episodes/Gestin-de-Producto-en-IA---Blanca-Lanaspa-evi88n/a-a5bm423",
+          "description": "Blanca Lanaspa es Vicepresidenta de Producto en Nextail. Blanca nos repasa qué es \\"product management\\" (gestión de producto) y en qué se diferencia de \\"project management\\" (gestión de proyecto).  Hablamos de su carrera profesional hasta llegar a ese rol, y qué caminos se pueden seguir... nos cuenta aspectos diferenciadores de la gestión de producto cuando intervienen datos; mucho de éste desde su trabajo actual. En Nextail están buscando muchos perfiles, que podéis consultar en [https://nextaillabs.recruitee.com](https://nextaillabs.recruitee.com)",
+          "image": Object {
+            "alt": "Gestión de Producto en IA - Blanca Lanaspa by Software 2.0",
+            "link": "https://i.stack.imgur.com/C1Z2V.jpg",
+          },
+          "name": "Gestión de Producto en IA - Blanca Lanaspa by Software 2.0",
+        },
+        "publishingDate": "2021-04-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "description": "Sin romper nada ni llorar",
+          "name": "He cocinado con mi primo",
+        },
+        "publishingDate": "2022-01-01",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "image": Object {
+            "alt": "won hack-a-ton",
+            "link": "https://i.stack.imgur.com/8XqP1.jpg",
+          },
+          "name": "won hack-a-ton",
+        },
+        "publishingDate": "2021-01-01",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "description": "Viva!",
+          "name": "Lanzamiento del portal del manfredita",
+        },
+        "publishingDate": "2018-12-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "string",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+    ],
+  },
+  "knowledge": Object {
+    "studies": Array [
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2017-03-01",
+        "institution": Object {
+          "name": "PMP",
+        },
+        "name": "PMP",
+        "startDate": "2017-03-01",
+        "studyType": "certification",
+      },
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2018-01-01",
+        "institution": Object {
+          "URL": "https://www.coursera.org/",
+          "image": Object {
+            "alt": "Executive Data Science",
+            "link": "https://i.stack.imgur.com/JWEY0.jpg",
+          },
+          "name": "Executive Data Science, Coursera",
+        },
+        "name": "Executive Data Science, Coursera",
+        "startDate": "2017-03-01",
+        "studyType": "officialDegree",
+      },
+    ],
+  },
+  "settings": Object {
+    "MACversion": "0.3",
+    "language": "EN",
+  },
+}
+`;
+
 exports[`A Dev Story scraper should parse the dev story from Ferran Buireu 1`] = `
 Object {
   "aboutMe": Object {
@@ -6628,6 +6953,872 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
 }
 `;
 
+exports[`A Dev Story scraper should parse the dev story from Makoto 1`] = `
+Object {
+  "aboutMe": Object {
+    "interestingFacts": Array [
+      Object {
+        "fact": "IntelliJ IDEA",
+        "topic": "Favorite editor",
+      },
+      Object {
+        "fact": "Hewlett Packard (300MHz, Windows 95 - it was a monster)",
+        "topic": "First computer",
+      },
+    ],
+    "profile": Object {
+      "avatar": Object {
+        "link": "https://www.gravatar.com/avatar/c17dd9cf3e2322be19639e96da9f3eb3?s=136&r=PG&d=https://i.stack.imgur.com/T119o.png",
+      },
+      "location": Object {
+        "country": "US",
+        "municipality": "Tampa",
+        "notes": "Autocompleted using Google Maps API",
+        "region": "Florida",
+      },
+      "name": "Makoto",
+      "surnames": "Makoto",
+      "title": "",
+    },
+    "recommendations": Array [
+      Object {
+        "authors": Array [
+          Object {
+            "name": "Kevin",
+            "surnames": "Mitnick",
+            "title": "Author",
+          },
+        ],
+        "title": "Ghost in the Wires: My Adventures as the World's Most Wanted Hacker",
+        "type": "reading",
+      },
+      Object {
+        "authors": Array [
+          Object {
+            "name": "Sara",
+            "surnames": "Baase",
+            "title": "Author",
+          },
+        ],
+        "summary": "There are a lot of ramifications in regards to hacking and legality. I am of the influence that someone who breaks into systems, without regard for anyone's safety, shouldn't be allowed to operate machines again without paying their debt to society.
+
+However, those that do so only to gain knowledge, with permission, should be encouraged to do so. It is because of hackers that much of the technology we have exists.",
+        "title": "A Gift of Fire: Social, Legal, and Ethical Issues for Computing and the Interne...",
+        "type": "reading",
+      },
+    ],
+  },
+  "careerPreferences": Object {
+    "contact": Object {
+      "publicProfiles": Array [
+        Object {
+          "URL": "https://stackoverflow.com/story/makoto",
+          "type": "stackoverflow",
+        },
+      ],
+    },
+    "preferences": Object {
+      "discardedCompetences": Array [
+        Object {
+          "name": ".net",
+          "type": "technology",
+        },
+        Object {
+          "name": "php",
+          "type": "technology",
+        },
+        Object {
+          "name": "vb.net",
+          "type": "technology",
+        },
+        Object {
+          "name": "vbscript",
+          "type": "technology",
+        },
+        Object {
+          "name": "zend-framework",
+          "type": "technology",
+        },
+      ],
+      "preferredCompetences": Array [
+        Object {
+          "name": "python",
+          "type": "technology",
+        },
+        Object {
+          "name": "java",
+          "type": "technology",
+        },
+        Object {
+          "name": "android",
+          "type": "technology",
+        },
+        Object {
+          "name": "linux",
+          "type": "technology",
+        },
+        Object {
+          "name": "spring",
+          "type": "technology",
+        },
+        Object {
+          "name": "ruby",
+          "type": "technology",
+        },
+      ],
+    },
+  },
+  "experience": Object {
+    "jobs": Array [
+      Object {
+        "organization": Object {
+          "URL": "http://www.fon.com",
+          "image": Object {
+            "alt": "University of Colorado, Boulder",
+            "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1408989322/a1dmgpn6wcinzeojthzp.png",
+          },
+          "name": "University of Colorado, Boulder",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "java",
+                "type": "technology",
+              },
+              Object {
+                "name": "jackson",
+                "type": "technology",
+              },
+              Object {
+                "name": "oracle",
+                "type": "technology",
+              },
+              Object {
+                "name": "oracle-ords",
+                "type": "technology",
+              },
+              Object {
+                "name": "apache-camel",
+                "type": "technology",
+              },
+              Object {
+                "name": "spring-boot",
+                "type": "technology",
+              },
+            ],
+            "name": "Senior Software Engineer",
+            "startDate": "2017-04-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "Self employed",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "java",
+                "type": "technology",
+              },
+              Object {
+                "name": "python",
+                "type": "technology",
+              },
+              Object {
+                "name": "linux",
+                "type": "technology",
+              },
+            ],
+            "name": "Computer Science Tutor",
+            "startDate": "2009-05-01",
+          },
+        ],
+        "type": "freelance",
+      },
+      Object {
+        "organization": Object {
+          "URL": "http://www.fon.com",
+          "image": Object {
+            "alt": "Mobility Labs",
+            "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1440498586/a4p5ojdwhimoii8ckhso.jpg",
+          },
+          "name": "Mobility Labs",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "python",
+                "type": "technology",
+              },
+              Object {
+                "name": "ruby",
+                "type": "technology",
+              },
+              Object {
+                "name": "ruby-on-rails",
+                "type": "technology",
+              },
+              Object {
+                "name": "html",
+                "type": "technology",
+              },
+              Object {
+                "name": "angularjs",
+                "type": "technology",
+              },
+              Object {
+                "name": "postgresql",
+                "type": "technology",
+              },
+              Object {
+                "name": "clojure",
+                "type": "technology",
+              },
+              Object {
+                "name": "css",
+                "type": "technology",
+              },
+              Object {
+                "name": "reactjs",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2016-11-30",
+            "name": "Software Developer",
+            "startDate": "2014-11-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "ClickBank",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "html",
+                "type": "technology",
+              },
+              Object {
+                "name": "java",
+                "type": "technology",
+              },
+              Object {
+                "name": "jstl",
+                "type": "technology",
+              },
+              Object {
+                "name": "jenkins",
+                "type": "technology",
+              },
+              Object {
+                "name": "bash",
+                "type": "technology",
+              },
+              Object {
+                "name": "spring",
+                "type": "technology",
+              },
+              Object {
+                "name": "hibernate",
+                "type": "technology",
+              },
+              Object {
+                "name": "mysql",
+                "type": "technology",
+              },
+              Object {
+                "name": "oracle",
+                "type": "technology",
+              },
+              Object {
+                "name": "generics",
+                "type": "technology",
+              },
+              Object {
+                "name": "mockito",
+                "type": "technology",
+              },
+              Object {
+                "name": "git",
+                "type": "technology",
+              },
+              Object {
+                "name": "tomcat",
+                "type": "technology",
+              },
+              Object {
+                "name": "intellij-idea",
+                "type": "technology",
+              },
+              Object {
+                "name": "jpa",
+                "type": "technology",
+              },
+              Object {
+                "name": "maven",
+                "type": "technology",
+              },
+              Object {
+                "name": "jersey",
+                "type": "technology",
+              },
+              Object {
+                "name": "log4j2",
+                "type": "technology",
+              },
+              Object {
+                "name": "apache",
+                "type": "technology",
+              },
+              Object {
+                "name": "querydsl",
+                "type": "technology",
+              },
+              Object {
+                "name": "ember.js",
+                "type": "technology",
+              },
+              Object {
+                "name": "vim",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2014-11-30",
+            "name": "Software Developer",
+            "startDate": "2012-09-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "ClickBank",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "java",
+                "type": "technology",
+              },
+              Object {
+                "name": "jsp",
+                "type": "technology",
+              },
+              Object {
+                "name": "jstl",
+                "type": "technology",
+              },
+              Object {
+                "name": "easymock",
+                "type": "technology",
+              },
+              Object {
+                "name": "spring-mvc",
+                "type": "technology",
+              },
+              Object {
+                "name": "hibernate",
+                "type": "technology",
+              },
+              Object {
+                "name": "mysql",
+                "type": "technology",
+              },
+              Object {
+                "name": "freemarker",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2012-09-30",
+            "name": "Junior Java Developer",
+            "startDate": "2012-07-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "Metropolitan State University of Denver",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "I was responsible for the creation of accessible materials for students. In this vein, there were a few distinct responsibilities:
+
+*   Enter the student's information and material request into a database.
+*   Take the books themselves to be unbound and ready to be scanned.
+*   Scan the books in, and revise them to be accessible with screen readers through the use of ABBYY.
+
+I had designed a simple Python script to reduce the burden of adding multiple books belonging to one student into the system. This reduced the time we spent adding books into the system from 30 minutes to about 10.
+
+I had participated in a private beta of virtual desktop deployment, through the use of a VMWare VDI. I, along with a lead technical person on campus, and with my supervisor, stress tested and beta deployed 3 clients for usage. This allowed students without physical access to campus computers the opportunity to use accessible software.
+
+I administered and maintained the office and lab's computers, often requiring software updates, or routine hardware maintenance.
+
+I led an accessibility presentation, which showed high school students the benefits of accessible software and hardware, and encouraged them to become active with our office.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "python",
+                "type": "technology",
+              },
+              Object {
+                "name": "windows-7-x64",
+                "type": "technology",
+              },
+              Object {
+                "name": "abbyy",
+                "type": "technology",
+              },
+              Object {
+                "name": "vmware",
+                "type": "technology",
+              },
+              Object {
+                "name": "excel",
+                "type": "technology",
+              },
+              Object {
+                "name": "word",
+                "type": "technology",
+              },
+              Object {
+                "name": "powerpoint",
+                "type": "technology",
+              },
+              Object {
+                "name": "nginx",
+                "type": "technology",
+              },
+              Object {
+                "name": "ubuntu-server",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2012-05-31",
+            "name": "Adaptive Technology Assistant",
+            "startDate": "2011-06-01",
+          },
+        ],
+      },
+    ],
+    "projects": Array [
+      Object {
+        "details": Object {
+          "URL": "https://github.com/MakotoTheKnight/codeschool-intellij",
+          "description": "Inspired by AstonJ's original Codeschool theme at [http://astonj.com/tech/vim-for-ruby-rails-and-a-sexy-theme/](http://astonj.com/tech/vim-for-ruby-rails-and-a-sexy-theme/), compatible with most JetBrains IDEs.",
+          "name": "codeschool-intellij",
+        },
+        "roles": Array [
+          Object {
+            "name": "Developer",
+            "startDate": "2014-05-01",
+          },
+        ],
+        "type": "openSource",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/MakotoTheKnight/dozer",
+          "name": "dozer",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "java",
+                "type": "technology",
+              },
+            ],
+            "name": "Developer",
+            "startDate": "2013-08-01",
+          },
+        ],
+        "type": "openSource",
+      },
+    ],
+    "publicArtifacts": Array [
+      Object {
+        "details": Object {
+          "image": Object {
+            "alt": "Title: Java - Score: 219/300",
+            "link": "https://i.stack.imgur.com/ce48w.png",
+          },
+          "name": "Java - Score: 219/300",
+        },
+        "publishingDate": "2018-02-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "java",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/20877086/why-do-comparisons-with-integer-valueofstring-give-different-results-for-12/20877115#20877115",
+          "name": "Why do == comparisons with Integer.valueOf(String) give different results for 127 and 128?",
+        },
+        "publishingDate": "2014-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/16139977/array-initialisation-in-java/16140078#16140078",
+          "name": "Array initialisation in java",
+        },
+        "publishingDate": "2013-04-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://tex.stackexchange.com/questions/58463/how-to-edit-latex-generated-text-in-captions/58464#58464",
+          "name": "How to edit latex-generated text in Captions?",
+        },
+        "publishingDate": "2012-06-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/10201253/finding-the-numbers-in-the-fibonacci-sequence-using-recursion/10201366#10201366",
+          "name": "Finding the numbers in the Fibonacci sequence using recursion",
+        },
+        "publishingDate": "2012-04-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/8875025/java-program-crashes-when-giving-a-decimal-point-but-works-with-int/8875039#8875039",
+          "name": "Java program crashes, when giving a decimal point, but works with int",
+        },
+        "publishingDate": "2012-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/8775963/what-is-an-on-algorithm-to-pair-two-equally-lengthed-lists-in-order-in-place/8775970#8775970",
+          "name": "What is an O(n) algorithm to pair two equally lengthed lists in order in place?",
+        },
+        "publishingDate": "2012-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 1% Stack Overflow answerers in these technologies",
+          "name": "Top 1% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "arraylist",
+            "type": "technology",
+          },
+          Object {
+            "name": "arrays",
+            "type": "technology",
+          },
+          Object {
+            "name": "debugging",
+            "type": "technology",
+          },
+          Object {
+            "name": "intellij-idea",
+            "type": "technology",
+          },
+          Object {
+            "name": "java",
+            "type": "technology",
+          },
+          Object {
+            "name": "python",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 5% Stack Overflow answerers in these technologies",
+          "name": "Top 5% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "algorithm",
+            "type": "technology",
+          },
+          Object {
+            "name": "android-studio",
+            "type": "technology",
+          },
+          Object {
+            "name": "collections",
+            "type": "technology",
+          },
+          Object {
+            "name": "double",
+            "type": "technology",
+          },
+          Object {
+            "name": "eclipse",
+            "type": "technology",
+          },
+          Object {
+            "name": "exception",
+            "type": "technology",
+          },
+          Object {
+            "name": "floating-point",
+            "type": "technology",
+          },
+          Object {
+            "name": "for-loop",
+            "type": "technology",
+          },
+          Object {
+            "name": "generics",
+            "type": "technology",
+          },
+          Object {
+            "name": "git",
+            "type": "technology",
+          },
+          Object {
+            "name": "ide",
+            "type": "technology",
+          },
+          Object {
+            "name": "if-statement",
+            "type": "technology",
+          },
+          Object {
+            "name": "integer",
+            "type": "technology",
+          },
+          Object {
+            "name": "java-8",
+            "type": "technology",
+          },
+          Object {
+            "name": "javadoc",
+            "type": "technology",
+          },
+          Object {
+            "name": "junit",
+            "type": "technology",
+          },
+          Object {
+            "name": "lambda",
+            "type": "technology",
+          },
+          Object {
+            "name": "list",
+            "type": "technology",
+          },
+          Object {
+            "name": "loops",
+            "type": "technology",
+          },
+          Object {
+            "name": "methods",
+            "type": "technology",
+          },
+          Object {
+            "name": "mockito",
+            "type": "technology",
+          },
+          Object {
+            "name": "multithreading",
+            "type": "technology",
+          },
+          Object {
+            "name": "nullpointerexception",
+            "type": "technology",
+          },
+          Object {
+            "name": "object",
+            "type": "technology",
+          },
+          Object {
+            "name": "recursion",
+            "type": "technology",
+          },
+          Object {
+            "name": "spring",
+            "type": "technology",
+          },
+          Object {
+            "name": "string",
+            "type": "technology",
+          },
+          Object {
+            "name": "try-catch",
+            "type": "technology",
+          },
+          Object {
+            "name": "unit-testing",
+            "type": "technology",
+          },
+          Object {
+            "name": "variables",
+            "type": "technology",
+          },
+          Object {
+            "name": "while-loop",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "description": "This user is part of the top 10% Stack Overflow answerers in these technologies",
+          "name": "Top 10% at Stack Overflow answers",
+        },
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": Array [
+          Object {
+            "name": "angularjs",
+            "type": "technology",
+          },
+          Object {
+            "name": "class",
+            "type": "technology",
+          },
+          Object {
+            "name": "compilation",
+            "type": "technology",
+          },
+          Object {
+            "name": "date",
+            "type": "technology",
+          },
+          Object {
+            "name": "exception-handling",
+            "type": "technology",
+          },
+          Object {
+            "name": "flask",
+            "type": "technology",
+          },
+          Object {
+            "name": "github",
+            "type": "technology",
+          },
+          Object {
+            "name": "hashmap",
+            "type": "technology",
+          },
+          Object {
+            "name": "input",
+            "type": "technology",
+          },
+          Object {
+            "name": "int",
+            "type": "technology",
+          },
+          Object {
+            "name": "interface",
+            "type": "technology",
+          },
+          Object {
+            "name": "io",
+            "type": "technology",
+          },
+          Object {
+            "name": "java-stream",
+            "type": "technology",
+          },
+          Object {
+            "name": "linked-list",
+            "type": "technology",
+          },
+          Object {
+            "name": "maven",
+            "type": "technology",
+          },
+          Object {
+            "name": "multidimensional-array",
+            "type": "technology",
+          },
+          Object {
+            "name": "oop",
+            "type": "technology",
+          },
+          Object {
+            "name": "optional",
+            "type": "technology",
+          },
+          Object {
+            "name": "pycharm",
+            "type": "technology",
+          },
+          Object {
+            "name": "python-2.7",
+            "type": "technology",
+          },
+          Object {
+            "name": "python-3.x",
+            "type": "technology",
+          },
+          Object {
+            "name": "regex",
+            "type": "technology",
+          },
+          Object {
+            "name": "return",
+            "type": "technology",
+          },
+          Object {
+            "name": "ruby",
+            "type": "technology",
+          },
+          Object {
+            "name": "sorting",
+            "type": "technology",
+          },
+          Object {
+            "name": "spring-boot",
+            "type": "technology",
+          },
+          Object {
+            "name": "syntax",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+    ],
+  },
+  "knowledge": Object {
+    "studies": Array [
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2012-01-01",
+        "institution": Object {
+          "name": "B.S. Computer Science, Metropolitan State University of Denver",
+        },
+        "name": "B.S. Computer Science, Metropolitan State University of Denver",
+        "startDate": "2008-01-01",
+        "studyType": "officialDegree",
+      },
+    ],
+  },
+  "settings": Object {
+    "MACversion": "0.3",
+    "language": "EN",
+  },
+}
+`;
+
 exports[`A Dev Story scraper should parse the dev story from Martin Peck embedded 1`] = `
 Object {
   "aboutMe": Object {
@@ -7831,331 +9022,6 @@ Object {
         },
         "publishingDate": "2014-09-01",
         "type": "post",
-      },
-    ],
-  },
-  "settings": Object {
-    "MACversion": "0.3",
-    "language": "EN",
-  },
-}
-`;
-
-exports[`A Dev Story scraper should parset the dev story from Blanca embedded 1`] = `
-Object {
-  "aboutMe": Object {
-    "interestingFacts": Array [
-      Object {
-        "fact": "onenote",
-        "topic": "Favorite editor",
-      },
-      Object {
-        "fact": "iphone",
-        "topic": "First computer",
-      },
-    ],
-    "profile": Object {
-      "avatar": Object {
-        "link": "https://lh3.googleusercontent.com/a-/AOh14GgxhDIeBDobyqCWhE2bY2oO7vV1kC4c0Pb915G5=k-s136",
-      },
-      "description": "Lidero organizaciones que desarrollan productos digitales. Mi misión es asegurarme que construimos, lanzamos y gestionamos los productos correctos para los clientes correctos en en el momento _correcto_.",
-      "location": Object {
-        "country": "US",
-        "municipality": "Tampa",
-        "notes": "Autocompleted using Google Maps API",
-        "region": "Florida",
-      },
-      "name": "Blanca",
-      "surnames": "Lanaspa",
-      "title": "Digital Product Leader that forgot how to cook at home",
-    },
-    "recommendations": Array [
-      Object {
-        "authors": Array [
-          Object {
-            "name": "Marty",
-            "surnames": "Cagan",
-            "title": "Author",
-          },
-        ],
-        "title": "Inspired",
-        "type": "reading",
-      },
-      Object {
-        "authors": Array [
-          Object {
-            "name": "Dios",
-            "surnames": "Dios",
-            "title": "Author",
-          },
-        ],
-        "summary": "Mateo 3.16",
-        "title": "La Biblia",
-        "type": "reading",
-      },
-      Object {
-        "URL": "https://www.goodreads.com/book/show/15807278-the-photograph",
-        "authors": Array [
-          Object {
-            "name": "Harald",
-            "surnames": "Mante",
-            "title": "Author",
-          },
-        ],
-        "title": "The Photograph",
-        "type": "reading",
-      },
-    ],
-    "relevantLinks": Array [
-      Object {
-        "URL": "http://www.blancalanaspa.com",
-        "type": "other",
-      },
-      Object {
-        "URL": "https://twitter.com/blanaspa",
-        "type": "twitter",
-      },
-      Object {
-        "URL": "https://github.com/blanaspa",
-        "type": "github",
-      },
-    ],
-  },
-  "careerPreferences": Object {
-    "contact": Object {
-      "publicProfiles": Array [
-        Object {
-          "URL": "https://twitter.com/blanaspa",
-          "type": "other",
-        },
-        Object {
-          "URL": "https://github.com/blanaspa",
-          "type": "other",
-        },
-      ],
-    },
-    "preferences": Object {
-      "discardedCompetences": Array [
-        Object {
-          "name": "php",
-          "type": "technology",
-        },
-      ],
-      "preferredCompetences": Array [
-        Object {
-          "name": "jira",
-          "type": "technology",
-        },
-        Object {
-          "name": "product",
-          "type": "technology",
-        },
-        Object {
-          "name": "javascript",
-          "type": "technology",
-        },
-        Object {
-          "name": "c#",
-          "type": "technology",
-        },
-        Object {
-          "name": "android",
-          "type": "technology",
-        },
-        Object {
-          "name": "php",
-          "type": "technology",
-        },
-        Object {
-          "name": "html",
-          "type": "technology",
-        },
-      ],
-    },
-  },
-  "experience": Object {
-    "jobs": Array [
-      Object {
-        "organization": Object {
-          "name": "Manfred",
-        },
-        "roles": Array [
-          Object {
-            "challenges": Array [
-              Object {
-                "description": "Lidero organizaciones que desarrollan productos digitales. Mi misión es asegurarme que construimos, lanzamos y gestionamos los productos correctos para los clientes correctos en en el momento correcto.",
-              },
-            ],
-            "competences": Array [
-              Object {
-                "name": "jira",
-                "type": "technology",
-              },
-              Object {
-                "name": "figma",
-                "type": "technology",
-              },
-            ],
-            "name": "VP Product",
-            "startDate": "2021-01-01",
-          },
-        ],
-      },
-      Object {
-        "organization": Object {
-          "name": "Manfred",
-        },
-        "roles": Array [
-          Object {
-            "challenges": Array [
-              Object {
-                "description": "hola hola hola",
-              },
-            ],
-            "competences": Array [
-              Object {
-                "name": "php",
-                "type": "technology",
-              },
-              Object {
-                "name": "cobol",
-                "type": "technology",
-              },
-            ],
-            "name": "Esto es una prueba",
-            "startDate": "2017-01-01",
-          },
-        ],
-      },
-      Object {
-        "organization": Object {
-          "URL": "http://www.fon.com",
-          "image": Object {
-            "alt": "Novozymes",
-            "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1442056036/z5edufcvd3in0s054tr7.png",
-          },
-          "name": "Novozymes",
-        },
-        "roles": Array [
-          Object {
-            "finishDate": "2018-01-01",
-            "name": "Head of DS and Governance",
-            "startDate": "2017-02-01",
-          },
-        ],
-      },
-    ],
-    "projects": Array [
-      Object {
-        "details": Object {
-          "description": "_This is italics_ **This is bold**",
-          "name": "La burbuja negra",
-        },
-        "roles": Array [
-          Object {
-            "name": "Developer",
-            "startDate": "2022-03-19",
-          },
-        ],
-        "type": "other",
-      },
-      Object {
-        "details": Object {
-          "URL": "https://github.com/getmanfred/mac/blob/master/schema/schema.json",
-          "description": "el proyecto de david",
-          "name": "json mac",
-        },
-        "roles": Array [
-          Object {
-            "competences": Array [
-              Object {
-                "name": "json",
-                "type": "technology",
-              },
-            ],
-            "finishDate": "2018-03-31",
-            "name": "Developer",
-            "startDate": "2017-04-01",
-          },
-        ],
-        "type": "openSource",
-      },
-    ],
-    "publicArtifacts": Array [
-      Object {
-        "details": Object {
-          "URL": "https://anchor.fm/sw20/episodes/Gestin-de-Producto-en-IA---Blanca-Lanaspa-evi88n/a-a5bm423",
-          "description": "Blanca Lanaspa es Vicepresidenta de Producto en Nextail. Blanca nos repasa qué es \\"product management\\" (gestión de producto) y en qué se diferencia de \\"project management\\" (gestión de proyecto).  Hablamos de su carrera profesional hasta llegar a ese rol, y qué caminos se pueden seguir... nos cuenta aspectos diferenciadores de la gestión de producto cuando intervienen datos; mucho de éste desde su trabajo actual. En Nextail están buscando muchos perfiles, que podéis consultar en [https://nextaillabs.recruitee.com](https://nextaillabs.recruitee.com)",
-          "image": Object {
-            "alt": "Gestión de Producto en IA - Blanca Lanaspa by Software 2.0",
-            "link": "https://i.stack.imgur.com/C1Z2V.jpg",
-          },
-          "name": "Gestión de Producto en IA - Blanca Lanaspa by Software 2.0",
-        },
-        "publishingDate": "2021-04-01",
-        "type": "post",
-      },
-      Object {
-        "details": Object {
-          "description": "Sin romper nada ni llorar",
-          "name": "He cocinado con mi primo",
-        },
-        "publishingDate": "2022-01-01",
-        "type": "achievement",
-      },
-      Object {
-        "details": Object {
-          "image": Object {
-            "alt": "won hack-a-ton",
-            "link": "https://i.stack.imgur.com/8XqP1.jpg",
-          },
-          "name": "won hack-a-ton",
-        },
-        "publishingDate": "2021-01-01",
-        "type": "achievement",
-      },
-      Object {
-        "details": Object {
-          "description": "Viva!",
-          "name": "Lanzamiento del portal del manfredita",
-        },
-        "publishingDate": "2018-12-01",
-        "relatedCompetences": Array [
-          Object {
-            "name": "string",
-            "type": "technology",
-          },
-        ],
-        "type": "achievement",
-      },
-    ],
-  },
-  "knowledge": Object {
-    "studies": Array [
-      Object {
-        "degreeAchieved": true,
-        "finishDate": "2017-03-01",
-        "institution": Object {
-          "name": "PMP",
-        },
-        "name": "PMP",
-        "startDate": "2017-03-01",
-        "studyType": "certification",
-      },
-      Object {
-        "degreeAchieved": true,
-        "finishDate": "2018-01-01",
-        "institution": Object {
-          "URL": "https://www.coursera.org/",
-          "image": Object {
-            "alt": "Executive Data Science",
-            "link": "https://i.stack.imgur.com/JWEY0.jpg",
-          },
-          "name": "Executive Data Science, Coursera",
-        },
-        "name": "Executive Data Science, Coursera",
-        "startDate": "2017-03-01",
-        "studyType": "officialDegree",
       },
     ],
   },
