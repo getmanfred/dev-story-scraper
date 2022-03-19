@@ -61,4 +61,10 @@ describe('A Dev Story scraper', () => {
     const result = await parseFor('martin-peck');
     expect(result).toMatchSnapshot();
   });
+
+  // Timeline items without a publishing date
+  it('should parset the dev story from Blanca embedded', async () => {
+    const result = await parseFor('blanca');
+    expect(result).toMatchSnapshot();
+  });
 });

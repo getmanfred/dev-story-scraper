@@ -7283,6 +7283,7 @@ I lead a team building video and TV experiences for platforms such as Microsoft 
           "description": "I recently got frustrated with Bitly as a url shorter and decided to write my own simple alternative.",
           "name": "plinky - A bit like Bitly · martinpeck.com",
         },
+        "publishingDate": "2022-03-19",
         "type": "post",
       },
       Object {
@@ -7291,6 +7292,7 @@ I lead a team building video and TV experiences for platforms such as Microsoft 
           "description": "UPDATE: It’s been pointed out that the extension method RaiseToThePowerOf isn’t required. I’ve updated the C# solution to Problem 25 here, but left this post “as is”. This is part one of a three part…",
           "name": "Solving Problems in C# and F# – Part 2 | Peck's Blog — Peck's Blog",
         },
+        "publishingDate": "2022-03-19",
         "type": "post",
       },
       Object {
@@ -7299,6 +7301,7 @@ I lead a team building video and TV experiences for platforms such as Microsoft 
           "description": "On a recently snowboarding holiday I found myself having some decidedly geeky conversations with a good friend of mine, Giles Knap. Giles is currently learning F# and was extolling its virtues while…",
           "name": "Solving Problems in C# and F# – Part 1 | Peck's Blog — Peck's Blog",
         },
+        "publishingDate": "2022-03-19",
         "type": "post",
       },
       Object {
@@ -7307,6 +7310,7 @@ I lead a team building video and TV experiences for platforms such as Microsoft 
           "description": "I joined Code Club in Jan 2015 to head up their engineering team. However, way before this I was already voluneering for Code Club.",
           "name": "Volunteering for Code Club · martinpeck.com",
         },
+        "publishingDate": "2022-03-19",
         "type": "post",
       },
       Object {
@@ -7827,6 +7831,331 @@ Object {
         },
         "publishingDate": "2014-09-01",
         "type": "post",
+      },
+    ],
+  },
+  "settings": Object {
+    "MACversion": "0.3",
+    "language": "EN",
+  },
+}
+`;
+
+exports[`A Dev Story scraper should parset the dev story from Blanca embedded 1`] = `
+Object {
+  "aboutMe": Object {
+    "interestingFacts": Array [
+      Object {
+        "fact": "onenote",
+        "topic": "Favorite editor",
+      },
+      Object {
+        "fact": "iphone",
+        "topic": "First computer",
+      },
+    ],
+    "profile": Object {
+      "avatar": Object {
+        "link": "https://lh3.googleusercontent.com/a-/AOh14GgxhDIeBDobyqCWhE2bY2oO7vV1kC4c0Pb915G5=k-s136",
+      },
+      "description": "Lidero organizaciones que desarrollan productos digitales. Mi misión es asegurarme que construimos, lanzamos y gestionamos los productos correctos para los clientes correctos en en el momento _correcto_.",
+      "location": Object {
+        "country": "US",
+        "municipality": "Tampa",
+        "notes": "Autocompleted using Google Maps API",
+        "region": "Florida",
+      },
+      "name": "Blanca",
+      "surnames": "Lanaspa",
+      "title": "Digital Product Leader that forgot how to cook at home",
+    },
+    "recommendations": Array [
+      Object {
+        "authors": Array [
+          Object {
+            "name": "Marty",
+            "surnames": "Cagan",
+            "title": "Author",
+          },
+        ],
+        "title": "Inspired",
+        "type": "reading",
+      },
+      Object {
+        "authors": Array [
+          Object {
+            "name": "Dios",
+            "surnames": "Dios",
+            "title": "Author",
+          },
+        ],
+        "summary": "Mateo 3.16",
+        "title": "La Biblia",
+        "type": "reading",
+      },
+      Object {
+        "URL": "https://www.goodreads.com/book/show/15807278-the-photograph",
+        "authors": Array [
+          Object {
+            "name": "Harald",
+            "surnames": "Mante",
+            "title": "Author",
+          },
+        ],
+        "title": "The Photograph",
+        "type": "reading",
+      },
+    ],
+    "relevantLinks": Array [
+      Object {
+        "URL": "http://www.blancalanaspa.com",
+        "type": "other",
+      },
+      Object {
+        "URL": "https://twitter.com/blanaspa",
+        "type": "twitter",
+      },
+      Object {
+        "URL": "https://github.com/blanaspa",
+        "type": "github",
+      },
+    ],
+  },
+  "careerPreferences": Object {
+    "contact": Object {
+      "publicProfiles": Array [
+        Object {
+          "URL": "https://twitter.com/blanaspa",
+          "type": "other",
+        },
+        Object {
+          "URL": "https://github.com/blanaspa",
+          "type": "other",
+        },
+      ],
+    },
+    "preferences": Object {
+      "discardedCompetences": Array [
+        Object {
+          "name": "php",
+          "type": "technology",
+        },
+      ],
+      "preferredCompetences": Array [
+        Object {
+          "name": "jira",
+          "type": "technology",
+        },
+        Object {
+          "name": "product",
+          "type": "technology",
+        },
+        Object {
+          "name": "javascript",
+          "type": "technology",
+        },
+        Object {
+          "name": "c#",
+          "type": "technology",
+        },
+        Object {
+          "name": "android",
+          "type": "technology",
+        },
+        Object {
+          "name": "php",
+          "type": "technology",
+        },
+        Object {
+          "name": "html",
+          "type": "technology",
+        },
+      ],
+    },
+  },
+  "experience": Object {
+    "jobs": Array [
+      Object {
+        "organization": Object {
+          "name": "Manfred",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Lidero organizaciones que desarrollan productos digitales. Mi misión es asegurarme que construimos, lanzamos y gestionamos los productos correctos para los clientes correctos en en el momento correcto.",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "jira",
+                "type": "technology",
+              },
+              Object {
+                "name": "figma",
+                "type": "technology",
+              },
+            ],
+            "name": "VP Product",
+            "startDate": "2021-01-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "name": "Manfred",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "hola hola hola",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "php",
+                "type": "technology",
+              },
+              Object {
+                "name": "cobol",
+                "type": "technology",
+              },
+            ],
+            "name": "Esto es una prueba",
+            "startDate": "2017-01-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "URL": "http://www.fon.com",
+          "image": Object {
+            "alt": "Novozymes",
+            "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1442056036/z5edufcvd3in0s054tr7.png",
+          },
+          "name": "Novozymes",
+        },
+        "roles": Array [
+          Object {
+            "finishDate": "2018-01-01",
+            "name": "Head of DS and Governance",
+            "startDate": "2017-02-01",
+          },
+        ],
+      },
+    ],
+    "projects": Array [
+      Object {
+        "details": Object {
+          "description": "_This is italics_ **This is bold**",
+          "name": "La burbuja negra",
+        },
+        "roles": Array [
+          Object {
+            "name": "Developer",
+            "startDate": "2022-03-19",
+          },
+        ],
+        "type": "other",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://github.com/getmanfred/mac/blob/master/schema/schema.json",
+          "description": "el proyecto de david",
+          "name": "json mac",
+        },
+        "roles": Array [
+          Object {
+            "competences": Array [
+              Object {
+                "name": "json",
+                "type": "technology",
+              },
+            ],
+            "finishDate": "2018-03-31",
+            "name": "Developer",
+            "startDate": "2017-04-01",
+          },
+        ],
+        "type": "openSource",
+      },
+    ],
+    "publicArtifacts": Array [
+      Object {
+        "details": Object {
+          "URL": "https://anchor.fm/sw20/episodes/Gestin-de-Producto-en-IA---Blanca-Lanaspa-evi88n/a-a5bm423",
+          "description": "Blanca Lanaspa es Vicepresidenta de Producto en Nextail. Blanca nos repasa qué es \\"product management\\" (gestión de producto) y en qué se diferencia de \\"project management\\" (gestión de proyecto).  Hablamos de su carrera profesional hasta llegar a ese rol, y qué caminos se pueden seguir... nos cuenta aspectos diferenciadores de la gestión de producto cuando intervienen datos; mucho de éste desde su trabajo actual. En Nextail están buscando muchos perfiles, que podéis consultar en [https://nextaillabs.recruitee.com](https://nextaillabs.recruitee.com)",
+          "image": Object {
+            "alt": "Gestión de Producto en IA - Blanca Lanaspa by Software 2.0",
+            "link": "https://i.stack.imgur.com/C1Z2V.jpg",
+          },
+          "name": "Gestión de Producto en IA - Blanca Lanaspa by Software 2.0",
+        },
+        "publishingDate": "2021-04-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "description": "Sin romper nada ni llorar",
+          "name": "He cocinado con mi primo",
+        },
+        "publishingDate": "2022-01-01",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "image": Object {
+            "alt": "won hack-a-ton",
+            "link": "https://i.stack.imgur.com/8XqP1.jpg",
+          },
+          "name": "won hack-a-ton",
+        },
+        "publishingDate": "2021-01-01",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "description": "Viva!",
+          "name": "Lanzamiento del portal del manfredita",
+        },
+        "publishingDate": "2018-12-01",
+        "relatedCompetences": Array [
+          Object {
+            "name": "string",
+            "type": "technology",
+          },
+        ],
+        "type": "achievement",
+      },
+    ],
+  },
+  "knowledge": Object {
+    "studies": Array [
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2017-03-01",
+        "institution": Object {
+          "name": "PMP",
+        },
+        "name": "PMP",
+        "startDate": "2017-03-01",
+        "studyType": "certification",
+      },
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2018-01-01",
+        "institution": Object {
+          "URL": "https://www.coursera.org/",
+          "image": Object {
+            "alt": "Executive Data Science",
+            "link": "https://i.stack.imgur.com/JWEY0.jpg",
+          },
+          "name": "Executive Data Science, Coursera",
+        },
+        "name": "Executive Data Science, Coursera",
+        "startDate": "2017-03-01",
+        "studyType": "officialDegree",
       },
     ],
   },

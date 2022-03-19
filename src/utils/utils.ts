@@ -15,3 +15,17 @@ export const asNameAndSurnames = (input = ''): [string, string] => {
 
   return ['', ''];
 };
+
+export const today = (): string => {
+  const pad = (input: number): string => {
+    if (input < 10) {
+      return `0${input}`;
+    }
+
+    return `${input}`;
+  };
+
+  const d = new Date();
+
+  return [d.getFullYear(), pad(d.getMonth() + 1), pad(d.getDate())].join('-');
+};
