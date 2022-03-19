@@ -1,3 +1,5 @@
+import * as _ from 'lodash';
+
 import {DevStoryArtifact} from '../models/devStory/devStoryArtifact';
 import {DatesParser} from './datesParser';
 import {StudyType} from '../models/studyType';
@@ -7,16 +9,17 @@ import {CompetenceParser} from './competenceParser';
 export class StudyParser {
   static parse(artifact: DevStoryArtifact): Study {
     const [startDate, finishDate] = DatesParser.parse(artifact.time);
+    const [studyName, institutionName] = StudyParser.parseTitle(artifact.title);
 
     return {
       studyType: StudyParser.parseStudyType(artifact.type),
       degreeAchieved: true,
-      name: artifact.title,
+      name: studyName,
       startDate,
       finishDate: finishDate || startDate,
       description: artifact.description,
       institution: {
-        name: artifact.title,
+        name: institutionName,
         URL: artifact.url,
         image: {
           alt: artifact.logoAlt,
@@ -33,5 +36,14 @@ export class StudyParser {
     }
 
     return 'officialDegree';
+  }
+
+  private static parseTitle(title: string): [string, string] {
+    const titleComponents = title.split(/\s*,\s*/);
+    if (titleComponents.length < 2) {
+      return [title, title];
+    }
+
+    return [_.head(titleComponents) || '', _.tail(titleComponents).join(', ')];
   }
 }

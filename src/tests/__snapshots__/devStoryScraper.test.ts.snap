@@ -1430,7 +1430,7 @@ Original author.",
         "finishDate": "2015-01-31",
         "institution": Object {
           "URL": "https://verify.edx.org/cert/46760a7399b34df491ac5700a20df6c1",
-          "name": "FP101x, Introduction to Functional Programming",
+          "name": "Introduction to Functional Programming",
         },
         "linkedCompetences": Array [
           Object {
@@ -1442,7 +1442,7 @@ Original author.",
             "type": "technology",
           },
         ],
-        "name": "FP101x, Introduction to Functional Programming",
+        "name": "FP101x",
         "startDate": "2014-11-01",
         "studyType": "certification",
       },
@@ -1451,7 +1451,7 @@ Original author.",
         "description": "Freshman Honors Program, Dean’s List.",
         "finishDate": "1985-01-01",
         "institution": Object {
-          "name": "Computer Science (did not complete program), Iowa State University",
+          "name": "Iowa State University",
         },
         "linkedCompetences": Array [
           Object {
@@ -1463,7 +1463,7 @@ Original author.",
             "type": "technology",
           },
         ],
-        "name": "Computer Science (did not complete program), Iowa State University",
+        "name": "Computer Science (did not complete program)",
         "startDate": "1980-01-01",
         "studyType": "officialDegree",
       },
@@ -1786,9 +1786,9 @@ Object {
             "alt": "Executive Data Science",
             "link": "https://i.stack.imgur.com/JWEY0.jpg",
           },
-          "name": "Executive Data Science, Coursera",
+          "name": "Coursera",
         },
-        "name": "Executive Data Science, Coursera",
+        "name": "Executive Data Science",
         "startDate": "2017-03-01",
         "studyType": "officialDegree",
       },
@@ -3662,7 +3662,7 @@ The rapid spread of these techniques makes them fundamental to the effective cha
             "alt": "MSc in reservoir geology and geophysics",
             "link": "https://i.stack.imgur.com/FK6sa.png",
           },
-          "name": "MSc in reservoir geology and geophysics, Universitat de Barcelona",
+          "name": "Universitat de Barcelona",
         },
         "linkedCompetences": Array [
           Object {
@@ -3682,7 +3682,7 @@ The rapid spread of these techniques makes them fundamental to the effective cha
             "type": "technology",
           },
         ],
-        "name": "MSc in reservoir geology and geophysics, Universitat de Barcelona",
+        "name": "MSc in reservoir geology and geophysics",
         "startDate": "2013-09-01",
         "studyType": "officialDegree",
       },
@@ -3696,7 +3696,7 @@ The rapid spread of these techniques makes them fundamental to the effective cha
             "alt": "Degree in geology",
             "link": "https://i.stack.imgur.com/FK6sa.png",
           },
-          "name": "Degree in geology, Universitat de Barcelona",
+          "name": "Universitat de Barcelona",
         },
         "linkedCompetences": Array [
           Object {
@@ -3716,7 +3716,7 @@ The rapid spread of these techniques makes them fundamental to the effective cha
             "type": "technology",
           },
         ],
-        "name": "Degree in geology, Universitat de Barcelona",
+        "name": "Degree in geology",
         "startDate": "2001-09-01",
         "studyType": "officialDegree",
       },
@@ -7950,7 +7950,7 @@ I led an accessibility presentation, which showed high school students the benef
         "degreeAchieved": true,
         "finishDate": "2012-01-01",
         "institution": Object {
-          "name": "B.S. Computer Science, Metropolitan State University of Denver",
+          "name": "Metropolitan State University of Denver",
         },
         "linkedCompetences": Array [
           Object {
@@ -7994,7 +7994,7 @@ I led an accessibility presentation, which showed high school students the benef
             "type": "technology",
           },
         ],
-        "name": "B.S. Computer Science, Metropolitan State University of Denver",
+        "name": "B.S. Computer Science",
         "startDate": "2008-01-01",
         "studyType": "officialDegree",
       },
@@ -8883,7 +8883,7 @@ I lead a team building video and TV experiences for platforms such as Microsoft 
         "description": "Completed course, with distinction.",
         "finishDate": "2013-01-01",
         "institution": Object {
-          "name": "Functional Programming Principles in Scala, Coursera",
+          "name": "Coursera",
         },
         "linkedCompetences": Array [
           Object {
@@ -8891,7 +8891,7 @@ I lead a team building video and TV experiences for platforms such as Microsoft 
             "type": "technology",
           },
         ],
-        "name": "Functional Programming Principles in Scala, Coursera",
+        "name": "Functional Programming Principles in Scala",
         "startDate": "2013-01-01",
         "studyType": "officialDegree",
       },
@@ -8900,7 +8900,7 @@ I lead a team building video and TV experiences for platforms such as Microsoft 
         "description": "First Class Degree with Honours",
         "finishDate": "1993-01-01",
         "institution": Object {
-          "name": "Computer Aided Chemistry, University of Surrey",
+          "name": "University of Surrey",
         },
         "linkedCompetences": Array [
           Object {
@@ -8916,7 +8916,7 @@ I lead a team building video and TV experiences for platforms such as Microsoft 
             "type": "technology",
           },
         ],
-        "name": "Computer Aided Chemistry, University of Surrey",
+        "name": "Computer Aided Chemistry",
         "startDate": "1989-01-01",
         "studyType": "officialDegree",
       },
@@ -9230,6 +9230,373 @@ Object {
         },
         "publishingDate": "2014-09-01",
         "type": "post",
+      },
+    ],
+  },
+  "settings": Object {
+    "MACversion": "0.3",
+    "language": "EN",
+  },
+}
+`;
+
+exports[`A Dev Story scraper should parset the dev story from Jaydles 1`] = `
+Object {
+  "aboutMe": Object {
+    "interestingFacts": Array [
+      Object {
+        "fact": "Ulysses",
+        "topic": "Favorite editor",
+      },
+      Object {
+        "fact": "Commodore 64",
+        "topic": "First computer",
+      },
+    ],
+    "profile": Object {
+      "avatar": Object {
+        "link": "https://www.gravatar.com/avatar/7b525bc6c12773131e9bd6ef5b766a6f?s=136&r=PG&d=https://i.stack.imgur.com/T119o.png",
+      },
+      "description": "I work on a product where every few seconds, someone helps a stranger on the internet do their job. Every night, I manage two tiny humans who cannot _believe_ that I'm the one in charge.
+
+[_This_ is what i do for a living](https://twitter.com/JayHanlon/status/775721682661216256).",
+      "location": Object {
+        "country": "US",
+        "municipality": "Tampa",
+        "notes": "Autocompleted using Google Maps API",
+        "region": "Florida",
+      },
+      "name": "Jaydles",
+      "surnames": "Jaydles",
+      "title": "EVP, Culture and Experience",
+    },
+    "recommendations": Array [
+      Object {
+        "URL": "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555",
+        "authors": Array [
+          Object {
+            "name": "Daniel",
+            "surnames": "Kahneman",
+            "title": "Author",
+          },
+        ],
+        "summary": "This is literally the most useful book I've ever read. About anything.",
+        "title": "Thinking, Fast and Slow",
+        "type": "reading",
+      },
+      Object {
+        "URL": "https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248/ref=sr_1_1?ie=UTF8&qid=1476137043&sr=8-1&keywords=predictably+irrational",
+        "authors": Array [
+          Object {
+            "name": "Dan",
+            "surnames": "Ariely",
+            "title": "Author",
+          },
+        ],
+        "title": "Predictably Irrational",
+        "type": "reading",
+      },
+    ],
+    "relevantLinks": Array [
+      Object {
+        "URL": "https://www.linkedin.com/in/jaydles/",
+        "type": "linkedin",
+      },
+      Object {
+        "URL": "https://twitter.com/jayhanlon",
+        "type": "twitter",
+      },
+    ],
+  },
+  "careerPreferences": Object {
+    "contact": Object {
+      "publicProfiles": Array [
+        Object {
+          "URL": "https://www.linkedin.com/in/jaydles/",
+          "type": "linkedin",
+        },
+        Object {
+          "URL": "https://twitter.com/jayhanlon",
+          "type": "other",
+        },
+      ],
+    },
+    "preferences": Object {
+      "discardedCompetences": Array [
+        Object {
+          "name": "cat",
+          "type": "technology",
+        },
+      ],
+      "preferredCompetences": Array [
+        Object {
+          "name": "sql",
+          "type": "technology",
+        },
+        Object {
+          "name": "basic",
+          "type": "technology",
+        },
+        Object {
+          "name": "dog",
+          "type": "technology",
+        },
+      ],
+    },
+  },
+  "experience": Object {
+    "jobs": Array [
+      Object {
+        "organization": Object {
+          "URL": "http://www.fon.com",
+          "image": Object {
+            "alt": "Stack Overflow",
+            "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1460494926/bzx05ueutnoahkumlneg.png",
+          },
+          "name": "Stack Overflow",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "I make the internet better: [http://stackexchange.com/](http://stackexchange.com/)
+
+Some of my Stack Exchange Blogs: [http://blog.stackoverflow.com/author/jhanlon/](http://blog.stackoverflow.com/author/jhanlon/)
+
+I love it here. Think you will, too? [http://stackexchange.com/work-here](http://stackexchange.com/work-here)",
+              },
+            ],
+            "competences": Array [
+              Object {
+                "name": "sql-server",
+                "type": "technology",
+              },
+              Object {
+                "name": "blogs",
+                "type": "technology",
+              },
+              Object {
+                "name": "wordpress",
+                "type": "technology",
+              },
+            ],
+            "name": "VP, General Manager of Stack Overflow",
+            "startDate": "2012-07-01",
+          },
+        ],
+      },
+      Object {
+        "organization": Object {
+          "URL": "http://www.fon.com",
+          "image": Object {
+            "alt": "Merrill Lynch",
+            "link": "https://i.stack.imgur.com/pfv3Q.png",
+          },
+          "name": "Merrill Lynch",
+        },
+        "roles": Array [
+          Object {
+            "challenges": Array [
+              Object {
+                "description": "Bossed people. Made rich people richer",
+              },
+            ],
+            "finishDate": "2012-02-28",
+            "name": "Managing Director",
+            "startDate": "1998-09-01",
+          },
+        ],
+      },
+    ],
+    "publicArtifacts": Array [
+      Object {
+        "details": Object {
+          "URL": "http://blog.stackoverflow.com/2016/10/bye-bye-bullets-the-stack-overflow-developer-story-is-the-new-technical-resume/",
+          "description": "This post literally announces the feature you're looking at. This is some inception-level stuff right here.",
+          "image": Object {
+            "alt": "Bye Bye, Bullets: The Stack Overflow Developer Story is the New Technical Resume",
+            "link": "https://i.stack.imgur.com/2AOGY.jpg",
+          },
+          "name": "Bye Bye, Bullets: The Stack Overflow Developer Story is the New Technical Resume",
+        },
+        "publishingDate": "2016-10-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "http://blog.stackoverflow.com/2013/09/five-years-ago-stack-overflow-launched-then-a-miracle-occurred/",
+          "description": "This post has an epic cartoon unicorn video AND a picture of Batman that I drew myself. Don't let the designer who dropped dead from embarrassment have died in vain.",
+          "image": Object {
+            "alt": "We're Changing Our Name (Back) to Stack Overflow",
+            "link": "https://i.stack.imgur.com/YCWHf.png",
+          },
+          "name": "We're Changing Our Name (Back) to Stack Overflow",
+        },
+        "publishingDate": "2015-09-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "http://blog.stackoverflow.com/2015/04/two-new-user-pages-one-new-stat-this-on/",
+          "image": Object {
+            "alt": "Two new user pages. One new stat. This one's big.",
+            "link": "https://i.stack.imgur.com/KGHhN.png",
+          },
+          "name": "Two new user pages. One new stat. This one's big.",
+        },
+        "publishingDate": "2015-04-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "http://blog.stackoverflow.com/2014/02/cant-we-all-be-reasonable-and-speak-english/",
+          "description": "Two weeks ago, we announced the public launch of Stack Overflow in Portuguese, our first-ever non-English Stack Overflow community.",
+          "image": Object {
+            "alt": "Can't We All be Reasonable and Speak English? – Stack Overflow Blog – A destination for all things related to development at Stack Overflow — Stack Overflow Blog",
+            "link": "https://i.stack.imgur.com/depzS.jpg",
+          },
+          "name": "Can't We All be Reasonable and Speak English? – Stack Overflow Blog – A destination for all things related to development",
+        },
+        "publishingDate": "2014-02-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "http://blog.stackoverflow.com/2013/09/five-years-ago-stack-overflow-launched-then-a-miracle-occurred/",
+          "image": Object {
+            "alt": "Five years ago, Stack Overflow launched. Then, a miracle occurred.",
+            "link": "https://i.stack.imgur.com/CrnLG.png",
+          },
+          "name": "Five years ago, Stack Overflow launched. Then, a miracle occurred.",
+        },
+        "publishingDate": "2013-09-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.blog/2013/06/the-war-of-the-closes/",
+          "image": Object {
+            "alt": "The War of the Closes",
+            "link": "https://i.stack.imgur.com/u9lJi.jpg",
+          },
+          "name": "The War of the Closes",
+        },
+        "publishingDate": "2013-06-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://stackoverflow.com/questions/3653036/real-time-collaborative-web-application-architecture/14784624#14784624",
+          "name": "Real time collaborative web application architecture",
+        },
+        "publishingDate": "2013-02-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://meta.stackexchange.com/questions/38742/how-should-a-users-death-be-handled/164749#164749",
+          "name": "How should a user's death be handled?",
+        },
+        "publishingDate": "2013-01-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "URL": "https://meta.stackexchange.com/questions/46433/france-is-not-within-30-miles-of-london/56138#56138",
+          "name": "France is not within 30 miles of London",
+        },
+        "publishingDate": "2010-07-01",
+        "type": "post",
+      },
+      Object {
+        "details": Object {
+          "description": "No lookups, no interwebs.",
+          "image": Object {
+            "alt": "Finished a NYT *Saturday* Crossword.",
+            "link": "https://i.stack.imgur.com/2sRB1.jpg",
+          },
+          "name": "Finished a NYT *Saturday* Crossword.",
+        },
+        "publishingDate": "2015-07-01",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "image": Object {
+            "alt": "Maeve Juliet Hanlon",
+            "link": "https://i.stack.imgur.com/dmGsU.jpg",
+          },
+          "name": "Maeve Juliet Hanlon",
+        },
+        "publishingDate": "2013-04-01",
+        "type": "achievement",
+      },
+      Object {
+        "details": Object {
+          "image": Object {
+            "alt": "Griffin Mackenzie Hanlon",
+            "link": "https://i.stack.imgur.com/SACPw.jpg",
+          },
+          "name": "Griffin Mackenzie Hanlon",
+        },
+        "publishingDate": "2011-06-01",
+        "type": "achievement",
+      },
+    ],
+  },
+  "knowledge": Object {
+    "studies": Array [
+      Object {
+        "degreeAchieved": true,
+        "description": "*   BA, with Honors in Drama
+*   Heiman / Rosenthal Award for Playwriting
+*   David Birney Award for greatest contribution to Dramatic Arts
+*   President, Dartmouth Players",
+        "finishDate": "1998-01-31",
+        "institution": Object {
+          "image": Object {
+            "alt": "Bachelor of Arts (BA)",
+            "link": "https://i.stack.imgur.com/z3ByZ.jpg",
+          },
+          "name": "Dartmouth College",
+        },
+        "linkedCompetences": Array [
+          Object {
+            "name": "ftp",
+            "type": "technology",
+          },
+          Object {
+            "name": "mosaic",
+            "type": "technology",
+          },
+          Object {
+            "name": "dos",
+            "type": "technology",
+          },
+        ],
+        "name": "Bachelor of Arts (BA)",
+        "startDate": "1993-01-01",
+        "studyType": "officialDegree",
+      },
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "1993-01-31",
+        "institution": Object {
+          "image": Object {
+            "alt": "High School",
+            "link": "https://i.stack.imgur.com/JWr3X.jpg",
+          },
+          "name": "Stuyvesant High School",
+        },
+        "linkedCompetences": Array [
+          Object {
+            "name": "hypercard",
+            "type": "technology",
+          },
+        ],
+        "name": "High School",
+        "startDate": "1988-01-01",
+        "studyType": "officialDegree",
       },
     ],
   },
