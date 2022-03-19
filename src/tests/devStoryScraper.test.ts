@@ -73,4 +73,10 @@ describe('A Dev Story scraper', () => {
     const result = await parseFor('makoto');
     expect(result).toMatchSnapshot();
   });
+
+  // Public entity name separated by commas instead of At
+  it('should parset the dev story from Jaydles', async () => {
+    const result = await parseFor('jaydles');
+    expect(result).toMatchSnapshot();
+  });
 });
