@@ -2,6 +2,7 @@ import {DevStoryArtifact} from '../models/devStory/devStoryArtifact';
 import {DatesParser} from './datesParser';
 import {StudyType} from '../models/studyType';
 import {Study} from '../models/study';
+import {CompetenceParser} from './competenceParser';
 
 export class StudyParser {
   static parse(artifact: DevStoryArtifact): Study {
@@ -22,6 +23,7 @@ export class StudyParser {
           link: artifact.logo,
         },
       },
+      linkedCompetences: CompetenceParser.parse(artifact.tags),
     };
   }
 

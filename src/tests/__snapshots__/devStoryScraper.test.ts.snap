@@ -1399,6 +1399,12 @@ Original author.",
         "institution": Object {
           "name": "MuleSoft Certified Developer - Integration and API Associate",
         },
+        "linkedCompetences": Array [
+          Object {
+            "name": "mule",
+            "type": "technology",
+          },
+        ],
         "name": "MuleSoft Certified Developer - Integration and API Associate",
         "startDate": "2018-03-01",
         "studyType": "certification",
@@ -1409,6 +1415,12 @@ Original author.",
         "institution": Object {
           "name": "MuleSoft Certified Developer - API Design Associate (RAML 1.0)",
         },
+        "linkedCompetences": Array [
+          Object {
+            "name": "mule",
+            "type": "technology",
+          },
+        ],
         "name": "MuleSoft Certified Developer - API Design Associate (RAML 1.0)",
         "startDate": "2018-02-01",
         "studyType": "certification",
@@ -1420,6 +1432,16 @@ Original author.",
           "URL": "https://verify.edx.org/cert/46760a7399b34df491ac5700a20df6c1",
           "name": "FP101x, Introduction to Functional Programming",
         },
+        "linkedCompetences": Array [
+          Object {
+            "name": "haskell",
+            "type": "technology",
+          },
+          Object {
+            "name": "functional-programming",
+            "type": "technology",
+          },
+        ],
         "name": "FP101x, Introduction to Functional Programming",
         "startDate": "2014-11-01",
         "studyType": "certification",
@@ -1431,6 +1453,16 @@ Original author.",
         "institution": Object {
           "name": "Computer Science (did not complete program), Iowa State University",
         },
+        "linkedCompetences": Array [
+          Object {
+            "name": "pascal",
+            "type": "technology",
+          },
+          Object {
+            "name": "data-structures",
+            "type": "technology",
+          },
+        ],
         "name": "Computer Science (did not complete program), Iowa State University",
         "startDate": "1980-01-01",
         "studyType": "officialDegree",
@@ -3504,6 +3536,84 @@ Technologies used: - Java, Hibernate, JavaScript, jQuery, Angular, HTML, and CSS
           },
           "name": "Stucom Centre d'Estudis",
         },
+        "linkedCompetences": Array [
+          Object {
+            "name": "html",
+            "type": "technology",
+          },
+          Object {
+            "name": "css",
+            "type": "technology",
+          },
+          Object {
+            "name": "twitter-bootstrap",
+            "type": "technology",
+          },
+          Object {
+            "name": "java",
+            "type": "technology",
+          },
+          Object {
+            "name": "php",
+            "type": "technology",
+          },
+          Object {
+            "name": "sql",
+            "type": "technology",
+          },
+          Object {
+            "name": "mysql",
+            "type": "technology",
+          },
+          Object {
+            "name": "sqlite",
+            "type": "technology",
+          },
+          Object {
+            "name": "mariadb",
+            "type": "technology",
+          },
+          Object {
+            "name": "mongodb",
+            "type": "technology",
+          },
+          Object {
+            "name": "user-interface",
+            "type": "technology",
+          },
+          Object {
+            "name": "user-experience",
+            "type": "technology",
+          },
+          Object {
+            "name": "javascript",
+            "type": "technology",
+          },
+          Object {
+            "name": "jquery",
+            "type": "technology",
+          },
+          Object {
+            "name": "angular",
+            "type": "technology",
+          },
+          Object {
+            "name": "spring",
+            "type": "technology",
+          },
+          Object {
+            "name": "hibernate",
+            "type": "technology",
+          },
+          Object {
+            "name": "angularjs",
+            "type": "technology",
+          },
+          Object {
+            "name": "amazon-web-services",
+            "type": "technology",
+          },
+        ],
         "name": "Stucom Centre d'Estudis",
         "startDate": "2014-09-01",
         "studyType": "officialDegree",
@@ -3554,6 +3664,24 @@ The rapid spread of these techniques makes them fundamental to the effective cha
           },
           "name": "MSc in reservoir geology and geophysics, Universitat de Barcelona",
         },
+        "linkedCompetences": Array [
+          Object {
+            "name": "matlab",
+            "type": "technology",
+          },
+          Object {
+            "name": "petrel",
+            "type": "technology",
+          },
+          Object {
+            "name": "move",
+            "type": "technology",
+          },
+          Object {
+            "name": "3d-modelling",
+            "type": "technology",
+          },
+        ],
         "name": "MSc in reservoir geology and geophysics, Universitat de Barcelona",
         "startDate": "2013-09-01",
         "studyType": "officialDegree",
@@ -3570,6 +3698,24 @@ The rapid spread of these techniques makes them fundamental to the effective cha
           },
           "name": "Degree in geology, Universitat de Barcelona",
         },
+        "linkedCompetences": Array [
+          Object {
+            "name": "matlab",
+            "type": "technology",
+          },
+          Object {
+            "name": "petrel",
+            "type": "technology",
+          },
+          Object {
+            "name": "3d-model",
+            "type": "technology",
+          },
+          Object {
+            "name": "autocad",
+            "type": "technology",
+          },
+        ],
         "name": "Degree in geology, Universitat de Barcelona",
         "startDate": "2001-09-01",
         "studyType": "officialDegree",
@@ -7806,6 +7952,48 @@ I led an accessibility presentation, which showed high school students the benef
         "institution": Object {
           "name": "B.S. Computer Science, Metropolitan State University of Denver",
         },
+        "linkedCompetences": Array [
+          Object {
+            "name": "java",
+            "type": "technology",
+          },
+          Object {
+            "name": "python",
+            "type": "technology",
+          },
+          Object {
+            "name": "c",
+            "type": "technology",
+          },
+          Object {
+            "name": "ant",
+            "type": "technology",
+          },
+          Object {
+            "name": "junit",
+            "type": "technology",
+          },
+          Object {
+            "name": "multithreading",
+            "type": "technology",
+          },
+          Object {
+            "name": "database-design",
+            "type": "technology",
+          },
+          Object {
+            "name": "sqlite",
+            "type": "technology",
+          },
+          Object {
+            "name": "armv6",
+            "type": "technology",
+          },
+          Object {
+            "name": "algorithm",
+            "type": "technology",
+          },
+        ],
         "name": "B.S. Computer Science, Metropolitan State University of Denver",
         "startDate": "2008-01-01",
         "studyType": "officialDegree",
@@ -8697,6 +8885,12 @@ I lead a team building video and TV experiences for platforms such as Microsoft 
         "institution": Object {
           "name": "Functional Programming Principles in Scala, Coursera",
         },
+        "linkedCompetences": Array [
+          Object {
+            "name": "scala",
+            "type": "technology",
+          },
+        ],
         "name": "Functional Programming Principles in Scala, Coursera",
         "startDate": "2013-01-01",
         "studyType": "officialDegree",
@@ -8708,6 +8902,20 @@ I lead a team building video and TV experiences for platforms such as Microsoft 
         "institution": Object {
           "name": "Computer Aided Chemistry, University of Surrey",
         },
+        "linkedCompetences": Array [
+          Object {
+            "name": "c",
+            "type": "technology",
+          },
+          Object {
+            "name": "fortran",
+            "type": "technology",
+          },
+          Object {
+            "name": "visual-basic",
+            "type": "technology",
+          },
+        ],
         "name": "Computer Aided Chemistry, University of Surrey",
         "startDate": "1989-01-01",
         "studyType": "officialDegree",
