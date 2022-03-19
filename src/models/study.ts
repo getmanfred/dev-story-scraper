@@ -1,5 +1,6 @@
 import {StudyType} from './studyType';
 import {Image} from './image';
+import {Competence} from './competence';
 
 export type Study = {
   studyType: StudyType;
@@ -9,6 +10,7 @@ export type Study = {
   startDate: string;
   finishDate?: string;
   institution?: StudyInstitution;
+  linkedCompetences?: Competence[];
 };
 
 export type StudyInstitution = {
