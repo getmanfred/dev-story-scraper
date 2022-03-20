@@ -1,12 +1,19 @@
+import * as _ from 'lodash';
+
 export const stripString = (input = ''): string => {
   return input.replace(/\s+/g, ' ').trim();
 };
 
 export const asNameAndSurnames = (input = ''): [string, string] => {
   const trimmedName = stripString(input);
-  const match = /^(\w*(\s*\w{1}\.)*)\s+(.*?)$/g.exec(trimmedName);
-  if (match) {
-    return [match[1], match[3]];
+  const lastDot = trimmedName.lastIndexOf('.');
+  if (lastDot > 0) {
+    return [trimmedName.slice(0, lastDot + 1).trim(), trimmedName.slice(lastDot + 1, trimmedName.length).trim()];
+  }
+
+  const inputComponents = input.split(' ');
+  if (inputComponents.length > 1) {
+    return [_.head(inputComponents) as string, _.tail(inputComponents).join(' ')];
   }
 
   if (input !== '') {

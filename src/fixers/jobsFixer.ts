@@ -16,12 +16,18 @@ export class JobsFixer {
 }
 
 class StartDateFix implements Fix<Job> {
+  private defaultDate: string;
+
+  constructor() {
+    this.defaultDate = process.env.SO_DEFAULT_START_DATE || today();
+  }
+
   isRequired(job: Job): boolean {
     return _.isNil(job.roles[0]) || _.isNil(job.roles[0].startDate) || job.roles[0].startDate === '';
   }
 
   execute(job: Job): Job {
-    job.roles[0].startDate = today();
+    job.roles[0].startDate = this.defaultDate;
 
     return job;
   }

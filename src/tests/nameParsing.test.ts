@@ -25,4 +25,9 @@ describe('A name and surnames parsing', () => {
     const result = asNameAndSurnames('kristinlustig');
     expect(result).toStrictEqual(['kristinlustig', 'kristinlustig']);
   });
+
+  it('should separate names even if multiple spaces are used', () => {
+    const result = asNameAndSurnames(' Thomas   J.   McKenzy ');
+    expect(result).toStrictEqual(['Thomas J.', 'McKenzy']);
+  });
 });

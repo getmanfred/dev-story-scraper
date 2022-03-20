@@ -16,12 +16,18 @@ export class ProjectsFixer {
 }
 
 class StartDateFix implements Fix<Project> {
+  private defaultDate: string;
+
+  constructor() {
+    this.defaultDate = process.env.SO_DEFAULT_START_DATE || today();
+  }
+
   isRequired(project: Project): boolean {
     return _.isNil(project.roles[0]) || _.isNil(project.roles[0].startDate) || project.roles[0].startDate === '';
   }
 
   execute(project: Project): Project {
-    project.roles[0].startDate = today();
+    project.roles[0].startDate = this.defaultDate;
 
     return project;
   }

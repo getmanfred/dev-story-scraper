@@ -16,12 +16,18 @@ export class PublicArtifactsFixer {
 }
 
 class StartDateFix implements Fix<PublicArtifact> {
+  private defaultDate: string;
+
+  constructor() {
+    this.defaultDate = process.env.SO_DEFAULT_START_DATE || today();
+  }
+
   isRequired(publicArtifact: PublicArtifact): boolean {
     return _.isNil(publicArtifact.publishingDate) || publicArtifact.publishingDate === '';
   }
 
   execute(publicArtifact: PublicArtifact): PublicArtifact {
-    publicArtifact.publishingDate = today();
+    publicArtifact.publishingDate = this.defaultDate;
 
     return publicArtifact;
   }

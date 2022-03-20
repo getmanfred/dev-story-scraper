@@ -16,12 +16,18 @@ export class StudiesFixer {
 }
 
 class StartDateFix implements Fix<Study> {
+  private defaultDate: string;
+
+  constructor() {
+    this.defaultDate = process.env.SO_DEFAULT_START_DATE || today();
+  }
+
   isRequired(study: Study): boolean {
     return _.isNil(study.startDate) || study.startDate === '';
   }
 
   execute(study: Study): Study {
-    study.startDate = today();
+    study.startDate = this.defaultDate;
 
     return study;
   }

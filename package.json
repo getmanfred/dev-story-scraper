@@ -7,7 +7,7 @@
     "build": "tsc",
     "start": "node dist/app.js",
     "start:dev": "ts-node src/app.ts",
-    "test": "jest",
+    "test": "SO_DEFAULT_START_DATE='2022-03-19' jest",
     "lint": "eslint src/**/*.ts",
     "format": "prettier 'src/**/*.{ts,js,json}' --write"
   },
