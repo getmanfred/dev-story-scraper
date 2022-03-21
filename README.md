@@ -2,22 +2,23 @@
 
 # Stack Overflow's Developer Stories Scraper
 
-This is the code implemented to survive "the StackOverflowgeddon", the   tool downloads a Dev Story (from Stack Overflow) into a JSON compliant with Manfred's MAC JSON schema.
+This is the code implemented to survive ["the StackOverflowgeddon"](https://www.getmanfred.com/stackoverflowgeddon), the discontinuation of the «Developer Story» feature on Stack Overflow, which means that more than 5 million proffesional will lose the professional data forever. **This script scraps and downloads the data contained in a Dev Story (using its public URL) as a JSON file**, compliant with the open source MAC (Manfred Awesomic CV) format.
 <br />
- 
-[Why use it](#-why-use-it) •
-[How to use it](#-how-to-use-it) •
-[Who use it](#-who-uses-it) •
-[Who we are](#-who-we-are) •
-[How to contribute](#%EF%B8%8F-how-to-contribute) •
+<br />
+[General Overview](#general-overview) •
+[How to run](#how-to-run) •
+[Code](#code) •
+[Deployment](#deployment) •
+[Why](#deployment) •
 [License](#%EF%B8%8F-license) •
 [Spread the word!](#-spread-the-word)
-
-![StackOverflowgeddon landing](doc/assets/general-overview.png)
+<br />
+<br />
+![StackOverflowgeddon landing](doc/assets/SOgeddon_landing_capture.jpg?raw=true)
   
 </div>
 
-## General overview
+## General Overview
 
 ![General overview diagram](doc/assets/general-overview.png)
 
@@ -60,7 +61,7 @@ The `DevStoryDownloader` and `Geocoder` are created at the beginning so we can i
 
 ![Components architecture](doc/assets/deployment.png)
 
-**We need to configure the `GOOGLE_MAPS_API_KEY` to use the  geocoder**.
+**We need to configure the `GOOGLE_MAPS_API_KEY` to use the geocoder**.
 
 ## Design decisions
 
