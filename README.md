@@ -9,9 +9,9 @@ This is the code implemented to _survive_ ["the StackOverflowgeddon"](https://ww
 [How to run](#how-to-run) •
 [Code](#code) •
 [Deployment](#deployment) •
-[Why](#deployment) •
+[Why](#why) •
 [Who we are](#who-we-are) •  
-[License](license) •
+[License](#license) •
 [Spread the word !!! 🖖](#-spread-the-word)
 <br />
 <br />
@@ -121,7 +121,7 @@ So, we thought "what if we hustle to get at least a subset of what we wanted to 
 
 1. First, we defined an open-source CV format: the [MAC](https://github.com/getmanfred/mac)
 2. Second, we created a tool to recover and store your data from your Dev Story —as a MAC compliant JSON file— available through [a landing page](https://stage.getmanfred.com/stackoverflowgeddon). The code running behind it is what you have in this repo.
-3. Third, we improved [our own online CV platform](https://www.getmanfred.com/) to easily import (if wanted) data from Dev Stories. 
+3. Third, we improved [our online CV platform](https://www.getmanfred.com/) to import (if wanted) data from Dev Stories easily.
 
 ## Who we are
 
