@@ -15,7 +15,9 @@ This is the code implemented to _survive_ ["the StackOverflowgeddon"](https://ww
 [Spread the word !!! 🖖](#-spread-the-word)
 <br />
 <br />
-![StackOverflowgeddon landing](doc/assets/SOgeddon_landing_capture.jpg?raw=true)
+<a href='https://www.getmanfred.com/stackoverflowgeddon'>
+  <img alt="StackOverflowgeddon landing" src='doc/assets/SOgeddon_landing_capture.jpg?raw=true'/>
+</a>
   
 </div>
 
@@ -113,8 +115,13 @@ Examples:
 
 ## Why
 
-TBD
+We were committed to building an open platform to manage careers during 2022, including online CVs. Then, we knew [Stack Overflow had decided to sunset the Developer Stories](https://meta.stackoverflow.com/questions/415293/sunsetting-jobs-developer-story) (a kind of... online CVs), and that meant that more **than 4 million developers would lose their professional data forever**.
 
+So, we thought "what if we hustle to get at least a subset of what we wanted to build in 6 months in just 2 to give those people a way to preserve their data?". The rest is history.
+
+1. First, we defined an open-source CV format: the [MAC](https://github.com/getmanfred/mac)
+2. Second, we created a tool to recover and store your data from your Dev Story —as a MAC compliant JSON file— available through [a landing page](https://stage.getmanfred.com/stackoverflowgeddon). The code running behind it is what you have in this repo.
+3. Third, we improved [our own online CV platform](https://www.getmanfred.com/) to easily import (if wanted) data from Dev Stories. 
 
 ## Who we are
 
@@ -122,8 +129,9 @@ The Kit was made with ❤️ and care by the [Manfred](https://www.getmanfred.co
 
 We are a bunch of developers trying to create **a better approach to technical talent recruiting**. This is our manifesto:
 
-![Manfred Manifesto](doc/assets/manfred_manifesto.png?raw=true)
-
+<a href='https://www.getmanfred.com/'>
+  <img alt="Manfred Manifesto" src='doc/assets/manfred_manifesto.png?raw=true'/>
+</a>
 
 ## License
 
