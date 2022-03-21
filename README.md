@@ -1,6 +1,21 @@
-# Stack Overflow Dev Story scraper
+<div align="center">
 
-> This tool downloads a Dev Story (from Stack Overflow) into a JSON compliant with Manfred's MAC JSON schema.
+# Stack Overflow's Developer Stories Scraper
+
+This is the code implemented to survive "the StackOverflowgeddon", the   tool downloads a Dev Story (from Stack Overflow) into a JSON compliant with Manfred's MAC JSON schema.
+<br />
+ 
+[Why use it](#-why-use-it) •
+[How to use it](#-how-to-use-it) •
+[Who use it](#-who-uses-it) •
+[Who we are](#-who-we-are) •
+[How to contribute](#%EF%B8%8F-how-to-contribute) •
+[License](#%EF%B8%8F-license) •
+[Spread the word!](#-spread-the-word)
+
+![StackOverflowgeddon landing](doc/assets/general-overview.png)
+  
+</div>
 
 ## General overview
 
