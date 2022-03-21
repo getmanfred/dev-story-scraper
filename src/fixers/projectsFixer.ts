@@ -3,9 +3,14 @@ import * as _ from 'lodash';
 import {Project} from '../models/project';
 import {Fix} from './fix';
 import {today} from '../utils/utils';
+import {TimelineForFixer} from './timelineForFixer';
 
 export class ProjectsFixer {
-  fixes: Fix<Project>[] = [new StartDateFix()];
+  private readonly fixes: Fix<Project>[];
+
+  constructor(timelineForFixer: TimelineForFixer) {
+    this.fixes = [new StartDateFix(timelineForFixer)];
+  }
 
   fix(projects: Project[] = []): Project[] {
     return projects.map((project) => {
@@ -18,7 +23,7 @@ export class ProjectsFixer {
 class StartDateFix implements Fix<Project> {
   private defaultDate: string;
 
-  constructor() {
+  constructor(private readonly timelineForFixer: TimelineForFixer) {
     this.defaultDate = process.env.SO_DEFAULT_START_DATE || today();
   }
 
@@ -27,7 +32,7 @@ class StartDateFix implements Fix<Project> {
   }
 
   execute(project: Project): Project {
-    project.roles[0].startDate = this.defaultDate;
+    project.roles[0].startDate = this.timelineForFixer.timeFor(project.roles[0].name) || this.defaultDate;
 
     return project;
   }
