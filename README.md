@@ -2,7 +2,7 @@
 
 # StackOverflowgeddon Survival Kit<br />(Developer Stories Scraper)
 
-This is the code implemented to _survive_ ["the StackOverflowgeddon"](https://www.getmanfred.com/stackoverflowgeddon), the discontinuation of the «Developer Story» feature on Stack Overflow, which means that more than 5 million proffesional will lose the professional data forever. **This script scraps and downloads the data contained in a Dev Story (using its public URL) as a JSON file**, compliant with the open source MAC (Manfred Awesomic CV) format.
+This is the code implemented to _survive_ ["the StackOverflowgeddon"](https://www.getmanfred.com/stackoverflowgeddon), the discontinuation of the «Developer Story» feature on Stack Overflow, which means that more than 5 million proffesional will lose the professional data forever. **This script scraps and downloads the data contained in a Dev Story (using its public URL) as a JSON file**, compliant with the open source MAC ([Manfred Awesomic CV](https://github.com/getmanfred/mac)) format.
 <br />
 <br />
 [General Overview](#general-overview) •
@@ -54,7 +54,7 @@ docker run -p3000:3000 -e SO_GOOGLE_MAPS_API_KEY=<key value> -d username/dev-sto
 
 ![Code organization](doc/assets/code-organization.png)
 
-The scraping process is designed to follow the MAC JSON schema structure independently from the position at the Stack Overflows HTML. So each "large" sub-document at the JSON Schema usually have its own parser class.
+The scraping process is designed to follow the [MAC JSON schema](https://github.com/getmanfred/mac) structure independently from the position at the Stack Overflows HTML. So each "large" sub-document at the JSON Schema usually have its own parser class.
 
 The `DevStoryDownloader` and `Geocoder` are created at the beginning so we can inject a mock for test purposes, avoiding overusing the Stack Overflow or Google's systems, this also prevents false red tests. We could use the dependency injection in better ways, but for a project that is going to be used for a few days and discarded it doesn't worth the price.
 
@@ -66,7 +66,7 @@ The `DevStoryDownloader` and `Geocoder` are created at the beginning so we can i
 
 ## Design decisions
 
-To adapt the scraped data to the MAC JSON Schema we took some design decisions.
+To adapt the scraped data to the [MAC JSON Schema](https://github.com/getmanfred/mac) we took some design decisions.
 
 ### Name to name and surnames
 
