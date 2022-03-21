@@ -3,9 +3,14 @@ import * as _ from 'lodash';
 import {Job} from '../models/job';
 import {Fix} from './fix';
 import {today} from '../utils/utils';
+import {TimelineForFixer} from './timelineForFixer';
 
 export class JobsFixer {
-  fixes: Fix<Job>[] = [new StartDateFix(), new SelfEmploymentFix()];
+  private readonly fixes: Fix<Job>[];
+
+  constructor(timelineForFixer: TimelineForFixer) {
+    this.fixes = [new StartDateFix(timelineForFixer), new SelfEmploymentFix()];
+  }
 
   fix(jobs: Job[] = []): Job[] {
     return jobs.map((job) => {
@@ -18,7 +23,7 @@ export class JobsFixer {
 class StartDateFix implements Fix<Job> {
   private defaultDate: string;
 
-  constructor() {
+  constructor(private readonly timelineForFixer: TimelineForFixer) {
     this.defaultDate = process.env.SO_DEFAULT_START_DATE || today();
   }
 
@@ -27,7 +32,7 @@ class StartDateFix implements Fix<Job> {
   }
 
   execute(job: Job): Job {
-    job.roles[0].startDate = this.defaultDate;
+    job.roles[0].startDate = this.timelineForFixer.timeFor(job.roles[0].name) || this.defaultDate;
 
     return job;
   }

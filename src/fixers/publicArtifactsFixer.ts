@@ -3,9 +3,14 @@ import * as _ from 'lodash';
 import {Fix} from './fix';
 import {PublicArtifact} from '../models/publicArtifact';
 import {today} from '../utils/utils';
+import {TimelineForFixer} from './timelineForFixer';
 
 export class PublicArtifactsFixer {
-  fixes: Fix<PublicArtifact>[] = [new StartDateFix()];
+  private readonly fixes: Fix<PublicArtifact>[];
+
+  constructor(timelineForFixer: TimelineForFixer) {
+    this.fixes = [new StartDateFix(timelineForFixer)];
+  }
 
   fix(publicArtifacts: PublicArtifact[] = []): PublicArtifact[] {
     return publicArtifacts.map((publicArtifact) => {
@@ -18,7 +23,7 @@ export class PublicArtifactsFixer {
 class StartDateFix implements Fix<PublicArtifact> {
   private defaultDate: string;
 
-  constructor() {
+  constructor(private readonly timelineForFixer: TimelineForFixer) {
     this.defaultDate = process.env.SO_DEFAULT_START_DATE || today();
   }
 
@@ -27,7 +32,7 @@ class StartDateFix implements Fix<PublicArtifact> {
   }
 
   execute(publicArtifact: PublicArtifact): PublicArtifact {
-    publicArtifact.publishingDate = this.defaultDate;
+    publicArtifact.publishingDate = this.timelineForFixer.timeFor(publicArtifact.details.name) || this.defaultDate;
 
     return publicArtifact;
   }

@@ -13,12 +13,9 @@ import {AchievementParser} from './achievementParser';
 import {JobsFixer} from '../fixers/jobsFixer';
 import {ProjectsFixer} from '../fixers/projectsFixer';
 import {PublicArtifactsFixer} from '../fixers/publicArtifactsFixer';
+import {TimelineForFixer} from '../fixers/timelineForFixer';
 
 export class ExperienceParser {
-  jobsFixer = new JobsFixer();
-  projectsFixer = new ProjectsFixer();
-  publicArtifactsFixer = new PublicArtifactsFixer();
-
   constructor(private readonly jobParser: JobParser) {}
 
   async parse($: CheerioAPI): Promise<Experience> {
@@ -37,10 +34,14 @@ export class ExperienceParser {
     const unknownArtifacts = timeLineItems.filter(this.isUnknownArtifact).map(AchievementParser.parse);
     const publicArtifacts = _.concat(timeLineArtifacts, stackOverflowAchievements, unknownArtifacts);
 
+    const timelineForFixer = new TimelineForFixer(timeLineItems);
+    const jobsFixer = new JobsFixer(timelineForFixer);
+    const projectsFixer = new ProjectsFixer(timelineForFixer);
+    const publicArtifactsFixer = new PublicArtifactsFixer(timelineForFixer);
     return {
-      jobs: this.jobsFixer.fix(jobs),
-      projects: this.projectsFixer.fix(projects),
-      publicArtifacts: this.publicArtifactsFixer.fix(publicArtifacts),
+      jobs: jobsFixer.fix(jobs),
+      projects: projectsFixer.fix(projects),
+      publicArtifacts: publicArtifactsFixer.fix(publicArtifacts),
     };
   }
 
