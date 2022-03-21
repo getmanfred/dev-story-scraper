@@ -1,8 +1,8 @@
 <div align="center">
 
-# Stack Overflow's Developer Stories Scraper
+# StackOverflowgeddon Survival Kit<br />(Developer Stories Scraper)
 
-This is the code implemented to survive ["the StackOverflowgeddon"](https://www.getmanfred.com/stackoverflowgeddon), the discontinuation of the «Developer Story» feature on Stack Overflow, which means that more than 5 million proffesional will lose the professional data forever. **This script scraps and downloads the data contained in a Dev Story (using its public URL) as a JSON file**, compliant with the open source MAC (Manfred Awesomic CV) format.
+This is the code implemented to _survive_ ["the StackOverflowgeddon"](https://www.getmanfred.com/stackoverflowgeddon), the discontinuation of the «Developer Story» feature on Stack Overflow, which means that more than 5 million proffesional will lose the professional data forever. **This script scraps and downloads the data contained in a Dev Story (using its public URL) as a JSON file**, compliant with the open source MAC (Manfred Awesomic CV) format.
 <br />
 <br />
 [General Overview](#general-overview) •
@@ -10,8 +10,9 @@ This is the code implemented to survive ["the StackOverflowgeddon"](https://www.
 [Code](#code) •
 [Deployment](#deployment) •
 [Why](#deployment) •
-[License](#%EF%B8%8F-license) •
-[Spread the word!](#-spread-the-word)
+[Who we are](#who-we-are) •  
+[License](license) •
+[Spread the word !!! 🖖](#-spread-the-word)
 <br />
 <br />
 ![StackOverflowgeddon landing](doc/assets/SOgeddon_landing_capture.jpg?raw=true)
@@ -20,9 +21,9 @@ This is the code implemented to survive ["the StackOverflowgeddon"](https://www.
 
 ## General Overview
 
-![General overview diagram](doc/assets/general-overview.png)
-
 The only dependency is with Google Maps API. If no key for Google Maps API is provided it just doesn't autocomplete the field `whereILive`. In that case the location information from the Dev Story is stored at `aboutMe.profile.whereILive.notes`.
+
+![General overview diagram](doc/assets/general-overview.png)
 
 ## How to run
 
@@ -109,3 +110,31 @@ Examples:
 ### Stack Overflow top answers parsing
 
 ![stack overflow top answers parsing diagram](doc/assets/top-answers-parsing.png)
+
+## Why
+
+TBD
+
+
+## Who we are
+
+The Kit was made with ❤️ and care by the [Manfred](https://www.getmanfred.com/) team.
+
+We are a bunch of developers trying to create **a better approach to technical talent recruiting**. This is our manifesto:
+
+![Manfred Manifesto](doc/assets/manfred_manifesto.png?raw=true)
+
+
+## License
+
+This code is free and open-source software licensed and distributed under the Creative Commons Attribution Share Alike 4.0 International (CC BY-SA 4.0 International).
+
+## 🌟 Spread the word!
+
+If you want to say thank you and/or support active development of the Kit:
+
+- Add a GitHub Star to the project!
+- Tweet about the project on your Twitter!
+  - Tag [@getmanfred](https://twitter.com/getmanfred) and/or `#stackoverflowgeddon`
+
+Thanks so much for your interest in growing the reach of this initiative!
