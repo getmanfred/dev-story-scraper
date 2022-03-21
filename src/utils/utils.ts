@@ -1,4 +1,5 @@
 import * as _ from 'lodash';
+import moment from 'moment';
 
 export const stripString = (input = ''): string => {
   return input.replace(/\s+/g, ' ').trim();
@@ -24,15 +25,5 @@ export const asNameAndSurnames = (input = ''): [string, string] => {
 };
 
 export const today = (): string => {
-  const pad = (input: number): string => {
-    if (input < 10) {
-      return `0${input}`;
-    }
-
-    return `${input}`;
-  };
-
-  const d = new Date();
-
-  return [d.getFullYear(), pad(d.getMonth() + 1), pad(d.getDate())].join('-');
+  return moment().format('YYYY-MM-DD');
 };
