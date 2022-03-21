@@ -2,7 +2,7 @@
 
 # StackOverflowgeddon Survival Kit<br />(Developer Stories Scraper)
 
-This is the code implemented to _survive_ ["the StackOverflowgeddon"](https://www.getmanfred.com/stackoverflowgeddon), the discontinuation of the «Developer Story» feature on Stack Overflow, which means that more than 5 million proffesional will lose the professional data forever. **This script scraps and downloads the data contained in a Dev Story (using its public URL) as a JSON file**, compliant with the open source MAC ([Manfred Awesomic CV](https://github.com/getmanfred/mac)) format.
+With this code you will _survive_ ["the StackOverflowgeddon"](https://www.getmanfred.com/stackoverflowgeddon), the discontinuation of the «Developer Story» feature on Stack Overflow, which means that more than 5 million proffesional will lose the professional data forever. **This script scraps and downloads your data contained in a Dev Story (using its public URL) as a JSON file**, compliant with the open-source MAC (Manfred Awesomic CV) format.
 <br />
 <br />
 [General Overview](#general-overview) •
