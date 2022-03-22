@@ -2,6 +2,9 @@ import {Logger} from '../utils/logger';
 import axios, {AxiosError, AxiosRequestConfig} from 'axios';
 import {ProfileNotFoundException} from '../errors/profileNotFoundException';
 import {HttpsProxyAgent} from 'https-proxy-agent';
+import axiosRetry from 'axios-retry';
+
+axiosRetry(axios, {retries: 3});
 
 export class HttpClient {
   async getHTML(url: string): Promise<string> {
