@@ -1,13 +1,15 @@
 export class DevStoryURL {
-  static from(input: string): string {
-    if (input.startsWith('https://stackoverflow.com/')) {
-      return input;
+  static from(input = ''): string {
+    const cleanedInput = input.toLowerCase().replace('www.stackoverflow.com', 'stackoverflow.com');
+
+    if (cleanedInput.startsWith('https://stackoverflow.com/')) {
+      return cleanedInput;
     }
 
-    if (/http(s)?:\/\//.exec(input)) {
+    if (/http(s)?:\/\//.exec(cleanedInput)) {
       throw 'Not Stack Overflow URL';
     }
 
-    return `https://stackoverflow.com/story/${input}`;
+    return `https://stackoverflow.com/story/${cleanedInput}`;
   }
 }
