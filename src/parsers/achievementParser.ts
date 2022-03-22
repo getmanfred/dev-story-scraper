@@ -20,6 +20,7 @@ export class AchievementParser {
       type: 'achievement',
       publishingDate: startDate,
       relatedCompetences: CompetenceParser.parse(artifact.tags),
+      tags: [artifact.type],
     };
   }
 }
