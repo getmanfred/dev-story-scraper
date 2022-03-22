@@ -1,6 +1,10 @@
 import {Logger} from '../utils/logger';
-import axios, {AxiosError} from 'axios';
+import axios, {AxiosError, AxiosRequestConfig} from 'axios';
 import {ProfileNotFoundException} from '../errors/profileNotFoundException';
+import {HttpsProxyAgent} from 'https-proxy-agent';
+import axiosRetry from 'axios-retry';
+
+axiosRetry(axios, {retries: 3});
 
 export class HttpClient {
   async getHTML(url: string): Promise<string> {
@@ -9,7 +13,7 @@ export class HttpClient {
     log.info(`loading ${url}`);
 
     try {
-      const response = await axios.get(url);
+      const response = await axios.get(url, this.getAxiosConfiguration());
 
       log.debug(`${url} loaded`);
 
@@ -23,5 +27,20 @@ export class HttpClient {
 
       throw e;
     }
+  }
+
+  private getAxiosConfiguration(): AxiosRequestConfig {
+    const log = Logger.getInstance();
+
+    const proxy = process.env.SO_PROXY;
+    if (proxy) {
+      log.debug('Using proxy configured as env var');
+      return {
+        proxy: false,
+        httpsAgent: new HttpsProxyAgent(proxy),
+      };
+    }
+
+    return {};
   }
 }
