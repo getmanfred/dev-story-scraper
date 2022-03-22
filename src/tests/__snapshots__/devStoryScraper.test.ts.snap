@@ -1360,6 +1360,9 @@ Original author.",
           "name": "Background",
         },
         "publishingDate": "2017-02-01",
+        "tags": Array [
+          "Background",
+        ],
         "type": "achievement",
       },
       Object {
@@ -1386,6 +1389,9 @@ Original author.",
             "name": "scrum",
             "type": "technology",
           },
+        ],
+        "tags": Array [
+          "Volunteering",
         ],
         "type": "achievement",
       },
@@ -1736,6 +1742,9 @@ Object {
           "name": "He cocinado con mi primo",
         },
         "publishingDate": "2022-01-01",
+        "tags": Array [
+          "Cocina en familia",
+        ],
         "type": "achievement",
       },
       Object {
@@ -1747,6 +1756,9 @@ Object {
           "name": "won hack-a-ton",
         },
         "publishingDate": "2021-01-01",
+        "tags": Array [
+          "Mi categoría",
+        ],
         "type": "achievement",
       },
       Object {
@@ -1760,6 +1772,9 @@ Object {
             "name": "string",
             "type": "technology",
           },
+        ],
+        "tags": Array [
+          "ACHIEVEMENT",
         ],
         "type": "achievement",
       },
@@ -1790,6 +1805,21 @@ Object {
         },
         "name": "Executive Data Science",
         "startDate": "2017-03-01",
+        "studyType": "officialDegree",
+      },
+      Object {
+        "degreeAchieved": true,
+        "finishDate": "2018-04-30",
+        "institution": Object {
+          "URL": "http://www.dtu.dk/english/education/bachelor--beng-and-bsc-/beng/software-technology",
+          "image": Object {
+            "alt": "MS Computer Engineering",
+            "link": "https://i.stack.imgur.com/H3Bzp.png",
+          },
+          "name": "DTU",
+        },
+        "name": "MS Computer Engineering",
+        "startDate": "2017-04-01",
         "studyType": "officialDegree",
       },
     ],
@@ -9518,6 +9548,9 @@ I love it here. Think you will, too? [http://stackexchange.com/work-here](http:/
           "name": "Finished a NYT *Saturday* Crossword.",
         },
         "publishingDate": "2015-07-01",
+        "tags": Array [
+          "Things I Pretend are \\"Educational\\"",
+        ],
         "type": "achievement",
       },
       Object {
@@ -9529,6 +9562,9 @@ I love it here. Think you will, too? [http://stackexchange.com/work-here](http:/
           "name": "Maeve Juliet Hanlon",
         },
         "publishingDate": "2013-04-01",
+        "tags": Array [
+          "Shipped another human. (With help.)",
+        ],
         "type": "achievement",
       },
       Object {
@@ -9540,6 +9576,9 @@ I love it here. Think you will, too? [http://stackexchange.com/work-here](http:/
           "name": "Griffin Mackenzie Hanlon",
         },
         "publishingDate": "2011-06-01",
+        "tags": Array [
+          "Shipped a human. (With help.)",
+        ],
         "type": "achievement",
       },
     ],
