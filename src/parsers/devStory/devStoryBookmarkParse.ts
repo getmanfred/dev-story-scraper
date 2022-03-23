@@ -1,5 +1,6 @@
-import {Author, Bookmark} from '../../models/bookmark';
+import * as _ from 'lodash';
 import cheerio from 'cheerio';
+import {Author, Bookmark} from '../../models/bookmark';
 import {asNameAndSurnames, stripString} from '../../utils/utils';
 import {Markdown} from '../../utils/markdown';
 
@@ -21,7 +22,7 @@ export class DevStoryBookmarkParse {
   }
 
   private static toBookmarkAuthors(authors: string[]): Author[] {
-    return authors.map((a) => {
+    return authors.filter(DevStoryBookmarkParse.isNotEtAl).map((a) => {
       const [name, surnames] = asNameAndSurnames(a);
       return {
         name,
@@ -29,5 +30,11 @@ export class DevStoryBookmarkParse {
         title: 'Author',
       };
     });
+  }
+
+  private static isNotEtAl(name = ''): boolean {
+    const etAlDictionary = ['et al', 'et al.', 'et ál', 'et ál.'];
+    const trimmedName = name.trim().toLowerCase();
+    return !_.includes(etAlDictionary, trimmedName);
   }
 }
