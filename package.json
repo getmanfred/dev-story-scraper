@@ -1,7 +1,7 @@
 {
   "name": "dev-story-scraper",
   "description": "Scraper to extract StackOverflow's Dev Story data",
-  "license": "ISC",
+  "license": "CC-BY-SA-4.0",
   "version": "1.0.0",
   "scripts": {
     "build": "tsc",
