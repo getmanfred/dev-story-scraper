@@ -1,4 +1,4 @@
 export type Settings = {
   language: string;
-  MACversion: string;
+  MACVersion: string;
 };
