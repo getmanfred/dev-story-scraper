@@ -2,6 +2,7 @@
 
 exports[`A Dev Story scraper should parse open source projects from William Sorensen Dev Story 1`] = `
 Object {
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "aboutMe": Object {
     "profile": Object {
       "avatar": Object {
@@ -1484,6 +1485,7 @@ Original author.",
 
 exports[`A Dev Story scraper should parse the dev story from Blanca embedded 1`] = `
 Object {
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "aboutMe": Object {
     "interestingFacts": Array [
       Object {
@@ -1833,6 +1835,7 @@ Object {
 
 exports[`A Dev Story scraper should parse the dev story from Ferran Buireu 1`] = `
 Object {
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "aboutMe": Object {
     "interestingFacts": Array [
       Object {
@@ -3761,6 +3764,7 @@ The rapid spread of these techniques makes them fundamental to the effective cha
 
 exports[`A Dev Story scraper should parse the dev story from Joey deVilla 1`] = `
 Object {
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "aboutMe": Object {
     "interestingFacts": Array [
       Object {
@@ -5446,6 +5450,7 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
 
 exports[`A Dev Story scraper should parse the dev story from Joey deVilla when embedded 1`] = `
 Object {
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "aboutMe": Object {
     "interestingFacts": Array [
       Object {
@@ -7131,6 +7136,7 @@ This Byte Club episode featured the RubyFringe conference, a very offbeat confer
 
 exports[`A Dev Story scraper should parse the dev story from Makoto 1`] = `
 Object {
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "aboutMe": Object {
     "interestingFacts": Array [
       Object {
@@ -8039,6 +8045,7 @@ I led an accessibility presentation, which showed high school students the benef
 
 exports[`A Dev Story scraper should parse the dev story from Martin Peck embedded 1`] = `
 Object {
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "aboutMe": Object {
     "interestingFacts": Array [
       Object {
@@ -8961,6 +8968,7 @@ I lead a team building video and TV experiences for platforms such as Microsoft 
 
 exports[`A Dev Story scraper should parse the dev story from Yeray 1`] = `
 Object {
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "aboutMe": Object {
     "profile": Object {
       "avatar": Object {
@@ -9272,6 +9280,7 @@ Object {
 
 exports[`A Dev Story scraper should parset the dev story from Jaydles 1`] = `
 Object {
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "aboutMe": Object {
     "interestingFacts": Array [
       Object {

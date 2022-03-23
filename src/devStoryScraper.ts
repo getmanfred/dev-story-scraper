@@ -13,6 +13,8 @@ import {KnowledgeParser} from './parsers/knowledgeParser';
 import {DevStoryURL} from './devStoryURL';
 import {JobParser} from './parsers/jobParser';
 
+const macVersion = '0.3';
+
 export class DevStoryScraper {
   aboutMeParser: AboutMeParser;
   experienceParser: ExperienceParser;
@@ -47,6 +49,7 @@ export class DevStoryScraper {
     log.debug(`${source} profile parsed in ${elapsed}ms`);
 
     const mac = {
+      $schema: `https://raw.githubusercontent.com/getmanfred/mac/v${macVersion}/schema/schema.json`,
       settings,
       aboutMe,
       experience,
@@ -64,7 +67,7 @@ export class DevStoryScraper {
   private defaultSettings(): Settings {
     return {
       language: 'EN',
-      MACVersion: '0.3',
+      MACVersion: macVersion,
     };
   }
 }
