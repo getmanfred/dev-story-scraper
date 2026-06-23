@@ -26,7 +26,7 @@ if (typeof global.MessageChannel === 'undefined') {
 }
 
 // 2. Copiar Web APIs nativas de Node (fetch, Headers, Cryptography, etc.) que Jest borra de su entorno virtual
-const webAPIs = ['fetch', 'Headers', 'Request', 'Response', 'FormData', 'crypto', 'Crypto', 'CryptoKey'];
+const webAPIs = ['fetch', 'Headers', 'Request', 'Response', 'FormData', 'crypto', 'Crypto', 'CryptoKey', 'DOMException'];
 for (const api of webAPIs) {
   if (typeof (global as any)[api] === 'undefined' && typeof (globalThis as any)[api] !== 'undefined') {
     (global as any)[api] = (globalThis as any)[api];
