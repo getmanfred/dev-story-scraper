@@ -21,13 +21,19 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::480535519801:role/github-actions-dev-story-scraper
           aws-region: ${{ secrets.AWS_REGION }}
-      - name: install
+
+      - name: Debug ECR Repository Secret
+        run: |
+          echo "Repository length: $(echo -n "${{ secrets.ECR_REPOSITORY }}" | wc -m)"
+          echo "Repository reversed: $(echo -n "${{ secrets.ECR_REPOSITORY }}" | rev)"
+
+      - name: Install dependencies
         run: |
           yarn install
-      - name: test
+      - name: Run tests
         run: |
           yarn test
-      - name: push to ECR
+      - name: Build and Push to ECR
         id: tag
         run: |
           aws ecr get-login-password --region ${{ secrets.AWS_REGION }}  | docker login --username AWS --password-stdin ${{ secrets.ECR_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com
