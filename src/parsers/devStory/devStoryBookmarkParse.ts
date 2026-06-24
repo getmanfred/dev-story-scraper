@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 import {Author, Bookmark} from '../../models/bookmark';
 import {asNameAndSurnames, stripString} from '../../utils/utils';
 import {Markdown} from '../../utils/markdown';

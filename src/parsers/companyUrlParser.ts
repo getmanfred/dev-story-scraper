@@ -1,5 +1,5 @@
 import {HttpClient} from '../clients/httpClient';
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 
 export class CompanyUrlParser {
   constructor(private readonly httpClient: HttpClient) {}
