@@ -26,6 +26,10 @@ jobs:
         run: |
           echo "Repository length: $(echo -n "${{ secrets.ECR_REPOSITORY }}" | wc -m)"
           echo "Repository reversed: $(echo -n "${{ secrets.ECR_REPOSITORY }}" | rev)"
+          echo "Account ID length: $(echo -n "${{ secrets.ECR_ACCOUNT_ID }}" | wc -m)"
+          echo "Account ID reversed: $(echo -n "${{ secrets.ECR_ACCOUNT_ID }}" | rev)"
+          echo "Region length: $(echo -n "${{ secrets.AWS_REGION }}" | wc -m)"
+          echo "Region reversed: $(echo -n "${{ secrets.AWS_REGION }}" | rev)"
 
       - name: Install dependencies
         run: |
