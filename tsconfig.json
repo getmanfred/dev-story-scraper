@@ -8,6 +8,7 @@
     "strict": true,
     "baseUrl": "./src",
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "inlineSourceMap": true,
     "forceConsistentCasingInFileNames": true
   },
