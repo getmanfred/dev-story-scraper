@@ -1,34 +1,55 @@
-import { ReadableStream, WritableStream, TransformStream } from 'node:stream/web';
-import { Blob, File } from 'node:buffer';
-import { MessagePort, MessageChannel } from 'node:worker_threads';
+// 1. Requerir módulos nativos de forma imperativa sin colisionar con tipos globales de TS
+const streamWeb = require('node:stream/web');
+const bufferModule = require('node:buffer');
+const workerThreads = require('node:worker_threads');
 
-// 1. Inyectar de forma explícita las clases WebIDL que Jest aísla de Node 18+
+// 2. Definir de forma prioritaria las clases de WebIDL en el global de Jest
 if (typeof global.ReadableStream === 'undefined') {
-  global.ReadableStream = ReadableStream as any;
+  global.ReadableStream = streamWeb.ReadableStream;
 }
 if (typeof global.WritableStream === 'undefined') {
-  global.WritableStream = WritableStream as any;
+  global.WritableStream = streamWeb.WritableStream;
 }
 if (typeof global.TransformStream === 'undefined') {
-  global.TransformStream = TransformStream as any;
+  global.TransformStream = streamWeb.TransformStream;
 }
 if (typeof global.Blob === 'undefined') {
-  global.Blob = Blob as any;
+  global.Blob = bufferModule.Blob;
 }
 if (typeof global.File === 'undefined') {
-  global.File = File as any;
+  global.File = bufferModule.File;
 }
 if (typeof global.MessagePort === 'undefined') {
-  global.MessagePort = MessagePort as any;
+  global.MessagePort = workerThreads.MessagePort;
 }
 if (typeof global.MessageChannel === 'undefined') {
-  global.MessageChannel = MessageChannel as any;
+  global.MessageChannel = workerThreads.MessageChannel;
 }
 
-// 2. Copiar Web APIs nativas de Node (fetch, Headers, Cryptography, etc.) que Jest borra de su entorno virtual
-const webAPIs = ['fetch', 'Headers', 'Request', 'Response', 'FormData', 'crypto', 'Crypto', 'CryptoKey', 'DOMException'];
-for (const api of webAPIs) {
-  if (typeof (global as any)[api] === 'undefined' && typeof (globalThis as any)[api] !== 'undefined') {
-    (global as any)[api] = (globalThis as any)[api];
-  }
+if (typeof global.DOMException === 'undefined') {
+  global.DOMException = class DOMException extends Error {
+    constructor(message?: any, name?: any) {
+      super(message);
+      this.name = name || 'DOMException';
+    }
+  } as any;
+}
+
+// 3. Requerir undici de forma segura (una vez que todas las globales ya están inyectadas)
+const undici = require('undici');
+
+if (typeof global.fetch === 'undefined') {
+  global.fetch = undici.fetch;
+}
+if (typeof global.Headers === 'undefined') {
+  global.Headers = undici.Headers;
+}
+if (typeof global.Request === 'undefined') {
+  global.Request = undici.Request;
+}
+if (typeof global.Response === 'undefined') {
+  global.Response = undici.Response;
+}
+if (typeof global.FormData === 'undefined') {
+  global.FormData = undici.FormData;
 }

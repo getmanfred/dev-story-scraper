@@ -1,4 +1,4 @@
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 import cleanDeep from 'clean-deep';
 
 import {DevStoryDownloader} from './downloader/devStoryDownloader';

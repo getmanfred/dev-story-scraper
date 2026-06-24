@@ -1,4 +1,5 @@
-import cheerio, {CheerioAPI} from 'cheerio';
+import * as cheerio from 'cheerio';
+import {CheerioAPI} from 'cheerio';
 
 import {DevStoryPosition} from '../../models/devStory/devStoryPosition';
 import {stripString} from '../../utils/utils';

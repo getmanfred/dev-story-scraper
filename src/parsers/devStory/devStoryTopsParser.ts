@@ -1,4 +1,5 @@
-import cheerio, {CheerioAPI} from 'cheerio';
+import * as cheerio from 'cheerio';
+import {CheerioAPI} from 'cheerio';
 import {PublicArtifact} from '../../models/publicArtifact';
 import {stripString} from '../../utils/utils';
 
